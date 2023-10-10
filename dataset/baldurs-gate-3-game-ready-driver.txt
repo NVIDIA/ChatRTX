@@ -1,0 +1,45 @@
+Baldur’s Gate 3 Game Ready Driver Released
+By Andrew Burnes on August 08, 2023 | Featured StoriesDrivers
+Our latest driver is Game Ready for Baldur’s Gate 3, as well as two new DLSS titles, The Texas Chain Saw Massacre and Gord.
+
+And there’s also support for another 6 GeForce Experience Optimal Settings.
+
+To download and install, head to the Drivers tab of GeForce Experience or GeForce.com, and read on for further details.
+
+Game Ready For Baldur’s Gate 3
+Larian Studios’ critically acclaimed Baldur’s Gate 3 has been supported by our GeForce Game Ready Drivers since its Early Access launch 3 years ago. Now, we’re introducing additional optimizations and enhancements to further improve the hundreds of hours you’ll spend playing this epic role-playing game.
+
+On PC, get the definitive experience with a GeForce RTX graphics card, or play in the cloud on GeForce NOW. Whichever way you play, you can max out graphical quality with NVIDIA DLAA, or crank up the frame rate with NVIDIA DLSS 2 - in our benchmarks, GeForce RTX 40 Series desktop graphics cards increased their performance by an average of 93%:
+
+Thanks to DLSS 2, most GeForce RTX 40 Series gamers --and those with comparable cards-- can play Baldur’s Gate 3 at 4K, with every setting maxed, at over 60 frames per second. On GeForce NOW, Ultimate Members can use the power of GeForce RTX 4080 cloud GPUs to play at a flawless 4K 120 FPS/120 Hz on compatible devices.
+
+
+ 
+Game Ready For The Texas Chain Saw Massacre
+Take on the role of one of the notorious Slaughter family, or their victims, in Sumo Digital and Gun Interactive’s The Texas Chain Saw Massacre, a third-person asymmetrical horror experience based on the groundbreaking and iconic 1974 horror film.
+
+
+ 
+Available August 18th, The Texas Chain Saw Massacre will ship with support for DLSS 2, ensuring your deaths aren’t the result of low frame rates, even when playing at the highest detail levels and resolutions. Upgrade your experience with DLSS 2, and your system with our new Game Ready Driver.
+
+Game Ready For Gord
+Covenant.dev and Team 17's Gord is a single-player adventure-strategy game. To survive, you must build, but to prevail, you must conquer the darkness beyond the gates. Lead the people of the Tribe of the Dawn as they venture deep into forbidden lands. Complete quests that shape your settlements , impact their wellbeing, and decide the fate of their community. Ensure the survival of your populace in a grim fantasy world inspired by Slavic folklore.
+
+
+ 
+When this unique survival city-builder launches on August 17th, GeForce RTX will enjoy the fastest frame rates possible thanks to the day-one inclusion of DLSS 2.
+
+New Games Supported By GeForce Experience’s Optimal Settings
+GeForce Experience’s one-click optimal settings enable you to instantly configure game options for your system’s hardware, giving you smooth, optimized gameplay. Over 1000 titles are supported, and since our last driver release we’ve added support for 6 more:
+
+Exoprimal
+Jagged Alliance 3
+Lost Judgment
+Portal: Prelude RTX
+Ratchet & Clank: Rift Apart
+Remnant 2
+GeForce Experience also enables you to capture and stream your gameplay, take screenshots, upload videos to social networks, and more. 
+GeForce Game Ready Driver - Download Now
+Learn more about GeForce Game Ready Drivers here; download the new GeForce Game Ready 536.99 WHQL driver through GeForce Experience.
+
+If you experience any technical issues with the new Game Ready drivers please post a detailed report on the GeForce.com Driver Feedback Forum, where our Customer Care team can better assist you. And if you’re looking for a full list of fixes in this driver, for previously-reported issues, head here.

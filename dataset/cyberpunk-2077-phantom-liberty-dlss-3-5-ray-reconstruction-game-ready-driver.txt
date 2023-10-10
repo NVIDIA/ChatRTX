@@ -1,0 +1,46 @@
+Cyberpunk 2077: Phantom Liberty NVIDIA DLSS 3.5 Ray Reconstruction Game Ready Driver Released
+By Andrew Burnes on September 21, 2023 | Featured StoriesDrivers
+Our latest driver is Game Ready for the launch of NVIDIA DLSS 3.5 and its new Ray Reconstruction technology in Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty.
+
+Additionally, we’re Game Ready for three new anticipated games that all feature DLSS support: Party Animals, Warhaven, and Witchfire. And there's also Game Ready support for Counter-Strike 2, which is enhanced with NVIDIA Reflex.
+
+To download and install, head to the Drivers tab of GeForce Experience or GeForce.com.
+
+DLSS 3.5 & Ray Reconstruction Debut Today In Cyberpunk 2077
+Today, September 21st, Cyberpunk 2077’s 2.0 update launches with tons of enhancements, including DLSS 3.5. In Cyberpunk 2077’s Ray Tracing: Overdrive Mode, DLSS 3.5’s new Ray Reconstruction technique improves the quality and clarity of reflections, global illumination is even more accurate, and lighting is more dynamically responsive, for an even better, more immersive, more realistic experience.
+
+
+ 
+GeForce RTX 40 Series users can benefit from all the performance and image quality enhancements that DLSS 3.5 has to offer - including performance-multiplying Frame Generation for the fastest frame rates - in the demanding Ray Tracing: Overdrive Mode.
+
+And on September 26th, Cyberpunk 2077: Phantom Liberty launches with full ray tracing, DLSS 3.5, and Ray Reconstruction. Phantom Liberty is a new spy-thriller adventure for Cyberpunk 2077. When the orbital shuttle of the President of the New United States of America is shot down over the deadliest district of Night City, there’s only one person who can save her — you. Become V, a cyberpunk for hire, and dive deep into a tangled web of espionage and political intrigue, unraveling a story that connects the highest echelons of power with the brutal world of black-market mercenaries.
+
+
+
+ 
+"Thanks to DLSS 3.5’s smart technology, fuelled by AI rendering power, you can experience Cyberpunk 2077: Phantom Liberty’s newest location Dogtown at its very best — with sharper images, more accurate lighting, and the highest frame rates possible." - Jakub Knapik, VP of Art, Global Art Director, CD PROJEKT RED
+
+Thanks to DLSS 3.5 and the leading full ray tracing performance of GeForce RTX 40 Series, the definitive way to experience Cyberpunk 2077: Phantom Liberty is on a GeForce RTX 40 Series graphics card, PC or laptop.
+
+Get the ultimate Cyberpunk 2077: Phantom Liberty experience using the Ray Tracing: Overdrive Mode, at over 60 FPS, with GeForce RTX 40 Series graphics cards. At 4K, with full ray tracing enabled, along with max settings, NVIDIA DLSS 3.5 using Frame Generation, Ray Reconstruction, Reflex, and Super Resolution is 4.9X faster on average than native 4K rendering, while also looking substantially more realistic and immersive:
+
+At 2560x1440, DLSS 3.5 multiplies performance by 3X average on average, enabling 60 FPS+ gameplay on the GeForce RTX 4070 and up:
+
+At 1920x1080, all GeForce RTX 40 Series gamers can experience Cyberpunk 2077: Phantom Liberty at the highest levels of detail thanks to a 3X average performance multiplication courtesy of Frame Generation, Super Resolution and Ray Reconstruction:
+
+For even more info about the launch of DLSS 3.5 and Ray Reconstruction in Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty, head on over to our Cyberpunk 2077 DLSS 3.5 launch article.
+
+If you don’t have an RT Overdrive-capable PC, you can play with full ray tracing on GeForce NOW with an Ultimate subscription, which gives you a GeForce RTX 4080-class PC to play on via the cloud on virtually any device. Cyberpunk 2077: Phantom Liberty will arrive in the cloud on launch day.
+
+Maximize Your Competitiveness For Counter-Strike 2 With NVIDIA Reflex
+Get the ultimate Counter-Strike 2 competitive experience with NVIDIA Reflex for the lowest latency. Gamers with a compatible graphics card can enable NVIDIA Reflex in Counter-Strike 2 to reduce system latency by up to 35%.
+
+Game Ready For DLSS In Party Animals, Warhaven, and Witchfire
+NVIDIA DLSS is available in over 340 released games and apps, and barely a week goes by without a new integration launching for your most played and anticipated games. This week, Party Animals launches with DLSS 2, and Warhaven and Witchfire launch with support for NVIDIA DLSS 3. Check out the videos below to see how DLSS accelerates performance:
+
+Party Animals, Warhaven and Witchfire also feature support for NVIDIA Reflex, a must-have in games that reduces system latency so your actions occur quicker, giving you a competitive edge in multiplayer matches, and making single-player titles more responsive and enjoyable. NVIDIA Reflex is now used by over 50 million players each month, is available in 9 of the top 10 competitive shooters, including the Counter-Strike 2 beta, and is activated by 90% of GeForce gamers in over 70 supported titles.
+
+GeForce Game Ready Driver - Download Now
+Learn more about GeForce Game Ready Drivers here; download the new GeForce Game Ready 537.42 WHQL driver through GeForce Experience.
+
+If you experience any technical issues with the new Game Ready drivers please post a detailed report on theGeForce.com Driver Feedback Forum, where our Customer Care team can better assist you. And if you’re looking for a full list of fixes in this driver, for previously-reported issues, head here. 

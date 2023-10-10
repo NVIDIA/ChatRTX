@@ -1,0 +1,44 @@
+SYNCED & Witchfire Launch With DLSS 3 This Month
+By Andrew Burnes on September 05, 2023 | Featured StoriesGeForce RTX GPUsNVIDIA DLSSNVIDIA ReflexNVIDIA RTX
+Each week, we bring you news of the latest DLSS and ray tracing integrations in games and apps. 
+
+Last week, several new games launched with support for our performance accelerating technology, and we showcased upcoming games launching with day-one DLSS 3 support.
+
+This week, we’re giving you a look at more highly-anticipated games launching this September with DLSS:
+
+SYNCED launches September 8th with DLSS 3.
+Lies of P launches September 19th with DLSS 2
+Party Animals launches September 20th with DLSS 2 and Reflex
+Witchfire enters early access September 20th with DLSS 3 and Reflex
+For all the details, read on.
+
+SYNCED Launches September 8th With DLSS 3 
+NExT Studios and Level Infinite's SYNCED is a futuristic free-to-play cooperative shooter set in a world devastated by rogue technology. Gear up with a squad or fight solo across intense PvE and PvP scenarios as you take the fight to the Nanos and weaponize your enemy.
+
+
+ 
+On September 8th, SYNCED will officially launch on Steam and Epic Game Store with support for NVIDIA DLSS 3, giving GeForce RTX gamers the definitive experience.
+
+Witchfire Enters Early Access On September 20th With Support For DLSS 3 & Reflex
+The Astronauts’ Witchfire is a dark fantasy first-person shooter from the creative leads behind Painkiller, Bulletstorm, and The Vanishing of Ethan Carter. Desperate for a chance to triumph in the deadly war against witches, the Church calls on forbidden pagan magic to turn willing sinners into immortal witch hunters called preyers. Armed with powerful spells and fearsome firearms conjured by the best Vatican sorcerers, your mission is to find the infamous witch of the Black Sea, destroy the phantom army that protects her, and retrieve a mysterious artifact that can finally turn the tide of war.
+
+
+ 
+Like The Astronauts’ previous title, The Vanishing of Ethan Carter, Witchfire uses photogrammetry technology to achieve stunning visuals in its grim, immersive dark fantasy world. On GeForce RTX PCs and laptops those visuals will be accelerated by NVIDIA DLSS 3, and system latency will be reduced by NVIDIA Reflex, making gameplay even more responsive.
+
+Lies of P Launches September 19th With DLSS 2
+Inspired by the familiar story of Pinocchio, Lies of P is an action Souls-like game set in the dark, Belle Époque-inspired city of Krat. Once a beautiful city, Krat has become a living nightmare as deadly puppets run amok and a plague sweeps the land. Play as P, a puppet who must fight his way through the city on his unrelenting journey to find Geppetto and finally become human. Lies of P presents an elegant world filled with tension, deep combat and character customization systems, and a gripping story with interesting narrative choices where the more lies told, the more human P becomes.
+
+
+ 
+When Lies of P launches on September 19th, GeForce RTX gamers can significantly accelerate their performance - in our GeForce RTX 40 Series benchmarks, frame rates increased by an average of 1.9X at 4K with max settings enabled.
+
+Party Animals Launching September 20th With DLSS 2 & Reflex
+Battle with your friends as puppies, kittens and other cuddly creatures in Party Animals, developed by Recreate Games. Engage in paw-to-paw combat with your friends online. Interact with the world using a realistic physics engine and take advantage of interactive elements in each unique level to emerge victorious in every brawl.
+
+When Party Animals is released on September 20th, GeForce RTX gamers can boost performance with DLSS 2 and reduce system latency with NVIDIA Reflex, giving them a competitive edge over critters with less responsive systems.
+
+
+ 
+Check Back Next Week For Even More RTX Games
+Each week there are even more DLSS integrations arriving for an array of games. Check back next week for a rundown of the next DLSS and RTX games, and head here to see the complete list of over 330 DLSS-enhanced games and apps.

@@ -1,0 +1,118 @@
+NVIDIA Reflex Coming To Call of Duty: Modern Warfare III, PAYDAY 3, Alan Wake 2, Cyberpunk 2077: Phantom Liberty & More
+By Andrew Burnes on August 22, 2023 | Featured StoriesGamescomGeForce RTX GPUsNVIDIA DLSSNVIDIA ReflexNVIDIA RTXRay Tracing
+NVIDIA Reflex is a must-have in games, reducing system latency so your actions occur quicker, giving you a competitive edge in multiplayer matches, and making single-player titles more responsive and enjoyable. NVIDIA Reflex is now used by over 50 million players each month, is available in 9 of the top 10 competitive shooters, including the Counter-Strike 2 beta, and is activated by 90% of GeForce gamers in over 70 supported titles.
+
+
+ 
+NVIDIA Reflex is synonymous with responsive gaming, and can be found in the latest and greatest games. Today, we can confirm that Reflex will be available at launch in Alan Wake 2, Call of Duty: Modern Warfare III, Cyberpunk 2077: Phantom Liberty, and PAYDAY 3, some of the year’s most anticipated games.
+
+Additionally, NVIDIA Reflex is ready to increase your competitiveness in APEX Legends Season 18 and Overwatch 2 Invasion.
+
+Read on for all the details.
+
+Call of Duty: Modern Warfare III Launching With NVIDIA Reflex & DLSS 3
+In the direct sequel to the record-breaking Call of Duty: Modern Warfare II, Captain Price and Task Force 141 face off against the ultimate threat. The ultranationalist war criminal Vladimir Makarov is extending his grasp across the world causing Task Force 141 to fight like never before.
+
+NVIDIA DLSS has been featured in Activision’s Call of Duty: Black Ops Cold War, Vanguard, Modern Warfare, Modern Warfare II, Warzone, and Warzone 2.0. Our long-standing Call of Duty technical partnership continues with the inclusion of NVIDIA Reflex and NVIDIA DLSS 3 in the recently revealed Call of Duty: Modern Warfare III, launching November 10.
+
+
+ 
+Stay tuned for further details.
+
+Alan Wake 2 Launches October 27th With NVIDIA Reflex, DLSS 3.5 & Full Ray Tracing
+Remedy Entertainment operates at the cutting edge of technology, constantly creating the most immersive and advanced games of each generation. 2019’s Control was one of the first ray-traced and DLSS-enhanced games, and to this day remains a stunning title that demonstrates the advanced capabilities of the PC platform.
+
+Back in 2010, Remedy released Alan Wake, an amazing narratively-driven action-thriller that blew gamers away with its visuals and dazzling light-based gameplay. On October 27th, the long-awaited sequel arrives, following Alan Wake and FBI agent Saga Anderson in a new nightmarish narrative, entitled Alan Wake 2, published by Epic Games.
+
+
+ 
+Once again, NVIDIA and Remedy Entertainment are partnering to deliver a jaw-dropping experience for PC gamers, leveraging bleeding-edge technologies to crank image quality, immersion and performance to 11. On PC, Alan Wake 2 players can marvel at fully ray traced (path traced) graphics that are accelerated and enhanced by NVIDIA DLSS 3.5 and NVIDIA Reflex.
+
+
+
+“The new Ray Reconstruction feature in DLSS 3.5 renders our fully ray-traced world more beautifully than ever before, bringing you deeper into the story of Alan Wake 2” - Tatu Aalto, Lead Graphics Programmer Remedy Entertainment
+
+To ensure GeForce RTX gamers can experience Alan Wake 2 with ray tracing at the highest levels of fidelity, NVIDIA DLSS 3.5 will be available at launch. DLSS 3.5 makes your games even more beautiful, immersive and realistic with the introduction of Ray Reconstruction, a new AI-powered technique that further improves the quality of ray tracing. Ray Reconstruction is available for all GeForce RTX users - get the complete lowdown in our NVIDIA DLSS 3.5 announcement article.
+
+
+
+ 
+Return to GeForce.com on October 27th for more info on Alan Wake 2’s incredible fully ray-traced effects, and its integration of NVIDIA DLSS 3.5. And if you lack a GeForce RTX desktop or laptop, know that you can play Alan Wake 2 with full ray tracing, NVIDIA Reflex and NVIDIA DLSS on GeForce NOW at launch.
+
+Cyberpunk 2077: Phantom Liberty Available This September With NVIDIA Reflex, DLSS 3.5 & Full Ray Tracing
+Phantom Liberty is a new spy-thriller adventure for Cyberpunk 2077. When the orbital shuttle of the President of the New United States of America is shot down over the deadliest district of Night City, there’s only one person who can save her — you. Become V, a cyberpunk for hire, and dive deep into a tangled web of espionage and political intrigue, unraveling a story that connects the highest echelons of power with the brutal world of black-market mercenaries.
+
+
+ 
+Launching September 26th, Cyberpunk 2077: Phantom Liberty features the technology preview of the fully ray-traced Ray Tracing: Overdrive Mode, giving GeForce RTX gamers the most immersive and detailed gameplay possible. And today we can announce that DLSS 3.5 will be available this September for all Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty players.
+
+In Cyberpunk 2077, DLSS Ray Reconstruction improves the quality and clarity of reflections, global illumination is even more accurate, and lighting is more dynamically responsive, for an even better, more immersive and realistic experience. 
+
+ 
+"Thanks to DLSS 3.5’s smart technology, fuelled by AI rendering power, you can experience Cyberpunk 2077: Phantom Liberty’s newest location Dogtown at its very best — with sharper images, more accurate lighting, and the highest frame rates possible." - Jakub Knapik, VP of Art, Global Art Director, CD PROJEKT RED
+
+Stay tuned to GeForce.com for more information closer to Cyberpunk 2077: Phantom Liberty’s release, and get your system ready for Phantom Liberty with GeForce RTX 40 Series graphics cards and laptops.
+
+Half-Life 2 RTX Community RTX Remix Mod In Development
+NVIDIA RTX Remix, is a free, upcoming modding platform built on NVIDIA Omniverse, designed to enable modders to create and share #RTXON mods for classic games, each with enhanced materials, full ray tracing, NVIDIA DLSS, NVIDIA RTX IO and NVIDIA Reflex.
+
+We released Portal with RTX, a high-fidelity reimagining of Valve’s timeless classic, as an example of what’s possible with Remix. Then, we turned the tools over to community modders who remastered Portal: Prelude. Today, we’re unveiling Half-Life 2 RTX: An RTX Remix Project, a new community-made remaster of one of the highest-rated games of all time, Valve’s Half-Life 2.
+
+Half-Life 2 RTX: An RTX Remix Project is being developed by four of Half-Life 2’s top mod teams, now working together under the banner Orbifold Studios. Using RTX Remix, the modders are rebuilding materials with Physically Based Rendering (PBR) properties, adding extra geometric detail via Valve’s Hammer editor, and are leveraging NVIDIA technologies including full ray tracing, DLSS 3, Reflex, and RTX IO to deliver a fantastic experience for GeForce RTX gamers. 
+
+ 
+For more information and 4K RTX ON-OFF comparison screenshots, head to our Half-Life 2 RTX: An RTX Remix Project announcement article.
+
+PAYDAY 3 Launching September 21st With DLSS 3 & Reflex
+PAYDAY 3 is the much anticipated sequel to one of the most popular co-op shooters ever made. On September 21st, step out of retirement and back into a life of crime in the shoes of the Payday Gang, the nightmare of law-enforcement wherever they go. Several years after the crew’s reign of terror over Washington DC has ended, they assemble once again to deal with the threat that’s roused them out of early retirement.
+
+
+ 
+At launch, GeForce RTX heisters can enjoy the fastest frame rates possible thanks to the inclusion of DLSS 3 and DLSS 2 in PAYDAY 3. And to ensure you can battle off waves of cops with ease, NVIDIA Reflex will reduce system latency, making shooting and thievery even more responsive. If your PC isn’t cut out for fast-paced heisting, you can play PAYDAY 3 at launch on GeForce NOW with DLSS enabled.
+
+DESORDRE: A Puzzle Game Adventure Adds NVIDIA Reflex, DLSS 3, RTXDI & Upgrades To Unreal Engine 5.2
+SHK Interactive’s DESORDRE: A Puzzle Game Adventure, launched with DLSS 2 in June, helping GeForce RTX gamers get faster performance in the parallel worlds players jump between as part of an experimental therapy program. Now, DESORDRE has become one of the world’s first, released Unreal Engine 5.2 games.
+
+
+ 
+The leap from Unreal Engine 5.1 to 5.2 enhances graphics, performance, and player choice, helping users tailor their experience to the capabilities of their system.
+
+Headlining the additions is NVIDIA RTX Direct Illumination (RTXDI), enabling each light source in DESORDRE to cast accurate ray-traced light and shadows, and be reflected in the game’s glossy environments. Performance remains fast thanks to RTXDI’s game-changing design, and on GeForce RTX 40 Series GPUs ray tracing gets even faster thanks to the addition of NVIDIA Shader Execution Reordering (SER) in the new update.
+
+To ensure the highest frame rates when using RTXDI and other new features, SHK Interactive has leveraged the recently-released Unreal Engine 5.2 NVIDIA Streamline plugin to upgrade their existing DLSS 2 support to DLSS 3, featuring Frame Generation, Reflex, and Super Resolution. With the launch of the Reflex, gamers can enjoy up to 55% reduction in PC latency.
+
+Head to DESORDRE: A Puzzle Game Adventure’s Steam page to learn more about the game, see trailers and screens, and to download a demo. And stay tuned to SHK Interactive’s social feeds, as they intend to upgrade to Unreal Engine 5.3 when it’s released, bringing even more goodness to the game.
+
+Overwatch 2 Invasion Update & GeForce RTX Bundle Now Available
+Overwatch 2 is Blizzard’s always-on and ever-evolving free-to-play, team-based action game that’s set in an optimistic future, where every match is the ultimate 5v5 battlefield brawl. To unlock the ultimate graphics experience in each battle, upgrade to a GeForce RTX 40 Series graphics card, desktop PC, or laptop for class-leading performance, and unbeatable responsiveness courtesy of NVIDIA Reflex.
+
+The invasion has begun in Overwatch 2’s biggest season to date! Fight back in three co-op Player vs. Enemy Story Missions, play PvP as a new Support hero, and tier up the new Invasion Battle Pass to unlock new skins and cosmetics. And you can get the GeForce Overwatch 2 Invasion Ultimate Bundle with the purchase of select GeForce RTX 40 Series products at participating stores.
+
+
+ 
+With your purchase in hand, you’ll unlock:
+
+OW2 Invasion Story Missions
+Vigilante Sojourn Legendary Skin (*Earned)
+Sojourn Hero Unlock (*Earned)
+Premium Battle Pass
+20 Battle Pass Tier Skips
+The C-455 Sharpshooter Cassidy Legendary Skin 
+The K-2000 Blademaster Kiriko Legendary Skin
+3,000 Overwatch Coins
+*Earned by completing Story Missions
+
+NVIDIA Reflex reduces system latency by up to 60% in Overwatch 2, and the raw power of GeForce RTX 40 Series GPUs, which can run at over 360 FPS at 1440p:
+
+You can also enjoy excellent performance and super low input latency on powerful, thin and light GeForce RTX 40 Series laptops:
+
+
+APEX Legends Season 18: Resurrection Available Now
+APEX Legends has featured support for NVIDIA Reflex for over 3 years, helping millions of gamers improve their competitiveness in the fast-paced battle royale.
+
+Season 18: Resurrection was recently released with a Revenant remake, and much more. Go check it out today.
+
+
+ 
+More To Come Soon
+Even more new NVIDIA Reflex games, plus mice and monitors are on their way, so stay tuned to GeForce.com to learn more when the news drops; check out the complete list of currently supported games and devices on our NVIDIA Reflex website. And be sure to check out our other Gamescom announcements including NVIDIA DLSS 3.5, and all the new DLSS and RTX Games. 

@@ -1,0 +1,64 @@
+NVIDIA RTX IO GPU-Accelerated Storage Technology Debuts This Month In Portal: Prelude RTX and Ratchet & Clank: Rift Apart
+By Andrew Burnes on July 18, 2023 | Featured StoriesGeForce RTX GPUsHardwareNVIDIA RTXNVIDIA RTX IOPortal with RTX
+Rapid loading and smooth navigation through endless open worlds has long been a goal of gamers and developers alike. Even with the incredible performance of NVMe SSDs, this goal has remained out of reach. Modern game engines have exceeded the capability of traditional storage APIs; a new generation of Input/Output (IO) architecture is needed.
+
+Enter NVIDIA RTX IO, enabling fast GPU-based loading and game asset decompression, massively accelerating IO performance compared to hard drives and traditional storage APIs. NVIDIA RTX IO leverages GPU decompression for smaller data packages, enabling faster load times and lower CPU utilization, allowing developers to create a new generation of games with massive, highly detailed worlds.  
+
+NVIDIA RTX IO makes its debut alongside the free Portal: Prelude RTX mod today, and will also feature in Ratchet & Clank: Rift Apart, launching July 26th.
+
+How Does RTX IO Work?
+NVIDIA RTX IO leverages the advanced architectures of GeForce GPUs to offload dozens of CPU cores’ worth of work to your GPU, enabling faster game loading, and opening the door to a new era of large, incredibly detailed open world games. RTX IO is based on GDeflate, an open GPU compression standard contributed by NVIDIA, which is utilized by both Microsoft’s DirectStorage and new Vulkan Extensions.   
+
+Traditionally, data is sent from your disk drive to the CPU, decompressed through system memory, and sent to the GPU. This system is not designed with the capabilities of today’s Gen4 and Gen5 PCIe NVME SSDs in mind, using only a fraction of their capabilities. Bottlenecks from the CPU and System Memory, combined with bigger assets, limit the gains from newer SSDs, resulting in slower loading of assets, which can cause in-game texture pop-in, or longer loading times.  
+
+Traditional Input/Output processes cause bottlenecks in today’s content-rich games
+
+NVIDIA RTX IO dramatically increases IO bandwidth by letting compressed data be delivered to GPU memory with minimal staging in the CPU system memory. The GPU is utilized for decompression using GDeflate at high throughput, allowing the CPU to perform other tasks. As a result, object pop-in and stutter can be reduced, and high-quality textures can be streamed at incredible rates, so even if you’re speeding through a world, everything runs and looks great. In addition, with lossless compression, game download and install sizes can be reduced, allowing gamers to store more games on their SSD while also improving their performance.
+
+NVIDIA RTX IO leverages GPU accelerated decompression for faster IO throughput
+
+While RTX IO is supported on all modern DirectX 12 GPUs, it is designed to run on as many parallel cores in the GPU as possible, so in cases where the IO throughput is not the bottleneck, the more compute cores available, the more performant it is. Essentially, load times are fastest on more powerful GPUs and SSDs; specific speed ups will vary based on the game, scene, and your particular combination of GPU and disk drive.
+
+In Portal: Prelude RTX, NVIDIA RTX IO is always on (you don’t need to toggle it in a menu), and it enables much faster texture load time, minimizing asset pop-in:
+
+
+ 
+
+NVIDIA RTX Remix was used to bring Portal: Prelude RTX to life, and thanks to RTX IO and the use of Vulkan extensions, GPU decompression with GDeflate shrank Portal: Prelude RTX’s install size by 44%, enabling gorgeous 4K textures to be experienced losslessly with a minimal footprint. When the RTX Remix creator toolkit is released, every modder will be able to count on RTX IO to enable them to stay true to their artistic vision, while keeping within the file size restrictions of popular modding sites.
+
+In Ratchet & Clank: Rift Apart, launching July 26th, NVIDIA RTX IO is used to quickly load high-quality textures and environments with a high level of detail when jumping between dimensions. With DirectStorage accelerated by RTX IO, and the use of a fast NVMe SSD, the integration results in very responsive texture streaming even at the highest settings.
+
+Richard van der Laan, Senior Lead Programmer at Nixxes Software, explains: “To enable quick loading and instant transition between dimensions, the game needs to be able to load assets quickly. DirectStorage ensures quick loading times and GPU decompression is used at high graphics settings to stream assets in the background while playing.”  
+
+RTX IO Supports DirectStorage & Vulkan
+RTX IO is built on GDeflate, an open GPU compression standard contributed by NVIDIA to maximize adoption and compatibility, enabling each Independent Hardware Vendor (IHV) to add support in their drivers, and allowing developers to easily incorporate its technology across multiple platforms. RTX IO supports DirectX through DirectStorage, and Vulkan through Vulkan extensions.
+
+NVIDIA RTX IO leverages open standard GPU compression standard supporting both DirectX & Vulkan  
+
+On GeForce GTX and RTX PCs and laptops with Maxwell or newer architectures, the technology’s performance is further improved thanks to our Game Ready Drivers, and in titles with RTX IO integrations, the full capabilities of your GeForce RTX GPU are leveraged, giving you the definitive experience.
+
+
+Portal: Prelude RTX Launches Today With NVIDIA RTX IO
+Portal: Prelude RTX is a full ray-traced remaster of the highest-rated Portal mod of all time, Portal: Prelude. Available for download today, its creators used NVIDIA RTX Remix to reimagine their classic, with inspiration from Portal with RTX. Portal: Prelude RTX features hundreds of additional remastered materials and assets, a new fully voice acted story, and updated level design for improved gameplay.
+
+
+ 
+This incredible remaster launches for free today, and can be downloaded by all Portal owners on Steam. By leveraging RTX IO, its download size is greatly reduced, and its loading times accelerated. For a Portal: Prelude RTX deep dive, head to our dedicated Portal: Prelude RTX launch article.
+
+Ratchet & Clank: Rift Apart Launches July 26th With RTX IO
+On July 26th, the critically acclaimed Ratchet & Clank: Rift Apart comes to PC, courtesy of Insomniac Games and Nixxes Software. Ratchet & Clank: Rift Apart supports RTX IO, leveraging the DirectStorage runtime and our RTX IO-enabled Game Ready Drivers, ensuring the dimension-hopping gameplay is fluid and exciting.
+
+
+ 
+Download The July 18th GeForce Game Ready Driver For The Best Day One Experience
+Today, we’ve released our latest GeForce Game Ready Driver. It’s optimized for Portal: Prelude RTX, Ratchet & Clank: Rift Apart, and other games, and gives you the highest levels of performance when using NVIDIA RTX IO and DirectStorage for Windows in the two titles.
+
+
+To download and install, head to the Drivers tab of GeForce Experience or GeForce.com.
+
+Gaming Evolves With The Launch of NVIDIA RTX IO
+Developers are always pushing the boundaries of technology, and with the latest advancements and engine upgrades they can create near-photorealistic environments in massive traversable worlds, with faster loading than ever before thanks to NVIDIA RTX IO, GDeflate, and Microsoft DirectStorage for Windows. With these technologies, gamers will experience far fewer visible level of detail transitions, barely noticeable asset pop-in, and rapid texture loading.
+
+With a GeForce RTX 40 Series GPU you’ll receive the fastest possible performance, and all other modern GeForce GPU users will benefit greatly from Game Ready Driver and RTX IO game optimizations, as in Portal: Prelude RTX.
+
+To learn which games are adding NVIDIA RTX IO next, stay tuned to GeForce.com
