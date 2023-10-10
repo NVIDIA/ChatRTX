@@ -1,0 +1,93 @@
+Cyberpunk 2077: Phantom Liberty Available Now With NVIDIA DLSS 3.5 & Full Ray Tracing
+By Andrew Burnes on September 25, 2023 | Featured StoriesCyberpunk 2077Frame GenerationGeForce NowGeForce RTX GPUsNVIDIA DLSSNVIDIA RTXRay ReconstructionRay Tracing
+Cyberpunk 2077: Phantom Liberty is now available on PC with full ray tracing, DLSS 3.5, and Ray Reconstruction. Phantom Liberty is a new spy-thriller adventure for Cyberpunk 2077. When the orbital shuttle of the President of the New United States of America is shot down over the deadliest district of Night City, there’s only one person who can save her — you. Become V, a cyberpunk for hire, and dive deep into a tangled web of espionage and political intrigue, unraveling a story that connects the highest echelons of power with the brutal world of black-market mercenaries.
+
+Witness the power of full ray tracing and DLSS 3.5 in Cyberpunk 2077: Phantom Liberty for yourself in our Cyberpunk 2077
+
+ 
+"Thanks to DLSS 3.5’s smart technology, fuelled by AI rendering power, you can experience Cyberpunk 2077: Phantom Liberty’s newest location Dogtown at its very best — with sharper images, more accurate lighting, and the highest frame rates possible." - Jakub Knapik, VP of Art, Global Art Director, CD PROJEKT RED
+
+If you don’t own the expansion, return to the neon lights of Night City in Cyberpunk 2077’s 2.0 update, available now, featuring support for NVIDIA DLSS 3.5 and its new Ray Reconstruction technology, enhancing the quality of full ray tracing in Cyberpunk 2077’s Ray Tracing: Overdrive Mode.
+
+Press agree that Cyberpunk 2077 with DLSS 3.5 Ray Reconstruction is an incredible leap forward for image quality and immersion:
+
+“NVIDIA DLSS 3.5 In Cyberpunk 2077 Is Breathtaking: The Most Advanced Graphics Ever In A PC Game” - WCCFTech
+“Turning on Ray Reconstruction is like a revelation.” - DigitalTrends
+“It's really, really good-looking.” - PCGamer
+“NVIDIA's lead in ray-tracing performance and image quality takes a massive leap forward thanks to DLSS 3.5” - TweakTown
+“It didn’t take long to notice the improvement in not just the gameplay, but visuals, and performance as well thanks to DLSS 3.5.” - TechCritter
+“DLSS 3.5’s Ray Reconstruction is the real deal”  - DSOGaming
+Crank Ray Tracing Up To Overdrive 
+Both Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty feature full ray tracing in the technology preview for the Ray Tracing: Overdrive Mode. Full ray tracing, also known as path tracing, accurately simulates light throughout an entire scene. It is used by visual effects artists to create film and TV graphics that are indistinguishable from reality, but until the arrival of GeForce RTX GPUs with RT Cores, and the AI-powered acceleration of NVIDIA DLSS, real-time video game full ray tracing was impossible because it is extremely GPU intensive.
+
+
+ 
+For even more info on the making of Ray Tracing: Overdrive Mode, check out our interview with CD PROJEKT RED
+
+Previous techniques separately addressed ray-traced shadows, reflections and global illumination for a small number of light sources. Full ray tracing models the properties of light from a virtually unlimited number of emissive sources, delivering physically correct shadows, reflections and global illumination on all objects.
+
+One of the most impactful additions in the technology preview of Cyberpunk 2077’s Ray Tracing: Overdrive Mode is NVIDIA RTX Direct Illumination (RTXDI), a free SDK that enables developers to closely replicate the appearance of light in scenes with numerous light sources. With RTXDI, thousands of objects can emit ray-traced light.
+
+In Cyberpunk 2077, each neon sign, street lamp, LED billboard, car headlight, and other source of light is now ray-traced, bathing objects, walls, passing cars and pedestrians in accurate lighting.
+
+With full ray tracing and RTXDI, now practically all light sources cast physically correct soft shadows, a feat previously unimaginable using previous approaches. Players will experience enhanced shadowing, with better depth, detail and realism.
+
+
+No matter how geometrically complex a scene gets, pipes, rails, staircases, and other objects will now get proper shadows from all the shadow casting lights in their vicinity. 
+Cyberpunk 2077 features a full day-night cycle. To upgrade indirect lighting from all emissive sources, including the sun and moon, Global Illumination (GI) needed to be path traced, too. Rendering techniques including Screen Space Reflections, Screen Space Ambient Occlusion, and the existing GI solutions were replaced by a single unified algorithm that delivers more accurate lighting of scenes and objects.
+
+With the Ray Tracing: Overdrive Mode enabled, natural colored lighting bounces multiple times throughout Cyberpunk 2077’s world, creating more realistic indirect lighting and occlusion.
+
+
+The sunlight bounces off the floor to indirectly light a cardboard stack for more realistic lighting and occlusion. Click here to view the comparison in 4K
+
+Reflections now incorporate bounced detail, too, and are rendered at full resolution, accentuating the cyberpunk aesthetic and further heightening immersion.
+
+
+Full ray tracing helps to balance the diffuse and specular response of materials to the light, resulting in even more realistic reflections. Click here to view the comparison in 4K
+
+Combined, the full ray tracing of direct and global illumination give gamers the most advanced real-time lighting seen to date in gaming, and a preview of how all games will look in the future.
+
+Full ray tracing in Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty is extremely GPU intensive. For the ultimate experience we recommend GeForce RTX 40 Series and NVIDIA DLSS 3.5. Read on for more details. 
+
+Cyberpunk 2077 Upgrades To DLSS 3.5
+DLSS 3.5 is available in both Cyberpunk 2077 with the game’s 2.0 update, and Cyberpunk 2077: Phantom Liberty. In the Ray Tracing: Overdrive Mode, DLSS 3.5’s new Ray Reconstruction technology enhances the quality and clarity of reflections, global illumination is even more accurate, and lighting is more dynamically responsive, for an even better, more immersive, more realistic experience.
+
+When activated, Ray Reconstruction replaces several hand-tuned ray tracing denoisers with a new unified AI model that enhances full ray tracing, elevating image quality to new heights. In the following scene, the inaccurate headlight illumination which surrounds the car is a result of the hand-tuned denoiser pulling in inaccurate lighting effects from previous frames. DLSS 3.5 accurately generates lighting, so you can make out the beam of the headlights, and see light reflect on the curb in front of the car.
+
+The streets of Night City are filled with reflections from rotating billboards and neon lights. By activating DLSS 3.5, their quality and clarity is enhanced city-wide:
+
+GeForce RTX 40 Series users can combine Super Resolution and Frame Generation with Ray Reconstruction for breathtaking performance and image quality, while GeForce RTX 20 and 30 Series users can add Ray Reconstruction to their AI-powered arsenal alongside Super Resolution.
+
+Digital Foundry DLSS 3.5 Tech Interview
+In a lengthy roundtable discussion, Digital Foundry’s resident PC expert, Alex Battaglia, spoke to Bryan Catanzaro, Vice President Applied Deep Learning Research at NVIDIA, Jakub Knapik, VP Art and Global Art Director at CD Projekt RED, and NVIDIA GeForce evangelist Jacob Freeman about DLSS 3.5, the evolution of the original DLSS, the success of DLSS in the modding community, and the future of machine learning in PC graphics.
+
+
+ 
+Those and even more topics are covered in the 1 hour discussion, so if you want even more insight into the magic of DLSS, you should definitely check it out.
+
+Max Performance With NVIDIA DLSS 3.5
+In Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty, replacing multiple hand-tuned denoisers with Ray Reconstruction also happens to increase performance that bit more. Get the ultimate Cyberpunk 2077: Phantom Liberty experience, using the Ray Tracing: Overdrive Mode, at over 60 FPS, with GeForce RTX 40 Series graphics cards. We recommend the GeForce RTX 4090 and RTX 4080 at 4K, RTX 4070 Ti and RTX 4070 at 1440p, and the RTX 4060 Ti and RTX 4060 at 1080p. 
+At 4K, with full ray tracing enabled, along with max settings, NVIDIA DLSS 3.5 using Frame Generation, Ray Reconstruction, Reflex, and Super Resolution is 4.9X faster on average than native 4K rendering, while also looking substantially more realistic and immersive:
+
+At 2560x1440, DLSS 3.5 multiplies performance by 3X average on average, enabling 60 FPS+ gameplay on the GeForce RTX 4070 and up:
+
+At 1920x1080, all GeForce RTX 40 Series gamers can experience Cyberpunk 2077: Phantom Liberty at the highest levels of detail thanks to a 3X average performance multiplication courtesy of Frame Generation, Super Resolution and Ray Reconstruction:
+
+To find a GeForce RTX 40 Series GPU, head here for a full rundown of models available in your region.
+
+Get Game Ready For Cyberpunk 2077: Phantom Liberty With The Latest Game Ready Driver
+For the very best experience in Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty with full ray tracing and DLSS 3.5, download our Cyberpunk 2077: Phantom Liberty Game Ready Driver for your PC or laptop from GeForce.com or GeForce Experience. 
+
+cyberpunk-2077-phantom-liberty-game-ready-driver-download-september-21-2023
+You Can Also Enjoy Full Ray Tracing Enhanced By NVIDIA DLSS 3.5 On GeForce NOW
+GeForce NOW instantly transforms your laptop, desktop, Mac, TV, Android device, iPhone, or iPad into the powerful PC gaming rig you’ve always dreamed of.? GeForce NOW connects to digital PC game stores so you can stream the games you already own, without fear of losing access to them.
+
+Our Ultimate membership offers you instant access to the high performance GeForce RTX 4080 cloud gaming rigs for a high-resolution, ultra-low latency experience, in Cyberpunk 2077, Cyberpunk 2077: Phantom Liberty, and over 1600 other games.
+
+Cyberpunk 2077 & Cyberpunk 2077: Phantom Liberty Are #RTXOn
+Starting today, you can experience DLSS 3.5 and Ray Reconstruction in Cyberpunk 2077: Phantom Liberty’s Ray Tracing: Overdrive Mode. DLSS 3.5 makes your games even more beautiful, immersive and realistic, and is available for all GeForce RTX users.
+
+
+ 
+Return to GeForce.com each week to learn about the latest, greatest and most anticipated games launching with DLSS. 

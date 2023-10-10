@@ -1,0 +1,95 @@
+Portal: Prelude RTX Available Today - A Free RTX Remix Mod Featuring Full Ray Tracing, NVIDIA DLSS 3 & NVIDIA RTX IO
+By Andrew Burnes on July 18, 2023 | Featured StoriesGeForce RTX GPUsGeForce RTX LaptopsNVIDIA DLSSNVIDIA OmniverseNVIDIA ReflexNVIDIA RTXNVIDIA RTX IONVIDIA RTX RemixPortal with RTXRay Tracing
+Portal remains a timeless classic; in December we released Portal with RTX, a fully ray-traced reimagining of Valve’s award winning game, which used the performance multiplication of NVIDIA DLSS 3 to power the most realistic path-traced lighting ever seen in a real-time game.
+
+Portal with RTX was created using NVIDIA RTX Remix, a free, upcoming modding platform built on NVIDIA Omniverse, which enables modders to quickly create and share #RTXON mods for classic games, each with enhanced materials, full ray tracing, NVIDIA DLSS 3, and NVIDIA Reflex.
+
+Now, RTX Remix has been used to remaster Portal: Prelude, the highest rated Portal mod, the 2008 Portal ModDB winner, and #3 overall Player’s Choice mod of 2008. Created by Nicolas “NykO18” Grevet and others, Portal: Prelude is an unofficial Portal prequel, set before the time of GLaDOS, featuring a new extremely challenging 8-10 hour campaign composed of 19 new test chambers, new advanced gameplay mechanics, a fully voiced story with NPCs, and a whole lot more.
+
+Portal: Prelude RTX is available today to download from Steam, for free!
+
+
+ 
+Portal: Prelude RTX is remastered with full ray tracing (also known as path tracing), DLSS 3, Reflex and the newly-launched NVIDIA RTX IO to deliver an even more immersive experience for gamers. It also features hundreds of new, fully upgraded materials and assets from David “Kralich” Driver-Gomm and Valerios “Fearell_Val” Tsoumpas, new voice acting by Jack “Amicus” McDade and Colin “SordidSpectacle” Zachariasen, and gameplay improvements from Nicolas. Portal: Prelude RTX is the definitive way to play the award winning mod.
+
+Introducing Portal: Prelude RTX
+If you’ve played Portal with RTX, you already know about the game’s immersive fully ray-traced (path traced) lighting, its remade materials and models, and its incredible visuals that offer a preview of how all games will look in the future. 
+
+Portal: Prelude RTX is even more spectacular. And its technology even more advanced.
+
+During the course of Portal: Prelude’s story, players will encounter extremely challenging, advanced test chambers with more varied sights that with the power of RTX could well drop your jaw. Multiple layers of glass refract light, players move from complete darkness to bright locations, and dangerous hazards like particle disintegrators illuminate the world in deadly light, leveraging RTX to create memorable moments.
+
+200 new materials and textures, and 100 new models mesh perfectly with Portal with RTX’s remade assets, adding extra variety to test chambers and challenges. And more advanced geometry -that pushed the boundaries of the Source engine in 2008- enables more varied and aesthetically interesting uses of light and shadow. For Portal: Prelude RTX, geometry was updated and upgraded in standard Half-Life Engine tools (Valve Hammer Editor), before being imported and automatically supported by RTX Remix, enabling fast iteration and development. Ultimately, this gorgeous remaster was created by a team of five in eight short months.
+
+
+Portal: Prelude’s inclusion of NPC characters posed new challenges, requiring the development of an exciting feature for RTX Remix: full support for skinned characters. Now, in any game with GPU skinning, Remix enables modders to add more than 100 times the polygonal detail to characters, in addition to high fidelity PBR textures, with minimal performance costs. Essentially, characters and animated/skinned props can be enhanced in the same way as any object in RTX Remix, benefiting all future RTX mods. Or in other words, RTX Remix is revolutionizing character replacements and upgrades in the same way it revolutionized asset replacement.
+
+
+For Portal: Prelude RTX and future NVIDIA RTX Remix mods, the NVIDIA RTX Path Tracing SDK has been enhanced, improving denoiser performance and quality, which is particularly beneficial at lower resolutions, enabling gamers with older GeForce RTX GPUs to have a better experience.
+
+Shader Execution Reordering (SER) dynamically reorganizes inefficient ray tracing workloads into considerably more efficient ones, further accelerating GeForce RTX 40 Series performance.
+
+Opacity Micro Meshes (OMM) increase real-time performance and memory compression for complex geometry, further accelerating GeForce RTX 40 Series ray tracing performance, and with new CPU optimizations debuting in Portal: Prelude RTX, players receive even faster performance.
+
+And of course, NVIDIA DLSS 3 and NVIDIA Reflex have both been upgraded to their newest versions for improved performance, even better image quality, and more responsive gameplay.
+
+
+All of the enhancements, additions and improvements created for Portal: Prelude RTX will be incorporated into NVIDIA RTX Remix, benefitting all modders, and enabling superior updates to classic games. In the near future, NVIDIA will begin sharing early access versions of RTX Remix with select modders to further refine the creator toolkit and runtime ahead of its official release later this year. Stay tuned for updates.
+
+For more, go behind the scenes in the making of Portal: Prelude RTX using RTX Remix this week In the NVIDIA Studio.
+
+NVIDIA RTX IO Makes Its Debut, Accelerating Texture Loading Times & Reducing File Sizes
+Rapid loading and smooth navigation through endless open worlds has long been a goal of gamers and developers alike. Even with the incredible performance of NVMe SSDs, this goal has remained out of reach. Modern game engines have exceeded the capability of traditional storage APIs; a new generation of Input/Output (IO) architecture is needed.
+
+Enter NVIDIA RTX IO, enabling fast GPU-based loading and game asset decompression, massively accelerating IO performance compared to hard drives and traditional storage APIs. NVIDIA RTX IO leverages GPU decompression for smaller data packages, enabling faster texture load times and lower CPU utilization, and allows developers to create a new generation of games with massive highly detailed worlds. 
+
+NVIDIA RTX IO makes its debut alongside the free Portal: Prelude RTX mod today, and will also feature in Ratchet & Clank: Rift Apart, launching July 26th.
+
+In Portal: Prelude RTX, NVIDIA RTX IO is always on (you don’t need to toggle it in a menu) and it enables much faster texture load time, minimizing asset pop-in:
+
+
+ 
+
+NVIDIA RTX IO also lowers Portal: Prelude RTX’s texture package install size by 44%, enabling gamers to enjoy nearly 32 GB of 4K textures loaded with lossless detail, while only taking up 18 GB of storage space. When the RTX Remix creator toolkit is released, every modder will be able to count on RTX IO to enable them to stay true to their artistic vision, while keeping within the file size restrictions of popular modding sites.
+
+Learn more about NVIDIA RTX IO in our launch article.
+
+NVIDIA DLSS 3 Multiplies Performance By Up To 5X
+Portal: Prelude RTX’s full ray tracing is beautiful but demanding, just like Portal with RTX. To experience Portal: Prelude RTX at Ultra settings with path-traced ray tracing, NVIDIA DLSS 3 and a powerful GeForce RTX GPU are recommended.
+
+Using NVIDIA DLSS 3, GeForce RTX 4080 and 4090 users will see performance multiply by 5X on average at 4K with max settings, delivering 80 FPS+ gameplay, for the definitive experience:
+
+At 2560x1440, owners of the GeForce RTX 4070, and faster GPUs, can enjoy 80+ FPS gameplay at the Ultra Preset, which maxes out every setting. With DLSS 3 enabled, performance is multiplied by 4.4X on average.
+
+At 1920x1080, the resolution of choice for over 70% of Steam gamers, the GeForce RTX 4060 sees a 3.3X DLSS 3 frame rate multiplication when playing at the High preset.
+
+On GeForce RTX 40 Series laptops, DLSS 3 provides a 3.2X average boost to performance at 1920x1080, enabling many laptop configurations to play at over 60 FPS, and allowing high end models to exceed 120 FPS!
+
+At 1440p, powerful GeForce RTX 4080 and 4090 laptops receive a 4.3X average performance multiplier, enabling Ultra Preset gameplay at well over 60 FPS:
+
+Like Portal with RTX, Portal: Prelude RTX is fully ray traced, meaning it is very GPU intensive. Before playing Portal: Prelude RTX, please ensure your system matches or exceeds the requirements for CPU and RAM, for the best possible experience:
+
+For GPUs outside the minimum spec, and between minimum and recommended (i.e. some GeForce RTX 20 and 30 Series GPUs), the easiest path to better performance is to use GeForce Experience. Simply download our latest Game Ready Driver, locate Portal: Prelude RTX in the list of detected games, and click “Optimize” to automatically configure the best combination of image quality and performance settings for your GeForce RTX 20 or 30 Series GPU.
+
+Based on our testing, GeForce RTX 2060 users can play at over 30 FPS+ at the Low Preset using DLSS Ultra Performance Mode, while GeForce RTX 3080 users can run at 60 FPS or more at 1920x1080 using the High Preset and DLSS Quality Mode.
+
+If you prefer to configure settings manually, we have prepared a recommended graphic settings chart to help guide you to higher frame rates at 1080p, 1440p, and 4K:
+
+To adjust these settings in-game, press Alt-X to open the Remix graphics window
+
+Please note, performance will vary depending on your system configuration, and some options may reduce visual quality, though these settings do target a smooth 60 FPS experience. To adjust these settings, remember to press Alt-X to use the Remix graphics settings window.
+
+Coming soon, those without a GeForce RTX GPU can stream it on GeForce NOW without worrying about system specs or download times. Upgrade to an Ultimate membership for the power of an RTX 4080 gaming rig in the cloud and crank those settings up.
+
+The Best Responsiveness With NVIDIA Reflex
+As NVIDIA DLSS revolutionized scaling and performance, NVIDIA Reflex has revolutionized low latency gaming, giving multiplayer gamers a competitive advantage, and making single-player games incredibly responsive. Pinpoint accuracy and timing are key to overcoming Portal: Prelude RTX’s most difficult challenges, and using NVIDIA Reflex system latency is reduced, making gameplay smooth and more responsive, delivering the reaction time needed in critical moments.
+
+Download The July 18th GeForce Game Ready Driver For The Best Day One Experience
+Today, we’ve released our latest GeForce Game Ready Driver. It’s optimized for Portal: Prelude RTX, Ratchet & Clank: Rift Apart, and other games, and gives you the highest levels of performance when using NVIDIA RTX IO in the two titles.
+
+To download and install, head to the Drivers tab of GeForce Experience or GeForce.com.
+
+Portal: Prelude RTX Available Today!
+Portal: Prelude RTX, made by just a few people, demonstrates the possibilities of NVIDIA RTX Remix, enabling modders to remaster and remake games, total conversions, and unofficial prequels with relative ease. With just 5 developers, Portal: Prelude RTX has been completely remastered in less than eight months, using Portal with RTX’s assets, additional new assets, new voice acting, and updated geometry crafted in Valve’s Source engine.
+
+Download Portal: Prelude RTX today on Steam; if you own Portal, you can play for free. For the best possible experience head to the Drivers tab of GeForce Experience or GeForce.com and install our latest GeForce Game Ready Driver.

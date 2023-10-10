@@ -1,92 +1,94 @@
-# VectorDBReferenceProject
+# 🚀 RAG on Windows using TensorRT-LLM and LlamaIndex 🦙
 
 
 
-## Getting started
+<p align="center">
+<img src="https://gitlab-master.nvidia.com/winai/trt-llm-rag-windows/-/raw/main/media/rag-demo.gif"  align="center">
+</p>
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+This repository showcases a Retrieval-augmented Generation (RAG) pipeline implemented using the [llama_index](https://github.com/run-llama/llama_index) library for Windows. The pipeline incorporates the LLaMa 2 13B model, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. For demonstration, the dataset consists of thirty recent articles sourced from [NVIDIA Gefore News](https://www.nvidia.com/en-us/geforce/news/).
 
-## Add your files
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+### What is RAG? 🔍
+Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to enhance prediction accuracy by leveraging an external datastore during inference. This approach constructs a comprehensive prompt enriched with context, historical data, and recent or relevant knowledge.
+
+## Getting Started
+
+Ensure you have the pre-requisites in place:
+
+1. Install [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/) for Windows using the instructions [here](https://github.com/NVIDIA/TensorRT-LLM/blob/release/0.5.0/windows/README.md).
+
+2. Ensure you have access to the Llama 2 [repository on Huggingface](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+
+3. In this project, the LLaMa 2 13B AWQ 4bit quantized model is employed for inference. Before using it, you'll need to compile a TensorRT Engine specific to your GPU. If you're using the GeForce RTX 4090 (TensorRT 9.1.0.4 and TensorRT-LLM release 0.5.0), the compiled TRT Engine is available for download [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files). For other  NVIDIA GPUs or TensorRT versions, please refer to the [instructions](#building-trt-engine).
+
+
+<h3 id="setup"> Setup Steps </h3>
+
+1. Clone this repository: 
+```
+git clone https://github.com/NVIDIA/trt-llm-rag-windows.git.
+```
+2. Place the TensorRT engine for LLaMa 2 13B model in the model/ directory
+- For GeForce RTX 4090 users: Download the pre-built TRT engine [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files) and place it in the model.
+- For other NVIDIA GPU users: Build the TRT engine by following the instructions provided [here](#building-trt-engine).
+3. Acquire the llama tokenizer [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/tree/main).
+4. Download AWQ weights for building the TensorRT engine model.pt [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files). (For RTX 4090, use the pregenerated engine provided earlier.)
+5. Install the necessary libraries: pip install -r requirements.txt.
+6. Launch the application using the following command:
+
 
 ```
-cd existing_repo
-git remote add origin https://gitlab-master.nvidia.com/winai/vectordbreferenceproject.git
-git branch -M main
-git push -uf origin main
+python app.py --trt_engine_path <TRT Engine folder> --trt_engine_name <TRT Engine file>.engine --tokenizer_dir_path <tokernizer folder> --data_dir <Data folder>
+
+```
+In our case, that will be:
+
+```
+python app.py --trt_engine_path model/ --trt_engine_name llama2-13b-4090.engine --tokenizer_dir_path model/ --data_dir dataset/
 ```
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab-master.nvidia.com/winai/vectordbreferenceproject/-/settings/integrations)
+>Note:
+>On its first run, this example will persist/cache the data folder in vector library. Any modifications in the data folder won't take effect until the "storage-default" cache directory is removed from the application directory.
 
-## Collaborate with your team
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## Detailed Command References 
 
-## Test and Deploy
+```
+python app.py --trt_engine_path <TRT Engine folder> --trt_engine_name <TRT Engine file>.engine --tokenizer_dir_path <tokernizer folder> --data_dir <Data folder>
 
-Use the built-in continuous integration in GitLab.
+```
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+Arguments
 
-***
+| Name | Details |
+| ------ | ------ |
+| --trt_engine_path <> | Directory of TensorRT engine |
+| --trt_engine_name <> | Engine file name (e.g. llama_float16_tp1_rank0.engine)       |
+| --tokenizer_dir_path <> | HF downloaded model files for tokenizer e.g. [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf) |
+| --data_dir <> | Directory with context data (pdf, txt etc.) e.g. ".\dataset" |
 
-# Editing this README
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+<h3 id="building-trt-engine">Building TRT Engine</h3>
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+For RTX 4090 (TensorRT 9.1.0.4 & TensorRT-LLM 0.5.0), a prebuilt TRT engine is provided. For other RTX GPUs or TensorRT versions, follow these steps to build your TRT engine:
 
-## Name
-Choose a self-explaining name for your project.
+Download LLaMa 2 13B AWQ int4 weights **model.pt** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files)
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository:
+```
+git clone https://github.com/NVIDIA/TensorRT-LLM.git
+```
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Navigate to the examples\llama directory and run the following script:
+```
+python build.py --model_dir <path to llama13_awq_int4_chat> --quant_ckpt_path <path to llama13_int4_chat>\model.pt --dtype float16 --use_gpt_attention_plugin float16 --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --enable_context_fmha --max_batch_size 1 --max_input_len 3500 --max_output_len 1024 --output_dir <TRT engine folder>
+```
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## Adding your own data
+- This app loads data from the dataset/ directory into the vector store. To add support for your own data, replace the files in the dataset/ directory with your own data. By default, the script uses llamaindex's SimpleDirectoryLoader which supports text files in several platforms such as .txt, PDF, and so on.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This project requires additional third-party open source software projects as specified in the documentation. Review the license terms of these open source projects before use.
