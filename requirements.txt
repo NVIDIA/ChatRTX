@@ -4,7 +4,7 @@ flask-marshmallow==0.15.0
 Flask-Migrate==4.0.4
 gradio==3.43.0
 graphsurgeon==0.4.6
-langchain==0.0.310
+langchain==0.0.312
 langsmith==0.0.43
 llama-index==0.8.33
 numpy==1.24.0
