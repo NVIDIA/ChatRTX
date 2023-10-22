@@ -1,1 +1,1 @@
-Place your text data here.
+Place your text data in this directory.
