@@ -28,14 +28,17 @@ Ensure you have the pre-requisites in place:
 
 1. Clone this repository: 
 ```
-git clone https://github.com/NVIDIA/trt-llm-rag-windows.git.
+git clone https://github.com/NVIDIA/trt-llm-rag-windows.git
 ```
 2. Place the TensorRT engine for LLaMa 2 13B model in the model/ directory
 - For GeForce RTX 4090 users: Download the pre-built TRT engine [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files) and place it in the model.
 - For other NVIDIA GPU users: Build the TRT engine by following the instructions provided [here](#building-trt-engine).
 3. Acquire the llama tokenizer [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/tree/main).
 4. Download AWQ weights for building the TensorRT engine model.pt [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files). (For RTX 4090, use the pregenerated engine provided earlier.)
-5. Install the necessary libraries: pip install -r requirements.txt.
+5. Install the necessary libraries: 
+```
+pip install -r requirements.txt
+```
 6. Launch the application using the following command:
 
 
@@ -46,7 +49,7 @@ python app.py --trt_engine_path <TRT Engine folder> --trt_engine_name <TRT Engin
 In our case, that will be:
 
 ```
-python app.py --trt_engine_path model/ --trt_engine_name llama2-13b-4090.engine --tokenizer_dir_path model/ --data_dir dataset/
+python app.py --trt_engine_path model/ --trt_engine_name llama_float16_tp1_rank0.engine --tokenizer_dir_path model/ --data_dir dataset/
 ```
 
 
