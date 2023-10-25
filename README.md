@@ -7,7 +7,7 @@
 </p>
 
 
-This repository showcases a Retrieval-augmented Generation (RAG) pipeline implemented using the [llama_index](https://github.com/run-llama/llama_index) library for Windows. The pipeline incorporates the LLaMa 2 13B model, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. For demonstration, the dataset consists of thirty recent articles sourced from [NVIDIA Gefore News](https://www.nvidia.com/en-us/geforce/news/).
+This repository showcases a Retrieval-augmented Generation (RAG) pipeline implemented using the [llama_index](https://github.com/run-llama/llama_index) library for Windows. The pipeline incorporates the LLaMa 2 13B model, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. For demonstration, the dataset consists of thirty recent articles sourced from [NVIDIA Geforce News](https://www.nvidia.com/en-us/geforce/news/).
 
 
 ### What is RAG? 🔍
