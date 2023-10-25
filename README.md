@@ -78,7 +78,9 @@ Arguments
 
 For RTX 4090 (TensorRT 9.1.0.4 & TensorRT-LLM 0.5.0), a prebuilt TRT engine is provided. For other RTX GPUs or TensorRT versions, follow these steps to build your TRT engine:
 
-Download LLaMa 2 13B AWQ int4 weights **model.pt** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files)
+Download LLaMa 2 13B chat model from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+
+Download LLaMa 2 13B AWQ int4 checkpoints **model.pt** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files)
 
 Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository:
 ```
@@ -87,7 +89,7 @@ git clone https://github.com/NVIDIA/TensorRT-LLM.git
 
 Navigate to the examples\llama directory and run the following script:
 ```
-python build.py --model_dir <path to llama13_awq_int4_chat> --quant_ckpt_path <path to llama13_int4_chat>\model.pt --dtype float16 --use_gpt_attention_plugin float16 --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --enable_context_fmha --max_batch_size 1 --max_input_len 3500 --max_output_len 1024 --output_dir <TRT engine folder>
+python build.py --model_dir <path to llama13_chat model> --quant_ckpt_path <path to model.pt> --dtype float16 --use_gpt_attention_plugin float16 --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --enable_context_fmha --max_batch_size 1 --max_input_len 3500 --max_output_len 1024 --output_dir <TRT engine folder>
 ```
 
 ## Adding your own data
