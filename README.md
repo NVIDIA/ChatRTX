@@ -21,7 +21,7 @@ Ensure you have the pre-requisites in place:
 
 2. Ensure you have access to the Llama 2 [repository on Huggingface](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
 
-3. In this project, the LLaMa 2 13B AWQ 4bit quantized model is employed for inference. Before using it, you'll need to compile a TensorRT Engine specific to your GPU. If you're using the GeForce RTX 4090 (TensorRT 9.1.0.4 and TensorRT-LLM release 0.5.0), the compiled TRT Engine is available for download [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files). For other  NVIDIA GPUs or TensorRT versions, please refer to the [instructions](#building-trt-engine).
+3. In this project, the LLaMa 2 13B AWQ 4bit quantized model is employed for inference. Before using it, you'll need to compile a TensorRT Engine specific to your GPU. If you're using the GeForce RTX 4090 (TensorRT 9.1.0.4 and TensorRT-LLM release 0.5.0), the compiled TRT Engine is available for download [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2). For other  NVIDIA GPUs or TensorRT versions, please refer to the [instructions](#building-trt-engine).
 
 
 <h3 id="setup"> Setup Steps </h3>
@@ -34,7 +34,7 @@ git clone https://github.com/NVIDIA/trt-llm-rag-windows.git
 - For GeForce RTX 4090 users: Download the pre-built TRT engine [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files) and place it in the model/ directory.
 - For other NVIDIA GPU users: Build the TRT engine by following the instructions provided [here](#building-trt-engine).
 3. Acquire the llama tokenizer [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/tree/main).
-4. Download AWQ weights for building the TensorRT engine model.pt [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files). (For RTX 4090, use the pregenerated engine provided earlier.)
+4. Download AWQ weights for building the TensorRT engine model.pt [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2). (For RTX 4090, use the pregenerated engine provided earlier.)
 5. Install the necessary libraries: 
 ```
 pip install -r requirements.txt
