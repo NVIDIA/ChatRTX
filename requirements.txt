@@ -15,7 +15,7 @@ pydantic==2.3.0
 pydantic-core==2.6.3
 pydantic-settings==2.0.3
 pymilvus==2.3.0
-pypdf==3.15.5
+pypdf==3.17.0
 pypdf2==3.0.1
 sentence-transformers==2.2.2
 sentencepiece==0.1.99
