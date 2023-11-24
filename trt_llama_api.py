@@ -129,7 +129,6 @@ class TrtLlmAPI(CustomLLM):
                 num_layers = config['builder_config']['num_layers']
                 num_kv_heads = config['builder_config'].get('num_kv_heads', num_heads)
                 paged_kv_cache = config['plugin_config']['paged_kv_cache']
-                tokens_per_block = config['builder_config']['tokens_per_block']
                 if config['builder_config'].get('multi_query_mode', False):
                     tensorrt_llm.logger.warning(
                         "`multi_query_mode` config is deprecated. Please rebuild the engine."
@@ -144,7 +143,6 @@ class TrtLlmAPI(CustomLLM):
                                                  num_layers=num_layers,
                                                  gpt_attention_plugin=use_gpt_attention_plugin,
                                                  paged_kv_cache=paged_kv_cache,
-                                                 tokens_per_block=tokens_per_block,
                                                  remove_input_padding=remove_input_padding)
 
                 assert pp_size == 1, 'Python runtime does not support pipeline parallelism'
