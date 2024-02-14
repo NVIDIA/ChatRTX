@@ -17,44 +17,48 @@ Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to e
 
 Ensure you have the pre-requisites in place:
 
-1. Install [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/) for Windows using the instructions [here](https://github.com/NVIDIA/TensorRT-LLM/blob/release/0.5.0/windows/README.md).
+1. Install [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/) wheel for Windows and follow Quick Start instructions
+   * TensorRT-LLM v0.5.0 [Quick Start](https://github.com/NVIDIA/TensorRT-LLM/blob/release/0.5.0/windows/README.md#quick-start)
+     ```
+     pip install tensorrt_llm==0.5.0.post1 --extra-index-url https://pypi.nvidia.com --extra-index-url https://download.pytorch.org/whl/cu121
+     ```
+   * TensorRT-LLM v0.7.0 [Quick Start](https://github.com/NVIDIA/TensorRT-LLM/blob/v0.7.0/windows/README.md#quick-start)
+     ```
+     pip install tensorrt_llm==0.7.0 --extra-index-url https://pypi.nvidia.com --extra-index-url https://download.pytorch.org/whl/cu121
+     ```
+   * TensorRT-LLM v0.7.1 [Quick Start](https://github.com/NVIDIA/TensorRT-LLM/blob/v0.7.1/windows/README.md#quick-start)
+     ```
+     pip install tensorrt_llm==0.7.1 --extra-index-url https://pypi.nvidia.com  --extra-index-url https://download.pytorch.org/whl/cu121
+     ```
 
-2. Ensure you have access to the Llama 2 [repository on Huggingface](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+2. Ensure you have access to the Llama 2 [repository on Huggingface](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf). Acquire the llama tokenizer (*tokenizer.json*, *tokenizer.model* and *tokenizer_config.json*) [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/tree/main).
 
-3. In this project, the LLaMa 2 13B AWQ 4bit quantized model is employed for inference. Before using it, you'll need to compile a TensorRT Engine specific to your GPU. If you're using the GeForce RTX 4090 (TensorRT 9.1.0.4 and TensorRT-LLM release 0.5.0), the compiled TRT Engine is available for download [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2). For other  NVIDIA GPUs or TensorRT versions, please refer to the [instructions](#building-trt-engine).
+3. In this project, the LLaMa 2 13B AWQ 4bit quantized model is employed for inference. Before using it, you'll need to compile a TensorRT Engine specific to your GPU. Please refer to the [instructions](#building-trt-engine) to build and validate TRT engine.
 
+4. Clone this repository: 
+   ```
+   git clone https://github.com/NVIDIA/trt-llm-rag-windows.git
+   git checkout release/1.0
+   ```
 
-<h3 id="setup"> Setup Steps </h3>
-
-1. Clone this repository: 
-```
-git clone https://github.com/NVIDIA/trt-llm-rag-windows.git
-```
-2. Place the TensorRT engine for LLaMa 2 13B model in the model/ directory
-- For GeForce RTX 4090 users: Download the pre-built TRT engine [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2) and place it in the model/ directory.
-- For other NVIDIA GPU users: Build the TRT engine by following the instructions provided [here](#building-trt-engine).
-3. Acquire the llama tokenizer [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/tree/main).
-4. Download AWQ weights for building the TensorRT engine model.pt [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2). (For RTX 4090, use the pregenerated engine provided earlier.)
 5. Install the necessary libraries: 
-```
-pip install -r requirements.txt
-```
+   ```
+   pip install -r requirements.txt
+   ```
 6. Launch the application using the following command:
 
+   ```
+   python app.py --trt_engine_path <TRT Engine folder> --trt_engine_name <TRT Engine file>.engine --tokenizer_dir_path <tokernizer folder> --data_dir <Data folder>
 
-```
-python app.py --trt_engine_path <TRT Engine folder> --trt_engine_name <TRT Engine file>.engine --tokenizer_dir_path <tokernizer folder> --data_dir <Data folder>
+   ```
+   In our case, that will be:
 
-```
-In our case, that will be:
+   ```
+   python app.py --trt_engine_path model/ --trt_engine_name llama_float16_tp1_rank0.engine --tokenizer_dir_path model/ --data_dir dataset/
+   ```
 
-```
-python app.py --trt_engine_path model/ --trt_engine_name llama_float16_tp1_rank0.engine --tokenizer_dir_path model/ --data_dir dataset/
-```
-
-
->Note:
->On its first run, this example will persist/cache the data folder in vector library. Any modifications in the data folder won't take effect until the "storage-default" cache directory is removed from the application directory.
+   >Note:
+   >On its first run, this example will persist/cache the data folder in vector library. Any modifications in the data folder won't take effect until the "storage-default" cache directory is removed from the application directory.
 
 
 ## Detailed Command References 
@@ -76,24 +80,32 @@ Arguments
 
 <h3 id="building-trt-engine">Building TRT Engine</h3>
 
-For RTX 4090 (TensorRT 9.1.0.4 & TensorRT-LLM 0.5.0), a prebuilt TRT engine is provided. For other RTX GPUs or TensorRT versions, follow these steps to build your TRT engine:
+1. Download LLaMA 2 13B chat tokenizer files (*tokenizer.json*, *tokenizer.model* and *tokenizer_config.json*) from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+ 
 
-Download LLaMa 2 13B chat model from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+2. Download LLaMA2 int4 checkpoints and build instructions
 
-Download LLaMa 2 13B AWQ int4 checkpoints **model.pt** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2)
+   | TensorRT-LLM version | Download TRT-LLM source | Engine Build Instruction | Download checkpoints |
+   |--|--|--|--|
+   | v0.5.0 | [TensorRT-LLM v0.5.0](https://github.com/NVIDIA/TensorRT-LLM/archive/refs/heads/release/0.5.0.zip) | [Readme.md](https://github.com/NVIDIA/TensorRT-LLM/blob/release/0.5.0/windows/examples/llama/README.md) | Download *model.pt* from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2) |
+   | v0.7.0 | [TensorRT-LLM v0.7.0](https://github.com/NVIDIA/TensorRT-LLM/archive/refs/tags/v0.7.0.zip) | [Readme.md](https://github.com/NVIDIA/TensorRT-LLM/blob/v0.7.0/windows/examples/llama/README.md) | Download *llama_tp1.json* and *llama_tp1_rank0.npz* from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3)|
+   | v0.7.1 | [TensorRT-LLM v0.7.1](https://github.com/NVIDIA/TensorRT-LLM/archive/refs/tags/v0.7.1.zip) | [Readme.md](https://github.com/NVIDIA/TensorRT-LLM/blob/v0.7.1/windows/examples/llama/README.md) | Download *llama_tp1.json* and *llama_tp1_rank0.npz* from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3)|
 
-Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository:
-```
-git clone https://github.com/NVIDIA/TensorRT-LLM.git
-```
 
-Navigate to the examples\llama directory and run the following script:
-```
-python build.py --model_dir <path to llama13_chat model> --quant_ckpt_path <path to model.pt> --dtype float16 --use_gpt_attention_plugin float16 --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --enable_context_fmha --max_batch_size 1 --max_input_len 3000 --max_output_len 1024 --output_dir <TRT engine folder>
-```
+3. Navigate to the examples\llama directory and follow build command based on Readme.md instructions to generate engine.
+   * For TRT-LLM v0.5.0 build command is below
+    ```
+    python build.py --model_dir <path to llama13_chat model> --quant_ckpt_path <path to model.pt> --dtype float16 --use_gpt_attention_plugin float16 --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --enable_context_fmha --max_batch_size 1 --max_input_len 3500 --max_output_len 1024 --output_dir <TRT engine folder>
+    ```
+
+4. Navigate to the examples\llama directory and follow run command based on Readme.md instructions to validate the engine.
+   * For TRT-LLM v0.5.0 run command is below
+    ```
+    python3 run.py --max_output_len=50  --tokenizer_dir <tokenizer-path>  --engine_dir=<engine-path>
+    ```
 
 ## Adding your own data
 - This app loads data from the dataset/ directory into the vector store. To add support for your own data, replace the files in the dataset/ directory with your own data. By default, the script uses llamaindex's SimpleDirectoryLoader which supports text files in several platforms such as .txt, PDF, and so on.
 
-
-This project requires additional third-party open source software projects as specified in the documentation. Review the license terms of these open source projects before use.
+>Note:
+>This project requires additional third-party open source software projects as specified in the documentation. Review the license terms of these open source projects before use.
