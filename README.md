@@ -34,9 +34,8 @@ Ensure you have the pre-requisites in place:
 git clone https://github.com/NVIDIA/trt-llm-rag-windows.git
 ```
 2. Place the TensorRT engine for LLaMa 2 13B model in the model/ directory
-- For GeForce RTX 4090 users: Download the pre-built TRT engine [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3) and place it in the model/ directory.
-- For other NVIDIA GPU users: Build the TRT engine by following the instructions provided [here](#building-trt-engine).
-3. Acquire the llama tokenizer [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/tree/main).
+- Build the TRT engine by following the instructions provided [here](#building-trt-engine).
+3. Acquire the llama2-13b chat tokenizer files (tokenizer.json, tokenizer.model and tokenizer_config.json) [here](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf/tree/main).
 4. Download AWQ weights for building the TensorRT engine llama_tp1_rank0.npz [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3). 
 5. Install the necessary libraries: 
 ```
@@ -81,7 +80,7 @@ Arguments
 
 Follow these steps to build your TRT engine:
 
-Download LLaMa 2 13B chat model from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf). 
+Download LLaMa 2 13B chat tokenizer from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf). Only download chat config & tokenizer files (config.json, tokenizer.json, tokenizer.model and tokenizer_config.json)
 
 Download LLaMa 2 13B AWQ int4 checkpoints **llama_tp1_rank0.npz** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3)
 
@@ -95,6 +94,14 @@ Navigate to the TensorRT-LLM repo directory and run the following script:
 python examples\llama\build.py --model_dir <path to llama13_chat model> --quant_ckpt_path <path to model.npz> --dtype float16 --remove_input_padding --use_gpt_attention_plugin float16 --enable_context_fmha  --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --output_dir <TRT engine folder>
 
 ```
+
+If HF tokenizer & config.json are downloaded in the model\hf directory and the model's weights in model\weights directory within the tensorrt-llm dir, the build command looks like this:
+
+```
+python examples\llama\build.py --model_dir model\hf --quant_ckpt_path model\weights\llama_tp1_rank0.npz --dtype float16 --remove_input_padding --use_gpt_attention_plugin float16 --enable_context_fmha  --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --output_dir trt-engine
+```
+
+Here, the model engine is stored in the modelout directory. Move the contents of the trt-engine directory into the trt-llm-rag-windows repo's model directory. Engine generation should create three new files inside the trt-engine directory: config.json, llama_float16_tp1_rank0.engine file, and model.cache. 
 
 ## Adding your own data
 - This app loads data from the dataset/ directory into the vector store. To add support for your own data, replace the files in the dataset/ directory with your own data. By default, the script uses llamaindex's SimpleDirectoryLoader which supports text files in several platforms such as .txt, PDF, and so on.
