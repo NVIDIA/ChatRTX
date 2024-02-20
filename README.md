@@ -15,6 +15,10 @@ Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to e
 
 ## Getting Started
 
+> [!IMPORTANT]  
+> This branch is valid only for TRT-LLM v0.5. For the instructions compatible with the latest release (v0.7.1), please switch to this branch: [trt-llm-0.7.1](https://github.com/NVIDIA/trt-llm-rag-windows/blob/trt-llm-0.7.1)
+
+
 Ensure you have the pre-requisites in place:
 
 1. Install [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/) for Windows using the instructions [here](https://github.com/NVIDIA/TensorRT-LLM/blob/release/0.5.0/windows/README.md).
