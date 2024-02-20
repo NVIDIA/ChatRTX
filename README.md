@@ -22,6 +22,9 @@ Ensure you have the pre-requisites in place:
 
 1. Install [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/) using the Windows using the instructions [here](https://github.com/NVIDIA/TensorRT-LLM/blob/v0.7.1/windows/README.md#quick-start).
 
+> [!TIP]
+> We recommend installing TensorRT-LLM in a virtual environment or Conda env. 
+
 ```
 pip install tensorrt_llm==0.7.1 --extra-index-url https://pypi.nvidia.com  --extra-index-url https://download.pytorch.org/whl/cu121
 ```
