@@ -37,7 +37,7 @@ class FaissEmbeddingStorage:
 
     def initialize_index(self):
         if os.path.exists("storage-default") and os.listdir("storage-default"):
-            print("Using the presisted value")
+            print("Using the persisted value")
             vector_store = FaissVectorStore.from_persist_dir("storage-default")
             storage_context = StorageContext.from_defaults(
                 vector_store=vector_store, persist_dir="storage-default"
