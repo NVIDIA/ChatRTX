@@ -6,6 +6,8 @@
 <img src="https://github.com/NVIDIA/trt-llm-rag-windows/blob/release/1.0/media/rag-demo.gif?raw=true"  align="center">
 </p>
 
+> [!IMPORTANT]  
+> Use this branch only for TRT-LLM v0.7.1 on Windows. 
 
 This repository showcases a Retrieval-augmented Generation (RAG) pipeline implemented using the [llama_index](https://github.com/run-llama/llama_index) library for Windows. The pipeline incorporates the LLaMa 2 13B model, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. For demonstration, the dataset consists of thirty recent articles sourced from [NVIDIA Geforce News](https://www.nvidia.com/en-us/geforce/news/).
 
@@ -79,18 +81,19 @@ Arguments
 
 Follow these steps to build your TRT engine:
 
-Download LLaMa 2 13B chat model from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+Download LLaMa 2 13B chat model from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf). 
 
-Download LLaMa 2 13B AWQ int4 checkpoints **model.pt** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.2)
+Download LLaMa 2 13B AWQ int4 checkpoints **llama_tp1_rank0.npz** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3)
 
-Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository:
+Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository's <pre>rel</pre> branch for the 0.7.1 Windows build:
 ```
-git clone https://github.com/NVIDIA/TensorRT-LLM.git
+git clone --branch rel https://github.com/NVIDIA/TensorRT-LLM.git
 ```
 
-Navigate to the examples\llama directory and run the following script:
+Navigate to the TensorRT-LLM repo directory and run the following script:
 ```
-python build.py --model_dir <path to llama13_chat model> --quant_ckpt_path <path to model.pt> --dtype float16 --use_gpt_attention_plugin float16 --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --enable_context_fmha --max_batch_size 1 --max_input_len 3000 --max_output_len 1024 --output_dir <TRT engine folder>
+python examples\llama\build.py --model_dir <path to llama13_chat model> --quant_ckpt_path <path to model.npz> --dtype float16 --remove_input_padding --use_gpt_attention_plugin float16 --enable_context_fmha  --use_gemm_plugin float16 --use_weight_only --weight_only_precision int4_awq --per_group --output_dir <TRT engine folder>
+
 ```
 
 ## Adding your own data
