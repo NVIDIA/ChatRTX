@@ -89,7 +89,7 @@ Follow these steps to build your TRT engine:
 
 Download LLaMa 2 13B chat tokenizer from [https://huggingface.co/meta-llama/Llama-2-13b-chat-hf](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf). Only download chat config & tokenizer files (config.json, tokenizer.json, tokenizer.model and tokenizer_config.json)
 
-Download LLaMa 2 13B AWQ int4 checkpoints **llama_tp1_rank0.npz** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3)
+Download LLaMa 2 13B AWQ int4 checkpoints **llama_tp1_rank0.npz** and **llama_tp1.json** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3)
 
 Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository's v0.7.1 branch:
 ```
