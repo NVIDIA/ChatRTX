@@ -20,11 +20,15 @@ Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to e
 
 Ensure you have the pre-requisites in place:
 
-1. Install [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/) for Windows using the instructions [here](https://github.com/NVIDIA/TensorRT-LLM/tree/rel/windows).
+1. Install [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/) using the Windows using the instructions [here](https://github.com/NVIDIA/TensorRT-LLM/blob/v0.7.1/windows/README.md#quick-start).
 
-2. Ensure you have access to the Llama 2 [repository on Huggingface](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+```
+pip install tensorrt_llm==0.7.1 --extra-index-url https://pypi.nvidia.com  --extra-index-url https://download.pytorch.org/whl/cu121
+```
 
-3. In this project, the LLaMa 2 13B AWQ 4bit quantized model is employed for inference. Before using it, you'll need to compile a TensorRT Engine specific to your GPU. Please refer to the [instructions](#building-trt-engine).
+3. Ensure you have access to the Llama 2 [repository on Huggingface](https://huggingface.co/meta-llama/Llama-2-13b-chat-hf)
+
+4. In this project, the LLaMa 2 13B AWQ 4bit quantized model is employed for inference. Before using it, you'll need to compile a TensorRT Engine specific to your GPU. Please refer to the [instructions](#building-trt-engine).
 
 
 <h3 id="setup"> Setup Steps </h3>
@@ -84,9 +88,9 @@ Download LLaMa 2 13B chat tokenizer from [https://huggingface.co/meta-llama/Llam
 
 Download LLaMa 2 13B AWQ int4 checkpoints **llama_tp1_rank0.npz** from [here](https://catalog.ngc.nvidia.com/orgs/nvidia/models/llama2-13b/files?version=1.3)
 
-Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository's <pre>rel</pre> branch for the 0.7.1 Windows build:
+Clone the [TensorRT LLM](https://github.com/NVIDIA/TensorRT-LLM/) repository's <pre>v0.7.1</pre> branch:
 ```
-git clone --branch rel https://github.com/NVIDIA/TensorRT-LLM.git
+git clone --branch v0.7.1 https://github.com/NVIDIA/TensorRT-LLM.git
 ```
 
 Navigate to the TensorRT-LLM repo directory and run the following script:
