@@ -20,7 +20,7 @@ pypdf2==3.0.1
 sentence-transformers==2.2.2
 sentencepiece==0.1.99
 tiktoken==0.3.3
-tokenizers==0.13.3
-transformers==4.31.0
+tokenizers==0.15.2
+transformers==4.36.1
 faiss-cpu==1.7.4
 mpi4py==3.1.5
