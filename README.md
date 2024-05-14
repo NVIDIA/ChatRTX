@@ -1,6 +1,7 @@
 # 🚀 RAG on Windows using TensorRT-LLM and LlamaIndex 🦙
 
 
+Please use the release/0.3 branch for updated code of chatrtx 
 
 <p align="center">
 <img src="https://github.com/NVIDIA/trt-llm-rag-windows/blob/release/1.0/media/rag-demo.gif?raw=true"  align="center">
