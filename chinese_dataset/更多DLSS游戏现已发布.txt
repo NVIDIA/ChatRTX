@@ -1,0 +1,35 @@
+本月将迎来更多全新 DLSS 游戏，包括“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”、“斯拉夫朋克：老古董 (SlavicPunk: Oldtimer)”、“铁血联盟 3 (Jagged Alliance 3)”等
+由 Andrew Burnes 发表于 2023年7月11日 | 精选故事GeForce RTX GPUNVIDIA DLSSNVIDIA RTX光线追踪
+每周，我们都会为您带来有关支持 DLSS 和光线追踪游戏和应用的最新消息。本周，“铁血联盟 3 (Jagged Alliance 3)”和“遗言：高人之序 (Testament: The Order of High Human)”发布并支持 DLSS 2。“斯拉夫朋克：老古董 (SlavicPunk: Oldtimer)”和“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”现已支持 DLSS 2，“消逝的光芒 2：人与仁之战 (Dying Light 2 Stay Human)”“晚安，好运”更新已推出并支持 DLSS 3。最重要的是，暴雪宣布了“暗黑破坏神 IV (Diablo IV)”恶疫魔赛季的详细信息！请继续阅读以了解更多信息。
+“暗黑破坏神 IV (Diablo IV)”恶疫魔赛季将于 7 月 21 日开启
+准备好在 7 月 21 日的“恶疫魔赛季”中继续你的“暗黑破坏神 IV (Diablo IV)”庇护之地探索之旅吧。 莉莉丝的腐化以前所未见之姿蔓延至整个庇护之地，催生了新的恶疫怪物，并为玩家创造强大的全新 Build 提供机会。 旅行者将与圣光大教堂前的牧师科蒙德合作，完成新的任务线，阻止这些恶性怪物的蔓延，并获取全新独特奖励。
+ 
+GeForce 玩家将在新一季的“暗黑破坏神 IV (Diablo IV)”中获得出色 PC 体验。GeForce RTX 40 系列玩家可以通过 NVIDIA DLSS 3 帧生成技术畅享绝佳体验，而其他 GeForce RTX 用户可以使用 DLSS 2 超分辨率技术加速性能。
+“消逝的光芒 2：人与仁之战 (Dying Light 2 Stay Human)”的“晚安，好运”更新现已推出
+Techland 的“晚安好运”更新现已推出，为“消逝的光芒 2：人与仁之战 (Dying Light 2 Stay Human)”的游戏玩法带来了巨大变化，包括跑酷系统的改进、全新画面设置和夜间体验的彻底改变。
+ 
+昼夜循环一直是《消逝的光芒》系列中的一个重要元素，在这次更新中，我们旨在通过增加紧张感、恐怖氛围以及巡游的夜魔存在，加强夜晚的特色体验。跑酷系统也得到了 改进，新增了可供玩家选择的“辅助跑酷”或“真实跑酷“选项，这将彻底改变城市漫游的体验。
+
+新的画面改进使 PC 玩家能够将“屏幕空间反射 (Screen Space Reflections)”设置为“超级”，从而增强反射的绘制距离，并扩展了质量和RT预设中的细节层次倍率。 GeForce RTX 玩家将获得出色游戏体验，享受美丽的光线追踪效果以及 DLSS 3 帧生成和 DLSS 2 超分辨率带来的性能倍增。
+
+如需了解全部改进内容，请前往此处查看“晚安，好运”的更新说明。
+
+"遗言：高人之序 (Testament: The Order of High Human)"本周发布，并支持 DLSS 2
+由 Fairyship Games 推出的"遗言：高人之序 (Testament: The Order of High Human)"是一款单人的第一人称动作冒险游戏，带有 RPG 和 Metroidvania 元素，设定在一个末世的奇幻世界。它提供了不同可能性的混合战斗，以及剑、法术和弓的组合，同时又有丰富的平台和拼图。
+ 
+7 月 13 日，当"遗言：高人之序 (Testament: The Order of High Human)"在 Steam 平台发布时，GeForce RTX 玩家可以借助 DLSS 2 提升游戏体验；如需提前预览游戏内容，请下载 Fairyship Games 发布的支持 DLSS 2 的该游戏 Demo 版。
+“铁血联盟 3 (Jagged Alliance 3)”将于本周发布，并支持 DLSS 2
+早在 1995 年，“铁血联盟 (Jagged Alliance)”就登陆了 MS-DOS PC 平台，向玩家介绍了由雇佣兵领导的引人入胜的回合制战斗，目标是解放一座受压迫的小岛。深受玩家喜爱的游戏系列在近三十年后推出了这一款正统续作，“铁血联盟 3 (Jagged Alliance 3)”将于 7 月 14 日发布。
+
+由 Haemimont Games 开发并由 THQ Nordic 发行的“铁血联盟 3 (Jagged Alliance 3)”重拾该系列游戏风格。借助最新技术和功能以提升游戏品质，带来引人入胜的回合制战斗，与朋友一同感受战役的酣畅淋漓。
+
+ 
+"在游戏发布时，GeForce RTX 玩家可以借助 DLSS 2 提升帧率，获得出色游戏体验；安装我们最新的 Game Ready 驱动以获得最佳性能。 "
+“斯拉夫朋克：老古董 (SlavicPunk: Oldtimer)”现已推出，并支持 DLSS 2
+“斯拉夫朋克：老古董 (SlavicPunk: Oldtimer)”现已推出，这是一款由 Red Square Games 开发的等距射击游戏，在游戏中，玩家将扮演一个有着不堪回首过去的私家侦探亚努斯，试图解决一个围绕着被盗数据载体的意外案件，同时与他内心的恶魔、城市帮派和一个几乎无所不能的公司作斗争。这个公司是导致他曾经称之为自己城市的崩溃的罪魁祸首。GeForce RTX 玩家可以借助 DLSS 2 提升游戏性能。
+ 
+“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”通过 DLSS 2 提升性能
+在“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”中，沉浸在一场颠覆性的模拟体验中，您将在由 Plegus Therapy 创建的两个平行世界间穿梭。作为患者 689，您将参与一项实验性疗法计划。探索迷人的环境并解决复杂的谜题，以实现康复。GeForce RTX 玩家可以借助 DLSS 2 提升性能，来应对游戏中的复杂谜题。
+ 
+欢迎下周再来查看最新消息，了解更多 RTX 游戏精彩内容
+如您所见，大量的最新游戏大作和独立游戏已经集成 DLSS。 欢迎下周再来查看下一批支持 DLSS 和 RTX 的游戏，前往此处查看超过 300 款 DLSS 游戏和应用的完整列表。

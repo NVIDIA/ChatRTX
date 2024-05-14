@@ -1,0 +1,75 @@
+为“传送门：序曲 (Portal: Prelude)”RTX 版和“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”打造的 Game Ready 驱动现已发布
+由 Andrew Burnes 发表于 2023年7月18日 | 精选故事驱动程序
+我们的最新驱动专为惊艳的“传送门：序曲 (Portal: Prelude)”RTX 版打造，这是一款于今日推出的免费的支持全景光线追踪的“传送门 (Portal)” Mod，它支持路径追踪 RTX 图形效果、NVIDIA RTX IO GPU 加速存储技术、NVIDIA DLSS 3 和 NVIDIA Reflex。请参阅我们的“传送门：序曲 (Portal: Prelude)”RTX 版发布文章了解更多信息。
+
+此外，我们的驱动还为“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”提供优化，该游戏将于 7 月 26 日推出，支持 DLSS 3、高级光线追踪、Reflex 和 RTX IO。 该驱动还为将于 7 月 25 日发布的支持 DLSS 2 的“遗迹 2 (Remnant II)”提供优化。
+
+我们的驱动还新增对 3 款全新 G-SYNC Compatible 游戏显示器的支持以及 7 项 GeForce Experience 优化设置。
+
+如需下载并安装该驱动，请前往 GeForce Experience 的“Drivers”（驱动）选项卡，或访问 GeForce.cn。敬请继续阅读，了解更多详情。
+
+为“传送门：序曲 (Portal: Prelude)”RTX 版打造的驱动，支持 DLSS 3 和 RTX IO - 立即下载
+“传送门 (Portal)”是玩家心目中的经典；去年 12 月，我们发布了基于 Valve 获奖游戏重构的游戏“传送门 RTX 版 (Portal with RTX)”，支持全景光线追踪，并由 NVIDIA DLSS 3 提供性能提升，在实时游戏中实现了逼真的路径追踪光照。现在，“传送门：序曲 (Portal: Prelude)”RTX 版是一款采用相同技术重制的免费 Mod，支持全景光线追踪（路径追踪）图形效果、DLSS 3 和我们全新的 NVIDIA RTX IO GPU 加速存储技术。
+
+“传送门：序曲 (Portal: Prelude)”是一款高分“传送门 (Portal)” Mod、它是 2008 年 Portal ModDB 获胜者以及 2008 年 Player’s Choice Mod 第三名。由 Nicolas “NykO18” Grevet 等人创建的“传送门：序曲 (Portal: Prelude)”是一款非官方传送门前传，背景设定在 GLaDOS 时代之前，具有全新的极具挑战性的 8-10 小时游戏体验，其中包括 19 个全新实验室、新的高级游戏机制、长达 400 多行的全程 NPC 语音对话，以及更多其他內容。
+
+“传送门：序曲 (Portal: Prelude)”RTX 版今日上线，“传送门 (Portal)”玩家可以免费下载。安装我们最新的 Game Ready 驱动，从 Steam 下载“传送门：序曲 (Portal: Prelude)”RTX 版，获得超凡游戏体验。
+
+ 
+如需了解更多信息和 RTX ON-OFF 游戏截图，请参阅我们的“传送门：序曲 (Portal: Prelude)”RTX 版发布文章，如果您对全新颠覆性的 GPU 加速存储技术感兴趣，请阅读我们的 RTX IO 文章。
+为“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”打造的 Game Ready 驱动
+瑞奇与叮当系列最近刚刚庆祝了 20 周年，7 月 26 日，随着广受好评的“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”在 PC 平台上的发布，PC 玩家可以首次体验该系列的操作和幽默风格。在这款由著名工作室 Insomniac Games 开发，并由 Nixxes 在 PC 上发布的精彩动作冒险平台游戏中，帮助在精美渲染下的二人组对抗来自另一个世界的邪恶统治者。
+ 
+NVIDIA GeForce Game Ready 驱动已为《无畏契约》提供优化支持，借助 NVIDIA Reflex，GeForce RTX™ 系列 GPU可提供更低操作延迟和更出色的响应速度，从而带来出色的制胜优势。这套针对竞技类游戏量身打造的技术，可帮助玩家更快地捕获目标，更迅速地作出反应并提高瞄准精度。
+
+GeForce RTX 40 系列显卡和笔记本电脑可以通过 NVIDIA DLSS 3 实现性能倍增，而 GeForce RTX 20 和 30 系列用户可以使用 NVIDIA DLSS 2 提高帧率。所有 GeForce RTX 玩家都可以使用 NVIDIA DLAA 最大限度地提高图像质量，以获得良好的图像质量。 GeForce GTX 900 系列及以上 GPU 玩家可以使用 NVIDIA Reflex 提升“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”的游戏响应速度。
+
+通过 NVIDIA DLSS 3 文章中详细介绍的过程，DLSS 3 能够将 DLSS 超分辨率技术和 DLSS 帧生成技术相结合，重建所显示的 7/8 的像素，从而显著提升性能。
+
+
+在对 GPU 性能要求较高的游戏中，DLSS 2 超分辨率技术可以将帧率最高提升至原来的 2 倍。借助 DLSS 3，我们可以在全景光线追踪的世界中将其最高提升至 4 倍（与强力渲染相比）。
+
+一些游戏的 CPU 占用率过高，势必会限制性能。DLSS 3 基于 GPU 运行，因此可以不受 CPU 性能的限制，从而提高帧率。
+
+DLSS 3 游戏同时兼容 DLSS 2 技术 – 开发者只需集成 DLSS 3，即可让游戏默认支持 DLSS 2（也称为 DLSS 超分辨率）。此外，集成 DLSS 3 的游戏同时支持 NVIDIA Reflex，Reflex 可降低系统延迟，进而提升游戏的响应速度。
+
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”还具有可供选择的各种质量级别的光线追踪反射，以及新添的光线追踪阴影，用于呈现室外区域的自然光。GeForce RTX GPU 玩家可以以超高帧率体验游戏，这要归功于其专用 RT core，该游戏的光线追踪性能得到了大幅提升。
+此外，“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”支持 NVIDIA RTX IO，该技术利用 DirectStorage 运行时和 GPU 解压缩来实现更快的加载速度和无缝的游戏内过渡。
+此外，游戏还支持 21:9、32:9 和 48:9 分辨率以及三屏环绕。您可以通过该游戏提供的各种选项，以最适合自己风格的方式进行游戏，当在有线连接上使用 DualSense 控制器时，您可以通过触觉反馈和动态触发效果感受到游戏中的动作。
+
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将于 7 月 26 日在 PC 平台推出 - 立即加入愿望清单或预订。
+
+为“遗迹 2 (Remnant II)”打造的 Game Ready 驱动
+Gunfire Games 开发的“遗迹 2 (Remnant II)”是畅销游戏“遗迹：灰烬重生 (Remnant: From the Ashes)”的续作。在本作中，人类幸存者将再次深陷可怕的世界，对抗新的邪恶怪物和神一般的敌人头目。孤军奋战，或者与两名朋友合作，探索未知的深处，阻止邪恶摧毁现实世界。若想取得成功，玩家必须依靠自己和团队的力量，完成最艰巨的挑战，让人类免于灭绝的命运。
+ 
+“遗迹 2 (Remnant II)”于 7 月 25 日发布时将支持 DLSS 2，让您能够以超快流畅的游戏体验畅享高保真世界的视觉效果。
+
+为最新认证的 G-SYNC Compatible 显示器提供支持
+新版 Game Ready 驱动还增加对 3 款全新 G-SYNC Compatible 显示器的支持，这 3 款游戏显示器均采用基准可变刷新率 (VRR) 技术，带来更流畅愉悦的游戏体验。
+\
+Manufacturer	型号	HDR	尺寸	面板类型	分辨率	VRR 范围
+LG	27PG95R	支持	27 英寸	Nano IPS	3840x2160 (4K)	48-144Hz
+松下	48MZ1800	支持	48 英寸	OLED	3840x2160 (4K)	48-120Hz
+戴尔	AW2724DM	支持	27 英寸	IPS	2560x1440 (QHD)	48-165Hz
+这些新认证的显示器为正在选购游戏游戏显示器或电视的玩家提供了更多选择。如需了解所有 G-SYNC、G-SYNC Ultimate 和 G-SYNC Compatible 游戏显示器，请前往我们便于查阅且持续更新的 G-SYNC 页面。您可以在此页面使用排序和筛选功能，以快速找到理想的显示器。
+GeForce Experience 优化设置支持的游戏再添新成员
+GeForce Experience 的一键优化设置可助您即刻针对自身系统的硬件配置一键设置游戏选项，从而打造经优化的流畅游戏体验。现已支持超过 1000 款游戏；自上一次发布驱动以来，我们又新增了对 7 款游戏的支持：
+“异形：坠入黑暗 (Aliens: Dark Descent)”
+BattleBit Remastered
+EA SPORTS™ F1Ⓡ 23
+“六日 (Six Days in Fallujah)”
+“黎明觉醒 (Undawn)”
+“幕后高手 (Veiled Experts)”
+“战锤 40K：格雷迪厄斯 - 遗迹之战 (Warhammer 40,000: Gladius - Relics of War)”
+借助 GeForce Experience，您还可录制和直播游戏过程、截屏并将视频上传到社交网络等。如需了解全部详情，请前往此处。
+
+支持合作伙伴定制版 GeForce RTX 4060 Ti (16GB) 显卡
+今年 5 月，我们推出了 GeForce RTX 4060 Ti，该显卡采用更高效的 NVIDIA Ada Lovelace 架构和超级强劲的 DLSS 3。它能够以超过每秒 100 FPS 的速度流畅运行当下诸多采用先进图形技术的游戏大作。
+从本月开始，我们的显卡合作伙伴，包括华硕 (ASUS)、七彩虹 (Colorful)、耕升 (Gainward)、影驰 (Galax)、技嘉 (Gigabyte)、映众 (INNO3D)、微星 (MSI)、铭瑄(MAXSUN)、盈通 (YESTON) 和索泰 (Zotac) 将开始提供 16GB 版本的显卡。在大多数游戏中，两个版本的 GeForce RTX 4060 Ti（8GB 和 16GB）由于其他规格完全相同，所以将提供相同水平的性能。有一些游戏在 RTX 4060 Ti (8GB) 上的“高”设置和 RTX 4060 Ti (16GB) 上的“超高”设置下运行效果最佳。今天发布的驱动程序支持全新的 16GB 版本。
+
+如需了解更多关于 RTX 4060 Ti 的详细信息，以及了解我们的产品在您所处地区的供应情况，请前往 GeForce.cn 上的 GeForce RTX 4060 Ti 产品页面。
+
+GeForce Game Ready 驱动 - 立即下载
+您可以单击此处详细了解 GeForce Game Ready 驱动；也可以通过 GeForce Experience 下载新的 GeForce Game Ready 536.67 WHQL 驱动。
+
+如果您遇到任何与新 Game Ready 驱动相关的技术问题，请在“英伟达 GeForce”微信公众号留言，以便我们的客服团队更好地为您提供帮助。如需查看该驱动中针对已报告的问题添加的修复程序的完整列表，请前往此处。

@@ -1,0 +1,43 @@
+为“博德之门 3 (Baldur ' s Gate 3)”打造的 Game Ready 驱动现已发布
+由 Andrew Burnes 发表于 2023年8月8日 | 精选故事驱动程序
+我们的最新驱动为“博德之门 3 (Baldur ' s Gate 3)”以及两款新 DLSS 游戏“德州电锯杀人狂 (The Texas Chain Saw Massacre)”和“戈德 (Gord)”提供支持。
+
+另外，驱动还新增 6 项 GeForce Experience 优化设置。
+
+如需下载并安装该驱动，请前往 GeForce Experience 的“Drivers”（驱动）选项卡，或访问 GeForce.cn。敬请继续阅读，了解更多详情。
+
+为“博德之门 3 (Baldur ' s Gate 3)”打造的 Game Ready 驱动
+自 3 年前推出抢先体验版以来，我们的 GeForce Game Ready 驱动一直为 Larian Studios 广受好评的“博德之门 3 (Baldur ' s Gate 3)”提供支持。现在，我们推出了其他优化和增强功能，以进一步改善您在这款史诗级角色扮演游戏的游戏体验。
+
+在 PC 版游戏中，玩家可以借助 GeForce RTX 显卡获得出色的游戏体验，通过 DLAA 提升图像质量，或者通过 NVIDIA DLSS 2 提升帧率 - 在我们的基准测试中，GeForce RTX 40 系列显卡可将游戏性能平均提高 93%：
+
+借助 DLSS 2，大多数 GeForce RTX 40 系列玩家以及拥有同级别显卡的玩家都可以在 4K 最高设置下畅享高达 60+ FPS的游戏体验。
+
+ 
+为“德州电锯杀人狂 (The Texas Chain Saw Massacre)”打造的 Game Ready 驱动
+“德州电锯杀人狂 (The Texas Chain Saw Massacre)”是一款以1974年标志性恐怖电影为基础开发的游戏，在游戏中，玩家可以选择扮演斯劳特家族中的一员或是他们的受害者，通过第三人称视角的不对称恐怖体验探索狂乱与恐怖的世界。
+
+ 
+8 月 18 日推出的“德州电锯杀人狂 (The Texas Chain Saw Massacre)”将支持 DLSS 2，可以确保您的游戏体验不再被低帧率拖后腿，即使在以超高的细节级别和分辨率玩游戏时也是如此。使用 DLSS 2 升级您的体验，并使用我们的新版 Game Ready 驱动升级您的系统。
+
+为“戈德 (Gord)”打造的 Game Ready 驱动
+由 Covenant.dev 和 Team 17 推出的“戈德 (Gord)”是一款单人冒险策略游戏。 要在这个黑暗的奇幻世界中生存，您必须建立起自己的城镇，但若想取胜，就得征服潜伏在城门外的黑暗。你将率领曙光部族深入禁忌的蛮荒大地，完成会影响到居民性格与安乐的任务，决定部族的命运，在灵感源自斯拉夫神话的黑暗幻想世界中帮助你的居民生存下去。
+
+ 
+当这款独特的生存城市建造游戏于 8 月 17 日发布时，得益于游戏首发日对 DLSS 2 的支持，GeForce RTX 玩家将畅享更高帧率。
+
+GeForce Experience 优化设置支持的游戏再添新成员
+GeForce Experience 的一键优化设置可助您即刻针对自身系统的硬件配置一键设置游戏选项，从而打造经优化的流畅游戏体验。现已支持超过 1000 款游戏；自上一次发布驱动以来，我们又新增了对 6 款游戏的支持：
+
+恐龙浩劫 (Exoprimal)
+铁血联盟 3 (Jagged Alliance 3)
+审判之逝: 湮灭的记忆 (Lost Judgment)
+传送门：序曲 (Portal: Prelude) RTX 版
+瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)
+遗迹 2 (Remnant II)
+借助 GeForce Experience，您还可录制和直播游戏过程、截屏并将视频上传到社交网络等。如需了解全部详情，请前往此处。
+
+GeForce Game Ready 驱动 - 立即下载
+您可以单击此处详细了解 GeForce Game Ready 驱动；也可以通过 GeForce Experience 下载新的 GeForce Game Ready 536.99 WHQL 驱动。
+
+如果您遇到任何与新 Game Ready 驱动相关的技术问题，请在“英伟达 GeForce”微信公众号留言，以便我们的客服团队更好地为您提供帮助。如需查看该驱动中针对已报告的问题添加的修复程序的完整列表，请前往此处。

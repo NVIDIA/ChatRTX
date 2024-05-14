@@ -1,0 +1,61 @@
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将于 7 月 26 日发布，支持 DLSS 3、光线追踪、Reflex 和 RTX IO
+由 Andrew Burnes 发表于 2023年7月25日 | 精选故事GeForce RTX GPUNVIDIA DLSSNVIDIA ReflexNVIDIA RTXNVIDIA RTX IO光线追踪
+每周，我们都会为您带来有关支持 DLSS 和光线追踪游戏和应用的最新消息。
+
+上周，我们宣布了“传送门：序曲 (Portal: Prelude)”RTX 版发布，这是一款经典 Mod 的路径追踪重制版，采用 NVIDIA RTX Remix 制作，并通过全景光线追踪、NVIDIA DLSS 3、NVIDIA Reflex 和我们颠覆性的全新 NVIDIA RTX IO GPU 加速存储技术进行增强。
+
+该 Mod 的游戏体验和路径追踪图形效果都赢得了各方面的好评。以下是迄今为止发布的部分评测：
+
+“效果令人惊叹” - Hot Hardware
+“这不单单是重新发布，因为更新的版本具有全新的纹理、全景光线追踪、可以提高性能的 DLSS 3、用于降低延迟的 NVIDIA Reflex 以及可以缩短加载时间的 RTX IO。” - Engadget
+“洞见游戏行业未来”- Tweaktown
+“多年来对纹理加载速度的最大升级之一刚刚在免费的《传送门》mod 中首次亮相” - PC Gamer
+如果您错过了上周发布的“传送门：序曲 (Portal: Prelude)”RTX 版，请前往此处了解更多信息并下载。
+
+ 
+本周，“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将于 7 月 26 日登陆 PC 平台，这款游戏采用了 NVIDIA DLSS 3、NVIDIA DLAA、NVIDIA Reflex、光线追踪和 NVIDIA RTX IO 技术，为 GeForce RTX 玩家带来出色的 PC 游戏体验，包括更快的 PC 帧率、响应更灵敏的游戏体验和更高水平的细节。
+
+DLSS 也将应用于更多您喜爱的游戏中。今天，备受期待的“遗迹 2 ( Remnant II)”发布并支持 DLSS 2。此外，动作游戏“重生边缘 (SYNCED)”在其全新 RTXON 预告片中宣布游戏将于今夏发布，而“鸣潮 (Wuthering Waves)”也宣布将在发布时支持 DLSS 3。最后，广受欢迎的 DLSS 2 游戏“永劫无间 ( NARAKA: BLADEPOINT)”通过周年庆活动庆祝游戏两周年，并宣布该游戏转为免费游戏，吸引更多玩家加入游戏。
+
+有关所有详细信息和预告片，请继续阅读。
+
+瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”支持 RTX 技术
+广受好评的“瑞奇与叮当 (Ratchet & Clank)”系列将携“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”于明天首次登陆 PC 平台。Insomniac Games 的这款跨维度动作冒险平台游戏已由 Nixxes Software 移植到 PC 上，当玩家于 7 月 26 日点击“开始游戏”时，他们会发现游戏支持 NVIDIA DLSS 3、NVIDIA DLAA、NVIDIA Reflex 和 NVIDIA RTX IO。 得益于 GeForce RTX GPU 上的专用 RT Core，“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”的光线追踪阴影、环境光遮蔽和反射将在 GeForce RTX 硬件上以尽可能高的帧率运行。
+
+ 
+GeForce RTX 40 系列显卡和笔记本电脑可以通过 NVIDIA DLSS 3 实现性能倍增。在 4K 分辨率下，使用 GeForce RTX 4080 和 4090 显卡时，玩家在启用最高设置和全部光线追踪设置时，可以超过 140 FPS 的帧率畅玩游戏，获得出色的 PC 游戏体验。
+ 
+为提升游戏响应速度，所有 GeForce GTX 900 系列及以上型号的用户均可开启 NVIDIA Reflex，最多可将“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”的系统延迟降低 48%。每个动作都将更快地完成，帮助你完成棘手的跳跃并躲避敌人的攻击。
+
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”利用我们全新的 NVIDIA RTX IO GPU 加速存储技术。这一全新颠覆性的功能可以快速地加载资源，加速“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”的无缝跳跃游戏。请参阅我们的 NVIDIA RTX IO 发布文章了解更多信息。
+
+ 
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”广泛使用光线追踪反射来增强主要角色的外观及其科幻级别。在 PC 版中，其最高质量得到了提升，并且有多种质量设置供玩家选择，确保所有拥有光线追踪功能的硬件的玩家都可以体验到图像质量增强的视觉效果。
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)” PC 版本还在游戏中引入了光线追踪阴影，以便在游戏广阔、高细节的户外环境中提供身临其境的自然阴影。使用 GeForce RTX 系统，玩家可以在使用这些高保真效果的同时最大限度地提升性能，这要归功于 GeForce RTX GPU 上的专用 RT Core。
+新的 PC 版本还支持 21:9、32:9 和 48:9 分辨率以及三屏环绕。您可以通过该游戏提供的各种选项，以最适合自己风格的方式进行游戏，当在有线连接上使用 DualSense 控制器时，您可以通过触觉反馈和动态触发效果感受到游戏中的动作。
+
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将于 7 月 26 日在 PC 平台推出 - 立即加入愿望清单或预订，在 GeForce RTX PC 或笔记本电脑上体验所有这些令人惊叹的技术。游戏首发日即支持 NVIDIA DLSS 3、NVIDIA DLAA、NVIDIA Reflex、NVIDIA RTX IO 和光线追踪，GeForce RTX 玩家将享受出色的 PC 游戏体验。 在游戏发布之前，请务必下载并安装我们的“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)” Game Ready 驱动。
+
+“遗迹 2 ( Remnant II)”今日发布，并支持 DLSS 2
+Gunfire Games 开发的“遗迹 2 (Remnant II)”是畅销游戏“遗迹：灰烬重生 (Remnant: From the Ashes)”的续作。在本作中，人类幸存者将再次深陷可怕的世界，对抗新的邪恶怪物和神一般的敌人头目。孤军奋战，或者与两名朋友合作，探索未知的深处，阻止邪恶摧毁现实世界。若想取得成功，玩家必须依靠自己和团队的力量，完成最艰巨的挑战，让人类免于灭绝的命运。
+
+ 
+“遗迹 2 (Remnant II)”在今天（7 月 25 日）发布时即支持 DLSS 2，让您能够以超快流畅的游戏体验畅享高保真世界的视觉效果。
+“永劫无间 ( NARAKA: BLADEPOINT)”庆祝两周年，并转为免费游戏
+“永劫无间 ( NARAKA: BLADEPOINT)”由网易旗下“24 Entertainment工作室”开发的一款多人动作竞技游戏，玩家可以在游戏中舞利刃、端火枪，享受远近结合的华丽战斗。
+
+为了庆祝其两周年，即日起至8月8日，“永劫无间 ( NARAKA: BLADEPOINT)”正在举办一场特别的游戏内活动，其中包含好礼、折扣、限时奖励等。这一切都离不开最大的奖励：“永劫无间 ( NARAKA: BLADEPOINT)”已于7月14日永久免费，让更多的玩家能够体验这款游戏！
+
+ 
+新玩家加入战斗 - 请务必开启 NVIDIA DLSS 2 和 NVIDIA Reflex，以获得更快、响应更灵敏的“永劫无间 ( NARAKA: BLADEPOINT)”游戏体验，为您带来制胜优势。
+“重生边缘 (SYNCED)”将于今年夏天发布，支持 DLSS 3 和光线追踪
+由 NExT Studios 和 Level Infinite 推出的“重生边缘 (SYNCED)”是一款小队 Rogue 刷宝射击游戏。在高科技纳米技术引发世界末日的未来，玩家将扮演勇士，对抗致命的科技产物，设法清除子午线禁区内名为纳米体的怪物。
+
+ 
+今年夏天，“重生边缘 (SYNCED)”将在 Steam 和 Epic Game Store 正式推出，支持 NVIDIA DLSS 3、NVIDIA Reflex、光线追踪阴影和光线追踪反射，为 GeForce RTX 游戏玩家带来终极体验。查看上面的最新游戏预告片，并立即在 Steam 或 Epic Games Store 上添加愿望清单，以便收到“重生边缘 (SYNCED)”发布通知。
+“鸣潮 (Wuthering Waves)”将在发布时支持 NVIDIA DLSS 3
+由库洛游戏 (Kuro Games) 开发的“鸣潮 (Wuthering Waves)”是是一款开放世界动作 RPG 游戏，并将在全球范围内跨平台同步发行。它是一款画质达到次世代水准的二次元动作游戏、拥有高自由度的战斗玩法和丰富多样的叙事内容。玩家将作为经过漫长岁月沉睡之后苏醒的漂泊者，在《鸣潮》的广阔天地中展开冒险。
+ 
+当“鸣潮 (Wuthering Waves)”在 Windows PC 和笔记本电脑平台发布时，得益于可使性能实现倍增的 NVIDIA DLSS 3，GeForce RTX GPU 玩家可以获得出色的游戏体验。前往“鸣潮 (Wuthering Waves)” 哔哩哔哩官方账号观看更多游戏玩法，并了解有关故事的更多信息。
+欢迎下周再来查看最新消息，了解更多 RTX 游戏精彩内容
+如您所见，大量的最新游戏大作和独立游戏已经集成 DLSS。 欢迎下周再来查看下一批支持 DLSS 和 RTX 的游戏，前往此处查看超过 300 款 DLSS 游戏和应用的完整列表。

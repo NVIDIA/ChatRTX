@@ -1,0 +1,294 @@
+/*
+// SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+// SPDX-License-Identifier: MIT
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the "Software"),
+// to deal in the Software without restriction, including without limitation
+// the rights to use, copy, modify, merge, publish, distribute, sublicense,
+// and/or sell copies of the Software, and to permit persons to whom the
+// Software is furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+// FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+// DEALINGS IN THE SOFTWARE.
+*/
+
+footer {
+    display:none !important
+}
+
+.icon-button {
+    border-width: 0px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-width: 40px !important;
+    height: 40px !important;
+    img {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+.icon-button img {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.margin-8p {
+    margin: 8px !important;
+}
+
+.padding-8p {
+    padding: 8px;
+}
+
+.height-38p {
+    height: 38px;
+}
+
+.border-292929 {
+    border-color: #292929 !important
+}
+
+.height-40p {
+    height: 40px;
+}
+
+.margin-right-8p {
+    margin-right: 8px !important;
+}
+
+.margin-bottom-8p {
+    margin-bottom: 8px !important;
+}
+
+.margin-bottom-48p {
+    margin-bottom: 48px !important;
+}
+
+.description-secondary-markdown p {
+    color: rgba(255,255,255,.75) !important;
+}
+
+.description-secondary-markdown {
+    height: 22px !important;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.shutdown-group, .install-progress-group {
+    height: 700px;
+    justify-content: center;
+}
+
+.settings-page-group  {
+    height: 700px;
+}
+
+.chat-window {
+    height: 500px !important;
+    .message-row {
+        .message {
+            width: calc(100% - 44px) !important;
+        }
+    }
+    .message-row button {
+        cursor: default;
+    }
+}
+
+.dataset-column {
+    min-width: 500px !important;
+}
+
+.dataset-goup,
+.model-goup
+{
+    min-height: 166.5px !important;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #343434;
+    color: #e8e8e8;
+    padding: 5px;
+    display: none;
+    z-index: 999;
+    font-family: 'NVIDIA Sans';
+    font-size: var(--text-md);
+}
+
+.sample-question-button {
+    border: var(--button-border-width) solid rgb(94, 94, 94) !important;
+    font-size: var(--text-md) !important;
+    font-weight: 400 !important;
+    height: 42px !important;
+}
+
+.chat-disclaimer-message {
+    font-size: 12px !important;
+    text-align: center;
+}
+
+/* Global elements */
+a {
+    color: #76b900 !important;
+    text-decoration: none !important;
+}
+
+.progress-text {
+    display: none;
+}
+
+.mic-listen-border {
+    border: 1px solid #76B900 !important;
+}
+
+#chat_box_group {
+    flex-wrap: nowrap !important;
+}
+
+.model-name-install-progress {
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.intall-time-progress-text {
+    margin-top: -5px !important;
+}
+
+.add-model-accordion {
+    background: var(--border-color-primary);
+    border: 1px solid rgb(94, 94, 94) !important;
+}
+
+.model-name-markdown {
+    min-height: 40px !important;
+    height: 40px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: medium;
+    
+    p {
+        margin-bottom: 0px !important;
+    }
+}
+
+#download_model_button {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+}
+
+.model-info-text {
+    font-weight: lighter;
+    margin-top: 6px !important;
+}
+
+.timer.info {
+    background-color: #76B900 !important;
+}
+
+.chat-output-images {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+        border-radius: 0px !important;
+        min-height: 250px !important;
+        max-height: 250px !important;
+        max-width: unset !important;
+        object-fit: contain;
+    }
+
+    
+}
+
+[data-link] {
+    cursor: pointer;
+}
+
+.question-group {
+    flex-direction: column;
+    height: 500px !important;
+}
+
+.empty-div  {
+    height: 100%;
+}
+
+.model-info-text {
+    height: auto !important;
+    min-height: unset !important;
+    word-wrap: break-word;
+}
+
+.settings-page-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.settings-page-title-row {
+    border-bottom: 1px solid rgb(94, 94, 94) !important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.uninstall-model-row {
+    justify-content: start;
+    align-items: center;
+}
+
+.uninstall-model-name {
+    max-width: min(400px, 30vw);
+    justify-content: start;
+}
+
+.uninstall-model-size {
+    max-width: 72px;
+    width: 72px;
+    min-width: 72px;
+}
+
+.transparent-background-button {
+    background-color: transparent !important;
+
+    &:hover {
+        background-color: rgb(94, 94, 94) !important;
+    }
+
+    &:disabled:hover {
+        background-color: transparent !important;
+    }
+}
+
+.transparent-background-button-2 {
+    background-color: transparent !important;
+}
+
+.agreement-checkbox {
+    margin-top: 6px !important;
+}
+
+.ui-dropdown {
+    input {
+        margin: 10px !important;
+    }
+}

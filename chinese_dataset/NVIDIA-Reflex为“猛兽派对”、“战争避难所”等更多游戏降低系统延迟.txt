@@ -1,0 +1,42 @@
+NVIDIA Reflex 为“猛兽派对 (Party Animals)”、“战争避难所 (Warhaven)”等更多游戏降低系统延迟
+由 Andrew Burnes 发表于 2023年9月20日 | 精选故事G-SYNCGeForce RTX GPUNVIDIA ReflexNVIDIA RTX
+NVIDIA Reflex 是游戏的黄金搭档，可降低系统延迟，让玩家更迅速地作出反应，使其在多人游戏中更具竞争力，并且该技术能够让单人游戏拥有更快的响应速度、更加令人愉悦的体验。现在，每个月有超过 5000 万玩家使用 NVIDIA Reflex；在排名前 10 的竞技射击游戏中，有 9 款采用了 NVIDIA Reflex，其中包括“反恐精英 2 (Counter-Strike 2)”测试版；此外，在超过 70 款支持 NVIDIA Reflex 的游戏中，启用该技术的玩家达到了 90%。
+
+NVIDIA Reflex 是游戏出色响应速度的代名词，现已应用于多款最新游戏和热门游戏，包括本周推出的“猛兽派对 (Party Animals)”、“战争避难所 (Warhaven)”和“女巫之火 (Witchfire)”。 此外，由 Nexon 推出的“第一后裔 (The First Descendant)”在跨平台公测时也将支持该技术。
+
+本月，华硕还推出了首款支持 540Hz NVIDIA 超低动态模糊技术 2 的显示器。使用 ULMB2 时，可为您提供 2,160Hz 的有效动态清晰度，带来出色的竞技游戏体验。
+
+继续阅读以了解详情。
+
+“猛兽派对 (Party Animals)”今日发布，并支持 NVIDIA Reflex 和 DLSS 2
+在由 Recreate Games 开发的“猛兽派对 (Party Animals)”中，扮演小狗、小猫和其他可爱的动物和你的朋友对战。与你的朋友在线进行爪对爪对决。使用逼真的物理引擎在游戏世界中进行互动，并利用每个特定等级中的互动元素在每场大乱斗中取得胜利。
+当“猛兽派对 (Party Animals)”于今天 (9 月 20 日) 发布后，GeForce RTX 玩家可以通过 DLSS 2 提升性能并通过 NVIDIA Reflex 降低系统延迟，使您的小动物与在响应速度较慢的系统上运行的小动物相比，更具竞争优势。
+
+NVIDIA Reflex 降低了系统延迟，在 4K 分辨率并启用最高设置下，DLSS 2 可将性能提升至原来的 1.7 倍，使所有 GeForce RTX 玩家都能以惊人的速度和流畅的帧率击败对手：
+
+“第一后裔 (The First Descendant)”公测现已开启，并支持 Reflex 和 DLSS 3
+由 Nexon Games 推出的“第一后裔 (The First Descendant)”是一款以虚幻引擎 5 为基础，一款免费畅玩的第三人称合作射击动作类 RPG 游戏。玩家可通过 4 人合作、利用多样技能与枪械带来的豪爽战斗动感效果，体验炫酷战斗。领略壮观的故事情节，执行守护“英格里斯大陆”的任务，激战巨型 BOSS。
+ 
+从 9 月 19 日至 9 月 25 日，玩家可以参加“第一后裔 (The First Descendant)”跨平台公测，其中包含 13 个角色、9 次巨型 Boss 战以及海量其他内容。如果您在配备了 GeForce RTX GPU 的 PC 上玩游戏，GeForce RTX 40 系列游戏玩家可以借助 NVIDIA Reflex 和 NVIDIA DLSS 3 降低系统延迟，提升游戏响应速度并获享性能倍增的游戏体验，所有其他 GeForce RTX 游戏玩家都可以借助 NVIDIA DLSS 2 加速帧率。
+ 
+“战争避难所 (Warhaven)”今日发布，并支持 Relfex 和 DLSS 3
+NEXON Korea 开发的“战争避难所 (Warhaven)”现已发布，这是一款以中古世纪奇幻战场为背景的 16 人对战 16 人的第三人称动作游戏，由“野生之地：杜兰戈 (Durango: Wild Lands)”和“洛奇英雄传 (Vindictus)”的开发团队开发。玩家可以挑选趁手的近战武器，结合魔法要素，与敌人展开激烈的白刃战，并在战斗中积累功绩，变身成为具备强大力量的英雄，运用超自然的技能组合横扫战场，以前所未有的方式体验基于团队的剑与魔法游戏。
+ 
+“战争避难所 (Warhaven)”在首发日即支持 NVIDIA Reflex，在 4K 分辨率下最多可将系统延迟降低 46%，在多人战斗中为您提供出色的响应速度，借助 NVIDIA DLSS 3 让游戏性能更上一层楼。
+
+“女巫之火 (Witchfire)”今日开启抢先体验，并支持 Reflex 和 DLSS 3
+由 Astronauts 推出的“女巫之火 (Witchfire)”是一款黑暗奇幻的第一人称射击游戏，其创意灵感来自“斩妖除魔 (Painkiller)”、“子弹风暴 (Bulletstorm)”和“伊森卡特的消失 (The Vanishing of Ethan Carter)”。教会迫切希望赢得这场对抗女巫的致命战争，他们呼吁服刑的罪犯用异教魔法将自己武装起来，成为一名不朽的女巫猎人 (又称捕猎者)。玩家将装备上由梵蒂冈最好的巫师所打造的强力魔法和可怕的火器。此外，玩家的任务是找到臭名昭著的黑海女巫，摧毁保护她的幽灵军队，并找回能最终扭转战局的神秘遗物。
+ 
+与 The Astronauts 之前开发的“伊森卡特的消失 (The Vanishing of Ethan Carter)”一样，“女巫之火 (Witchfire)”使用摄影测量技术，在阴森的沉浸式黑暗幻想世界中实现令人惊叹的视觉效果。而在 GeForce RTX PC 和笔记本上，NVIDIA DLSS 3 可进一步加速游戏，在 4K 分辨率下 NVIDIA Reflex 最多可将系统延迟降低 57%，提高游戏响应速度。
+
+华硕 ROG Swift Pro PG248QP NVIDIA G-SYNC 超低动态模糊技术 2 显示器本月开售
+2015 年，NVIDIA 创造了超低动态模糊技术 (ULMB)，这是 G-SYNC 显示器的一项新技术，可在竞技游戏中提供更高的动态清晰度。 今年早些时候，我们推出了 NVIDIA G-SYNC 超低动态模糊技术 2 (ULMB 2)，其有效动态清晰度超过 1000 Hz，可为竞技游戏玩家带来出色的动态模糊消除效果。 与原始版本相比，ULMB 2 还提供全刷新率背光频闪、亮度提高近 2 倍，并且几乎没有串扰情况。
+
+本月，华硕将发布 ROG Swift Pro PG248QP 游戏显示器，这是首款采用 G-SYNC 超低动态模糊技术 2 的 540Hz 显示器。使用 ULMB2 时，可为您提供 2,160Hz 的有效动态清晰度，带来出色的竞技游戏体验。
+
+如需了解有关 G-SYNC 超低动态模糊技术 2 的更多信息，请查看我们的发布文章。 请继续关注华硕官网和社交媒体渠道，了解您所在地区的 ROG Swift Pro PG248QP 游戏显示器的供应情况。
+
+此外，宏碁 Predator XB273U F 27 英寸 1440p 360 Hz 和华硕 ROG Swift 360Hz PG27AQN 27 英寸 1440p 360 Hz ULMB 2 已经上市，具有超过 1000 Hz 的有效动态清晰度。
+
+更多精彩，敬请期待
+更多新款 NVIDIA Reflex 游戏、显示器和鼠标将会陆续推出，请持续关注 GeForce.cn，及时了解最新动态；如需查看目前支持 NVIDIA Reflex 的游戏和设备的完整列表，请访问我们的 NVIDIA Reflex 专题页面。

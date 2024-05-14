@@ -1,0 +1,44 @@
+NVIDIA Reflex 可最多将“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”的系统延迟降低 48%
+由 Andrew Burnes 发表于 2023年7月25日 | 精选故事GeForce RTX GPUNVIDIA Reflex
+NVIDIA Reflex 是游戏的黄金搭档，可降低系统延迟，让玩家更迅速地作出反应，使其在多人游戏中更具竞争力，并且该技术能够让单人游戏拥有更快的响应速度、更加令人愉悦的体验。现在，每个月有超过 5000 万玩家使用 NVIDIA Reflex；在排名前 10 的竞技射击类游戏中，有 9 款采用了 NVIDIA Reflex，其中包括“反恐精英 2 (Counter-Strike 2)”测试版；此外，在超过 70 款支持 NVIDIA Reflex 的游戏中，启用该技术的 GeForce 玩家达到了 90%。
+
+NVIDIA Reflex 是游戏出色响应速度的代名词，现已应用于多款最新游戏和热门游戏，包括“传送门：序曲 ( Portal: Prelude)”RTX 版、“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”和即将推出的“守望先锋 归来：入侵 ( Overwatch 2: Invasion)”更新。
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将于 7 月 26 日发布，支持 NVIDIA Reflex、DLSS 3、RTX IO 和光线追踪技术
+广受好评的“瑞奇与叮当 (Ratchet & Clank)”系列将携“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”于明天首次登陆 PC 平台。Insomniac Games 的这款跨维度动作冒险平台游戏已由 Nixxes Software 移植到 PC 上，当玩家于 7 月 26 日点击“开始游戏”时，他们会发现游戏支持 NVIDIA DLSS 3、NVIDIA DLAA、NVIDIA Reflex 和 NVIDIA RTX IO。 得益于 GeForce RTX GPU 上的专用 RT Core，“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”的光线追踪阴影、环境光遮蔽和反射将在 GeForce RTX 硬件上以尽可能高的帧率运行。
+ 
+为提升游戏响应速度，所有 GeForce GTX 900 系列及以上型号的用户均可开启 NVIDIA Reflex，最多可将“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”的系统延迟降低 48%。每个动作都将更快地完成，帮助你完成棘手的跳跃并躲避敌人的攻击。
+
+GeForce RTX 40 系列显卡和笔记本电脑可以通过 NVIDIA DLSS 3 实现性能倍增。在 4K 分辨率下，使用 GeForce RTX 4080 和 4090 显卡时，玩家在启用最高设置和全部光线追踪设置时，可以超过 140 FPS 的帧率畅玩游戏，获得出色的 PC 游戏体验。
+
+ 
+新的 PC 版本还支持 21:9、32:9 和 48:9 分辨率以及三屏环绕。您可以通过该游戏提供的各种选项，以最适合自己风格的方式进行游戏，当在有线连接上使用 DualSense 控制器时，您可以通过触觉反馈和动态触发效果感受到游戏中的动作。
+
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将于 7 月 26 日在 PC 平台推出 - 立即加入愿望清单或预订，在 GeForce RTX PC 或笔记本电脑上体验所有这些令人惊叹的技术。游戏首发日即支持 NVIDIA DLSS 3、NVIDIA DLAA、NVIDIA Reflex、NVIDIA RTX IO 和光线追踪，GeForce RTX 玩家将享受出色的 PC 游戏体验。 在游戏发布之前，请务必下载并安装我们的“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)” Game Ready 驱动。
+
+ratchet-and-clank-rift-apart-geforce-game-ready-driver-download-now
+“传送门：序曲 ( Portal: Prelude)”RTX 版现已免费发布！
+“传送门 (Portal)”是玩家心目中的经典；去年 12 月，我们发布了基于 Valve 获奖游戏重构的游戏“传送门 RTX 版 (Portal with RTX)”，支持全景光线追踪，并由 NVIDIA DLSS 3 提供性能提升，在实时游戏中实现了逼真的路径追踪光照。现在，“传送门：序曲 (Portal: Prelude)”RTX 版是一款采用相同技术重制的免费 Mod，支持全景光线追踪（路径追踪）图形效果、DLSS 3 和我们全新的 NVIDIA RTX IO GPU 加速存储技术。
+
+“传送门：序曲 (Portal: Prelude)”是一款高分“传送门 (Portal)” Mod、它是 2008 年 Portal ModDB 获胜者以及 2008 年 Player’s Choice Mod 第三名。由 Nicolas “NykO18” Grevet 等人创建的“传送门：序曲 (Portal: Prelude)”是一款非官方传送门前传，背景设定在 GLaDOS 时代之前，具有全新的极具挑战性的 8-10 小时游戏体验，其中包括 19 个全新实验室、新的高级游戏机制、长达 400 多行的全程 NPC 语音对话，以及更多其他內容。
+
+“传送门：序曲 (Portal: Prelude)”RTX 版现已上线，“传送门 (Portal)”玩家可以免费下载。安装我们最新的 Game Ready 驱动，从 Steam 下载“传送门：序曲 (Portal: Prelude)”RTX 版，获得超凡游戏体验。开启 Reflex 后，系统延迟会大幅降低，帮助您解决“传送门：序曲 ( Portal: Prelude)”RTX 版中最棘手的谜题和实验室。
+
+ 
+如需了解更多信息以及 RTX ON-OFF 对比截图，请参阅我们的“传送门：序曲 (Portal: Prelude)”RTX 版发布文章。
+“守望先锋 归来：入侵 ( Overwatch 2: Invasion)”将于 8 月 10 日开启
+“守望先锋：归来 (Overwatch 2)”是暴雪始终在线且不断发展的免费团队动作游戏，游戏设定在乐观的未来，每场比赛都是终极 5v5 战场乱斗。想要在每场战斗中解锁终极图形体验，请升级到 GeForce RTX 40 系列显卡或 PC，以获得领先的性能和 NVIDIA Reflex 提供的出色响应速度。
+
+8 月 10 日，入侵开始！在三个合作剧情任务中进行反击，通过 Hero Mastery 模式磨练你的技能，使用新支援型英雄玩 PvP，并升级新的战斗通行证 (Battle Pass) 以解锁新皮肤和装扮。这是“守望先锋：归来 (Overwatch 2)”迄今为止最大的赛季更新！
+
+ 
+为了在“入侵”期间获得出色游戏体验，请确保使用 GeForce RTX 40 系列 GPU 进行游戏，系统延迟可低至 9 毫秒，帧率可达到超过 360 FPS，从而获得更快、更流畅、响应更出色的游戏体验。
+
+“无畏契约 (VALORANT)”国服已正式开启公测，Reflex 最多可将系统延迟降低 35%
+“无畏契约 (VALORANT)”是由“拳头游戏 (Riot Games)”开发的一款 5v5 英雄战术射击游戏，具有高保真枪战、多样化的武器道具、拥有独特技能的特工，以及为竞技而设计的场景地图，可供玩家进行数千小时的游戏。
+
+“无畏契约 (VALORANT)”是一款免费游戏，经过优化可在各种 PC 硬件上运行，让全球玩家都能参与竞技。现在，随着“无畏契约 ( VALORANT)”国服的正式推出，受众范围也在不断扩大。
+
+ 
+“无畏契约 (VALORANT)”国际服的最新更新：第七幕第一章引入了团队死亡竞赛模式、新角色蒂罗和新的进度系统。 在 GeForce RTX 40 系列 GPU 上开启 NVIDIA Reflex，可以提升您在任何模式下的响应速度，几乎没有延迟，并且保持出色性能，使您能够以清晰度最高的方式看到最佳的操作。
+更多精彩，敬请期待
+更多新款 NVIDIA Reflex 游戏、显示器和鼠标将会陆续推出，请持续关注 GeForce.cn，及时了解最新动态；如需查看目前支持 NVIDIA Reflex 的游戏和设备的完整列表，请访问我们的 NVIDIA Reflex 专题页面。

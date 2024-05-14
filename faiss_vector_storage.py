@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright (c) 2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-FileCopyrightText: Copyright (c) 2023-2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a
@@ -18,41 +18,82 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
-
-import faiss, os
+import faiss
+import os
+import shutil
+import gc
+import torch
 from llama_index.vector_stores import FaissVectorStore
 from llama_index import VectorStoreIndex, SimpleDirectoryReader, Document
 from llama_index import StorageContext, load_index_from_storage
-from llama_index.vector_stores.simple import SimpleVectorStore
-from llama_index.storage.docstore.simple_docstore import SimpleDocumentStore
-from llama_index.storage.index_store.simple_index_store import SimpleIndexStore
-
 
 class FaissEmbeddingStorage:
-
-    def __init__(self, data_dir, dimension=384):
+    def __init__(self, data_dir, dimension):
         self.d = dimension
         self.data_dir = data_dir
-        self.index = self.initialize_index()
+        self.engine = None
+        self.persist_dir = f"{self.data_dir}_vector_embedding"
 
-    def initialize_index(self):
-        if os.path.exists("storage-default") and os.listdir("storage-default"):
-            print("Using the persisted value")
-            vector_store = FaissVectorStore.from_persist_dir("storage-default")
+    def initialize_index(self, force_rewrite=False):
+        # Check if the persist directory exists and delete it if force_rewrite is true
+        if force_rewrite and os.path.exists(self.persist_dir):
+            print("Deleting existing directory for a fresh start.")
+            self.delete_persist_dir()
+
+        if os.path.exists(self.persist_dir) and os.listdir(self.persist_dir):
+            print("Using the persisted value form " + self.persist_dir)
+            vector_store = FaissVectorStore.from_persist_dir(self.persist_dir)
             storage_context = StorageContext.from_defaults(
-                vector_store=vector_store, persist_dir="storage-default"
+                vector_store=vector_store, persist_dir=self.persist_dir
             )
-            index = load_index_from_storage(storage_context=storage_context)
-            return index
+            self.index = load_index_from_storage(storage_context=storage_context)
         else:
-            print("generating new values")
-            documents = SimpleDirectoryReader(self.data_dir).load_data()
+            print("Generating new values")
+            torch.cuda.empty_cache()
+            gc.collect()
+            try:
+                if os.path.exists(self.data_dir) and os.listdir(self.data_dir):
+                    file_metadata = lambda x: {"filename": x}
+                    documents = SimpleDirectoryReader(self.data_dir, file_metadata=file_metadata,
+                                                    recursive=True, required_exts= [".pdf", ".doc", ".docx", ".txt", ".xml"]).load_data()
+                else:
+                    print("No files found in the directory. Initializing an empty index.")
+                    documents = []
+            except Exception as e:
+                 documents = []
+                 print(f"Error occurred while initializing index: {str(e)}")
             faiss_index = faiss.IndexFlatL2(self.d)
+            #faiss_index = faiss.IndexFlatIP(self.d)
             vector_store = FaissVectorStore(faiss_index=faiss_index)
             storage_context = StorageContext.from_defaults(vector_store=vector_store)
-            index = VectorStoreIndex.from_documents(documents, storage_context=storage_context)
-            index.storage_context.persist(persist_dir = "storage-default")
-            return index
+            index = VectorStoreIndex.from_documents(documents, storage_context=storage_context ,show_progress = True)
+            index.storage_context.persist(persist_dir=self.persist_dir)
+            self.index = index
+            torch.cuda.empty_cache()
+            gc.collect()
 
-    def get_query_engine(self):
-        return self.index.as_query_engine()
+    def delete_persist_dir(self):
+        if os.path.exists(self.persist_dir) and os.path.isdir(self.persist_dir):
+            try:
+                shutil.rmtree(self.persist_dir)
+            except Exception as e:
+                print(f"Error occurred while deleting directory: {str(e)}")
+
+    def get_engine(self,is_chat_engine ,streaming , similarity_top_k):
+
+        if is_chat_engine == True:
+            self.engine = self.index.as_chat_engine(
+                chat_mode="condense_question",
+                streaming=streaming,
+                similarity_top_k = similarity_top_k
+            )
+        else:
+            query_engine = self.index.as_query_engine(
+                streaming=streaming,
+                similarity_top_k = similarity_top_k,
+            )
+            self.engine = query_engine
+        return self.engine
+
+    def reset_engine(self, engine):
+        engine.reset()
