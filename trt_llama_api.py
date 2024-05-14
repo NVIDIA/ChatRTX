@@ -96,6 +96,29 @@ class TrtLlmAPI(CustomLLM):
             model_kwargs: Optional[Dict[str, Any]] = None,
             verbose: bool = False
     ) -> None:
+        """        Initialize the object with the provided parameters.
+
+        Args:
+            model_path (Optional[str]): Path to the model.
+            engine_name (Optional[str]): Name of the engine.
+            tokenizer_dir (Optional[str]): Directory of the tokenizer.
+            temperature (float): Temperature for token generation.
+            max_new_tokens (int): Maximum number of new tokens to generate.
+            context_window (int): Context window size.
+            messages_to_prompt (Optional[Callable]): Function for prompting messages.
+            completion_to_prompt (Optional[Callable]): Function for prompting completions.
+            callback_manager (Optional[CallbackManager]): Manager for callbacks.
+            generate_kwargs (Optional[Dict[str, Any]]): Additional keyword arguments for generation.
+            model_kwargs (Optional[Dict[str, Any]]): Additional keyword arguments for the model.
+            verbose (bool): Verbosity flag.
+
+        Raises:
+            ValueError: If the provided model path does not exist.
+
+        Note:
+            The function initializes the object with the provided parameters and sets up the model configuration, tokenizer, and sampling configuration.
+        """
+
 
         model_kwargs = model_kwargs or {}
         model_kwargs.update({"n_ctx": context_window, "verbose": verbose})
@@ -191,12 +214,22 @@ class TrtLlmAPI(CustomLLM):
 
     @classmethod
     def class_name(cls) -> str:
-        """Get class name."""
+        """        Get the name of the class.
+
+        This function returns the name of the class as a string.
+
+        Returns:
+            str: The name of the class.
+        """
         return "TrtLlmAPI"
 
     @property
     def metadata(self) -> LLMMetadata:
-        """LLM metadata."""
+        """        Return LLM metadata.
+
+        Returns:
+            LLMMetadata: An instance of LLMMetadata containing context_window, num_output, and model_name.
+        """
         return LLMMetadata(
             context_window=self.context_window,
             num_output=self.max_new_tokens,
@@ -205,12 +238,33 @@ class TrtLlmAPI(CustomLLM):
 
     @llm_chat_callback()
     def chat(self, messages: Sequence[ChatMessage], **kwargs: Any) -> ChatResponse:
+        """        Generate a chat response based on the input messages.
+
+        Args:
+            messages (Sequence[ChatMessage]): The input messages for the chat.
+            **kwargs (Any): Additional keyword arguments for customization.
+
+        Returns:
+            ChatResponse: The response generated based on the input messages.
+                This function takes a sequence of ChatMessage objects as input and generates a chat response based on these messages. It uses the messages to prompt the chat, completes the prompt, and then converts the completion response to a ChatResponse.
+        """
+
         prompt = self.messages_to_prompt(messages)
         completion_response = self.complete(prompt, formatted=True, **kwargs)
         return completion_response_to_chat_response(completion_response)
 
     @llm_completion_callback()
     def complete(self, prompt: str, **kwargs: Any) -> CompletionResponse:
+        """        Generate completion for the given prompt.
+
+        Args:
+            prompt (str): The input prompt for which completion needs to be generated.
+            **kwargs (Any): Additional keyword arguments.
+
+        Returns:
+            CompletionResponse: The response object containing the completion text and raw completion dictionary.
+        """
+
         self.generate_kwargs.update({"stream": False})
 
         is_formatted = kwargs.pop("formatted", False)
@@ -255,6 +309,18 @@ class TrtLlmAPI(CustomLLM):
 
     def parse_input(self, input_text: str, tokenizer, end_id: int,
                     remove_input_padding: bool):
+        """        Parse the input text using the provided tokenizer and return the input ids and input lengths.
+
+        Args:
+            input_text (str): The input text to be tokenized.
+            tokenizer: The tokenizer object to encode the input text.
+            end_id (int): The end id for padding the input tokens.
+            remove_input_padding (bool): A flag indicating whether to remove input padding.
+
+        Returns:
+            tuple: A tuple containing the input ids and input lengths.
+        """
+
         input_tokens = []
 
         input_tokens.append(
@@ -275,6 +341,18 @@ class TrtLlmAPI(CustomLLM):
         return input_ids, input_lengths
 
     def remove_extra_eos_ids(self, outputs):
+        """        Remove extra end-of-sequence (EOS) IDs from the outputs.
+
+        This function reverses the 'outputs' list, removes any leading EOS IDs (value 2), and then reverses the list back.
+        Finally, it appends an EOS ID to the end of the 'outputs' list.
+
+        Args:
+            outputs (list): The list of output IDs.
+
+        Returns:
+            list: The modified 'outputs' list with extra EOS IDs removed and an additional EOS ID appended.
+        """
+
         outputs.reverse()
         while outputs and outputs[0] == 2:
             outputs.pop(0)
@@ -283,6 +361,21 @@ class TrtLlmAPI(CustomLLM):
         return outputs
 
     def get_output(self, output_ids, input_lengths, max_output_len, tokenizer):
+        """        Generate the output text based on the given output_ids, input_lengths, max_output_len, and tokenizer.
+
+        Args:
+            output_ids (Tensor): The output ids generated by the model.
+            input_lengths (Tensor): The lengths of the input sequences.
+            max_output_len (int): The maximum length of the output text.
+            tokenizer (Tokenizer): The tokenizer used to decode the output ids.
+
+        Returns:
+            output_text (str): The decoded output text.
+            outputs (list): The list of output ids after removing extra eos ids.
+            This function iterates through the input lengths and generates the output text based on the given parameters.
+            It decodes the output ids using the provided tokenizer and returns the decoded output text along with the list of output ids.
+        """
+
         num_beams = output_ids.size(1)
         output_text = ""
         outputs = None
@@ -297,10 +390,13 @@ class TrtLlmAPI(CustomLLM):
         return output_text, outputs
 
     def generate_completion_dict(self, text_str):
-        """
-        Generate a dictionary for text completion details.
+        """        Generate a dictionary for text completion details.
+
+        Args:
+            text_str (str): The input text for which completion details are to be generated.
+
         Returns:
-        dict: A dictionary containing completion details.
+            dict: A dictionary containing completion details, including completion ID, creation time, model name, and text choices.
         """
         completion_id: str = f"cmpl-{str(uuid.uuid4())}"
         created: int = int(time.time())
@@ -327,4 +423,14 @@ class TrtLlmAPI(CustomLLM):
 
     @llm_completion_callback()
     def stream_complete(self, prompt: str, **kwargs: Any) -> CompletionResponse:
+        """        Complete the stream based on the given prompt.
+
+        Args:
+            prompt (str): The prompt for which the stream needs to be completed.
+            **kwargs: Additional keyword arguments.
+
+        Returns:
+            CompletionResponse: The response containing the completed stream.
+        """
+
         pass

@@ -31,11 +31,28 @@ from llama_index.storage.index_store.simple_index_store import SimpleIndexStore
 class FaissEmbeddingStorage:
 
     def __init__(self, data_dir, dimension=384):
+        """        Initialize the object with the given data directory and dimension.
+
+        Args:
+            data_dir (str): The directory path where the data is located.
+            dimension (int?): The dimension size. Defaults to 384.
+        """
+
         self.d = dimension
         self.data_dir = data_dir
         self.index = self.initialize_index()
 
     def initialize_index(self):
+        """        Initialize the index for vector storage.
+
+        If the "storage-default" directory exists and is not empty, the function loads the index from the persisted storage
+        and returns it. If the directory does not exist or is empty, the function generates new values, creates a new index,
+        and persists it in the "storage-default" directory.
+
+        Returns:
+            VectorStoreIndex: The initialized or loaded vector store index.
+        """
+
         if os.path.exists("storage-default") and os.listdir("storage-default"):
             print("Using the persisted value")
             vector_store = FaissVectorStore.from_persist_dir("storage-default")
@@ -55,4 +72,12 @@ class FaissEmbeddingStorage:
             return index
 
     def get_query_engine(self):
+        """        Returns a query engine for the index.
+
+        This method returns a query engine for the index, allowing for efficient querying of the data stored in the index.
+
+        Returns:
+            QueryEngine: A query engine for the index.
+        """
+
         return self.index.as_query_engine()
