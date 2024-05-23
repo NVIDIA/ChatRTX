@@ -2,7 +2,7 @@ ctransformers==0.2.26
 Flask==2.2.5
 flask-marshmallow==0.15.0
 Flask-Migrate==4.0.4
-gradio==3.43.0
+gradio==4.11.0
 langchain==0.0.312
 langsmith==0.0.43
 llama-index==0.8.33
