@@ -4,8 +4,7 @@
 <img src="https://gitlab-master.nvidia.com/winai/trt-llm-rag-windows/-/raw/main/media/rag-demo.gif"  align="center">
 </p>
 
-ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, photos. Leveraging retrieval-augmented generation (RAG), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), and RTX acceleration, you can query a custom chatbot to quickly get contextually relevant answers. This app also lets you give query through your voice and lets you retreive images matching your voice or text input. And because it all runs locally on your Windows RTX PC or workstation, you’ll get fast and secure results.
-ChatRTX supports various file formats, including text, pdf, doc/docx, xml, png, jpg, bmp. Simply point the application at the folder containing your files and it'll load them into the library in a matter of seconds.
+ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, photos. Leveraging retrieval-augmented generation (RAG), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), and RTX acceleration, you can query a custom chatbot to quickly get contextually relevant answers. This app also lets you give queries through your voice and retrieve images matching your voice or text input. And because it all runs locally on your Windows RTX PC or workstation, you’ll get fast and secure results. ChatRTX supports various file formats, including text, pdf, doc/docx, xml, png, jpg, bmp. Simply point the application at the folder containing your files, and it'll load them into the library in a matter of seconds.
 
 The AI models that are supported in this app:
 - LLaMa 2 13B
@@ -14,15 +13,14 @@ The AI models that are supported in this app:
 - Whisper Medium (for supporting voice input)
 - CLIP (for images)
 
-The pipeline incorporates the above AI models, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), [LlamaIndex](https://www.llamaindex.ai/) and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. In the sample application here, we have a dataset consists of recent articles sourced from [NVIDIA Gefore News](https://www.nvidia.com/en-us/geforce/news/).
-
+The pipeline incorporates the above AI models, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [LlamaIndex](https://www.llamaindex.ai/), and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. In the sample application here, we have a dataset consisting of recent articles sourced from [NVIDIA GeForce News](https://www.nvidia.com/en-us/geforce/news/).
 
 ### What is RAG? 🔍
 Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to enhance prediction accuracy by connecting the LLM to your data during inference. This approach constructs a comprehensive prompt enriched with context, historical data, and recent or relevant knowledge.
 
 ## Getting Started
 
-### Hardware requirement
+### Hardware Requirements
 - ChatRTX is currently built for RTX 3xxx and RTX 4xxx series GPUs that have at least 8GB of GPU memory.
 - 50 GB of available hard disk space
 - Windows 10/11
@@ -30,40 +28,39 @@ Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to e
 
 ### Installer
 
-If you are using [ChatRTX installer](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/), setup of the models selected during installation is done by the installer. You can skip the insatllation steps below, launch the installed 'NVIDIA ChatRTX' desktop icon, and refer to the [Use additional model](#use-additional-model) section to add additional models.
+If you are using the [ChatRTX installer](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/), setup of the models selected during installation is done by the installer. You can skip the installation steps below, launch the installed 'NVIDIA ChatRTX' desktop icon, and refer to the [Use additional model](#use-additional-model) section to add additional models.
 
 ### Install Prerequisites
 
-
 1. Install [Python 3.10.11](https://www.python.org/downloads/windows/) or create a virtual environment. 
     
-    - create your virtual environment (recommended)
+    - Create your virtual environment (recommended)
 
     ```
     python3.10 -m venv ChatRTX
     ```
 
-    - activate your environment
+    - Activate your environment
 
     ```
     ChatRTX\Scripts\activate
     ```
 
-    You can also use conda to create your virtual environment (optional)
+    You can also use conda to create your virtual environment (optional).
 
-    - create conda environment 
+    - Create conda environment 
 
     ```
     conda create -n chatrtx_env python=3.10
     ```
 
-    - activate your conda environment
+    - Activate your conda environment
 
     ```
     conda activate chatrtx_env
     ```
 
-2. Clone ChatRTX code repo into a local dir (%ChatRTX Folder%) using [Git for Windows](https://git-scm.com/download/win), and install necessary dependencies. This directory will be the root directory for this guide. 
+2. Clone the ChatRTX code repo into a local dir (%ChatRTX Folder%) using [Git for Windows](https://git-scm.com/download/win), and install necessary dependencies. This directory will be the root directory for this guide. 
     ```
     git clone https://github.com/NVIDIA/trt-llm-rag-windows.git
     cd trt-llm-rag-windows # root dir
@@ -78,7 +75,7 @@ If you are using [ChatRTX installer](https://www.nvidia.com/en-us/ai-on-rtx/chat
     pip install tensorrt_llm-0.9.0-cp310-cp310-win_amd64.whl --extra-index-url https://pypi.nvidia.com --extra-index-url https://download.pytorch.org/whl/cu121
     ```
 
-4. Download 'ngcsdk-3.41.2-py3-none-any.whl' from [here](https://catalog.canary.ngc.nvidia.com/orgs/nvidia/teams/ngc-apps/resources/ngc_sdk/files?version=3.41.2) and install it using the command below. This enables us to downloads from NGC:
+4. Download 'ngcsdk-3.41.2-py3-none-any.whl' from [here](https://catalog.canary.ngc.nvidia.com/orgs/nvidia/teams/ngc-apps/resources/ngc_sdk/files?version=3.41.2) and install it using the command below. This enables us to download from NGC:
     ```
     pip install .\ngcsdk-3.41.2-py3-none-any.whl
     ```
@@ -100,7 +97,7 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
     mkdir engine model_checkpoints tokenizer
     ```
 
-2. Download tokenizer files in model/mistral_model/tokenizer direcotry
+2. Download tokenizer files in the model/mistral_model/tokenizer directory
 
     ``` 
     cd model/mistral_model/tokenizer
@@ -110,7 +107,6 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
     "C:\Windows\System32\curl.exe" -L -o tokenizer.json "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=mistral7b_hf_tokenizer/tokenizer.json"
     "C:\Windows\System32\curl.exe" -L -o tokenizer.model "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=mistral7b_hf_tokenizer/tokenizer.model"
     "C:\Windows\System32\curl.exe" -L -o tokenizer_config.json "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=mistral7b_hf_tokenizer/tokenizer_config.json"
-
     ```
 
 3. Download Mistral awq int4 engine checkpoints in model/mistral_model/model_checkpoints folder
@@ -118,15 +114,14 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
     ```
     cd model/mistral_model/model_checkpoints
 
-    #Use curl to download the model checkpoint files files
+    #Use curl to download the model checkpoint files
     "C:\Windows\System32\curl.exe" -L -o config.json "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=config.json"
-	"C:\Windows\System32\curl.exe" -L -o license.txt "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=license.txt"
-	"C:\Windows\System32\curl.exe" -L -o rank0.safetensors "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=rank0.safetensors"
-	"C:\Windows\System32\curl.exe" -L -o README.txt "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=README.txt"
-   
+    "C:\Windows\System32\curl.exe" -L -o license.txt "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=license.txt"
+    "C:\Windows\System32\curl.exe" -L -o rank0.safetensors "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=rank0.safetensors"
+    "C:\Windows\System32\curl.exe" -L -o README.txt "https://api.ngc.nvidia.com/v2/models/org/nvidia/team/llama/mistral-7b-int4-chat/1.2/files?redirect=true&path=README.txt"
     ```
 
-3. Build the Mistral TRT-LLM int4 AWQ Engine 
+4. Build the Mistral TRT-LLM int4 AWQ Engine 
 
     ``` 
     #inside the root directory
@@ -136,13 +131,12 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
     We use the following directories that we previously created for the build command:
     | Name | Details |
     | ------ | ------ |
-    | --checkpoint_dir | TRT-LLM checkpoints direcotry |
-    | --output_dir | TRT-LLM engine direcotry | 
-
+    | --checkpoint_dir | TRT-LLM checkpoints directory |
+    | --output_dir | TRT-LLM engine directory | 
 
     Refer to the [TRT-LLM repository](https://github.com/NVIDIA/TensorRT-LLM) to learn more about the various commands and parameters.
 
-### Setup Whisper medium INT8 model
+### Setup Whisper Medium INT8 model
 
 1. Create the directories to store the Whisper model
 
@@ -169,73 +163,69 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
 3. Build command
 
     ``` 
-    # call command form root_dir
+    # call command from root_dir
     python .\whisper\build_files\build.py --output_dir .\model\whisper\whisper_medium_int8_engine --use_gpt_attention_plugin --use_gemm_plugin --use_bert_attention_plugin --enable_context_fmha --max_batch_size 1 --max_beam_width 1 --model_name medium --use_weight_only --model_dir .\model\whisper\whisper_assets
     ```
 
     We use the following directories that we previously created for the build command:
     | Name | Details |
     | ------ | ------ |
-    | --checkpoint_dir | TRT-LLM checkpoints direcotry |
-    | --output_dir | TRT-LLM engine direcotry | 
-
+    | --checkpoint_dir | TRT-LLM checkpoints directory |
+    | --output_dir | TRT-LLM engine directory | 
 
     Refer to the [TRT-LLM repository](https://github.com/NVIDIA/TensorRT-LLM) to learn more about the various commands and parameters.
 
-### Get Embedding Model: 
+### Get Embedding Model
 
-1. Make the below direcotry structure in model folder 
+1. Make the below directory structure in model folder 
 
     ``` 
     cd model
     mkdir multilingual-e5-base
     ```
 
-2. Download the below 'multilingual-e5-base' embedding model file from [here](https://huggingface.co/intfloat/multilingual-e5-base/tree/d13f1b27baf31030b7fd040960d60d909913633f) 
+2. Download the 'multilingual-e5-base' embedding model files from [here](https://huggingface.co/intfloat/multilingual-e5-base/tree/d13f1b27baf31030b7fd040960d60d909913633f) 
 
-    files to download: 1_Pooling/config.json, commit.txt, config.json, model.safetensors, modules.json, README.md, sentence_bert_config.json, sentencepiece.bpe.model, special_tokens_map.json, tokenizer.json, tokenizer_config.json
+    Files to download: 1_Pooling/config.json, commit.txt, config.json, model.safetensors, modules.json, README.md, sentence_bert_config.json, sentencepiece.bpe.model, special_tokens_map.json, tokenizer.json, tokenizer_config.json
 
-
-Building above two models are sufficient to run the app. Other models can be downloaded and built after running the app.
+Building the above two models is sufficient to run the app. Other models can be downloaded and built after running the app.
 
 ## Deploying the App
 
-- ### Run App
-Running below commands would launch the UI of app in your browser
+### Run App
+Running the below commands will launch the UI of the app in your browser
     
     ``` 
-    # call command form root_dir
+    # call command from root_dir
 
     python verify_install.py
 
     python app.py
-
     ``` 
-You can refer to [User Guide](https://nvidia.custhelp.com/app/answers/detail/a_id/5542/~/nvidia-chatrtx-user-guide) for additional information on using the app.
 
-- ### Use additional model
-1. In the app UI that gets launched in browser after running app.py, click on 'Add new models' in the 'AI model' section.
-2. Select the model from drop down list, read the model license and check the box of 'License'
-3. Click on 'Download models' icon to start the download of model files in the background.
-4. After downloading finishes, click on the newly appearing button 'Install'. This will build the TRT LLM engine files if necessary.
-5. The installed model will now show up in the 'Select AI model' drop down list.
+You can refer to the [User Guide](https://nvidia.custhelp.com/app/answers/detail/a_id/5542/~/nvidia-chatrtx-user-guide) for additional information on using the app.
 
-- ### Deleting model
-In case any model is not needed, model can be removed by:
+### Use Additional Model
+1. In the app UI that gets launched in the browser after running app.py, click on 'Add new models' in the 'AI model' section.
+2. Select the model from the drop-down list, read the model license, and check the 'License' box.
+3. Click on the 'Download models' icon to start the download of model files in the background.
+4. After the download finishes, click on the newly appearing 'Install' button. This will build the TRT LLM engine files if necessary.
+5. The installed model will now show up in the 'Select AI model' drop-down list.
+
+### Deleting Model
+In case any model is not needed, it can be removed by:
 1. Clicking on the gear icon on the top right of the UI.
-2. Clicking on 'Delete AI model' icon adjacent to the model name.
+2. Clicking on the 'Delete AI model' icon adjacent to the model name.
 
-## Using your own data
-- By default this app loads data from the dataset/ directory into the vector store. To use your own data select the folder in the 'Dataset' section of UI.
+## Using Your Own Data
+- By default, this app loads data from the dataset/ directory into the vector store. To use your own data, select the folder in the 'Dataset' section of the UI.
 
 ## Known Issues and Limitations
 
 The following known issues exist in the current version:
-- The app currently works with Microsoft Edge and Google Chrome browsers.  Due to a bug, the application does not work with FireFox browser.
-- The app does not remember context. This means follow up questions  will not be answered based on the context of the previous questions. For example, if you previously asked “What is the price of the RTX 4080 Super?” and follow that up with “What are its hardware specifications?”, the app will not know that you are asking about the RTX 4080 Super.
+- The app currently works with Microsoft Edge and Google Chrome browsers. Due to a bug, the application does not work with the Firefox browser.
+- The app does not remember context. This means follow-up questions will not be answered based on the context of the previous questions. For example, if you previously asked “What is the price of the RTX 4080 Super?” followed by “What are its hardware specifications?”, the app will not know that you are asking about the RTX 4080 Super.
 - The source file attribution in the response is not always correct.
-- Unlikely case where the app gets stuck in an unusable state that cannot be resolved by restarting, could often be fixed by deleting the preferences.json file (by default located at C:\Users\<user>\AppData\Local\NVIDIA\ChatRTX\RAG\trt-llm-rag-windows-main\config\preferences.json) and restarting.
-
-
+- In the unlikely case where the app gets stuck in an unusable state that cannot be resolved by restarting, it can often be fixed by deleting the preferences.json file (by default located at C:\Users\<user>\AppData\Local\NVIDIA\ChatRTX\RAG\trt-llm-rag-windows-main\config\preferences.json) and restarting.
 
 This project will download and install additional third-party open source software projects. Review the license terms of these open source projects before use.
