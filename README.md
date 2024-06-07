@@ -14,7 +14,7 @@ The AI models that are supported in this app:
 - Whisper Medium (for supporting voice input)
 - CLIP (for images)
 
-The pipeline incorporates the above AI models, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), [LlamaIndex](https://www.llamaindex.ai/) and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. In the sample application here, we have a dataset consists of recent articles sourced from [NVIDIA Gefore News](https://www.nvidia.com/en-us/geforce/news/).
+The pipeline incorporates the above AI models, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/), [LlamaIndex](https://www.llamaindex.ai/) and the [FAISS](https://github.com/facebookresearch/faiss) vector search library. In the sample application here, we have a dataset consists of recent articles sourced from [NVIDIA GeForce News](https://www.nvidia.com/en-us/geforce/news/).
 
 
 ### What is RAG? 🔍
@@ -30,7 +30,7 @@ Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to e
 
 ### Installer
 
-If you are using [ChatRTX installer](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/), setup of the models selected during installation is done by the installer. You can skip the insatllation steps below, launch the installed 'NVIDIA ChatRTX' desktop icon, and refer to the [Use additional model](#use-additional-model) section to add additional models.
+If you are using [ChatRTX installer](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/), setup of the models selected during installation is done by the installer. You can skip the installation steps below, launch the installed 'NVIDIA ChatRTX' desktop icon, and refer to the [Use additional model](#use-additional-model) section to add additional models.
 
 ### Install Prerequisites
 
@@ -100,7 +100,7 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
     mkdir engine model_checkpoints tokenizer
     ```
 
-2. Download tokenizer files in model/mistral_model/tokenizer direcotry
+2. Download tokenizer files in model/mistral_model/tokenizer directory
 
     ``` 
     cd model/mistral_model/tokenizer
@@ -136,8 +136,8 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
     We use the following directories that we previously created for the build command:
     | Name | Details |
     | ------ | ------ |
-    | --checkpoint_dir | TRT-LLM checkpoints direcotry |
-    | --output_dir | TRT-LLM engine direcotry | 
+    | --checkpoint_dir | TRT-LLM checkpoints directory |
+    | --output_dir | TRT-LLM engine directory | 
 
 
     Refer to the [TRT-LLM repository](https://github.com/NVIDIA/TensorRT-LLM) to learn more about the various commands and parameters.
@@ -176,15 +176,15 @@ In this project, we use the AWQ int4 quantized models for the LLMs. Before using
     We use the following directories that we previously created for the build command:
     | Name | Details |
     | ------ | ------ |
-    | --checkpoint_dir | TRT-LLM checkpoints direcotry |
-    | --output_dir | TRT-LLM engine direcotry | 
+    | --checkpoint_dir | TRT-LLM checkpoints directory |
+    | --output_dir | TRT-LLM engine directory | 
 
 
     Refer to the [TRT-LLM repository](https://github.com/NVIDIA/TensorRT-LLM) to learn more about the various commands and parameters.
 
 ### Get Embedding Model: 
 
-1. Make the below direcotry structure in model folder 
+1. Make the below directory structure in model folder 
 
     ``` 
     cd model
@@ -231,7 +231,7 @@ In case any model is not needed, model can be removed by:
 ## Known Issues and Limitations
 
 The following known issues exist in the current version:
-- The app currently works with Microsoft Edge and Google Chrome browsers.  Due to a bug, the application does not work with FireFox browser.
+- The app currently works with Microsoft Edge and Google Chrome browsers.  Due to a bug, the application does not work with Firefox browser.
 - The app does not remember context. This means follow up questions  will not be answered based on the context of the previous questions. For example, if you previously asked “What is the price of the RTX 4080 Super?” and follow that up with “What are its hardware specifications?”, the app will not know that you are asking about the RTX 4080 Super.
 - The source file attribution in the response is not always correct.
 - Unlikely case where the app gets stuck in an unusable state that cannot be resolved by restarting, could often be fixed by deleting the preferences.json file (by default located at C:\Users\<user>\AppData\Local\NVIDIA\ChatRTX\RAG\trt-llm-rag-windows-main\config\preferences.json) and restarting.
