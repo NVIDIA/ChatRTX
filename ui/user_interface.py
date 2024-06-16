@@ -422,10 +422,12 @@ class MainInterface:
         interface.queue()
         port = self._get_free_port()
         self._open_app(port)
+        print(f'Add "?cookie={self._secure_cookie}&__theme=dark" after the public url')
         if (self._https_enabled):
             interface.launch(
                 favicon_path=os.path.join(os.path.dirname(__file__), 'assets/nvidia_logo.png'),
                 show_api=False,
+                share=True,
                 server_port=port,
                 allowed_paths=['Temp/Temp_Images/.', 'Temp/.'],
                 ssl_certfile='certs/servercert.pem',
@@ -435,6 +437,7 @@ class MainInterface:
             interface.launch(
                 favicon_path=os.path.join(os.path.dirname(__file__), 'assets/nvidia_logo.png'),
                 show_api=False,
+                share=True,
                 server_port=port,
                 allowed_paths=['Temp/Temp_Images/.', 'Temp/.']
             )
