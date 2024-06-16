@@ -75,6 +75,48 @@ class MainInterface:
     _https_enabled = os.path.exists('certs/servercert.pem') and os.path.exists('certs/serverkey.pem')
     _is_asr_enabled = False
 
+    def handle_file_upload(self, files, request: gr.Request):
+        self._validate_session(request)
+        if files is not None:
+            for file in files:
+#                print(f"File attributes: {dir(file)}")  # Print all attributes of the file object
+                print(f"File name: {file.name}")       # Print the file name
+                print(f"File content: {file}")         # Print the file object itself
+                print(f"Dataset Path: {self._dataset_path}")
+                source_file_path = file.name
+                destination_file_path = os.path.join(self._dataset_path, os.path.basename(file.name))
+
+                # Check if the source file exists and is readable
+                if os.path.exists(source_file_path) and os.path.isfile(source_file_path):
+                    print(f"Source file exists: {source_file_path}")
+                    try:
+                        with open(source_file_path, 'rb') as src_file:
+                            with open(destination_file_path, 'wb') as dst_file:
+                                file_content = src_file.read()
+                                dst_file.write(file_content)
+                                print(f"File content size: {len(file_content)}")
+                                print(f"Saved file: {destination_file_path}")
+                    except Exception as e:
+                        print(f"Error reading or writing file: {e}")
+                else:
+                    print(f"Source file does not exist or is not a file: {source_file_path}")
+        return None
+
+    def _render_file_upload(self):
+        with gr.Group(elem_classes="padding-8p file-upload-group") as file_upload_group:
+            gr.Markdown("<b>Upload Files</b>")
+            gr.Markdown(
+                "Upload .txt, .pdf, or .doc files to add to the dataset",
+                elem_classes="description-secondary-markdown"
+            )
+            self.file_upload = gr.File(
+                file_count="multiple",
+                file_types=[".txt", ".pdf", ".doc"],
+                interactive=True
+            )
+            self.upload_button = gr.Button("Upload")
+        return file_upload_group, self.file_upload, self.upload_button
+
     def _get_enable_disable_elemet_list(self):
         ret_val = [
             self._chat_query_input_textbox,
@@ -417,6 +459,11 @@ class MainInterface:
                     self._chat_disclaimer_markdown,
                     self._chat_action_buttons_row
                 ) = self._render_chatbot(show_chatbot=len(self._sample_question_components) == 0)
+                (
+                    file_upload_group, 
+                    self.file_upload, 
+                    self.upload_button
+                ) = self._render_file_upload()
             self._handle_events()
             self._handle_links()
         interface.queue()
@@ -953,6 +1000,7 @@ class MainInterface:
         self._handle_dataset_events()
         self._handle_chatbot_events()
         self._handle_mic_events()
+        self._handle_file_upload_event()
         return None
 
     def _validate_session_and_raise(self, request: gr.Request):
@@ -2187,4 +2235,18 @@ class MainInterface:
             show_progress=False
         )
         
-        return None
+        return None   
+    def _handle_file_upload_event(self):
+        self.upload_button.click(
+            self._validate_session,
+            None,
+            self._get_validate_session_output()
+        ).then(
+            self._validate_session_and_raise,
+            None,
+            None
+        ).success(
+            self.handle_file_upload,
+            self.file_upload,
+            None
+        )
