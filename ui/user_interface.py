@@ -129,6 +129,18 @@ class MainInterface:
                         border-radius: 10px;
                         box-shadow: 0 0 20px rgba(0,0,0,0.2);
                     }
+                    
+    
+                    .file-upload-backdrop {
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0,0,0,0.5);
+                        z-index: 999;
+                        display: none;
+                    }
                     </style>
                 """)
         return file_upload_group, self.file_upload, self.upload_button, self.close_button
