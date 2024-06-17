@@ -103,7 +103,7 @@ class MainInterface:
         return None
 
     def _render_file_upload(self):
-        with gr.Group(elem_classes="padding-8p file-upload-group") as file_upload_group:
+        with gr.Group(elem_classes="padding-8p file-upload-group", visible=False ) as file_upload_group:
             gr.Markdown("<b>Upload Files</b>")
             gr.Markdown(
                 "Upload .txt, .pdf, or .doc files to add to the dataset",
@@ -115,7 +115,23 @@ class MainInterface:
                 interactive=True
             )
             self.upload_button = gr.Button("Upload")
-        return file_upload_group, self.file_upload, self.upload_button
+            self.close_button = gr.Button("Done")
+            gr.HTML("""
+                    <style>
+                    .file-upload-group {
+                        position: fixed;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        z-index: 1000;
+                        background-color: white;
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+                    }
+                    </style>
+                """)
+        return file_upload_group, self.file_upload, self.upload_button, self.close_button
 
     def _get_enable_disable_elemet_list(self):
         ret_val = [
@@ -128,6 +144,7 @@ class MainInterface:
             self._dataset_source_dropdown,
             self._dataset_update_source_edit_button,
             self._dataset_regenerate_index_button,
+            self._upload_file_button,
             self._settings_button
         ]
 
@@ -151,6 +168,7 @@ class MainInterface:
             gr.Dropdown(interactive=False),
             gr.Button(interactive=False),
             gr.Button(interactive=False),
+            gr.Button(interactive=False),
             gr.Button(interactive=False)
         ]
 
@@ -172,6 +190,7 @@ class MainInterface:
             gr.Button(interactive=True),
             gr.Dropdown(interactive=True),
             gr.Dropdown(interactive=True),
+            gr.Button(interactive=True),
             gr.Button(interactive=True),
             gr.Button(interactive=True),
             gr.Button(interactive=True)
@@ -220,6 +239,7 @@ class MainInterface:
             gr.Dropdown(interactive=False),
             gr.Button(interactive=False),
             gr.Button(interactive=False),
+            gr.Button(interactive=False),
             gr.Button(interactive=False)
         ] + [gr.Button(interactive=False)] * len(self._sample_question_components)
 
@@ -241,7 +261,7 @@ class MainInterface:
             gr.Dropdown(interactive=True),
             gr.Button(interactive=True),
             gr.Button(interactive=True),
-            gr.Button(interactive=True)
+            gr.Button(interactive=True),
         ] + [gr.Button(interactive=True)] * len(self._sample_question_components)
 
         if self._is_asr_enabled:
@@ -261,6 +281,7 @@ class MainInterface:
         self._default_dataset_path = self._get_default_dataset_path()
         self._default_chinese_dataset_path = self._get_default_chinese_dataset_path()
         self._default_clip_dataset_path = self._get_default_clip_dataset_path()
+        self._file_upload_visible = gr.State(False)
         pass
 
     def _get_dataset_path(self):
@@ -447,6 +468,7 @@ class MainInterface:
                 ) = self._render_sample_question()
                 (
                     self._chat_bot_window,
+                    self._upload_file_button,
                     self._chat_query_input_textbox,
                     self._chat_mic_component,
                     self._mic_start_button,
@@ -460,9 +482,10 @@ class MainInterface:
                     self._chat_action_buttons_row
                 ) = self._render_chatbot(show_chatbot=len(self._sample_question_components) == 0)
                 (
-                    file_upload_group, 
+                    self._file_upload_group, 
                     self.file_upload, 
-                    self.upload_button
+                    self.upload_button,
+                    self.close_button
                 ) = self._render_file_upload()
             self._handle_events()
             self._handle_links()
@@ -470,6 +493,7 @@ class MainInterface:
         port = self._get_free_port()
         self._open_app(port)
         print(f'Add "?cookie={self._secure_cookie}&__theme=dark" after the public url')
+
         if (self._https_enabled):
             interface.launch(
                 favicon_path=os.path.join(os.path.dirname(__file__), 'assets/nvidia_logo.png'),
@@ -925,6 +949,14 @@ class MainInterface:
             with gr.Row():
                 with gr.Group(elem_id="chat_box_group"):
                     with gr.Row():
+                        upload_file_button = gr.Button(
+                            "",
+                            scale=0,
+                            icon=os.path.join(os.path.dirname(__file__), 'assets/attach.png'),
+                            elem_classes="icon-button tooltip-component",
+                            elem_id="upload_file_button",
+                            
+                        )
                         query_input = gr.Textbox(placeholder="ChatRTX: Type or use voice", container=False, elem_id="chat_text_area")
                         chat_mic_component = gr.Audio(label="Microphone", sources=["upload", "microphone"], type="filepath", elem_id='microphone', render=isChatWithMicEnabled, visible=False)
                         gr.Button(
@@ -990,7 +1022,7 @@ class MainInterface:
             "ChatRTX response quality depends on the AI model's accuracy and the input dataset. Please verify important information.",
             elem_classes="description-secondary-markdown chat-disclaimer-message margin-"
         )
-        return (chatbot_window, query_input, chat_mic_component, mic_start_button, mic_stop_button, submit_button, retry_button, undo_button, reset_button, query_group, chat_disclaimer_markdown, chat_action_buttons_row)
+        return (chatbot_window, upload_file_button, query_input, chat_mic_component, mic_start_button, mic_stop_button, submit_button, retry_button, undo_button, reset_button, query_group, chat_disclaimer_markdown, chat_action_buttons_row)
 
     def _handle_events(self):
         self._handle_load_events()
@@ -1840,6 +1872,7 @@ class MainInterface:
                 ),
                 gr.Button(visible=source=="directory"),
                 gr.Button(visible=source!="nodataset"),
+                gr.Button(visible=source!="nodataset"),
                 state
             ]
 
@@ -1863,6 +1896,7 @@ class MainInterface:
                 self._dataset_source_textbox,
                 self._dataset_update_source_edit_button,
                 self._dataset_regenerate_index_button,
+                self._upload_file_button,
                 self._state
             ],
             show_progress=False
@@ -2235,8 +2269,22 @@ class MainInterface:
             show_progress=False
         )
         
-        return None   
+        return None
+    def set_upload_hide(self):
+        #print(f"hide!")
+        return gr.update(visible=False)
+
+    def set_upload_show(self):
+        #print(f"show!")
+        return gr.update(visible=True)
+    
     def _handle_file_upload_event(self):
+        self._upload_file_button.click(
+            fn=self.set_upload_show,
+            inputs=[],
+            outputs=self._file_upload_group
+        )
+        
         self.upload_button.click(
             self._validate_session,
             None,
@@ -2249,4 +2297,10 @@ class MainInterface:
             self.handle_file_upload,
             self.file_upload,
             None
+        )
+        
+        self.close_button.click(
+            fn=self.set_upload_hide,
+            inputs=[],
+            outputs=self._file_upload_group
         )
