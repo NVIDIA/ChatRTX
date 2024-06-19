@@ -120,26 +120,12 @@ class MainInterface:
                     <style>
                     .file-upload-group {
                         position: fixed;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        z-index: 1000;
-                        background-color: white;
-                        padding: 20px;
-                        border-radius: 10px;
-                        box-shadow: 0 0 20px rgba(0,0,0,0.2);
-                    }
-                    
-    
-                    .file-upload-backdrop {
-                        position: fixed;
                         top: 0;
                         left: 0;
                         width: 100%;
                         height: 100%;
-                        background-color: rgba(0,0,0,0.5);
+                        background-color: rgba(0,0,0,0.2);
                         z-index: 999;
-                        display: none;
                     }
                     </style>
                 """)
@@ -412,12 +398,14 @@ class MainInterface:
         return kaizen.css() + open(os.path.join(os.path.dirname(__file__), 'www/app.css')).read()
 
     def render(self):
+        self._secure_cookie = str(uuid.uuid4())
         with gr.Blocks(
             title="ChatRTX",
             analytics_enabled=False,
             theme=kaizen.theme(),
             css=self.get_css(),
-            js=os.path.join(os.path.dirname(__file__), 'www/app.js')
+            js=os.path.join(os.path.dirname(__file__), 'www/app.js'),
+            head="<script>let cookieID ='"+self._secure_cookie+"'; /*alert('head cookie str ='+  cookieID);*/  </script>"
         ) as interface:
             self._interface = interface
             self.update_model_info()
@@ -504,7 +492,6 @@ class MainInterface:
         interface.queue()
         port = self._get_free_port()
         self._open_app(port)
-        print(f'Add "?cookie={self._secure_cookie}&__theme=dark" after the public url')
 
         if (self._https_enabled):
             interface.launch(
@@ -554,7 +541,6 @@ class MainInterface:
             webbrowser.open(launch_url)
             return None
         
-        self._secure_cookie = str(uuid.uuid4())
         threading.Thread(target=launch_thread, args=(self._secure_cookie,)).start()
         return None
 

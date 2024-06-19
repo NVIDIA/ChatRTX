@@ -21,7 +21,7 @@
 () => {
     // file to customize behavior
     console.log('js loaded', window.location.href);
-
+    console.log('cookie',cookieID);
     //handle launch
     let reload = false;
     let gradioURL = new URL(window.location.href);
@@ -33,6 +33,12 @@
         //document.cookie = `_s_chat_=${secureCookie}; path=${location.pathname}; max-age=${SESSION_COOKIE_EXPIRY}; samesite=strict`;
         document.cookie = `_s_chat_=${secureCookie}; path=${location.pathname}; samesite=strict`;
         reload = true;
+    }else{
+        if(!(window.location.href.includes("cookie=") || window.location.href.includes("theme="))){
+            const  secureCookie = cookieID;
+            document.cookie = `_s_chat_=${secureCookie}; path=${location.pathname}; samesite=strict`;
+            reload = true
+        } 
     }
     if(
         !gradioURL.searchParams.has('__theme') ||
