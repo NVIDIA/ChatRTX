@@ -84,10 +84,9 @@ try:
         # Generate a response to the query
         try:
             answer = chat_rtx.generate_stream_response(query)
-            total = ""
+            print("Output:", end='', flush=True)
             for token in answer:
-                total = total + token
-                print(f"Answer: {total}")
+                print(token, end='', flush=True)
         except Exception as e:
             logger.error(f"Unable to generate a response: {str(e)}")
 
