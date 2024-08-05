@@ -27,7 +27,7 @@ The AI models that are supported in this app:
 
 2. Download and install [Microsoft] (https://www.microsoft.com/en-us/download/details.aspx?id=57467) MPI. You will be prompted to choose between an exe, which installs the MPI executable, and an msi, which installs the MPI SDK. Download and install both
 
-3. Install TensorRT-LLM wheel. Please take the wheel form(ChatRTX_0.3 branch) [here](https://gitlab-master.nvidia.com/winai/trt-llm-rag-windows/-/tree/ChatRTX_0.3/wheel?ref_type=heads). 
+3. Install TensorRT-LLM wheel. Please take the wheel(tensorrt_llm-0.9.0-cp310-cp310-win_amd64.whl) form [here](https://github.com/NVIDIA/ChatRTX/tree/release/0.4.0/ChatRTX_APIs/dist). 
 
     ```
     cd wheel
@@ -39,7 +39,7 @@ The AI models that are supported in this app:
     pip install .\ngcsdk-3.41.2-py3-none-any.whl
     ```
 
-5. Download and install the ChatRTX API SDK present in the dist directpry
+5. Download and install the ChatRTX API SDK present in the dist directory
 
     ```
     pip install ChatRTX-0.4.0-py3-none-any.whl
