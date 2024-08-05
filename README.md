@@ -22,9 +22,9 @@ Retrieval-augmented generation (RAG) for large language models (LLMs) seeks to e
 
 ### Repository details
 - ChatRTX_APIs: ChatRTX APIs allow developers to seamlessly integrate their applications with the TensorRT-LLM powered inference engine and utilize the various AI models supported by ChatRTX. This integration enables developers to incorporate advanced AI inference and RAG features into their applications.
-These APIs serve as the foundation for the ChatRTX application. More details in ChatRTX_APIs direcotry. 
+These APIs serve as the foundation for the ChatRTX application. More details in ChatRTX_APIs [directory](https://github.com/NVIDIA/ChatRTX/blob/release/0.4.0/ChatRTX_APIs/README.md). 
 
-- ChatRTX_App: ChatRTX_App is a demo application that is build on top of ChatRTX APIs using electron container. The UI is build in React with Material UI libraries. More delates  about how to build the UI is in ChatRTX_App direcotry. 
+- ChatRTX_App: ChatRTX_App is a demo application that is build on top of ChatRTX APIs using electron container. The UI is build in React with Material UI libraries. More delates  about how to build the UI is in ChatRTX_App [directory](https://github.com/NVIDIA/ChatRTX/blob/release/0.4.0/ChatRTX_App/README.md). 
 
 ## Getting Started
 
