@@ -1,7 +1,7 @@
 # ChatRTX APIs
 
 ChatRTX APIs allow developers to seamlessly integrate their applications with the TensorRT-LLM powered inference engine and utilize the various AI models supported by ChatRTX. This integration enables developers to incorporate advanced AI inference and RAG features into their applications.
-THese APIs serve as the foundation for the ChatRTX application.
+These APIs serve as the foundation for the ChatRTX application.
 
 ## Key Features
 
@@ -27,14 +27,14 @@ The AI models that are supported in this app:
 
 2. Download and install [Microsoft] (https://www.microsoft.com/en-us/download/details.aspx?id=57467) MPI. You will be prompted to choose between an exe, which installs the MPI executable, and an msi, which installs the MPI SDK. Download and install both
 
-3. Install TensorRT-LLM wheel. Please take the wheel(tensorrt_llm-0.9.0-cp310-cp310-win_amd64.whl) form [here](https://github.com/NVIDIA/ChatRTX/tree/release/0.4.0/ChatRTX_APIs/dist). 
+3. Install TensorRT-LLM wheel. Please take the wheel(tensorrt_llm-0.9.0-cp310-cp310-win_amd64.whl) from [here](https://github.com/NVIDIA/ChatRTX/tree/release/0.4.0/ChatRTX_APIs/dist). 
 
     ```
     cd wheel
     pip install tensorrt_llm-0.9.0-cp310-cp310-win_amd64.whl --extra-index-url https://pypi.nvidia.com --extra-index-url https://download.pytorch.org/whl/cu121
     ```
 
-4. Download and install 'ngcsdk-3.41.2-py3-none-any.whl' from [here](https://catalog.canary.ngc.nvidia.com/orgs/nvidia/teams/ngc-apps/resources/ngc_sdk/files?version=3.41.2) and install it using the command below. This enables us to downloads from NGC:
+4. Download and install 'ngcsdk-3.41.2-py3-none-any.whl' from [here](https://catalog.canary.ngc.nvidia.com/orgs/nvidia/teams/ngc-apps/resources/ngc_sdk/files?version=3.41.2) and install it using the command below. This enables us to download from NGC:
     ```
     pip install .\ngcsdk-3.41.2-py3-none-any.whl
     ```
