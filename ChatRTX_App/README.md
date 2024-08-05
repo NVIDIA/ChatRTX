@@ -22,6 +22,4 @@ If you are using [ChatRTX installer](https://www.nvidia.com/en-us/ai-on-rtx/chat
 - Set the python enviromnent path in file config-packed.js at src\bridge_commands if needed.
 - Run `npm run build-electron`. This creates dist and contains NVIDIA ChatRTX.exe at location dist\win-unpacked which launches ChatRTX app
 
-Note: Above does not generate signed binaries, binaries needs to signed when app is distirbuted publicly.
-
 This project will download and install additional third-party open source software projects. Review the license terms of these open source projects before use.
