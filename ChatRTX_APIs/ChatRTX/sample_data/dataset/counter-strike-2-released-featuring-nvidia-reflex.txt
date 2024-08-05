@@ -1,0 +1,83 @@
+Counter-Strike 2 with NVIDIA Reflex and GeForce RTX 40 Series GPUs - The Lowest System Latency & Highest FPS
+By Andrew Burnes on September 27, 2023 | Featured StoriesGeForce RTX GPUsGeForce RTX LaptopsNVIDIA Reflex
+Counter-Strike: Global Offensive’s popularity has continued to increase since its release way back in 2012, and today, it remains the most played game on Steam each week, boasting over one million concurrent players.
+
+Now, Valve has launched Counter-Strike 2, a graphical and technological update that upgrades Counter-Strike: Global Offensive to the Source 2 engine, leveraging newer graphics APIs for improved fidelity and responsiveness. NVIDIA has worked with Valve to make sure system latency, which is critical to winning, is at an absolute minimum with the addition of NVIDIA Reflex.
+
+In competitive shooters such as Counter-Strike 2, higher FPS and lower system latency allows you to acquire targets faster, react more quickly, and increase aim precision. On a GeForce RTX 40 Series PC or laptop, your skill won’t be constrained by system latency, or frame rates.
+
+
+ 
+Get the ultimate Counter-Strike 2 competitive experience, powered by GeForce RTX 40 Series for unbeatable performance, and NVIDIA Reflex for the lowest latency. Gamers with a compatible graphics card can enable NVIDIA Reflex in Counter-Strike 2 to reduce system latency by up to 35%.
+
+Read on for more details. 
+
+Ultimate Counter-Strike 2 Experience with GeForce RTX 40 Series
+Counter-Strike 2 is the largest technical leap forward in Counter-Strike history, ushering in a new era for one of the most iconic first person-shooters of all time. Building upon the legendary legacy of Counter-Strike: Global Offensive, this latest iteration now shines on the long anticipated Source 2 engine, promising enhanced graphical fidelity, with a physically-based rendering system producing more realistic textures and materials, dynamic lighting, reflections and more.
+
+
+ 
+In addition to leveling up the Counter-Strike 2 world with stunningly reimagined maps, smoke grenades are now dynamic volumetric objects that interact with the environment, and react to lighting, gunfire, and explosions.  Bullets and HE grenades can push smoke to briefly clear sightlines or expand occlusion.  Smoke expands to fill spaces naturally.  And Counter-Strike 2 smoke particles work with the unified lighting system allowing for more realistic light and color.
+
+
+ 
+Counter-Strike 2’s technical enhancements result in a more GPU-intensive experience than CS:GO, which demands the capabilities of modern GPUs to experience previous performance benchmarks (144, 240, 360 and 500 FPS).
+
+The GeForce RTX 4080 and RTX 4090 offer the ultimate 1440p Counter-Strike 2 experience, with the GeForce RTX 4090 delivering over 400 FPS at 1440p. In comparison, the GeForce RTX 4090 is over 4.5X faster than the GTX 1080, and over 2.9X faster than the RTX 2080 in the most demanding maps.
+
+The GeForce RTX 4070 and RTX 4070 Ti excel in Counter-Strike 2 at 1080p. The GeForce RTX 4070 Ti delivers over 360 FPS at 1080p, 2.7X faster than the GTX 1070, and almost 2X faster than the RTX 2070 in the most demanding maps.
+
+And the GeForce RTX 4060 and RTX 4060 Ti offer up 2.25X performance upgrades from one of Counter-Strike 2’s most popular GPUs, the GeForce GTX 1060.
+
+At the end of the day, higher FPS will not make you a great gamer, but it will give you a better chance to win. This applies to the best Counter-Strike players in the world and those that are just getting started.
+
+
+ 
+NVIDIA Reflex - Lowest Latency, Best Responsiveness
+NVIDIA Reflex is a must-have in games, reducing system latency and improving responsiveness so your actions occur quicker. NVIDIA Reflex is now used by over 50 million players each month, is available in 9 of the top 10 competitive shooters, including Counter-Strike 2, and is activated by 90% of GeForce gamers in over 70 supported titles.
+
+
+ 
+System Latency, often called “input lag”, is the delay between a player's action and its appearance on the screen. In games like Counter-Strike 2, even small delays can impact gameplay, making the difference between success and defeat. This delay results from the cumulative effect of several factors, including the time taken by peripherals to communicate with the PC, the PC's processing time, and the display's refresh rate. This is known as “End to End System Latency”.
+
+There are two main types of latency:  
+
+Network Latency: The time it takes your system to communicate with the game’s servers and services when playing online. As this cannot be controlled by the PC, and is based on the characteristics of your internet connection and your distance from the game’s servers, network latency is not measured in the system latency stat.
+System Latency: The entire end-to-end response time within your gaming system. It starts with peripheral latency, the delay from your input device; progresses through Game and Render Latency, which covers CPU processing and GPU rendering known as PC Latency; and ends with Display latency, the time taken for the rendered frame to appear on your screen.
+Latency impacts gameplay in several ways. For instance, you might click your mouse when your crosshair is over an opponent, but the shot might still miss due to cumulative latency. It causes a delay between what's happening in the game state and what players perceive on screen. "Peeker’s advantage" is also influenced by system latency—when two players are the same distance from an angle with the same network ping, the player with lower system latency will spot an opponent before their opponent sees them. Furthermore, high system latency can make aiming inconsistent and less predictable, especially in games that demand quick and precise movements. In short, the higher the system latency, the more the player’s view lags behind the game’s reality.
+
+NVIDIA Reflex reduces latency by optimizing the rendering pipeline across the CPU and GPU, removing stalls by synchronizing each step of the pipeline. Reflex is most effective when the system is GPU-bound—or when the GPU is under high utilization—as it prevents the CPU from racing ahead of the GPU, which can cause a buildup in the render queue, increasing latency.  
+
+
+GeForce RTX 40 Series with NVIDIA Reflex “On” delivers the best responsiveness in Counter-Strike 2 at sub 15ms PC latency for faster target acquisition, quicker reaction times, and the best aim precision. Gamers with compatible graphics cards can enable NVIDIA Reflex in Counter-Strike 2 to reduce system latency by up to 35%.  NVIDIA Reflex “Enabled + Boost” can further reduce latency at the cost of extra power usage and a slightly lower frame rate. In Counter-Strike 2, this setting is only recommended for gamers who prioritize lowest latency over highest frame rate.
+
+To ensure a responsive gaming experience, it’s crucial to measure latency and determine whether your system is running well. In general, PC Latency is the most accessible metric and is the main metric that should be used when optimizing game settings, Windows settings, or any other software setting on your PC. 
+
+There are three ways to measure PC latency in Counter-Strike 2: GeForce Experience’s Performance Overlay, the Reflex Analyzer, and FrameView. With GeForce Experience, enable the In-Game Overlay and hit ALT + R to view your PC Latency in game.
+
+ 	 
+If you would like to use FrameView, here is how to get started:
+
+Download and install FrameView
+
+Launch FrameView (for more details, refer to the user guide)
+
+Start Counter-Strike 2
+
+An overlay from FrameView will be visible when the FrameView app is running.
+
+The FrameView overlay will appear—note the baseline PCL with Reflex OFF
+
+Enable Reflex in-game to observe the reduction in latency
+
+For competitive players who want the best chance at victory, testing, tweaking and upgrading are the name of the game, and the Reflex Analyzer is the first tool to make this possible with complete accuracy. If you are new to measuring latency with NVIDIA Reflex Analyzer, check out our guide to get up to speed. 
+
+Get Game Ready For Counter-Strike 2 With The latest GeForce Driver
+GeForce Game Ready Drivers deliver the best experience for your favorite games. They’re finely tuned in collaboration with developers, and extensively tested across thousands of hardware configurations for maximum performance and reliability. Game Ready Drivers also allow you to optimize game settings in GeForce Experience with a single click, and empower you with the latest NVIDIA technologies. That’s what we call Game Ready.
+
+The latest GeForce Game Ready Driver is now available for download via the Drivers tab of GeForce Experience or GeForce.com. Install now to ensure your experience in Counter-Strike 2 is optimized from the first click.
+
+Maximize Your Competitiveness With GeForce RTX 40 Series and NVIDIA Reflex
+Armed with the information above, you can see how GeForce RTX 40 Series GPUs with NVIDIA Reflex deliver the fastest frame rates, the lowest frame times, and the lowest levels of End to End System Latency in Counter-Strike 2.
+
+For more NVIDIA Reflex updates, and news of new Reflex Analyzer-compatible mice and monitors, please stay tuned to GeForce.com.

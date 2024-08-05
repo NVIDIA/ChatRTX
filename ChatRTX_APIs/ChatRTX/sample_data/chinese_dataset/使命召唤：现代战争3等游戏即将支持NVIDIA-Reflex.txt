@@ -1,0 +1,93 @@
+“使命召唤：现代战争 3 (Call of Duty: Modern Warfare III)”、“收获日 3 (PAYDAY 3)”、“心灵杀手 2 (Alan Wake 2)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”等游戏即将支持 NVIDIA Reflex
+由 Andrew Burnes 发表于 2023年8月22日 | 精选故事GamescomGeForce RTX GPUNVIDIA DLSSNVIDIA ReflexNVIDIA RTX光线追踪
+NVIDIA Reflex 是游戏的黄金搭档，可降低系统延迟，让玩家更迅速地作出反应，使其在多人游戏中更具竞争力，并且该技术能够让单人游戏拥有更快的响应速度、更加令人愉悦的体验。现在，每个月有超过 5000 万玩家使用 NVIDIA Reflex；在排名前 10 的竞技射击类游戏中，有 9 款采用了 NVIDIA Reflex，其中包括“反恐精英 2 (Counter-Strike 2)”测试版；此外，在超过 70 款支持 NVIDIA Reflex 的游戏中，启用该技术的 GeForce 玩家达到了 90%。
+
+NVIDIA Reflex 是游戏出色响应速度的代名词，现已应用于多款最新游戏和热门游戏。今天，我们宣布“心灵杀手 2 (Alan Wake 2)”、“使命召唤：现代战争 III (Call of Duty: Modern Warfare III)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”以及本年度备受期待的游戏“收获日 3 (PAYDAY 3)”将在发布时支持 Reflex。
+
+另外，NVIDIA Reflex 将提升您在“APEX 英雄 (APEX Legends)”第 18 赛季和“守望先锋 归来：入侵 (Overwatch 2: Invasion)”中的竞争力。
+
+继续阅读以了解详情。
+
+“使命召唤：现代战争 3 (Call of Duty: Modern Warfare III)”即将发布，并支持 NVIDIA Reflex 和 DLSS 3
+在破纪录的“使命召唤：现代战争 2 (Call of Duty: Modern Warfare II)”的续作中，普莱斯上尉和 141 特遣队将面对终极威胁。极端民族主义战犯弗拉基米尔·马卡洛夫正将他的魔爪伸向全世界，而第 141 特遣队面临前所未有的战斗。
+
+Activision 的“使命召唤：黑色行动冷战 (Call of Duty: Black Ops Cold War)”、“先锋 (Vanguard)”、“现代战争 (Modern Warfare)”、“现代战争 2 (Modern Warfare II)”、“战区 (Warzone)”和“战区 2 (Warzone 2.0)”均已支持 NVIDIA DLSS。我们与“使命召唤 (Call of Duty)”的长期技术合作关系继续延续，近期公布的“使命召唤：现代战争 3 (Call of Duty: Modern Warfare III)”将支持 NVIDIA Reflex 和 NVIDIA DLSS 3，该游戏将于 11 月 10 日发布。
+
+ 
+请持续关注，了解更多详情。
+
+“心灵杀手 2 (Alan Wake 2)”将于 10 月 27 日发布，支持 NVIDIA Reflex、DLSS 3.5 和全景光线追踪
+Remedy Entertainment 采用前沿技术，不断打造每一代犹如身临其境的先进游戏。2019 年推出的“控制 (Control)”是首批支持光线追踪和 DLSS 的游戏之一，至今仍是一款展现 PC 平台先进性的令人惊艳的游戏。
+
+早在 2010 年，Remedy 就发布了“心灵杀手 (Alan Wake)”，这是一款令人惊叹的叙事动作惊悚游戏，其视觉效果和炫目的光芒器械玩法让玩家大开眼界。10 月 27 日，让玩家期待已久的续集即将到来，由 Epic Games 发行的“心灵杀手 2 (Alan Wake 2)”，讲述了 Alan Wake 和 FBI 探员 Saga Anderson 的噩梦般的全新故事。
+
+ 
+NVIDIA 和 Remedy Entertainment 再次携手合作，利用前沿技术将画质、沉浸感和性能提升至更高水平，为 PC 游戏玩家提供令人叹为观止的精彩体验！在 PC 上，“心灵杀手 2 (Alan Wake 2)”玩家会对由 NVIDIA DLSS 3.5 和 NVIDIA Reflex 加持下的的全景光线追踪 (路径追踪) 图形效果赞叹不已。
+
+在我们的独家对比图中，抢先了解采用全景光线追踪技术的“心灵杀手 2 (Alan Wake 2)” (单击此处查看 4K 对比图)：
+
+before
+“DLSS 3.5 中的全新光线重建功能使我们的全景光线追踪世界比以往更加精美，这可以让您更深入地了解《心灵杀手 2 (Alan Wake 2)》的故事。”– Remedy Entertainment 首席图形程序员 Tatu Aalto
+
+为确保 GeForce RTX 玩家能够在“心灵杀手 2 (Alan Wake 2)”中获得超高保真度的光线追踪体验，我们将在发布时提供对 NVIDIA DLSS 3.5 的支持。随着光线重建技术的推出，DLSS 3.5 可让您的游戏更加精美、身临其境和逼真。光线重建适用于所有 GeForce RTX 用户 - 请在我们的 NVIDIA DLSS 3.5 讲解文章中了解完整信息。
+
+明天 (8 月 23 日)，在北京时间晚上 9 点发布新的“心灵杀手 2 (Alan Wake 2)”预告片中，了解 DLSS 3.5 和 RTX 技术所带来的不同。
+
+请于 10 月 27 日访问 GeForce.cn，详细了解“心灵杀手 2 (Alan Wake 2)”令人惊叹的全景光线追踪效果以及 NVIDIA DLSS 3.5 集成信息。
+“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”将于今年 9 月发布，并支持 NVIDIA Reflex、DLSS 3.5 和全景光线追踪
+“往日之影 (Phantom Liberty)”是“赛博朋克 2077 (Cyberpunk 2077)"的全新谍战悬疑风格资料片。新美利坚合众国总统乘坐的轨道航天飞机在夜之城最危险的地区被击落，玩家可以重新成为雇佣兵 V，深入谍报活动和政治阴谋交错的乱局，完成拯救的任务。随着故事的推进，了解身居高位的权力阶层和残酷的黑市雇佣兵世界之间那错综复杂的恩怨情仇。
+
+ 
+“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”将于 9 月 26 日发布全景光线追踪：过载模式技术预览版，为 GeForce RTX 玩家带来身临其境般的细节体验。今天，我们宣布 DLSS 3.5 将于今年 9 月面向所有“赛博朋克 2077 (Cyberpunk 2077)”和“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”玩家发布。
+
+在“赛博朋克 2077 (Cyberpunk 2077)”中，DLSS 光线重建技术提高了反射的质量和清晰度，全局光照变得更加准确，光照的动态响应更加灵敏，从而带来更好、更身临其境和更逼真的体验。抢先观看我们全新的独家“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)” NVIDIA DLSS 3.5 游戏预告片：
+
+ 
+“借助 DLSS 3.5 的智能技术和 AI 渲染力，您可以在“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”的最新游戏场景“狗镇”中获得出色体验 — 获得更清晰的画面、更准确的照明和更高帧率。” – CD PROJEKT RED 艺术副总裁兼全球艺术总监，Jakub Knapik
+
+请持续关注 GeForce.cn，了解“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”发布的更多信息，并让您配备 GeForce RTX 40 系列显卡的系统和笔记本电脑为“往日之影 (Phantom Liberty)”做好准备。
+
+“半条命 2 (Half-Life 2)”RTX 社区 RTX Remix Mod 正在开发中
+NVIDIA RTX Remix 是一个免费的即将推出的 MOD 平台，基于 NVIDIA Omniverse 构建，旨在支持 Modder 创建和分享经典游戏的# RTXON Mod，每个 Mod 都具有增强材质、全景光线追踪、NVIDIA DLSS、NVIDIA RTX IO 和 NVIDIA Reflex。
+
+我们发布了 Valve 经典游戏的高保真重制版游戏“传送门 RTX 版 (Portal with RTX)”，该游戏作为示例展示了 Remix 可以实现的效果。然后，我们将工具交给了重制“传送门：序曲 (Portal: Prelude)”的社区 Modder。今天，我们公布“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目，由社区制作、高分游戏“半条命 2 (Half-Life 2)”的重制版。
+
+“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目由“半条命 2 (Half-Life 2)”的四个 Orbifold Studios 旗下的顶级 Mod 团队合作开发。 Modder 使用 RTX Remix，利用基于物理属性渲染 (PBR) 的重制材质，通过 Valve 的 Hammer 编辑器添加额外的几何细节，并利用 NVIDIA 技术（包括全景光线追踪、DLSS 3、Reflex 和 RTX IO） 为 GeForce RTX 游戏玩家带来极致体验。 抢先观看“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目的预告片：
+
+ 
+如需了解更多信息和 4K RTX ON-OFF 对比图，请参阅我们“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目的讲解文章。
+“收获日 3 (PAYDAY 3)”将于 9 月 21 日发布，并支持 DLSS 3 和 Reflex
+备受期待的“收获日 3 (PAYDAY 3)”是有史以来最受欢迎的合作射击游戏之一的续作。9 月 21 日，告别退隐，重返Payday帮的作案生涯，再次开启你的犯罪生涯，成为执法部门无处不在的噩梦。团队成员结束对华盛顿特区的恐怖统治数年后，新威胁逐渐浮现，逼迫他们结束退休生涯，再度集结。
+
+ 
+在游戏发布时，得益于游戏对 DLSS 3 和 DLSS 2的支持，GeForce RTX 玩家可以在“收获日 3 (PAYDAY 3)”中尽享超高帧率。为了确保您可以轻松对抗一波又一波的警察，NVIDIA Reflex 将降低系统延迟，从而使射击和盗窃更加灵敏。
+
+“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”开始支持 NVIDIA Reflex、DLSS 3 和 RTXDI，并升级至虚幻引擎 5.2
+由 SHK Interactive 推出的“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”已于 6 月发布并支持 DLSS 2，帮助 GeForce RTX 玩家在两个平行世界进行穿梭，参与实验性疗法计划时，获得更快的性能。目前，DESORDRE 已成为全球首批发布的虚幻引擎 5.2 游戏之一。
+
+ 
+从虚幻引擎 5.1 到 5.2 的飞跃为图形和性能带来了进一步提升，帮助用户根据系统功能定制体验。
+
+主要新增功能是 NVIDIA RTX 直接照明 (RTXDI)，该功能可让 DESORDRE 中的每个光源投射出精确的光线追踪的光线和阴影，并在游戏具有光泽的环境中投射出来。 得益于 RTXDI 颠覆性的设计，性能不会受到丝毫影响，而在 GeForce RTX 40 系列 GPU 上，由于其新增了 NVIDIA 着色器执行重排序 (SER)，光线追踪的性能更好。
+
+为确保在使用 RTXDI 和其他新功能时获得超高帧率，SHK Interactive 利用最近发布的 Unreal Engine 5.2 NVIDIA Streamline 插件将现有的 DLSS 2 支持升级到 DLSS 3，使游戏支持帧生成、Reflex 和超分辨率。
+
+如需了解关于“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”的更多信息、查看预告片以及下载 Demo，请前往该游戏的 Steam 页面。 请继续关注 SHK Interactive 的社交动态，他们计划在虚幻引擎 5.3 发布后将游戏升级至该引擎，为游戏带来更多精彩。
+
+“守望先锋 归来：入侵 ( Overwatch 2: Invasion)”更新已上线“守望先锋 归来：入侵 ( Overwatch 2: Invasion)”更新已上线
+“守望先锋：归来 (Overwatch 2)”是暴雪始终在线且不断发展的免费团队动作游戏，游戏设定在乐观的未来，每场比赛都是终极 5v5 战场乱斗。想要在每场战斗中解锁终极图形体验，请升级到 GeForce RTX 40 系列显卡、PC 或笔记本电脑，以获得领先的性能和 NVIDIA Reflex 提供的出色响应速度。
+
+“入侵 (invasion)”已在“守望先锋 归来 (Overwatch 2)”迄今为止最盛大的赛季中拉开序幕！在三个合作剧情任务中进行反击，通过 Hero Mastery 模式磨练你的技能，使用新支援型英雄玩 PvP，并升级新的战斗通行证 (Battle Pass) 以解锁新皮肤和装扮。
+
+ 
+NVIDIA Reflex 最多可将“守望先锋 归来 (Overwatch 2)”的系统延迟降低 60%，借助 GeForce RTX 40 系列 GPU 的强劲性能，玩家可以在1440p 分辨率下以超过 360 FPS 的帧率运行游戏：
+您还可以在功能强大、轻薄的 GeForce RTX 40 系列笔记本电脑上享受出色性能和超低输入延迟：
+
+“APEX 英雄 (APEX Legends)”第 18 赛季“复活”现已上线
+3 年多来，“APEX 英雄 (APEX Legends)”一直支持 NVIDIA Reflex，帮助数百万游戏玩家在快节奏的求生战场中提升竞争力。
+
+第 18 赛季“复活”已于最近发布，包含新版“亡灵”以及更多内容。立即查看。
+
+ 
+更多精彩，敬请期待
+更多新款 NVIDIA Reflex 游戏、显示器和鼠标将会陆续推出，请持续关注 GeForce.cn，及时了解最新动态；如需查看目前支持 NVIDIA Reflex 的游戏和设备的完整列表，请访问我们的 NVIDIA Reflex 专题页面。此外，请务必查看我们的其他 Gamescom 新闻，内容包括 NVIDIA DLSS 3.5 以及所有新的 DLSS 和 RTX 游戏。

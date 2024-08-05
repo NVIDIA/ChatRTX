@@ -1,0 +1,60 @@
+ICARUS Available Now With DLSS 3, Ad Infinitum & Mortal Kombat 1 Launching With DLSS 2
+By Andrew Burnes on September 12, 2023 | Featured StoriesGeForce RTX GPUsNVIDIA DLSSNVIDIA RTX
+Each week, we bring you news of the latest DLSS and ray tracing integrations in games and apps. 
+
+Last week, we revealed that Lies of P, Party Animals, SYNCED, and Witchfire were all launching with support for DLSS this month, bringing that performance-accelerating goodness on day-1 to even more anticipated games.
+
+This week, ICARUS has upgraded to NVIDIA DLSS 3 and more DLSS 2 games are available now including Arcadegeddon, Starsiege: Deadzone, and Warstride Challenges. Looking ahead, Ad Infinitum and Mortal Kombat 1 are launching with DLSS 2.
+
+For all the details, read on.
+
+ICARUS DLSS 3 Update Available Now
+In ICARUS, the co-op survival game by Dean Hall and RocketWerkz, players explore a savage alien wilderness in the aftermath of terraforming gone wrong. Survive long enough to mine exotic matter before returning to orbit, then explore and conquer new biomes of greater risk and greater reward. You must meet your deadline for extraction though, or face being left behind forever. Alternatively, play in the persistent Open World mode to build a planet-side encampment that’ll give you a base from which to explore the game’s massive maps, and beat ICARUS’ challenging bosses.
+
+
+ 
+When ICARUS launched into Early Access, it was the first game to feature RTX Global Illumination (RTXGI), a performant ray-traced technique for simulating the natural illumination of indoor and outdoor scenes from the sun and moon in massive open-world environments. And accompanying RTXGI was DLSS 2, accelerating performance by up to 60%.
+
+Mere days ago, a new ICARUS update introduced support for DLSS 3, boosting performance by 2.6X on average, enabling max setting, ray-traced gameplay on many GeForce RTX 40 Series systems.
+
+ICARUS is updated each week with new content and features, so stay tuned to this page to track the latest additions.
+
+Ad Infinitum Launches September 14th With DLSS 2 
+Trapped between the walls of your family home and the trenches of World War I, you try to piece together your past and take back control of your life. Will the nightmare of the war ever end? Will you find inner peace one day? In Naco and Hekate's Ad Infinitum, you play as a German soldier haunted by the horrors of the Great War. While your mind grapples with memories of your family home and the trenches on the front, you try to break the endless cycle of suffering.
+
+
+ 
+When Ad Infinitum launches on September 14th, GeForce RTX gamers can accelerate their experience with DLSS 2, for the best performance possible.
+
+Mortal Kombat 1 Launches With DLSS 2 On September 19th
+Liu Kang has restarted history, crafting a New Era reflecting his vision of peace. Meanwhile Mileena, twin sister of Kitana and rightful heir to Outworld's throne, has been infected by a dreaded and lethal disease. Lin Kuei warriors and brothers Scorpion and Sub-Zero fight for the future of the clan, while Earthrealm champions Raiden and Kung Lao fight for family and honor. Johnny Cage, who is more concerned with staying relevant in the eyes of his fans, fights for his own vanity. Fight your way through the new Universe of Mortal Kombat 1, ushering in a new era of the iconic franchise with a new fighting system, game modes, and new, spectacular fatalities.
+
+
+ 
+At launch, DLSS 2 Super Resolution will be available to ensure GeForce RTX gamers hit a locked 60 frames per second in every match, with every setting maxed out.
+
+Warstride Challenges Exits Early Access With Support For DLSS 2 & Reflex
+Blast hordes of demons at lightning speed in bloody gunfights, and race against the clock to overcome everything that comes your way, in Warstride Challenges. Die and retry to get the highest score in increasingly intense trials, create and share your own runs, and attempt to be the best at the hundreds of levels created by the community.
+
+Dream Powered Games and Focus Entertainment’s twitch shooter rewards speed and aim precision, which is why DLSS 2 and NVIDIA Reflex were added during Early Access, boosting performance.
+
+
+ 
+Last week, Warstride Challenges exited Early Access with a 93% Steam player rating, and a ton of new content, including a live multiplayer mode, enabling you to compete against friends in real-time, rather than simply on the scoreboards. For further details, check out Warstride Challenges’ Steam page.
+
+Arcadegeddon Available Now With DLSS 2 
+IllFonic's Arcadegeddon is an ever-evolving co-op multiplayer, roguelite shooter that allows you and up to 3 friends to explore multiple biomes, compete in mini games, find hidden chests, and battle a cast of enemies and bosses. Arcadegeddon lets you play at your own pace with its mix of PVE and PVP gameplay. As you get to know the town, you can dive into additional challenges from the local gangs that hangout in Gilly’s Arcade, earning you much more than just street cred.
+
+
+ 
+GeForce RTX gamers jumping into the action can enable DLSS 2 to accelerate their frame rates.
+
+Starsiege: Deadzone Available Now With DLSS 2 
+Prophecy Games' Starsiege: Deadzone is an Early Access multiplayer corridor extraction shooter set in a dark sci-fi universe where humanity is on the brink of extinction. As space mercenaries, known as Raiders, players will team up with two others to explore the derelict stations taken over by sentient AI. As a Raider, your goal is to extract valuable weapons and resources for your faction. Players will customize a loadout and venture into procedurally generated ships making each match unique. Work alone or together to overcome the ship's deadly traps and defenses in order to escape. However, beware of the other Raiders seeking the same riches.
+
+
+ 
+GeForce RTX gamers battling through the space station can activate DLSS 2 to accelerate performance, for the fastest and most fluid shooting possible.
+
+Check Back Next Week For Even More RTX Games
+Each week there are even more DLSS integrations arriving for an array of games. Check back next week for a rundown of the next DLSS and RTX games, and head here to see the complete list of over 330 DLSS-enhanced games and apps.

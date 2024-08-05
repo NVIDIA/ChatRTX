@@ -1,0 +1,81 @@
+NVIDIA DLSS 3.5: Enhancing Ray Tracing With AI; Coming This Fall To Alan Wake 2, Cyberpunk 2077: Phantom Liberty, Portal with RTX & More
+By Andrew Burnes on August 22, 2023 | Featured StoriesAlan Wake 2Cyberpunk 2077Frame GenerationGamescomGeForce RTX GPUsNVIDIA DLSSNVIDIA RTXPortal with RTXRay ReconstructionRay TracingSuper Resolution
+NVIDIA has pioneered the AI hardware and software that is powering incredible breakthroughs across every industry. NVIDIA DLSS, one of our first major AI algorithms, was introduced five years ago and boosts performance using neural rendering, made possible by the Tensor Cores inside each GeForce RTX GPU.
+
+Since its initial release, the AI models behind DLSS have kept learning, leading to even better results and new innovations that further multiply performance:
+
+Today, we advance rendering technology once more with the introduction of NVIDIA DLSS 3.5, featuring Ray Reconstruction, a new AI model that creates higher quality ray-traced images for intensive ray-traced games and apps.
+
+
+ 
+Watch our Tech Talk with VP of Applied Deep Learning Research, Bryan Catanzaro to learn how DLSS 3.5 works
+
+Alan Wake 2, Cyberpunk 2077, Cyberpunk 2077: Phantom Liberty, Portal with RTX, Chaos Vantage, D5 Render, and NVIDIA Omniverse are all adding support for NVIDIA DLSS 3.5 this fall.
+
+See the benefits for yourself in this exclusive new look at Cyberpunk 2077: Phantom Liberty, rendered with DLSS 3.5 and Full Ray Tracing:
+
+
+ 
+"Thanks to DLSS 3.5’s smart technology, fuelled by AI rendering power, you can experience Cyberpunk 2077: Phantom Liberty’s newest location Dogtown at its very best — with sharper images, more accurate lighting, and the highest frame rates possible." - Jakub Knapik, VP of Art, Global Art Director, CD PROJEKT RED
+
+To appreciate the benefits of Ray Reconstruction, let’s look at how ray tracing works.
+
+First, a game engine generates the geometry and materials of a scene, all of which have physically based attributes that affect their appearance and how light interacts with them. A sample of rays are then shot from the camera’s viewpoint, determining the properties of light sources in a scene and how light reacts when it hits materials. For instance, if rays strike a mirror, reflections are generated.
+
+However, shooting rays for every pixel on your screen is too computationally demanding, even for offline renderers that calculate scenes over the course of several minutes or hours. So instead, ray samples must be used - these fire a handful of rays at various points across the scene for a representative sample of the scene’s lighting, reflectivity and shadowing.
+
+The output is a noisy, speckled image with gaps, good enough to ascertain how the scene should look when ray-traced.
+
+To fill-in the missing pixels that weren’t ray-traced, hand-tuned denoisers use two different methods, temporally accumulating pixels across multiple frames, and spatially interpolating them to blend neighboring pixels together. Through this process, the noisy raw output is converted into a ray-traced image.
+
+These denoisers are manually-tuned and processed for each type of ray-traced lighting present in a scene, adding complexity and cost to the development process, and reducing the frame rate in highly ray-traced games where multiple denoisers operate simultaneously to maximize image quality.
+
+Each hand-tuned denoiser accumulates pixels from multiple frames to increase detail, in effect stealing rays from the past, but at the risk of introducing ghosting, removing dynamic effects, and reducing the quality of others. It also interpolates neighboring pixels, and blends this information together, but at the risk of blending away too much detailed information, or not blending enough and creating non-uniform lighting effects.
+
+Upscaling is the last stage of the ray-traced lighting pipeline, and is key to experiencing the most detailed and demanding games at fast frame rates. But with denoising removing or decreasing the quality of effects, the limitations of hand-tuned denoisers are amplified, removing fine detail (referred to as high-frequency information) that upscalers use to output a crisp, clean image.
+
+The solution: NVIDIA DLSS 3.5. Our newest innovation, Ray Reconstruction, is part of an enhanced AI-powered neural renderer that improves ray-traced image quality for all GeForce RTX GPUs by replacing hand-tuned denoisers with an NVIDIA supercomputer-trained AI network that generates higher-quality pixels in between sampled rays.
+
+Trained with 5X more data than DLSS 3, DLSS 3.5 recognizes different ray-traced effects to make smarter decisions about using temporal and spatial data, and to retain high frequency information for superior-quality upscaling.
+
+Trained using offline-rendered images, which require far more computational power than can be delivered during a real-time game, Ray Reconstruction recognizes lighting patterns from training data, such as that of global illumination or ambient occlusion, and recreates it in-game as you play. The results are superior to using hand-tuned denoisers.
+
+In Portal with RTX, with DLSS OFF, the denoiser struggles with spatial interpolation, where it’s not blending enough pixels, creating a blotchy effect. Additionally, it’s not accumulating enough good pixels from previous frames, and the result is a boiling effect in the light. With DLSS 3.5, it recognizes certain patterns associated with reflections and keeps the image stable, accumulating accurate pixels while blending neighboring pixels to generate high quality reflections.
+
+
+ 
+In the following scene from Cyberpunk 2077, the inaccurate headlight illumination which surrounds the car is a result of the hand-tuned denoiser pulling in inaccurate lighting effects from previous frames. DLSS 3.5 accurately generates lighting, so you can make out the beam of the headlights, and see light reflect on the curb in front of the car.
+
+The streets of Cyberpunk 2077’s Night City are filled with reflections from rotating billboards and neon lights. By activating DLSS 3.5, their quality and clarity is vastly improved city wide:
+
+Creative applications have a wide variety of content that are difficult for traditional denoisers as they require hand-tuning per scene. As a result, when previewing content you get suboptimal image quality. With DLSS 3.5, the AI neural network is able to recognize a wide variety of scenes, producing high quality images during preview and before committing hours to a final render. D5 Render, an industry-leading app for architects and designers, will be available with DLSS 3.5 this fall.
+
+“The integration of DLSS Ray Reconstruction with D5 Render marks our third technical collaboration with NVIDIA, following DLSS SR and FG, which further enhances the image quality of D5 Render's real-time rendering capabilities. We look forward to exploring more possibilities with NVIDIA in the future.” - Jessie Huang, VP, Head of Marketing, D5 Render
+
+With DLSS 3.5, we’re delivering a faster, better experience as a free upgrade, building upon the much-loved enhancements already available in your favorite games.
+
+Thanks to RTX, you effectively have the power of 2 computers in your PC or laptop - the first, an NVIDIA supercomputer that trains the DLSS AI model with billions of data points, to boost performance and image quality. And the second, your GeForce RTX graphics card, with dedicated tensor cores to execute the AI model in real-time, plus specialized RT Cores, innovations such as Shader Execution Reordering, and the raw power of each RTX GPU, delivering best-in-class ray tracing.
+
+In Cyberpunk 2077, the beautiful full ray tracing delivered by the Overdrive Mode could not be achieved smoothly without the power of AI. DLSS Super Resolution (SR), reconstructs the 4K image from a lower resolution input, delivering a dramatic performance boost and great image quality. 
+
+To further increase performance in the most demanding, action-packed moments, we enable DLSS Frame Generation (FG) on GeForce RTX 40 Series GPUs, which analyzes sequential frames to create additional frames to further increase smoothness.
+
+And now, NVIDIA DLSS 3.5 further improves image quality for ray-traced effects by replacing multiple hand-tuned denoisers with Ray Reconstruction (RR).
+
+
+ 
+Combining Super Resolution, Frame Generation and Ray Reconstruction, DLSS 3.5 multiplies Cyberpunk 2077 frame rates by a total of 5X compared to native 4K DLSS OFF rendering. 
+
+Note that games with multiple ray-traced effects may have several denoisers that are replaced by the single Ray Reconstruction neural network. In these cases, Ray Reconstruction can also offer a performance boost. In titles with less intensive ray tracing and fewer denoisers, Ray Reconstruction improves image quality though may have a slight performance cost.
+
+GeForce RTX 40 Series users can combine Super Resolution and Frame Generation with Ray Reconstruction for breathtaking performance and image quality, while GeForce RTX 20 and 30 Series users can add Ray Reconstruction to their AI-powered arsenal alongside Super Resolution and DLAA.
+
+Ray Reconstruction is a new option for developers to improve image quality for their ray-traced titles and is offered as part of DLSS 3.5. Rasterized games featuring DLSS 3.5 also include our latest updates to Super Resolution and DLAA, but will not benefit from Ray Reconstruction due to the lack of ray-traced effects.
+
+DLSS 3.5 Arrives This Fall In Leading Games & Apps
+NVIDIA DLSS 3.5 will be available this fall in Alan Wake 2, Cyberpunk 2077, Cyberpunk 2077: Phantom Liberty, Portal with RTX, Chaos Vantage, D5 Render, and NVIDIA Omniverse. Head to our Gamescom 2023 RTX Games and Apps announcement article to learn more about the integration of DLSS 3.5 in each.
+
+Five years ago we started a revolutionary journey: to redefine graphics with neural rendering and artificial intelligence. DLSS has come a long way, and today DLSS ON is the best way to play. The most immersive and realistic experiences now rely on the power of AI, yet AI’s transformative impact on graphics is just getting started, and we can’t wait to see where we’ll be five years from now.
+
+In the meantime, enhance your experience by using NVIDIA DLSS in over 330 released games and apps. New DLSS games launch almost every week, news of which can be found here - simply return to our DLSS page each week to learn about the latest releases and integrations; this week at Gamescom 2023, we announced new DLSS 3 games, including Call of Duty: Modern Warfare III, PAYDAY 3, Fortnite, and the aforementioned Alan Wake 2. And in each DLSS 3 game, you can also leverage NVIDIA Reflex to make gameplay even more responsive. 
+To see our other Gamescom 2023 announcements, please head here.

@@ -1,0 +1,134 @@
+NVIDIA DLSS Accelerates This Fall’s Biggest Games, Including Alan Wake 2, Cyberpunk 2077: Phantom Liberty, Call of Duty: Modern Warfare III & PAYDAY 3
+By Andrew Burnes on August 22, 2023 | Featured StoriesAlan Wake 2Cyberpunk 2077GamescomGeForce RTX GPUsNVIDIA DLSSNVIDIA ReflexNVIDIA RTXRay ReconstructionRay Tracing
+NVIDIA DLSS is constantly evolving, and is available today in over 330 released games and apps. Now, we’re unveiling NVIDIA DLSS 3.5, featuring Ray Reconstruction, our newest innovation that enhances ray tracing with AI.
+
+NVIDIA DLSS 3.5 debuts this fall in Alan Wake 2, Cyberpunk 2077, Cyberpunk 2077: Phantom Liberty, Portal with RTX, and creative apps. You’ll find full details below.
+
+Additionally, NVIDIA DLSS 3’s AI-powered performance acceleration is coming to this fall’s biggest games, including Call of Duty: Modern Warfare III, PAYDAY 3, and Fortnite.
+
+Introducing NVIDIA DLSS 3.5
+NVIDIA DLSS 3.5 will make your games even more beautiful, immersive and realistic with the introduction of Ray Reconstruction, a new AI-powered technique that further improves the quality of ray tracing.
+
+To ray trace games at fast frame rates, a sample of rays are fired into a scene, and hand-tuned denoisers are used to fill in missing pixels for each lighting pass.
+
+Each hand-tuned denoiser accumulates pixels from multiple frames to increase detail, in effect stealing rays from the past, but at the risk of introducing ghosting, removing dynamic effects, and reducing the quality of others. It also interpolates neighboring pixels, and blends this information together, but at the risk of blending away too much detailed information, or not blending enough and creating non-uniform lighting effects.
+
+DLSS 3.5 introduces Ray Reconstruction, part of an enhanced AI-powered neural renderer that improves ray traced image quality for all GeForce RTX GPUs by replacing hand-tuned denoisers with an NVIDIA supercomputer-trained AI network that generates higher-quality pixels in-between sampled rays.
+
+In Alan Wake 2, Cyberpunk 2077, Cyberpunk 2077: Phantom Liberty, Portal with RTX, Chaos Vantage, D5 Render, and NVIDIA Omniverse, DLSS 3.5 will noticeably improve the fidelity and realism of ray-traced effects, resolving issues introduced by hand-tuned denoisers.
+
+Take a look at the following examples from Cyberpunk 2077: Phantom Liberty and D5 Render to see the benefits, and be sure to watch our new DLSS 3.5 videos from Alan Wake 2, Cyberpunk 2077: Phantom Liberty, and Portal with RTX:
+
+When DLSS 3.5 debuts in Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty this September, and other games and apps this fall, GeForce RTX 40 Series users can combine Super Resolution and Frame Generation with Ray Reconstruction for breathtaking performance and image quality, while GeForce RTX 20 and 30 Series users can add Ray Reconstruction to their AI-powered arsenal alongside Super Resolution and DLAA.
+
+Ray Reconstruction is a new option for developers to improve image quality for their ray-traced titles and is offered as part of DLSS 3.5. Rasterized games featuring DLSS 3.5 also include our latest updates to Super Resolution and DLAA, but will not benefit from Ray Reconstruction due to the lack of ray-traced effects.
+
+For much more detail on Ray Reconstruction, please visit our NVIDIA DLSS 3.5 explainer article, and watch our Tech Talk by Bryan Catanzaro, Vice President of Applied Deep Learning Research at NVIDIA.
+
+
+ 
+For more information on the games and apps adding DLSS 3.5 this fall, read on.
+
+Alan Wake 2 Launches October 27th With DLSS 3.5, Full Ray Tracing & Reflex
+Remedy Entertainment operates at the cutting edge of technology, constantly creating the most immersive and advanced games of each generation. 2019’s Control was one of the first ray-traced and DLSS-enhanced games, and to this day remains a stunning title that demonstrates the advanced capabilities of the PC platform.
+
+Back in 2010, Remedy released Alan Wake, an amazing narratively-driven action-thriller that blew gamers away with its visuals and dazzling light-based gameplay. On October 27th, the long-awaited sequel arrives, following Alan Wake and FBI agent Saga Anderson in a new nightmarish narrative, entitled Alan Wake 2, published by Epic Games.
+
+
+ 
+Once again, NVIDIA and Remedy Entertainment are partnering to deliver a jaw-dropping experience for PC gamers, leveraging bleeding-edge technologies to crank image quality, immersion and performance to 11. On PC, Alan Wake 2 players can marvel at fully ray traced (path traced) graphics that are accelerated and enhanced by NVIDIA DLSS 3.5 and NVIDIA Reflex.
+
+
+
+“The new Ray Reconstruction feature in DLSS 3.5 renders our fully ray-traced world more beautifully than ever before, bringing you deeper into the story of Alan Wake 2” - Tatu Aalto, Lead Graphics Programmer Remedy Entertainment
+
+To ensure GeForce RTX gamers can experience Alan Wake 2 with ray tracing at the highest levels of fidelity, NVIDIA DLSS 3.5 will be available at launch. DLSS 3.5 makes your games even more beautiful, immersive and realistic with the introduction of Ray Reconstruction, a new AI-powered technique that further improves the quality of ray tracing. Ray Reconstruction is available for all GeForce RTX users - get the complete lowdown in our NVIDIA DLSS 3.5 announcement article.
+
+
+
+ 
+Return to GeForce.com on October 27th for more info on Alan Wake 2’s incredible fully ray-traced effects, and its integration of NVIDIA DLSS 3.5. And if you lack a GeForce RTX desktop or laptop, know that you can play Alan Wake 2 with full ray tracing, NVIDIA Reflex and NVIDIA DLSS on GeForce NOW at launch.
+
+Cyberpunk 2077: Phantom Liberty Available This September With DLSS 3.5, Full Ray Tracing & Reflex
+Phantom Liberty is a new spy-thriller adventure for Cyberpunk 2077. When the orbital shuttle of the President of the New United States of America is shot down over the deadliest district of Night City, there’s only one person who can save her — you. Become V, a cyberpunk for hire, and dive deep into a tangled web of espionage and political intrigue, unraveling a story that connects the highest echelons of power with the brutal world of black-market mercenaries.
+
+
+ 
+Launching September 26th, Cyberpunk 2077: Phantom Liberty features the technology preview of the fully ray-traced Ray Tracing: Overdrive Mode, giving GeForce RTX gamers the most immersive and detailed gameplay possible. And today we can announce that DLSS 3.5 will be available this September for all Cyberpunk 2077 and Cyberpunk 2077: Phantom Liberty players.
+
+NVIDIA DLSS 3.5 makes your games even more beautiful, immersive and realistic with the introduction of Ray Reconstruction, a new AI-powered technique that further improves the quality of ray tracing. DLSS 3.5 is available for all GeForce RTX users, and you can get the complete lowdown in our NVIDIA DLSS 3.5 announcement article.
+
+In Cyberpunk 2077, DLSS Ray Reconstruction improves the quality and clarity of reflections, global illumination is even more accurate, and lighting is more dynamically responsive, for an even better, more immersive and realistic experience. 
+
+ 
+"Thanks to DLSS 3.5’s smart technology, fuelled by AI rendering power, you can experience Cyberpunk 2077: Phantom Liberty’s newest location Dogtown at its very best — with sharper images, more accurate lighting, and the highest frame rates possible." - Jakub Knapik, VP of Art, Global Art Director, CD PROJEKT RED
+
+The technology preview of the Ray Tracing: Overdrive Mode, which enhances the game’s already-amazing visuals with full ray tracing, otherwise known as path tracing, is incredibly GPU intensive. GeForce RTX 40 Series GPUs powered by the NVIDIA Ada Lovelace architecture have the raw rendering horsepower, plus the performance and quality-enhancing NVIDIA DLSS 3.5 to bring these stunning graphics to life.
+
+Get the ultimate Cyberpunk 2077: Phantom Liberty experience, using the Ray Tracing: Overdrive Mode, at over 60 FPS, with GeForce RTX 40 Series graphics cards. We recommend the GeForce RTX 4090 and RTX 4080 at 4K, RTX 4070 Ti & RTX 4070 at 1440p, and the RTX 4060 Ti and RTX 4060 at 1080p. Get more details here.
+
+Stay tuned to GeForce.com for more information closer to Cyberpunk 2077: Phantom Liberty’s release, and get your system ready for Phantom Liberty with GeForce RTX 40 Series graphics cards and laptops.
+
+If you don’t have an RT Overdrive-capable PC, you can play with full ray tracing on GeForce NOW with an Ultimate subscription, which gives you a GeForce RTX 4080-class PC to play on via the cloud on virtually any device. Cyberpunk 2077: Phantom Liberty will arrive in the cloud on launch day.
+
+Portal with RTX Upgrades To DLSS 3.5 This Fall
+Portal with RTX is our fully ray-traced reimagining of Valve’s classic game, featuring stunning path-traced visuals, the latest performance-accelerating NVIDIA technologies, and NVIDIA DLSS 3, which multiplied performance by 3X.
+
+
+ 
+This fall, Portal with RTX upgrades to NVIDIA DLSS 3.5, making the game even more beautiful, immersive and realistic with the introduction of Ray Reconstruction, a new AI-powered technique that further improves the quality of ray tracing.
+
+In Portal with RTX, textures are enhanced as Ray Reconstruction intelligently accumulates engine data and information across multiple frames to produce a more accurate and clear image. With existing rendering techniques, full ray tracing could struggle to resolve multiple photons of light bouncing against thin materials, like metal fences, or highly reflective surfaces. This could cause excessive shimmering on thin surfaces and light instability or “boiling” on reflective walls. But with DLSS 3.5’s Ray Reconstruction technology, each fence appears stable no matter how much light is illuminating the thinnest of its meshes.
+
+Lights and reflections update faster and more accurately, too and each crevice in every room is lit with clarity, making the test chambers of Aperture Laboratories look as they would in the real world.
+
+
+ 
+Ray Reconstruction will be available for all GeForce RTX users - get the complete lowdown in our NVIDIA DLSS 3.5 announcement article. And catch it on GeForce NOW to stream it from the cloud if you don’t have a game-ready device.
+
+DLSS 3.5 Comes To Chaos Vantage, D5 Render & NVIDIA Omniverse
+Gamers aren’t the only ones who will reap the benefits of DLSS 3.5. 3D creators often work with heavy, complex scenes, which result in noisy and inaccurate previews. This makes sharing their work with clients and collaborators difficult, and hours can be spent on final rendering to view the potential outcome.
+
+With Ray Reconstruction, all GeForce RTX 3D creators can now view high quality, more accurate renders in their previews, expediting their workflow and improving their collaboration.
+
+DLSS 3.5 is a major breakthrough for the real-time 3D editing experience. This fall, DLSS 3.5 will be added to Chaos Vantage, D5 Render, and NVIDIA Omniverse.
+
+Call of Duty®: Modern Warfare® III Launching On PC With DLSS 3 & Reflex
+In the direct sequel to the record-breaking Call of Duty: Modern Warfare II, Captain Price and Task Force 141 face off against the ultimate threat. The ultranationalist war criminal Vladimir Makarov is extending his grasp across the world causing Task Force 141 to fight like never before.
+
+NVIDIA DLSS has been featured in Activision’s Call of Duty: Black Ops Cold War, Vanguard, Modern Warfare, Modern Warfare II, Call of Duty: Warzone, and Call of Duty: Warzone 2.0. Our long-standing Call of Duty technical partnership continues with the inclusion of NVIDIA DLSS 3 and NVIDIA Reflex in the recently revealed Call of Duty: Modern Warfare III, launching November 10.
+
+
+ 
+Stay tuned for further details.
+
+PAYDAY 3 Launching September 21st With DLSS 3 & Reflex
+PAYDAY 3 is the much anticipated sequel to one of the most popular co-op shooters ever made. On September 21st, step out of retirement and back into a life of crime in the shoes of the Payday Gang, the nightmare of law-enforcement wherever they go. Several years after the crew’s reign of terror over Washington DC has ended, they assemble once again to deal with the threat that’s roused them out of early retirement.
+
+
+ 
+At launch, GeForce RTX heisters can enjoy the fastest frame rates possible thanks to the inclusion of DLSS 3 and DLSS 2 in PAYDAY 3. And to ensure you can battle off waves of cops with ease, NVIDIA Reflex will reduce system latency, making shooting and thievery even more responsive. If your PC isn’t cut out for fast-paced heisting, you can play PAYDAY 3 at launch on GeForce NOW with DLSS enabled.
+
+Half-Life 2 RTX Community RTX Remix Mod In Development
+NVIDIA RTX Remix, is a free, upcoming modding platform built on NVIDIA Omniverse, designed to enable modders to create and share #RTXON mods for classic games, each with enhanced materials, full ray tracing, NVIDIA DLSS, NVIDIA RTX IO and NVIDIA Reflex.
+
+We released Portal with RTX, a high-fidelity reimagining of Valve’s timeless classic, as an example of what’s possible with Remix. Then, we turned the tools over to community modders who remastered Portal: Prelude. Today, we’re unveiling Half Life 2 RTX: An RTX Remix Project, a new community-made remaster of one of the highest-rated games of all time, Valve’s Half-Life 2.
+
+Half-Life 2 RTX: An RTX Remix Project is being developed by four of Half-Life 2’s top mod teams, now working together under the banner of Orbifold Studios. Using the latest version of RTX Remix, the modders are rebuilding materials with Physically Based Rendering (PBR) properties, adding extra geometric detail via Valve’s Hammer editor, and leveraging NVIDIA technologies including full ray tracing, DLSS 3, Reflex, and RTX IO to deliver a fantastic experience for GeForce RTX gamers. 
+
+ 
+The mod team behind Half Life 2 RTX: An RTX Remix Project is currently looking to recruit more modders and artists. For more information and 4K RTX ON-OFF comparison screenshots, head to our Half-Life 2 RTX: An RTX Remix Project announcement article. If you are interested in joining the project, and have significant experience with creating mods or 3D art, we encourage you to apply via the Half-Life 2 RTX: An RTX Remix Project website.
+
+Fortnite Upgrades To DLSS 3 This Fall
+Since 2020, Fortnite has included DLSS 2 and NVIDIA Reflex, enabling all GeForce RTX gamers to play at super fast frame rates, with the lowest possible system latency, for the definitive experience.
+
+This fall, Fortnite upgrades to NVIDIA DLSS 3, multiplying frame rates for GeForce RTX 40 Series gamers, giving you the headroom to max out its cutting edge Unreal Engine 5 settings at 4K, without sacrificing performance.
+
+
+ 
+Head back to GeForce.com later this year for further details; if you don’t have a PC that delivers a fantastic Fortnite experience, consider playing via GeForce NOW, with DLSS and all the Unreal Engine 5 enhancements enabled:
+
+
+ 
+Check Back Next Week For Even More RTX Games
+Each week there are even more DLSS integrations arriving for an array of games, and in our weekly articles we give you the complete lowdown on them all. Check back next week for details on the next DLSS and RTX games, and head here to see the complete list of over 330 DLSS-enhanced games and apps.

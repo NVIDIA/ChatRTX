@@ -1,0 +1,185 @@
+Portal: Prelude RTX - RTX Inside The Game Interview With The Mod’s Creators & NVIDIA
+By Andrew Burnes on July 21, 2023 | Featured StoriesGeForce RTX GPUsGeForce RTX LaptopsNVIDIA DLSSNVIDIA OmniverseNVIDIA RTXNVIDIA RTX IONVIDIA RTX RemixPortal with RTXRay Tracing
+In December we released Portal with RTX, a fully ray-traced reimagining of Valve’s award winning game, which used the performance multiplication of NVIDIA DLSS 3 to power the most realistic path-traced lighting ever seen in a real-time game. Portal with RTX was created using NVIDIA RTX Remix, a free, upcoming modding platform built on NVIDIA Omniverse, which enables modders to quickly create and share #RTXON mods for classic games, each with enhanced materials, full ray tracing, NVIDIA DLSS 3, and NVIDIA Reflex.
+
+In 2008, Portal: Prelude was released and to this day remains the highest rated Portal mod. Created by Nicolas “NykO18” Grevet and others, Portal: Prelude is an unofficial Portal prequel, set before the time of GLaDOS, featuring a new extremely challenging 8-10 hour campaign composed of 19 new test chambers, new advanced gameplay mechanics, a fully voiced story with NPCs, and a whole lot more.
+
+Having previously retired from the modding community in 2011, Nicolas has returned to remaster Portal: Prelude using NVIDIA RTX Remix, with the assistance of David “Kralich” Driver-Gomm, Valerios “Fearell_Val” Tsoumpas, Jack “Amicus” McDade, and Colin “SordidSpectacle” Zachariasen.
+
+Using Portal with RTX as a foundation, the entirety of Portal: Prelude has been remastered with full ray tracing (also known as path tracing) and upgraded hi-res materials, new voice acting, and improved gameplay. When playing, GeForce RTX gamers will enjoy the definitive experience, with performance multiplied by up to 5X with NVIDIA DLSS 3, improved responsiveness courtesy of NVIDIA Reflex, and super fast texture loading thanks to the newly-launched NVIDIA RTX IO. If you haven’t done so already, download Portal: Prelude RTX from Steam; it’s free to everyone who owns Portal.
+
+
+ 
+To bring Portal: Prelude RTX to life Nicolas and David worked closely with NVIDIA, as elements of Portal: Prelude necessitated the addition of new RTX Remix features to ensure every single aspect was remastered. To learn more about RTX Remix’s additions and improvements we spoke to NVIDIA’s Nyle Usmani, Product Manager for RTX Remix, and to discover more about the creation of Portal: Prelude and the Portal: Prelude RTX remaster, we chatted with Nicolas and David.
+
+"When I was able to get my hands on a pre-alpha early version of RTX Remix, I was honestly floored." - Nicolas “NykO18” Grevet
+
+NVIDIA will soon begin sharing early access versions of RTX Remix with select modders to further refine the creator toolkit and runtime ahead of its official release later this year. Nicolas and the team’s feedback has been invaluable, and has helped make RTX Remix even better. Stay tuned for further details, and be sure to join the unofficial NVIDIA RTX Remix Discord server if you’re interested in using Remix to remaster classic games.
+
+Thanks for chatting, Nyle; why did NVIDIA and the Lightspeed development team want to remaster or help remaster a classic Portal mod?
+
+Nyle Usmani, NVIDIA Product Manager: As the developers of RTX Remix we knew the intricacies of the tool, and how everything worked. We built Portal With RTX, which proved to us that the tool was powerful. But it’s different for Lightspeed Studios to build a game with a mod tool, versus having actual modders get their hands on the tool instead. So we thought up this collaboration where we could give early access to the RTX Remix creator toolkit to talented modders, and get feedback on how well it functions in the real world. Additionally, we had thousands of remastered Portal assets from our collaboration with Valve, which made Portal based mods a logical step.
+
+As fans of Portal, many of us knew about Portal: Prelude, the highest rated Portal mod ever made, so we reached out to its lead developer, Nicolas Grevet to see if he would leave modder-retirement and remaster his classic. Simultaneously, we contacted prominent Source modder, David Driver-Gomm, to join the project to help create beautiful new assets. I’d say they hit a homerun–from the breathtaking visuals, the voice acting, the new gameplay–the end result is just incredible!
+
+The NVIDIA Lightspeed team released Portal with RTX to critical acclaim in December. What did you learn from the launch, and how has that helped improve RTX Remix?
+
+Nyle: Portal with RTX and RTX Remix as a whole are breaking new ground. When you play Portal With RTX, you’re actually playing the original Portal but the visuals are passing through a Vulkan renderer. It’s incredibly unusual to have an old school game engine pass visuals through a different renderer–especially one that enables path tracing, and can substitute the old game assets with gorgeous modern 4K versions in real time. It is a miracle that it looks and plays so well, but it’s also the first of its kind with much room for improvement.
+
+One of the first things we focused on improving was the runtime, and its stability with substituting assets at playback. Between a more stable replacement system, and the development of RTX IO, which increases how quickly assets load in, players will notice that assets appear in the highest quality near instantaneously, and are incredibly stable in the scene. Furthermore, we made sweeping CPU and GPU performance optimizations that should enable more hardware to experience path tracing in all of its glory.
+
+As work progressed on Portal: Prelude RTX, what changes and improvements were required to successfully remaster the original mod?
+
+Nyle: In terms of scope, Portal: Prelude builds on the original Portal, with larger, more complex levels, and even a number of NPCs that populate its world. As a result, we had a lot of optimizations we had to make to RTX Remix to ensure the RTX remaster ran smoothly. One such feature is support for replacing the meshes of skinned characters.
+
+For Portal with RTX, RTX Remix could not modify meshes of skinned characters, and as a result we had to add polygonal detail to the meshes via classic Source mods. We hit the limit of what source modding could do pretty quickly, and when the modders attempted the same process in Portal: Prelude RTX, it ended up being prohibitively expensive for the CPU and GPU.
+
+We went to work, and found a way to enable entire mesh replacements for skinned assets with practically no limits or performance overhead. When the RTX Remix creator toolkit releases, modders will be able to make characters 100s of times more polygonally detailed with little to no additional cost, which will be a boon to any RTX Remix mod.
+
+
+Portal: Prelude RTX’s creation took roughly 8 months to complete - how much assistance from NVIDIA was required? How has this helped improve RTX Remix, and is the remastering workflow now faster and easier for modders?
+
+Nyle: We primarily see our role as enabling talented modders like David and Nicolas, rather than creating content ourselves. Since Portal: Prelude RTX was the first time the RTX Remix creator toolkit was being used in the wild, we worked closely with the team to provide technical support, take in feedback to improve the toolkit, and provide tips on how to work within a path traced model. The feedback we got was crucial, as it enabled us to make changes that sped up modder workflows immensely.
+
+"The RTX Remix tool itself is insanely powerful and almost comes across as magic to me." - Nicolas “NykO18” Grevet
+
+For example, the modders frequently exported the mod to view their new assets, and get a sense of how they looked in-game. We were hearing that the export process to view changes was taking a lot of time. So we re-architected the modder workflow to basically remove the export process entirely. There isn’t really a final export step anymore–instead, the moment you ingest assets or make a change in your mod, the mod and the corresponding files update. What this means for modders is if you have the game open alongside the tool, every change you make in the creator toolkit will appear in the game instantaneously.
+
+Portal: Prelude RTX includes the world’s first integration of our new NVIDIA RTX IO GPU-accelerated storage technology. How does this benefit Portal: Prelude RTX and future RTX Remix mods?
+
+Nyle: For Portal: Prelude RTX, we’ve seen texture load times speed up by 5X and the total storage assets take up has dropped by 44%.
+
+RTX IO provides additional  value to modders. Most modders have no asset decompression system they can turn to for their mods, meaning when a modder is looking to stay within a file size budget, all they can do is lower the quality of their assets.
+
+With RTX IO, you can stuff your mod chock full of gorgeous detailed assets with physically accurate materials, losslessly compress them, and then decompress them at playback, executing on your artistic vision without compromises. It will also enable modders to navigate file size restrictions that are commonplace with various mod sites.
+
+Have other NVIDIA technologies been further refined for the release of Portal: Prelude RTX, and will those also benefit future RTX Remix mods?
+
+Nyle: For Portal: Prelude RTX and future NVIDIA RTX Remix mods, the NVIDIA RTX Path Tracing SDK has been enhanced, improving denoiser performance and quality, which is particularly beneficial at lower resolutions, enabling gamers with older GeForce RTX GPUs to have a better experience.
+
+Shader Execution Reordering (SER) dynamically reorganizes inefficient ray tracing workloads into considerably more efficient ones, further accelerating GeForce RTX 40 Series performance. In Portal: Prelude RTX we’ve made GPU performance optimizations to how SER is implemented.
+
+Opacity Micro Meshes (OMM) increase real-time performance and memory compression for complex geometry, further accelerating ray tracing performance on the GeForce RTX 40 Series, and with new CPU optimizations debuting in Portal: Prelude RTX, players receive even faster performance.
+
+And we’ve made NVIDIA DLSS 3 and NVIDIA Reflex optimizations for improved performance, even better image quality, and more responsive gameplay.
+
+All of this will transfer to RTX Remix, and any future developments or enhancements will also be incorporated into RTX Remix, ensuring all mods are using the latest and greatest technologies to give GeForce RTX gamers the definitive experience.
+
+What’s next for NVIDIA RTX Remix? What new features are you working on? And are you working with any other modders to remaster classic mods? Give us the details, Nyle!
+
+Nyle: We’ve been so immensely pleased with our collaboration with Nicolas and David, and the game honestly floors us. Portal: Prelude RTX has benefitted us, the gamers, and the RTX Remix tool. As for  future collaborations–who knows!
+
+To keep up to date on everything we are doing with RTX Remix, I always recommend people check out our roadmap.
+
+And if you are interested in other RTX Remix mods (or are a modder interested in RTX Remix), I highly encourage you to check out the “RTX Remix Showcase” community-run Discord. There are over 5000 people there doing incredible things with the RTX Remix runtime, and we always have our team active there as well.
+
+---------------
+
+Thanks for taking the time to speak with us, Nicolas and David; when did you start modding, and what have you worked on?
+
+Nicolas “NykO18” Grevet: I started modding when Half-Life 1 came out with the Worldcraft 2 editor back in 1998 or 1999. I was 13 back then, and it was a struggle to find any tutorials in French about how to do anything with the tool. I mostly worked on small maps and little projects for years, on Half-Life 1, Team Fortress 1, then Half-Life 2, Counter-Strike: Source, etc.
+
+In 2008, I launched this large project called Portal: Prelude, which was much more than just “mapping” - it was a fully featured game that required roughly a year of work. It was a little clumsy, but the timing was right: it followed the release of Portal, and plugged a gap before the release of Portal 2. It had a very polarizing but successful launch. After that, I worked on an additional large project by producing a full-length Left 4 Dead campaign named ‘I Hate Mountains’ with some friends, and retired from the field entirely in 2011.
+
+David “Kralich” Driver-Gomm: I started modding in 2014, creating addons for Garry’s Mod, where I developed my knowledge in the Source Engine. In 2018 I started my primary mod project, Raising the Bar: Redux, as a Half-Life 2 cut content restoration mod, and it continues strong to this day. On the side I’ve worked on a variety of other Source mods, such as being the lead asset creator on Entropy Zero 2 and releasing my own side projects like Goreagulation. Beyond that, I like to try and mod games with either very little or no serious modding support and create new communities around them - most notably, I helped construct a community around Bionicle Heroes, which now has a few dozen mods and reasonable activity today.
+
+What inspires you to mod?
+
+Nicolas: The idea of being able to create 3D environments you could play into, and for which your imagination was basically the limit, was definitely the appeal of modding for me. I spent way more time goofing around in the levels I was building with my friends than I was spending building them. It was a good excuse for us to play stuff together and have fun. It definitely allowed me to create life-long relationships with some fellow modders that I consider great friends to this day.
+
+David: Modding allows me to revisit games I have a sentimental attachment to and add to their legacy. For Half-Life 2, it’s just such a powerful and versatile platform for creation that, with my current expertise in the engine, means I can create just about anything I can come to mind with. The creative problem solving inherent to modding - working out how to turn a foundation into something else - is really rewarding, and telling new stories with familiar content helps expand the universes I love. Modding is also a way I can make up for the shortcomings of a game, like expanding the combat sandbox or making more detailed levels, and in the case of much older and more obscure games, it lets me reach out to other enthusiasts for rewarding recollections of the past. I’ve always enjoyed tackling a problem and hitting my head against it until it breaks in, and modding is full of it, for better or worse!
+
+What's something about your content modding journey you’ve really enjoyed or were surprised by? 
+
+Nicolas: When I started getting myself involved in more serious projects like Portal: Prelude and then I Hate Mountains, I didn’t realize how much the skills required to lead such projects would transfer to a real job. I definitely landed my first few jobs in my twenties surfing on the popularity and skillset acquired while handling these projects. Modding forces you to wear many hats: you have to be a level designer, a 2D artist, a scripter, a writer, a web developer, a PR person, a release manager, a QA analyst, and so much more. It teaches you resiliency and adaptability.
+
+David: The greatest joy of modding on Raising the Bar: Redux was bringing together a number of specialists and talented individuals who, put together, can achieve things not possible alone. Team building and bringing people together is the greatest reward modding can provide for me, and seeing the collective talent of hobbyists and passionate creators at work is something I’ve never seen in any other context or any other field. Everyone wants to be there, wants to be a part of the collective whole and produce something not for money or personal gain, but for the love of creating, and in that environment there really is nothing else out there like that.
+
+What tools do you use for modding? What are your favorites?
+
+Nicolas: Back then, in 2010 and before, there weren't that many tools available to modders. If you had a level editor, a trusty image editor, and a text editor, you were basically set. These days, working on Portal: Prelude RTX with NVIDIA folks and David Driver-Gomm definitely opened my eyes to how much easier, and at the same time so much more complicated everything has become. Tools like Adobe Substance 3D and the Omniverse toolkit from NVIDIA really blew my mind after years of inactivity in this field. It felt like being a kid again, witnessing magic tools you can’t quite figure out the inner workings of.
+
+David: Every Source level designer has a love/hate relationship with ol’ Hammer (Valve’s Hammer Editor, more informally known as Hammer, is the primary tool used for Source modding), but the power it gives you once you truly understand how to use map logic and how to play by its limitations is immense and means you can really push your creative vision to the max. I also use Blender as my primary 3D modeling tool as I find it’s plugin support and community focus makes it incredibly versatile; if there’s a 3D format out there, chances are someone has written a plugin for it, and that makes it very easy to move from game to game and keep the same workflow.
+
+What’s the story behind the creation of the Portal: Prelude mod? When and why did you choose to make an unofficial prequel to Portal?
+
+Nicolas: In January 2008, I was looking for a new project. Portal had been out for four months, and no one had done anything really serious around it. I was a part of a lot of communities and followed a lot of independent releases, but no mod and no serious story arcs were being released. This is why I decided to launch this project.
+
+Originally, the project was rather insignificant. It was not supposed to be a modification of the game, but just a succession of test chambers, without any real logic between them. I had no goal, I was just making maps as I saw it. And finally, when I reached a dozen test chambers, I realized that it would be a shame to waste all this work by only releasing yet another map pack without any real backstory. This is where I began to write a whole new story and decided to follow the famous belief that prequels were somewhat popular at that time.
+
+My goal was to make it a personal project, without telling anyone about it. I wanted to surprise everyone by releasing a quality, polished, and fully finished game, offering roughly the same amount of playtime as Portal. As months passed, I had more and more difficulty working on it regularly. In real life, I was both a student and an employee, and that didn't leave me with a lot of time to work on the game. This is where I decided to ask for some help, mainly from Jérémy "Capitaine Mousse" Barbe, who helped me by making four of the nineteen test chambers while I was working on the final level. Marc "Moroes" Bidoul helped me too, by making a few 3D models and textures.
+
+[It took me] nine months [to make]. Not nine months of continuous work of course, but nine months with some days filled with dozens of hours of hard work. I worked on the nineteen test chambers for 3 to 4 months, followed by 2 months on the final level, and 2 months of testing, debugging, and polishing (interfaces, voices, commentaries, etc.). It took me a lot more time than I initially thought, mainly because I also had school exams and my actual job to do on the side.
+
+In June 2008, I learned like everyone else that Valve was potentially working on what we thought would end up being an official prequel of Portal (Portal 2). It felt like I was the only person on Earth not entirely happy with this announcement. So, I decided to work twice as hard to release my version way before Valve ever could.
+
+How did Portal: Prelude RTX come about?
+
+Nicolas: Back in 2022, I was approached by David Driver-Gomm from ModDB.com, and Nyle Usmani from NVIDIA shortly before the release of Portal with RTX, and they had this idea of taking a popular fan-made Portal mod from the old days, and working on a remaster powered by the same RTX Remix technology [used to make Portal with RTX]. I originally declined due to my absence from the modding scene for the last ~10 years, but ultimately decided to get on board once I saw the technology in action and because it was the perfect opportunity to deliver the 15-year anniversary remaster that many gamers had requested over the years.
+
+David: I was not a part of the original mod, but I played it when I was a kid, and as a big fan of Portal, I loved just having more Portal to play. Prelude told a very interesting story of a pre-GLaDOS Aperture that excited my creativity, and I remembered it fondly for many years. That’s why when it came to talking about what might be a project to uplift with a combination of Portal with RTX’s foundation and original work, Prelude immediately came to mind.
+
+
+Nicolas: I wore and still wear many many hats during my modding experience/career. As mentioned earlier, you have to be mind-bogglingly adaptable when working on a mod as a super small team of amateurs. Probably too many to list and detail. However, a few of these are detailed as follows:
+
+Environment Artist: Before you even start anything, you have to have a good idea of what the end result is supposed to look like. What ambience, scenery, visual decor, and soundscapes are going to play together. When we worked on ‘I Hate Mountains’, we had a gigantic bank of pictures and sounds to get us to imagine what the final result would look like as a team.
+
+Level designer: Don’t get me wrong, this is a real job. Many people in the world actually studied to become good level designers, and know the ins and outs, patterns, and core concepts that make a good level good. That wasn’t my case, so iterating and having real players test the result has always been the crutch on which I relied most! Getting inspiration from other games, and real life locations has also been super influential in my process. This usually involves a ton of research and prototyping, like what we did on the ‘I Hate Mountains’ project:
+
+This is usually done with the game’s level editor directly, roughly blocking out the layout, playtesting it ad-nauseum, and iterating on decor and environment from larger features to smaller details. I mostly used the Valve Hammer Editor for Source engine-based projects like Portal: Prelude RTX.
+
+2D Artist: For Portal: Prelude RTX, I helped with texturing and more specifically remastering the existing 128x128/256x256/512x512 original textures into high-fidelity 1024x1024/2048x2048/4096x4096 multi-map textures supported by the RTX Remix toolkit.
+
+The amount of work that a 4K multi-texture requires compared to a simple flat texture from the original game was surprising to me. Between the amount of details required on the albedo layer, the reflective map, roughness map, normal map, emissive map, opacity map, and more, it was definitely a challenge that forced me to learn and use more modern tools like Adobe Substance 3D and to have access to banks of high resolution pictures from real-life objects and textures.
+
+Integrator: For most of the duration of the Portal: Prelude RTX project, I was the person in charge of doing the translation between the game’s old, low-resolution assets to the new, high-resolution assets. This process was done using the then [early] in-development tool from NVIDIA called RTX Remix. This allowed me to take virtual 3D screenshots of a level and all of its assets while in-game, load this capture in RTX Remix, and literally replace every single asset (texture, geometry, light, etc.) with a 10 or 100 times higher fidelity version using open-source 2D and 3D formats. 
+
+I wouldn’t discount the fact that it also allows you to relight every single level with realistic path-traced lighting, which unlocked a ton of potential that old game engines could not provide back in the days. Several levels of Portal: Prelude have some limited amount of pre-baked lightmap changes to simulate dark vs. lit  environments, but the final result with RTX Remix is light-years ahead of what I could do back then. Having the opportunity to remaster these levels the way I had intended them to look like and behave back then was a nice cherry on the cake.
+
+David: As I was primarily an asset creator, my workflow involved creating assets to spec to the original captured variants. As I was the main asset creator for the entire project’s history and operating on limited time, I tended to work straight from the captured meshes and then went to uplift them from there, to varying degrees. So:
+
+Gather reference material on the original asset - 360 pictures usually taken in engine, most commonly in Garry’s Mod which has a total repository of all the Portal and Half-Life 2 assets we were using, which made it very easy for me to fly around the asset and get a close look at certain details
+Load up the NVIDIA Omniverse version of Blender, which has USD import support and is my 3D modeling tool of choice
+Import the USD of the asset captured by the RTX Remix runtime
+Uplift the captured USD in Blender - model new geometry, bevel out edges, and so on. This process would be more or less involved depending on the complexity/importance of the original asset and how much time I had to assign to it. Some assets were practically modeled from scratch anyway, whereas some - like pipes - mostly just had all their edges beveled out so they were higher poly and smoother
+UV unwrap the uplifted asset (usually my least favorite part, heh)
+Bring the asset into Substance Painter so I can create high-quality PBR maps for the model and then work on adding additional details via texture/normal mapping
+Export the textures, and then prep for ingestion into the game via RTX Remix
+RTX Remix allowed us to inject these super high quality assets into environments and really go the extra step. Prelude is quite different from the original Portal in that it makes extensive use of added assets and different environments than just test chambers, leading to a lot of unique cases where new props were used in Prelude sourced from Half-Life 2 or Counter-Strike: Source, particularly in the last level of the game where you go face-to-face with scientists and their office-working environment. This presented a special opportunity to build an environment new from [those seen in] Portal with RTX. The RTX lighting certainly helped too, and that’s considering the original mod was already very competently lit via Source Engine methodology!
+
+
+How did the GPU acceleration and AI-enabled features of GeForce RTX GPUs assist in development?
+
+Nicolas: During the Portal: Prelude remaster, I mainly used two features that required intensive use of GPU-acceleration and AI-enabled features:
+
+The RTX Remix tool itself is insanely powerful and almost comes across as magic to me. The ability to capture any part of a game, load it in a 3D tool and chip away at it as if this was being done using the original game’s level editor is insane. The amount of processing power that it requires to display and work in these levels in high-fidelity, path-traced dynamic lighting, with hundreds of high-poly 3D assets and 4K textures is also quite insane though. Having a powerful NVIDIA card to bear the brunt of the load was essential to my productivity.
+Early on during the remaster process, we played with AI upscaling a lot. When staring down at the daunting task of remastering hundreds or thousands of textures manually from the original low-resolution flat textures to multi-map high-resolution textures, it was greatly helpful in cutting down on the early work and focusing more on hero assets that required a more hands-on treatment, like character/NPC models, and large predominant textures.
+How will NVIDIA RTX Remix impact the future of mod development?
+
+Nicolas: When I first saw Portal with RTX in action, I kept waiting for the shoe to drop. I was highly skeptical that a tool that anyone could use would be capable of such an incredibly high-fidelity remaster without having access to any of the original game’s assets or any way to modify the original games files. 
+
+When I was able to get my hands on a pre-alpha early version of RTX Remix, I was honestly floored. I’m a software engineer in life, and I could not wrap my head around how such a thing could have even been built, let alone work exactly as I would have expected it to work. It really allowed me to launch an old game (Portal), click on a button in-game to take a capture of the world, load it into RTX Remix, click on a wall texture, replace it with literally anything from a cat meme picture to a super-realistic photo-realistic 8K texture, and literally see it pop up in-game in real time.
+
+The fact that it provides a game-agnostic, proprietary format-agnostic, hands-on experience is something that could be a watershed moment in preserving legacy games and making sure that they can be experienced by a new generation of gamers in higher-fidelity without having to hope/wait for an officially sanctioned remaster or never see one because of a potentially defunct game studio.
+
+David: RTX Remix opens up the graphical playing field dramatically for older games. A lot of people are happy to play older games with the graphics of the time, but it’s also a very common sub-genre of mod to try and uplift the fidelity of older games for a fresh visual experience on a replay. All of that used to have to be done either in-engine with the tools provided, or with some very challenging work injecting new graphical techniques into a game.
+
+RTX Remix will do a lot of this work for modders in compatible titles, and as RTX becomes something of a norm as far as technology goes, it’ll be opened up to more and more people in the future. I also foresee that it will be a great addition to the processes for new mods and total conversions, as most asset creation pipelines today involve some level of PBR workflow that is then downgraded into an original engine. Overall it’ll simplify graphical remastering tremendously, and bring mods up a notch to be able to bat with professional titles.
+
+Do you have any learnings you’d like to share with gamers or other mod developers about RTX Remix?
+
+Nicolas: Yes, working with RTX Remix was a great experience, but with great power comes great responsibilities. The tool can be overwhelming because there is almost no limit to what you can do with it. You have to be well-organized,  and segment your project early if you want any chance of succeeding. It usually starts easy, but when you reach thousands of high-fidelity 2D and 3D assets, upon layers and layers of replacement, you better be organized especially if you’re working as a team.
+
+With David, we made sure to have people dedicated to specific roles and specific sections of the remaster. David would create a “3D asset” replacement layer and work on replacing legacy objects like chairs and pipes while I was working on a “lighting” replacement layer that only contained changes to emissive textures and lights. We had many such replacement layers, similar to how a layer in Photoshop would work, like 2D assets, 3D assets, skyboxes, lighting, NPCs, signage, etc.
+
+Additionally, having a well defined, agreed upon file organization strategy super early is of paramount importance so that files for each replacement layer are easy to find, and well segregated can help a ton when working as a team. Having a version control system to take care of versioning for you in addition to RTX Remix would be a must-have in my opinion.
+
+Finally, you do have to think outside of the box sometimes. When I say there are no limits, there actually are, and these are the limits of what the original game provided. It can be hard to replace something that wasn’t there in the first game for example. Or it can be hard to work around a limitation of the first game that used a quirk of the game engine to make it work. One such example for us was working around pre-baked lighting in some levels of Portal: Prelude. You have to undo a lot of the workarounds that were made in the original game and replace them with better ones from RTX Remix, but it can require creative solutions and hacky workarounds to get to where you want to be. I think it’s part of the modding process though, and isn’t necessarily a bad thing. You have to be scrappy.
+
+David: RTX Remix is great, but what we found on Portal: Prelude RTX, and what I believe is best for the tool overall, is that it works best when in tandem with other game tools. We used Hammer and level design to redesign parts of levels to function a little better in RTX; we made changes on the in-game side to facilitate better replacements by RTX Remix; and Portal: Prelude RTX received a lot more improvements, great and small, besides just the graphical overhaul. RTX Remix is a powerful arrow in any modder’s quiver, and best used alongside a varied toolset to push your mod to the next level. Depending on the task, it could very well be the only tool you really need, but it’s best as a collaborative item.
+
+Thanks for speaking with us; Portal: Prelude RTX is an amazing game, and is truly spectacular on a GeForce RTX GPU. Follow Nicolas and David on Twitter to discover what they work on next.
+
+---------------
+
+Portal: Prelude RTX is available now for download, free to all owners of Portal. Learn more in our Portal: Prelude RTX launch article, and get the full lowdown on our new GPU-accelerated storage technology in our NVIDIA RTX IO launch article. For future updates on NVIDIA RTX Remix, stay tuned to GeForce.com.

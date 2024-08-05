@@ -1,0 +1,54 @@
+NVIDIA RTX IO GPU 加速存储技术本月在“传送门：序曲 (Portal: Prelude)”RTX 版和“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”中首次亮相
+由 Andrew Burnes 发表于 2023年7月18日 | 精选故事GeForce RTX GPU硬件NVIDIA RTXNVIDIA RTX IOPortal with RTX
+在无尽的开放世界中快速的加载和流畅的导航长期以来一直是游戏玩家和开者者的目标。即使 NVMe SSD 具有令人难以置信的性能，这一目标仍然遥不可及。当代游戏引擎已经超越了传统存储 API 的能力；需要新一代的输入/输出 (IO) 架构。
+NVIDIA RTX IO 登场，可实现基于 GPU 的快速加载和游戏资源解压，与硬盘和传统存储 API 相比，可大幅提升 IO 性能。 NVIDIA RTX IO 利用 GPU 解压缩来处理较小的数据包，从而实现更快的加载速度和更低的 CPU 利用率，并允许开发者创建具有大量丰富、细腻世界的新一代游戏。
+
+今天，NVIDIA RTX IO 与免费的“传送门：序曲 (Portal: Prelude)”RTX 版 Mod 一起首次登场，并且还将在 7 月 26 日推出的“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”中亮相。
+
+RTX IO 工作原理
+NVIDIA RTX IO 利用 GeForce GPU 的先进架构，将数十个 CPU 核心的工作负载转移到 GPU，从而实现更快的游戏加载，并为大型、超精细的开放世界游戏的新时代打开大门。 RTX IO 基于 GDeflate，这是一种由 NVIDIA 提供的开放 GPU 压缩标准，微软的 DirectStorage 和新的 Vulkan 扩展都使用该标准。
+传统的方式是，数据从磁盘驱动器发送到 CPU，通过系统内存解压缩，然后发送到 GPU。该系统的设计并未考虑当今 Gen4 和 Gen5 PCIe NVME SSD 的功能，仅使用了其功能的一小部分。 CPU 和系统内存的瓶颈，再加上更大的素材资源，限制了较新 SSD 的优势，导致资源加载速度变慢，这可能会导致游戏中纹理突现或加载时间变长。
+
+传统的输入/输出流程导致当今内容丰富的游戏出现瓶颈
+
+NVIDIA RTX IO 通过将压缩数据传送到 GPU 内存，减少在 CPU 系统内存中存放，从而显著提高 IO 带宽。 GPU 利用 GDeflate 以高吞吐量进行解压缩，从而允许 CPU 执行其他任务。因此，该技术可以减少目标突现和卡顿的现象，并以令人惊叹的速度传输高质量纹理，让您即使在游戏世界中高速移动，也能确保游戏中的目标流畅运行。此外，无损压缩可减少游戏的下载和安装大小，使得游戏玩家能够在 SSD 上存储更多游戏，从而享受 SSD 带来的游戏性能提升。
+
+NVIDIA RTX IO 利用 GPU 加速解压缩实现更快的 IO 吞吐量
+
+虽然所有现代 DirectX 12 GPU 都支持 RTX IO，但 RTX IO 旨在 GPU 中尽可能多的并行核心上运行，因此在 IO 吞吐量不是瓶颈的情况下，可用的计算核心越多，性能就越高。从本质上讲，在越强大的 GPU 和固态硬盘 (SSD)上加载速度越快；具体的加速情况将根据游戏、场景以及您的 GPU 和硬盘的特定组合而有所不同。
+
+在“传送门：序曲 (Portal: Prelude)”RTX 版中，NVIDIA RTX IO 始终处于开启状态（您无需在菜单中进行切换），并且它可以实现更快的纹理加载时间，从而最大限度地减少资源突现：
+
+ 
+“传送门：序曲 (Portal: Prelude)”RTX 版 - 基于 GeForce RTX 4090 和 Samsung 980 Pro NVMe，在 4K 最高设置下使用 RTX IO 实现更快的纹理加载速度
+
+NVIDIA RTX Remix 将“传送门：序曲 (Portal: Prelude)”RTX 版变为现实，得益于 RTX IO 和 Vulkan 扩展的使用，通过 GDeflate 进行 GPU 解压将“传送门：序曲 (Portal: Prelude)”RTX 版的安装大小缩小了 44%，使精美的 4K 纹理能够在更小的空间无损地展示出来。当 RTX Remix 创作者工具套件发布时，每个 Modder 都可以依靠 RTX IO 来忠实于自己的艺术理念，同时满足热门 Mod 网站的附件大小限制。
+
+在 7 月 26 日推出的“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”中，NVIDIA RTX IO 用于在维度之间跳跃时快速加载具有高细节水平的高质量纹理和环境。结合 RTX IO 加速的 DirectStorage 以及使用快速 NVMe SSD，即使在最高设置下，也能实现非常灵敏的纹理流送。
+Nixxes Software 的高级首席程序员 Richard van der Laan 解释道：“为了实现快速加载和维度之间的即时转换，游戏需要能够快速加载资源。DirectStorage 可确保快速加载时间，并且在游戏中在高图形设置下使用 GPU 解压缩在后台传输资源。”
+
+RTX IO 支持 DirectStorage 和 Vulkan
+RTX IO 基于 GDeflate 构建，GDeflate 是由 NVIDIA 提供的开放 GPU 压缩标准，旨在最大限度地提高采用率和兼容性，使每个独立硬件供应商 (IHV) 能够在其驱动中添加支持，并允许开发者轻松跨多平台整合其技术。RTX IO 通过 DirectStorage 支持 DirectX，通过 Vulkan 扩展支持 Vulkan。
+NVIDIA RTX IO 利用开放 GPU 压缩标准，支持 DirectX 和 Vulkan
+
+在采用 Maxwell 或更新架构的 GeForce GTX 和 RTX PC 和笔记本电脑上，得益于我们的 Game Ready 驱动，该技术的性能得到进一步提升，并且在集成 RTX IO 的游戏中，可以充分利用 GeForce RTX GPU 的全部功能，为您提供终极游戏体验。
+
+开发者可以在此处详细了解如何为其 DirectX 和 Vulkan 应用添加 RTX IO。
+
+“传送门：序曲 (Portal: Prelude)”RTX 版今日与 NVIDIA RTX IO 一起发布
+“传送门：序曲 (Portal: Prelude)”RTX 版是高分的 Mod “传送门：序曲 (Portal: Prelude)”的全景光线追踪重制版。其创作者从“传送门 RTX 版 (Portal with RTX)”中汲取灵感，使用 NVIDIA RTX Remix 重构了他们的经典作品，今天即可下载体验。“传送门：序曲 (Portal: Prelude)”RTX 版拥有数百种额外的重制材质和资产、全新的完整语音互动故事以及更新的关卡设计，以改进游戏玩法。
+ 
+这款令人难以置信的重制版游戏今天免费发布，“传送门 (Portal)”玩家均可以通过 Steam 平台免费下载。通过利用 RTX IO，其下载大小大幅降低，且加载时间更快。如需深入了解“传送门：序曲 (Portal: Prelude)”RTX 版，请参阅我们“传送门：序曲 (Portal: Prelude)”RTX 版发布专题文章。
+“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将于 7 月 26 日发布，并支持 RTX IO
+7 月 26 日，由 Insomniac Games 和 Nixxes Software 推出的备受好评的“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”将登陆 PC 平台。“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”支持 RTX IO，利用 DirectStorage 运行时和我们支持 RTX IO 的 Game Ready 驱动，确保维度跳跃游戏的流畅运行和令人兴奋的游戏体验。
+ 
+下载 7 月 18 日的 GeForce Game Ready 驱动以获得首日最佳体验
+今天，我们发布了最新的 GeForce Game Ready 驱动。它针对“传送门：序曲 (Portal: Prelude)”RTX 版、“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”和其他游戏进行了优化，并在这两款游戏中使用 NVIDIA RTX IO 和 DirectStorage for Windows，为您提供高水平的性能。
+portal-prelude-rtx-game-ready-driver-download-now-article-promo
+如需下载并安装该驱动，请前往 GeForce Experience 的“Drivers”（驱动）选项卡，或访问 GeForce.cn。
+NVIDIA RTX IO 的推出，将促进游戏行业的发展
+开发者始终在突破技术界限，借助最新的进展和引擎升级，他们可以在巨大的可遍历世界中创建近乎照片级真实感的环境，并且借助 NVIDIA RTX IO、GDeflate 和 Microsoft DirectStorage for Windows，获得更快的加载速度。借助这些技术，游戏玩家将体验到罕见的细节过渡、难以察觉的资源突现以及快速的纹理加载。
+
+借助 GeForce RTX 40 系列 GPU，您将获得超快性能，如同“传送门：序曲 (Portal: Prelude)”RTX 版一样，所有其他当代 GeForce GPU 用户都将极大地受益于 Game Ready 驱动和 RTX IO 游戏优化。
+
+如需了解接下来哪些游戏将支持 NVIDIA RTX IO，请继续关注 GeForce.cn

@@ -1,0 +1,53 @@
+NVIDIA Reflex Now Reducing System Latency In Party Animals, Warhaven & More
+By Andrew Burnes on September 20, 2023 | Featured StoriesG-SYNCGeForce RTX GPUsNVIDIA ReflexNVIDIA RTX
+NVIDIA Reflex is a must-have in games, reducing system latency so your actions occur quicker, giving you a competitive edge in multiplayer matches, and making single-player titles more responsive and enjoyable. NVIDIA Reflex is now used by over 50 million players each month, is available in 9 of the top 10 competitive shooters, including the Counter-Strike 2 beta, and is activated by 90% of GeForce gamers in over 70 supported titles.
+
+
+ 
+NVIDIA Reflex is synonymous with responsive gaming, and can be found in the latest and greatest games, including Party Animals, Warhaven, and Witchfire, which all launch this week. Additionally, Nexon’s First Descendant Crossplay Open Beta will boast support, too.
+
+This month also sees the launch of the first 540Hz NVIDIA G-SYNC Ultra Low Motion Blur 2-capable monitor, from ASUS. When activated, ULMB2 gives you 2,160Hz of effective motion clarity, for the definitive competitive gaming experience.
+
+Read on for all the details.
+
+Party Animals Launches Today With NVIDIA Reflex & DLSS 2
+Battle with your friends as puppies, kittens and other cuddly creatures in Party Animals, developed by Recreate Games. Engage in paw-to-paw combat with your friends online. Interact with the world using a realistic physics engine and take advantage of interactive elements in each unique level to emerge victorious in every brawl.
+
+When Party Animals launches today, September 20th, GeForce RTX gamers can boost performance with DLSS 2 and reduce system latency with NVIDIA Reflex, giving them a competitive edge over critters with less responsive systems.
+
+NVIDIA Reflex reduces system latency, and DLSS 2 increases performance by 1.7X on average with max settings at 4K, enabling all GeForce RTX gamers to crush the competition at ludicrously fast and fluid frame rates:
+
+The First Descendant Open Beta Available Now, Featuring Reflex & DLSS 3
+Nexon Games’ The First Descendant is a free, third-person cooperative action-RPG shooter powered by Unreal Engine 5. Experience the fun of strategic boss fights through 4-player co-op, using an extensive range of unique characters, with exciting gunplay, and looting. Battle through the engrossing story, and tackle World Missions against huge bosses.
+
+
+ 
+From September 19th through to September 25th, gamers can participate in a First Descendant Crossplay Open Beta, featuring 13 characters, nine giant boss raids, and tons of other content. If you’re playing on PC with a GeForce RTX GPU, you can activate NVIDIA Reflex and NVIDIA DLSS 3, reducing system latency by up to 56% at 4K for more responsive gameplay, multiplying performance for GeForce RTX 40 Series gamers, and accelerating frame rates for all other GeForce RTX users via DLSS 2.
+
+
+ 
+Warhaven Launches Today With Reflex & DLSS 3
+Enter battle today in NEXON Korea’s Warhaven, a visceral 16 vs. 16 third-person medieval-fantasy combat action game created by the minds behind Durango: Wild Lands and Vindictus. Choose among a diverse roster of melee-weapon and magic-based combatants to storm battlegrounds as you see fit. Transform into powerful heroes called Immortals to wield supernatural skill sets, and experience team-based sword-and-magic gameplay like never before.
+
+
+ 
+Warhaven features day-one support for NVIDIA Reflex which reduces system latency by up to 46% at 4K for more responsive multiplayer battling, and performance can be accelerated to even greater heights with NVIDIA DLSS 3.
+
+Witchfire Enters Early Access Today With Support For Reflex & DLSS 3
+The Astronauts’ Witchfire is a dark fantasy first-person shooter from the creative leads behind Painkiller, Bulletstorm, and The Vanishing of Ethan Carter. Desperate for a chance to triumph in the deadly war against witches, the Church calls on forbidden pagan magic to turn willing sinners into immortal witch hunters called preyers. Armed with powerful spells and fearsome firearms conjured by the best Vatican sorcerers, your mission is to find the infamous witch of the Black Sea, destroy the phantom army that protects her, and retrieve a mysterious artifact that can finally turn the tide of war.
+
+
+ 
+Like The Astronauts’ previous title, The Vanishing of Ethan Carter, Witchfire uses photogrammetry technology to achieve stunning visuals in its grim, immersive dark fantasy world. On GeForce RTX PCs and laptops those visuals will be accelerated by NVIDIA DLSS 3, and system latency will be reduced by up to 57% at 4K with NVIDIA Reflex, making gameplay even more responsive.
+
+ASUS ROG Swift Pro PG248QP NVIDIA G-SYNC Ultra Low Motion Blur 2 Monitor Available This Month
+In 2015, NVIDIA created Ultra Low Motion Blur (ULMB), a novel technique of G-SYNC monitors to deliver extra motion clarity in competitive games. Earlier this year, we launched NVIDIA G-SYNC Ultra Low Motion Blur 2 (ULMB 2), featuring over 1000 Hz of effective motion clarity for the best motion blur reduction for competitive gamers. And compared to the original, ULMB 2 also delivered full refresh rate backlight strobing, nearly 2X higher brightness, and practically zero crosstalk.
+
+This month, ASUS is releasing the ROG Swift Pro PG248QP gaming monitor, the first 540Hz display with G-SYNC Ultra Low Motion Blur 2. When activated, ULMB 2 will deliver 2,160Hz of effective motion clarity, for the definitive competitive gaming experience.
+
+To learn more about G-SYNC Ultra Low Motion Blur 2, check out our original announcement. And stay tuned to ASUS’ pages and social media channels to learn about availability of the ROG Swift Pro PG248QP gaming monitor in your region.
+
+Additionally, the Acer Predator XB273U F 27” 1440p 360 Hz, and ASUS ROG Swift 360Hz PG27AQN 27” 1440p 360 Hz ULMB 2 are already available, with over 1000 Hz of effective motion clarity.
+
+More To Come Soon
+Even more new NVIDIA Reflex games, plus Reflex-compatible mice and monitors are on their way, so stay tuned to GeForce.com to learn more when the news drops; check out the complete list of currently supported games and devices on our NVIDIA Reflex website.

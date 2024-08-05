@@ -1,0 +1,10 @@
+recursive-include ChatRTX *.py
+recursive-include ChatRTX 3rd_party_license.txt
+recursive-include ChatRTX LICENSE.md
+recursive-include ChatRTX README.md
+recursive-include ChatRTX/config *
+recursive-include ChatRTX/sample_data *
+recursive-include ChatRTX/examples *
+recursive-include ChatRTX/inference *
+recursive-include ChatRTX/model_manager *
+recursive-include ChatRTX/rags *

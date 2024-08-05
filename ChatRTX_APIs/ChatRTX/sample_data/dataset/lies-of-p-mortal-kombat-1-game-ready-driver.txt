@@ -1,0 +1,51 @@
+Lies of P & Mortal Kombat 1 Game Ready Driver Released, Plus Starfield Performance Improvements
+By Andrew Burnes on September 12, 2023 | Featured StoriesDrivers
+Our latest driver is Game Ready for Lies of P and Mortal Kombat 1.
+
+There’s also support for 6 new G-SYNC Compatible gaming monitors, and another 5 GeForce Experience Optimal Settings.
+
+To download and install, head to the Drivers tab of GeForce Experience or GeForce.com.
+
+Lies of P Launches September 19th With DLSS 2
+Inspired by the familiar story of Pinocchio, Lies of P is an action Souls-like game set in the dark, Belle Époque-inspired city of Krat. Once a beautiful city, Krat has become a living nightmare as deadly puppets run amok and a plague sweeps the land. Play as P, a puppet who must fight his way through the city on his unrelenting journey to find Geppetto and finally become human. Lies of P presents an elegant world filled with tension, deep combat and character customization systems, and a gripping story with interesting narrative choices where the more lies told, the more human P becomes.
+
+
+ 
+When Lies of P launches on September 19th, GeForce RTX gamers can significantly accelerate their performance - in our GeForce RTX 40 Series benchmarks, frame rates increased by an average of 1.9X at 4K with max settings enabled.
+
+Game Ready For Mortal Kombat 1
+Liu Kang has restarted history, crafting a New Era reflecting his vision of peace. Meanwhile Mileena, twin sister of Kitana and rightful heir to Outworld's throne, has been infected by a dreaded and lethal disease. Lin Kuei warriors and brothers Scorpion and Sub-Zero fight for the future of the clan, while Earthrealm champions Raiden and Kung Lao fight for family and honor. Johnny Cage, who is more concerned with staying relevant in the eyes of his fans, fights for his own vanity. Fight your way through the new Universe of Mortal Kombat 1, ushering in a new era of the iconic franchise with a new fighting system, game modes, and new, spectacular fatalities.
+
+
+ 
+At launch, DLSS 2 Super Resolution will be available to ensure GeForce RTX gamers hit a locked 60 frames per second in every match, with every setting maxed out at 1440p and 4K.
+
+Starfield Performance Improvements
+Today, NVIDIA is releasing a Resizable BAR profile for Starfield which increases performance on GeForce RTX 40 Series and GeForce RTX 30 Series desktop and laptop GPUs. In our testing scenario, GeForce RTX 40 Series desktop GPUs see on average a 5% increase in performance. The Starfield Resizable BAR update will be pushed via an Over-The-Air (OTA) update from NVIDIA and will be automatically applied for gamers running the latest Game Ready Driver (537.34) or the previous release (537.17).   
+
+Support For Newly Validated G-SYNC Compatible Displays
+Our newest Game Ready Driver adds support for 6 new G-SYNC Compatible displays that deliver a baseline Variable Refresh Rate (VRR) experience that makes your gaming smoother and more enjoyable. 
+
+Manufacturer	Model	HDR	Size	Panel Type	Resolution	VRR Range
+AOC	U27G3X	Yes	27	IPS	3840x2160 (4K)	48-160Hz
+AOC	AG275QA1	Yes	27	IPS	2560x1440 (QHD)	60-170Hz
+I-O DATA	GDQ271JA	Yes	27	IPS	2560x1440 (QHD)	59-180Hz
+LG	27GR93U	Yes	27	IPS	3840x2160 (4K)	48-144Hz
+LG	27GR750Q	Yes	27	IPS	2560x1440 (QHD)	48-165Hz
+LG	38WR850C-W	Yes	38	IPS	3840x1600 (WQHD+)	60-170Hz
+These newly-validated monitors give gamers even more choice when searching for a great gaming display. For a complete list of all G-SYNC, G-SYNC ULTIMATE, and G-SYNC Compatible gaming monitors, check out our handy and frequently updated G-SYNC page, which can be sorted and filtered, helping you quickly find the ideal display.
+
+New Games Supported By GeForce Experience’s Optimal Settings
+GeForce Experience’s one-click optimal settings enable you to instantly configure game options for your system’s hardware, giving you smooth, optimized gameplay. Over 1000 titles are supported, and since our last driver release we’ve added support for 5 more:
+
+ARMORED CORE VI FIRES OF RUBICON
+Immortals of Aveum
+Starfield
+The Texas Chain Saw Massacre
+Wayfinder
+GeForce Experience also enables you to capture and stream your gameplay, take screenshots, upload videos to social networks, and more. 
+
+GeForce Game Ready Driver - Download Now
+Learn more about GeForce Game Ready Drivers here; download the new GeForce Game Ready 537.34 WHQL driver through GeForce Experience.
+
+If you experience any technical issues with the new Game Ready drivers please post a detailed report on the GeForce.com Driver Feedback Forum, where our Customer Care team can better assist you. And if you’re looking for a full list of fixes in this driver, for previously-reported issues, head here.

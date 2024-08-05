@@ -1,0 +1,283 @@
+{
+    "models": {
+        "supported": [
+            {
+                "name": "Mistral 7B int4",
+                "id": "mistral_7b_AWQ_int4_chat",
+                "ngc_model_name": "nvidia/llama/mistral-7b-int4-chat:1.2",
+                "is_downloaded_required": true,
+                "downloaded": false,
+                "is_installation_required": true,
+                "setup_finished": false,
+                "min_gpu_memory": 8,
+                "should_show_in_UI": true,
+                "prerequisite": {
+                    "checkpoints_files": [
+                        "config.json",
+                        "rank0.safetensors",
+                        "license.txt"
+                    ],
+                    "tokenizer_ngc_dir": "mistral7b_hf_tokenizer",
+                    "tokenizer_files": {
+                        "config": "config.json",
+                        "tokenizer": "tokenizer.json",
+                        "model": "tokenizer.model",
+                        "tokenizer_config": "tokenizer_config.json"
+                    },
+                    "checkpoints_local_dir": "model_checkpoints",
+                    "tokenizer_local_dir": "tokenizer",
+                    "engine_build_command": "trtllm-build --checkpoint_dir %checkpoints_local_dir% --output_dir %engine_dir% --gpt_attention_plugin float16 --gemm_plugin float16 --max_batch_size 1 --max_input_len 7168 --max_output_len 1024 --context_fmha=enable --paged_kv_cache=disable --remove_input_padding=disable --output_timing_cache %output_timing_cache_dir%/model.cache",
+                    "engine_dir": "engine"
+                },
+                "metadata": {
+                    "engine": "rank0.engine",
+                    "max_new_tokens": 1024,
+                    "max_input_token": 7168,
+                    "temperature": 0.1,
+                    "prompt_template": "Default"
+                },
+                "model_info": "The Mistral-7B is a instruct fine-tuned text generation model",
+                "model_license": "https://github.com/mistralai/mistral-src/blob/main/LICENSE",
+                "model_size": "4GB",
+                "modelDevelopers": "Mistral AI",
+                "isTextBased": true,
+                "isImageBased": false,
+                "isChineseSupported": false,
+                "isEnglishSupported": true
+            },
+            {
+                "name": "Llama2 13B int4",
+                "id": "llama2_13b_AWQ_INT4_chat",
+                "ngc_model_name": "nvidia/llama/llama2-13b:1.5",
+                "is_downloaded_required": true,
+                "downloaded": false,
+                "is_installation_required": true,
+                "setup_finished": false,
+                "min_gpu_memory": 16,
+                "should_show_in_UI": true,
+                "prerequisite": {
+                    "checkpoints_files": [
+                        "config.json",
+                        "rank0.safetensors",
+                        "README.txt",
+                        "license.txt"
+                    ],
+                    "tokenizer_ngc_dir": "llama13_hf_tokenizer",
+                    "tokenizer_files": {
+                        "config": "config.json",
+                        "tokenizer": "tokenizer.json",
+                        "model": "tokenizer.model",
+                        "tokenizer_config": "tokenizer_config.json"
+                    },
+                    "checkpoints_local_dir": "model_checkpoints",
+                    "tokenizer_local_dir": "tokenizer",
+                    "engine_build_command": "trtllm-build --checkpoint_dir %checkpoints_local_dir% --output_dir %engine_dir% --gpt_attention_plugin float16 --gemm_plugin float16 --max_batch_size 1 --max_input_len 3072 --max_output_len 1024 --context_fmha=enable --paged_kv_cache=disable --remove_input_padding=disable  --output_timing_cache %output_timing_cache_dir%/model.cache",
+                    "engine_dir": "engine"
+                },
+                "metadata": {
+                    "engine": "rank0.engine",
+                    "max_new_tokens": 1024,
+                    "max_input_token": 7168,
+                    "temperature": 0.1,
+                    "prompt_template": "Default"
+                },
+                "model_info": "LlaMa 2 is a large language AI model capable of generating text and code in response to prompts",
+                "model_license": "https://ai.meta.com/llama/license/",
+                "model_size": "6.8GB",
+                "modelDevelopers": "Meta",
+                "isTextBased": true,
+                "isImageBased": false,
+                "isChineseSupported": false,
+                "isEnglishSupported": true
+            },
+            {
+                "name": "ChatGLM 3 6B int4",
+                "id": "chatglm3_6b_AWQ_int4",
+                "ngc_model_name": "nvidia/chatglm3-6b-chat-int4:1.0",
+                "is_downloaded_required": true,
+                "downloaded": false,
+                "is_installation_required": true,
+                "setup_finished": false,
+                "min_gpu_memory": 8,
+                "should_show_in_UI": true,
+                "prerequisite": {
+                    "checkpoints_files": [
+                        "config.json",
+                        "rank0.safetensors",
+                        "license.txt"
+                    ],
+                    "tokenizer_ngc_dir": "Tokenizer",
+                    "tokenizer_files": {
+                        "config": "config.json",
+                        "model": "tokenizer.model",
+                        "tokenizer_config": "tokenizer_config.json"
+                    },
+                    "checkpoints_local_dir": "model_checkpoints",
+                    "tokenizer_local_dir": "tokenizer",
+                    "engine_build_command": "trtllm-build --checkpoint_dir %checkpoints_local_dir% --output_dir %engine_dir% --gemm_plugin float16 --max_batch_size 1 --max_input_len 7168 --max_output_len 1024  --output_timing_cache %output_timing_cache_dir%/model.cache",
+                    "engine_dir": "engine"
+                },
+                "metadata": {
+                    "engine": "rank0.engine",
+                    "max_new_tokens": 1024,
+                    "max_input_token": 7168,
+                    "temperature": 0.1
+                },
+                "model_info": "ChatGLM-6B is an open bilingual language model based on General Language Model framework, with 6.2 billion parameters",
+                "model_license": "https://huggingface.co/THUDM/chatglm3-6b/blob/main/MODEL_LICENSE",
+                "model_size": "3.8GB",
+                "modelDevelopers": "Zhipu AI",
+                "isTextBased": true,
+                "isImageBased": false,
+                "isChineseSupported": true,
+                "isEnglishSupported": false
+            },
+            {
+                "name": "Gemma 7B int4",
+                "id": "gemma_7b_int4",
+                "ngc_model_name": "nvidia/llama/gemma-7b-int4-rtx:1.1",
+                "is_downloaded_required": true,
+                "downloaded": false,
+                "is_installation_required": true,
+                "setup_finished": false,
+                "min_gpu_memory": 16,
+                "should_show_in_UI": true,
+                "prerequisite": {
+                    "checkpoints_files": [
+                        "config.json",
+                        "rank0.safetensors",
+                        "Prohibited_use_policy.txt",
+                        "license.txt",
+                        "Notice.txt"
+                    ],
+                    "tokenizer_ngc_dir": "Gemma7b_hf_tokenizer",
+                    "tokenizer_files": {
+                        "vocab_file": "tmp_vocab.model"
+                    },
+                    "checkpoints_local_dir": "model_checkpoints",
+                    "vocab_local_dir": "tokenizer",
+                    "engine_build_command": "trtllm-build --checkpoint_dir %checkpoints_local_dir% --gemm_plugin float16 --gpt_attention_plugin float16 --max_batch_size 1 --max_input_len 4096 --max_output_len 1024 --output_dir %engine_dir%  --output_timing_cache %output_timing_cache_dir%/model.cache",
+                    "engine_dir": "engine"
+                },
+                "metadata": {
+                    "engine": "rank0.engine",
+                    "max_new_tokens": 1024,
+                    "max_input_token": 7168,
+                    "temperature": 0.1
+                },
+                "model_info": "Gemma-7B is a 7B parameter model from Gemma family of models from Google",
+                "model_license": "https://ai.google.dev/gemma/terms",
+                "model_size": "6.6GB",
+                "modelDevelopers": "Google",
+                "isTextBased": true,
+                "isImageBased": false,
+                "isChineseSupported": false,
+                "isEnglishSupported": true
+            },
+            {
+                "name": "CLIP",
+                "id": "clip_model",
+                "hf_model_name": "openai/clip-vit-large-patch14-336",
+                "is_downloaded_required": true,
+                "downloaded": false,
+                "download_link": "https://huggingface.co/openai/clip-vit-large-patch14-336/resolve/main",
+                "is_installation_required": false,
+                "setup_finished": false,
+                "min_gpu_memory": 8,
+                "should_show_in_UI": true,
+                "prerequisite": {
+                    "checkpoints_files": [
+                        "README.md",
+                        "config.json",
+                        "merges.txt",
+                        "preprocessor_config.json",
+                        "pytorch_model.bin",
+                        "special_tokens_map.json",
+                        "tokenizer.json",
+                        "tokenizer_config.json",
+                        "vocab.json"
+                    ],
+                    "checkpoints_local_dir": "clip_model"
+                },
+                "metadata": {},
+                "model_info": "CLIP is a multi-modal vision and language model used for image-text similarity and for zero-shot image classification",
+                "model_license": "https://github.com/openai/CLIP/blob/main/LICENSE",
+                "model_size": "1.5GB",
+                "modelDevelopers": "OpenAI",
+                "isTextBased": false,
+                "isImageBased": true,
+                "isChineseSupported": false,
+                "isEnglishSupported": true
+            }
+        ],
+        "selected": "mistral_7b_AWQ_int4_chat",
+        "enable_asr": true,
+        "supported_asr": [
+            {
+                "name": "Whisper Medium Int8",
+                "installed": false,
+                "metadata": {
+                    "encoder_engine": "whisper_encoder_float16_tp1_rank0.engine",
+                    "decoder_engine": "whisper_decoder_float16_tp1_rank0.engine",
+                    "model_path": "model\\whisper\\whisper_medium_int8_engine",
+                    "assets_path": "model\\whisper\\whisper_assets"
+                }
+            }
+        ]
+    },
+    "sample_questions": {
+        "default": {
+            "modelIdList": [
+                "mistral_7b_AWQ_int4_chat",
+                "llama2_13b_AWQ_INT4_chat",
+                "gemma_7b_int4"
+            ],
+            "dataset_path": "%programdata%\\NVIDIA Corporation\\ChatRTX\\sample_data\\dataset",
+            "isRelative": true,
+            "queries": [
+                "How does NVIDIA ACE generate emotional responses?",
+                "What is Portal: Prelude RTX?"
+            ]
+        },
+        "chinese": {
+            "modelIdList": [
+                "chatglm3_6b_AWQ_int4"
+            ],
+            "dataset_path": "%programdata%\\NVIDIA Corporation\\ChatRTX\\sample_data\\chinese_dataset",
+            "isRelative": true,
+            "queries": [
+                "NVIDIA ACE是如何生成富有情感的回复的？",
+                "传送门：序曲 RTX 版是什么？"
+            ]
+        },
+        "images": {
+            "modelIdList": [
+                "clip_model"
+            ],
+            "dataset_path": "%programdata%\\NVIDIA Corporation\\ChatRTX\\sample_data\\images_dataset",
+            "isRelative": true,
+            "queries": [
+                "Pictures of bicycles",
+                "Pictures of toys",
+                "Pictures of dinosaurs",
+                "Pictures of computer"
+            ]
+        }
+    },
+    "dataset": {
+        "sources": [
+            "directory",
+            "nodataset"
+        ],
+        "selected": "directory",
+        "path": "%programdata%\\NVIDIA Corporation\\ChatRTX\\sample_data\\dataset",
+        "path_chinese": "%programdata%\\NVIDIA Corporation\\ChatRTX\\sample_data\\chinese_dataset",
+        "path_clip": "%programdata%\\NVIDIA Corporation\\ChatRTX\\sample_data\\images_dataset",
+        "selected_path": "%programdata%\\NVIDIA Corporation\\ChatRTX\\sample_data\\dataset",
+        "isRelative": true
+    },
+    "strings": {
+        "directory": "Folder Path",
+        "nodataset": "AI model default"
+    }
+}

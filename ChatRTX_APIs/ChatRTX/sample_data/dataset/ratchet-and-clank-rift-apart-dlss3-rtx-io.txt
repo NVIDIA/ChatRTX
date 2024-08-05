@@ -1,0 +1,77 @@
+Ratchet & Clank: Rift Apart Available July 26 With DLSS 3, Ray Tracing, Reflex & RTX IO
+By Andrew Burnes on July 25, 2023 | Featured StoriesGeForce RTX GPUsNVIDIA DLSSNVIDIA ReflexNVIDIA RTXNVIDIA RTX IORay Tracing
+Every week, we bring you news of the latest DLSS and ray tracing integrations in games and apps. 
+
+Last week, we celebrated the launch of Portal: Prelude RTX, a path-traced remaster of a classic mod, made in NVIDIA RTX Remix and enhanced with full ray tracing, NVIDIA DLSS 3, NVIDIA Reflex, and our new, game-changing NVIDIA RTX IO GPU-accelerated storage technology.
+
+Both the mod’s gameplay and its path-traced graphics have received acclaim from all quarters. Here’s a sampling of the reviews released to date:
+
+“The results are breathtaking” - Hot Hardware
+“This isn’t a drab re-release, as the updated release features new textures, full ray tracing, DLSS 3 for increased performance, NVIDIA Reflex for decreased latency and RTX IO for quicker load times.” - Engadget
+“A glimpse at the future of lighting in games” - Tweaktown
+“One of the biggest upgrades to texture load times in years just debuted in a free Portal mod” - PC Gamer
+“Portal: Prelude RTX brings a classic Source mod to the forefront of graphics technology” - Digital Foundry
+
+
+ 
+The good times keep rolling this week with the arrival of Ratchet & Clank: Rift Apart on PC on July 26th, featuring NVIDIA DLSS 3, NVIDIA DLAA, NVIDIA Reflex, ray tracing, and NVIDIA RTX IO, giving GeForce RTX gamers the definitive PC experience, with the fastest possible PC frame rates, the most responsive gameplay, and the highest levels of detail. 
+
+And DLSS is also coming to more of your favorite games. Today, the eagerly anticipated Remnant II launches with DLSS 2. Additionally, the action game SYNCED is launching this Summer with DLSS 3, and Wuthering Waves announced that it will launch with DLSS 3, too. Finally, the ever-popular DLSS 2-enhanced NARAKA: BLADEPOINT celebrates its second anniversary with a special event and by transitioning to a free-to-play model, enabling even more people to play. 
+
+For all the details and trailers, read on.
+
+Ratchet & Clank: Rift Apart Is #RTXON
+The venerable, much-loved Ratchet & Clank franchise makes its debut on PC tomorrow with the launch of the critically acclaimed Ratchet & Clank: Rift Apart. This dimension hopping action-adventure-platformer from Insomniac Games has been brought to the PC by Nixxes Software, and when gamers hit “Play” on July 26th they’ll discover the inclusion of NVIDIA DLSS 3, NVIDIA DLAA, NVIDIA Reflex, and NVIDIA RTX IO. And thanks to dedicated Ray Tracing Cores on each GeForce RTX GPU, Ratchet & Clank: Rift Apart’s ray-traced shadows, ambient occlusion and reflections will run at the highest speeds possible on GeForce RTX hardware.
+
+
+ 
+GeForce RTX 40 Series graphics cards and laptops can multiply performance using NVIDIA DLSS 3. At 4K, with all ray tracing effects enabled, and settings maxed, GeForce RTX 4080 and 4090 desktop GPU gamers can experience 140+ FPS gameplay, for the definitive PC experience.
+
+
+ 
+To make gameplay even more responsive, all GeForce GTX 900 Series and newer owners can activate NVIDIA Reflex, reducing system latency in Ratchet & Clank: Rift Apart by up to 48%. Each action will occur faster, helping you nail tricky jumps, and dodge enemy attacks.
+
+Ratchet & Clank: Rift Apart leverages our brand-new NVIDIA RTX IO GPU-accelerated storage technology. This game-changing feature enables rapid loading of assets, accelerating the seamless portal-jumping gameplay of Ratchet & Clank: Rift Apart. Learn more in our NVIDIA RTX IO launch article.
+
+
+ 
+Ratchet & Clank: Rift Apart makes extensive use of ray-traced reflections to enhance the appearance of main characters and its sci-fi levels. For the PC release, their maximum quality has been increased, and there’s a selection of quality settings to choose from, ensuring all gamers with ray tracing-capable hardware can experience their image quality enhancing visuals.
+
+Ratchet & Clank: Rift Apart’s PC release also introduces ray-traced shadows to the game, for immersive natural shadowing in the game’s expansive, high detailed outdoor environments. Using a GeForce RTX system, gamers can maximize performance when using these high-fidelity effects thanks to the dedicated RT Cores on each GeForce RTX GPU.
+
+The new PC release also features support for 21:9, 32:9 and 48:9 resolutions, triple-monitor Surround gaming, the usual assortment of options to ensure you can play the way that best suits your style, and DualSense controller support, so when playing on a wired connection you can feel in-game actions coming to life in your hands with haptic feedback and dynamic trigger effects.
+
+Ratchet & Clank: Rift Apart launches July 26th on PC - wishlist or pre-order now to experience all of this amazing technology on your GeForce RTX PC or laptop. With day-one support for NVIDIA DLSS 3, NVIDIA DLAA, NVIDIA Reflex, NVIDIA RTX IO, and ray tracing, GeForce RTX gamers will enjoy the definitive PC experience. Ahead of the game’s launch, be sure to download and install our Ratchet & Clank: Rift Apart Game Ready Driver.
+
+Remnant II Available Today With DLSS 2
+Remnant II from Gunfire Games is the sequel to the best-selling game Remnant: From the Ashes that pits survivors of humanity against new deadly creatures and god-like bosses across terrifying worlds. Play solo or co-op with two other friends to explore the depths of the unknown to stop an evil from destroying reality itself. To succeed, players will need to rely on their own skills and those of their team to overcome the toughest challenges and to stave off humanity’s extinction.
+
+
+ 
+At launch today, July 25th, Remnant II will boast support for DLSS 2, enabling you to crank up the visuals of its high fidelity world, for the fastest, most impressive gameplay possible.
+
+NARAKA: BLADEPOINT Celebrates 2nd Anniversary, Goes Free To Play
+Developed by 24 Entertainment and published by NetEase Games Global, NARAKA: BLADEPOINT is a 60-player melee-focused Battle Royale in where players can experience a unique fighting gameplay, combining fast movements in a large environment and a deep and intense melee combat system based on combos, parries, and counters.
+
+To celebrate its second anniversary, NARAKA: BLADEPOINT is running a special in-game event through to August 8th, filled with goodies, discounts, limited-time rewards, and more. This is all backed by the biggest reward of all: NARAKA: BLADEPOINT is now free to play, enabling even more people to play the game!
+
+
+ 
+New players joining battles - be sure to enable NVIDIA DLSS 2 and NVIDIA Reflex for the fastest and most responsive NARAKA: BLADEPOINT experience, giving you a competitive edge online. 
+
+SYNCED Launches This Summer With DLSS 3 & Ray Tracing
+NExT Studios and Level Infinite's SYNCED is a futuristic free-to-play cooperative shooter set in a world devastated by rogue technology. Gear up with a squad or fight solo across intense PvE and PvP scenarios as you take the fight to the Nanos and weaponize your enemy.
+
+
+ 
+This summer, SYNCED will officially launch on Steam and Epic Game Store with support for NVIDIA DLSS 3, NVIDIA Reflex, ray-traced shadows, and ray-traced reflections, giving GeForce RTX gamers the definitive experience. Check out the latest gameplay trailer above, and wishlist now on Steam or the Epic Games Store to be notified when SYNCED launches.
+
+Wuthering Waves Will Launch With NVIDIA DLSS 3
+Kuro Games' Wuthering Waves is a cross-platform, open-world ARPG that is free to play. Set for a global release, the game features next-gen image quality, combat gameplay with high degrees of freedom and profound narrative content. You will take the role of Rover, venturing into a vast and unfamiliar world after being awakened from a prolonged slumber.
+
+
+ 
+When Wuthering Waves wades onto Windows PCs and laptops, gamers with GeForce RTX GPUs are guaranteed the greatest experience possible thanks to the inclusion of the performance multiplier, NVIDIA DLSS 3. Head to the Wuthering Waves YouTube channel to watch more gameplay, and to learn more about the story.
+
+Check Back Next Week For Even More RTX Games
+Each week there are even more DLSS integrations arriving for an array of games. Check back next week for a rundown of the next DLSS and RTX games, and head here to see the complete list of over 300 DLSS-enhanced games and apps.

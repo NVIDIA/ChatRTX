@@ -1,0 +1,49 @@
+New DLSS Games Available This Week, Including DESORDRE: A Puzzle Game Adventure, SlavicPunk: Oldtimer, Jagged Alliance 3 & More
+By Andrew Burnes on July 11, 2023 | Featured StoriesGeForce RTX GPUsNVIDIA DLSSNVIDIA RTXRay Tracing
+Every week, we bring you news of the latest DLSS and ray tracing integrations in games and apps. This week, Jagged Alliance 3 and Testament: The Order of High Human launch with support for DLSS 2; SlavicPunk: Oldtimer and DESORDRE: A Puzzle Game Adventure are available now with DLSS 2, and Dying Light 2 Stay Human’s Good Night, Good Luck update is available with DLSS 3. To cap it all off, Blizzard has announced the details of Diablo IV’s Season of the Malignant! Read on to learn more.
+
+Diablo IV: Season of the Malignant Starts July 20th
+Get ready to continue your journey through Sanctuary in Diablo IV with Season of the Malignant on July 20th. A new form of Lilith’s corruption has spread throughout Sanctuary, creating Malignant Monsters and opportunities for players to create powerful new builds. Partner with Cormond, a former priest of the Cathedral of Light, in a new questline to stop the spread of these Malignant Monsters, collect new items and earn rewards. 
+
+
+ 
+GeForce gamers will have the definitive PC experience in this new season of Diablo IV - GeForce RTX 40 Series gamers can max out frame rates with NVIDIA DLSS 3 Frame Generation, and other GeForce RTX owners can accelerate performance with DLSS 2 Super Resolution technology.
+
+Dying Light 2 Stay Human: Good Night, Good Luck Update Available Now
+Available now, Techland’s Good Night, Good Luck update brings considerable changes to Dying Light 2 Stay Human gameplay, with improvements to the parkour systems, the introduction of new graphics settings, and an overhaul of the nighttime experience.
+
+
+ 
+The day and night cycle has always been at the heart of the Dying Light franchise and this update brings even more tense, terror filled moments to the nighttime. The parkour system has also been improved, adding options for players to choose between “assisted” or the more realistic “physical,” parkour which will change the experience of navigating the city.
+
+New graphical improvements enable PC players to turn Screen Space Reflections to Ultra, which enhances the draw distance of reflections, as well as increase the LOD range multiplier for quality and Ray Tracing settings. GeForce RTX gamers will get the definitive experience, with beautiful ray-traced effects and performance multiplying DLSS 3 Frame Generation, and DLSS 2 Super Resolution.
+
+
+Testament: The Order of High Human Launches This Week With DLSS 2
+Fairyship Games' Testament: The Order of High Human is a first-person single-player action-adventure game with RPG and metroidvania elements, set in a post-apocalyptic fantasy world. It offers a variety of combat options for players to experiment with, using combinations of sword, spell and bow attacks, and between battles players can platform and puzzle to secret areas and helpful bonuses.
+
+
+ 
+On July 13th, when Testament: The Order of High Human launches on Steam, GeForce RTX gamers can accelerate their experience with DLSS 2; for an early preview of what the game offers, download Fairyship Games’ DLSS 2-enhanced demo.
+
+Jagged Alliance 3 Launches This Week With DLSS 2
+In 1995, Jagged Alliance arrived for MS-DOS PCs, introducing gamers to engrossing turn-based battles led by hireable mercenaries, with the goal of liberating an oppressed island. Following excellent reviews and sales a new franchise was born, and now nearly three decades later, Jagged Alliance 3 is launching July 14th.
+
+Developed by Haemimont Games and published by THQ Nordic, Jagged Alliance 3 returns to the franchise’s roots, amping everything up with modern technology and features, for riveting turn-based battles that you can even play in co-op with friends.
+
+
+ 
+At launch, GeForce RTX gamers can accelerate their frame rates with DLSS 2, ensuring the definitive experience; for optimum performance, download and install our latest Game Ready Driver.
+
+SlavicPunk: Oldtimer Available Now With DLSS 2
+Available now, SlavicPunk: Oldtimer created by Red Square Games, is an isometric shooter where Yanus, a private investigator with a troubled past, is trying to solve an unexpected case revolving around a stolen data carrier, all while fighting his own inner demons, the urban gangs and a nigh-omnipotent corporation responsible for the downfall of the city he used to call his own. GeForce RTX gamers can maximize performance with DLSS 2.
+
+
+ 
+DESORDRE: A Puzzle Game Adventure Now Boosting Performance With DLSS 2
+In DESORDRE: A Puzzle Game Adventure, immerse yourself in a groundbreaking simulation where you'll navigate between two parallel worlds created by Plegus Therapy. As patient 689, you'll take part in an experimental therapy program, explore captivating environments, and solve complex puzzles to achieve your healing. GeForce RTX gamers can take on the game's complex puzzles with the performance boosting power of DLSS 2.
+
+
+ 
+Check Back Next Week For Even More RTX Games
+Each week there are even more DLSS integrations arriving for an array of games. Check back next week for a rundown of the next DLSS and RTX games, and head here to see the complete list of over 300 DLSS-enhanced games and apps.
