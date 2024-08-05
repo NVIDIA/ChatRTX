@@ -1,0 +1,136 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+@use '../../rwd.scss' as rwd;
+
+.chat-box-wrapper {
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.chat-box-container {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    overflow: auto;
+    padding: 0px #{rwd.get-contianer-side-spacing-value()} 0px #{rwd.get-contianer-side-spacing-value()};
+
+    [data-isdraweropen="true"] & {
+        padding: 0px #{rwd.get-gutter-size()} 0px #{rwd.get-contianer-side-spacing-value()};
+    }
+}
+
+.history-item-prompt-container,
+.history-item-response-container {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 24px;
+    word-break: break-word;
+}
+
+.chat-profile-container {
+    width: var(--space-ml);
+    height: var(--space-ml);
+    border-radius: 50%;
+    margin-right: var(--space-ml);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    border-radius: var(--variables-borderRadius);
+    border: 1px solid #292929;
+
+    .history-item-prompt-container & {
+        padding: 10px 16px;
+    }
+
+    .history-item-response-container  & {
+        padding: 10px 16px 16px;
+        background-color: #1c1c1c;
+    }
+}
+
+
+
+.chat-profile-container {
+    margin-top: 6px;
+}
+
+.empty-chatbox-message {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.nvidia-logo {
+    margin-bottom: 48px;
+}
+
+.chat-icons-button {
+    margin: 0px !important;
+    margin-right: 2px;
+    max-height: 24px;
+    max-width: 24px;
+}
+
+
+.clear-chat-container {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-right: 32px;
+
+    .clear-chat-button {
+        height: 32px;
+        width: 32px;
+        .clear-chat-text {
+            display: none;
+            color: rgba(255, 255, 255, 0.90) !important;
+        }
+    
+        &:hover, &:active, &:focus-visible {
+            .clear-chat-text {
+                display: block;
+                margin-left: 10px;
+            }
+            width: auto;
+        }
+    }
+
+    
+}

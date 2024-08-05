@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "esnext",
+        "sourceMap": false,
+        "outDir": "./build/",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "allowJs": true,
+        "jsx": "react",
+        "noEmit": true,
+        "declaration": false,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "rootDir": "src",
+        "lib": ["dom", "dom.iterable", "esnext", "ES6"]
+    },
+    "include": ["src/renderer/index.tsx", "src/declarations/**.d.ts"],
+    "exclude": ["**/node_modules", "**/build"]
+}

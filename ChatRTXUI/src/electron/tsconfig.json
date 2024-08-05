@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "sourceMap": false,
+        "target": "es5",
+        "module": "commonjs",
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["main.ts", "preload.ts"]
+}

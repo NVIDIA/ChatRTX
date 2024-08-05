@@ -1,0 +1,81 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+@use '../../rwd.scss' as rwd;
+
+.sample-query-box-wrapper {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.query-chip {
+
+    margin-top: 8px;
+    overflow: hidden;
+    
+    
+    height: 32px;
+    width: calc(50% - 4px);
+
+    &:nth-child(odd) {
+        margin-right: 8px;
+    }
+    &:nth-child(odd):last-child {
+        width: 100%;
+    }
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--variables-borderRadius);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%), #1D1D1D;
+
+    .query-button {
+        height: 48px;
+        padding: 16px 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        .query-text {
+            color: rgba(255, 255, 255, 0.90) !important;
+            text-align: left;
+            width: 100%;
+        }
+        
+    }
+}
+
+.sample-question-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sample-query-box {
+    width: #{rwd.get-responsive-width(8)};
+    padding-bottom: 64px;
+}
+
+.caption-text {
+    text-align: center;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,106 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+
+ #chat-form-inputs {
+    width: 100%;
+
+     #prompt-value-container {
+         flex-grow: 1;
+         border-radius: var(--variables-borderRadius);
+         
+
+         #prompt-value-inner {
+             border: none;
+             background-color: var(--colors-n800);
+             position: relative;
+             border-radius: var(--variables-borderRadius);
+
+             .pending-dots-container,
+             .recording-time-container {
+                 position: absolute;
+                 height: 100%;
+                 width: 100%;
+                 left: 0;
+                 top: 0;
+                 padding: 0 var(--space-md);
+                 display: flex;
+                 align-items: center;
+                 background-color: var(--colors-n700);
+                 border-radius: var(--variables-borderRadius);
+             }
+
+             .MuiInputBase-root {
+                 padding: 0;
+             }
+         }
+     }
+
+     #prompt-value-input {
+        min-height: 56px;
+     }
+
+     .prompt-icon-button {
+        height: 36px;
+        width: 36px;
+        min-width: 36px;
+        min-height: 36px;
+     }
+
+
+     .mic-spinner {
+         width: 36px;
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     &[data-is-recording="true"] {
+         #capture-audio-btn {
+             box-shadow: inset 0px 0px 0 1px var(--colors-brand);
+         }
+     }
+
+     &[data-is-disabled="true"] {
+         pointer-events: none;
+         opacity: 0.25;
+
+         * {
+             pointer-events: none;
+         }
+     }
+ }
+
+ .prompt-buttons {
+    position: relative;
+    top: -56px;
+    right: 0px;
+    height: 0px;
+    max-height: 56px;
+    min-height: 56px;
+    margin-left: auto;
+    width: 0px;
+    margin-right: 10px;
+    overflow: visible;
+    margin-bottom: -56px;
+}

@@ -1,0 +1,26 @@
+{
+    "appId": "com.nvidia-chat-rtx.app",
+    "asar": true,
+    "asarUnpack": [
+        "node_modules/pythonia/**",
+        "node_modules/caller/**",
+        "node_modules/chalk/**",
+        "node_modules/ansi-styles/**",
+        "node_modules/color-convert/**",
+        "node_modules/color-name/**",
+        "node_modules/supports-color/**",
+        "node_modules/has-flag/**"
+    ],
+    "productName": "NVIDIA ChatRTX",
+    "copyright": "Copyright ©2024 NVIDIA CORPORATION. All rights reserved.",
+    "directories": {
+        "output": "dist",
+        "buildResources": "build"
+    },
+    "files": ["build/**/*", "node_modules/**/*"],
+    "artifactName": "${productName}-${version}.${ext}",
+    "win": {
+        "target": "portable",
+        "icon": "build/favicon.ico"
+    }
+}

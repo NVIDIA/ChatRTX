@@ -1,0 +1,10 @@
+include README.md
+include requirements.txt
+recursive-include ChatRTX *.py
+recursive-include ChatRTX/config *
+recursive-include ChatRTX/data *
+recursive-include ChatRTX/examples *
+recursive-include ChatRTX/inference *
+recursive-include ChatRTX/model_manager *
+recursive-include ChatRTX/rags *
+recursive-include ChatRTX/fine_tuning *
