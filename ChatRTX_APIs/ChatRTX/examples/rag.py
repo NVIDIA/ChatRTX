@@ -80,7 +80,7 @@ try:
     chat_rtx_rag.set_rag_setting(chunk_size=512, chunk_overlap=200)
 
     # Generate a query engine for the specified data directory
-    engine = chat_rtx_rag.generate_query_engine("../data")
+    engine = chat_rtx_rag.generate_query_engine("../sample_data/dataset")
 
     while True:
         # Take user query
