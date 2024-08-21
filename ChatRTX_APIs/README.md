@@ -30,7 +30,7 @@ The AI models that are supported in this app:
 3. Install TensorRT-LLM wheel. Please take the wheel(tensorrt_llm-0.9.0-cp310-cp310-win_amd64.whl) from [here](https://github.com/NVIDIA/ChatRTX/tree/release/0.4.0/ChatRTX_APIs/dist). 
 
     ```
-    cd wheel
+    cd dist
     pip install tensorrt_llm-0.9.0-cp310-cp310-win_amd64.whl --extra-index-url https://pypi.nvidia.com --extra-index-url https://download.pytorch.org/whl/cu121
     ```
 
