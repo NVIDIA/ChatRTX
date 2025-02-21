@@ -225,7 +225,7 @@ class ChatRTXRag:
                 file_metadata = lambda x: {"filename": x}
                 documents = SimpleDirectoryReader(folder_path, file_metadata=file_metadata,
                                                   recursive=True,
-                                                  required_exts=[".pdf", ".doc", ".docx", ".txt", ".xml"]).load_data()
+                                                  required_exts=[".pdf", ".doc", ".docx", ".txt", ".xml", ".md"]).load_data()
             else:
                 self._logger.info("No files found in the directory. Initializing an empty index.")
                 documents = []
