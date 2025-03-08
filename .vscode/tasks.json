@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "add-caller",
+			"path": "ChatRTX_App/ChatRTXUI",
+			"problemMatcher": [
+				"$python"
+			],
+			"label": "npm: add-caller - ChatRTX_App/ChatRTXUI",
+			"detail": "copyfiles -u 1 node_modules/caller/** dist/win-unpacked/resources/app.asar.unpacked/node_modules"
+		}
+	]
+}
