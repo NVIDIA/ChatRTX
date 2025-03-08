@@ -45,6 +45,8 @@ The AI models that are supported in this app:
     pip install ChatRTX-0.4.0-py3-none-any.whl
     ```
 
+6. **Install RTX**: Ensure you have an NVIDIA RTX GPU and the latest drivers installed. You can download the drivers from [NVIDIA's website](https://www.nvidia.com/Download/index.aspx).
+
 **Note**: This project will download and install additional third-party open source software projects. Review the license terms of these open source projects before use.
 
 ## API Examples
