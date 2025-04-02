@@ -1,0 +1,102 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+@use '../../rwd.scss' as rwd;
+
+.header-card-button {
+    padding-left: 0px !important;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-right: 1px solid var(--colors-n700) !important;
+    border-radius: 0px !important;
+    &:first-child {
+        border-left: 1px solid var(--colors-n700) !important;
+    }
+    opacity: 1 !important;
+    padding: 10px 16px 10px 0px;
+
+    &[data-isdraweropen="true"] {
+        &:first-child {
+            padding-left: #{rwd.get-contianer-side-spacing-value()} !important;
+            border-left: none;
+            width: calc(#{rwd.get-responsive-width(4)} + #{rwd.get-contianer-side-spacing-value()} + #{rwd.get-gutter-size()} / 2);
+        }
+        &:not(:first-child) {
+            padding-left: #{rwd.get-gutter-size()} !important;
+            border-right: none;
+            width: calc(#{rwd.get-responsive-width(4)} + #{rwd.get-gutter-size()} + #{rwd.get-gutter-size()} / 2);
+        }
+    }
+    width: calc(#{rwd.get-responsive-width(4)} + #{rwd.get-gutter-size()} / 2);
+}
+
+.header-card {
+    flex: 1 1 0;
+    width: 100%;
+    .fill-active {
+        border-radius: 6px;
+        min-width: 4px;
+        background-color: transparent;
+        height: 44px;
+        z-index: 10;
+    }
+
+    &[data-isactive="true"] {
+        .fill-active {
+            background-color: var(--colors-brand);
+        }
+    }
+
+    .header-label-container {
+        overflow: hidden;
+        width: 100%;
+        .header-label {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            overflow: hidden;
+            color: rgba(255, 255, 255, 0.90) !important;
+        }
+
+        .header-sub-label-container {
+            overflow: hidden;
+            width: 100%;
+
+            .header-sub-label {
+                max-width: 75%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                color: rgba(255, 255, 255, 0.60) !important;
+            }
+
+            .small-icon-button {
+                padding: 0 0.5em;
+            }
+        }
+    }
+
+    .square-btn {
+        height: unset;
+    }
+}

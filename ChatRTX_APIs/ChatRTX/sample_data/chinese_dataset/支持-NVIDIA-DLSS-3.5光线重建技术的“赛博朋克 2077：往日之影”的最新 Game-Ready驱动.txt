@@ -1,0 +1,38 @@
+为支持 NVIDIA DLSS 3.5 光线重建技术的“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)”而打造的最新 Game Ready 驱动现已发布
+由 Andrew Burnes 发表于 2023年9月21日 | 精选故事驱动程序
+我们最新的 Game Ready 驱动适用于支持 NVIDIA DLSS 3.5 及其全新的光线重建技术的“赛博朋克 2077 (Cyberpunk 2077)”和“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)”。
+此外，我们还为三款备受期待的全新 DLSS 游戏提供 Game Ready 支持：“猛兽派对 (Party Animals)”、“战争避难所 (Warhaven)”和“女巫之火 (Witchfire)”。
+
+如需下载并安装该驱动，请前往 GeForce Experience 的“Drivers”（驱动）选项卡，或访问 GeForce.cn。敬请继续阅读，了解更多详情。
+
+DLSS 3.5 和光线重建技术于今日在“赛博朋克 2077 (Cyberpunk 2077)”中首次亮相
+今天，即 9 月 21 日，“赛博朋克 2077 (Cyberpunk 2077)”的 2.0 更新发布，包含大量增强功能，其中就包括 DLSS 3.5。 在“赛博朋克 2077 (Cyberpunk 2077)”的“光线追踪：超速模式 (Ray Tracing: Overdrive Mode)" 中，DLSS 3.5 的全新光线重建技术可提升光线反射的质量和清晰度，全局光照变得更加精确，光照动态响应更加迅速，从而带来更好、更身临其境、更逼真的游戏体验。
+ 
+GeForce RTX 40 系列用户可以受益于 DLSS 3.5 的性能和图像质量的双重提升，在要求严苛的光线追踪：超速模式下借助帧生成技术实现性能倍增，以获得更快的帧率。
+
+“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)”将于 9 月 26 日发布，将支持全景光线追踪、DLSS 3.5 和光线重建。“往日之影 (Phantom Liberty)”是“赛博朋克 2077 (Cyberpunk 2077)"的全新谍战悬疑风格资料片。新美利坚合众国总统乘坐的轨道航天飞机在夜之城最危险的地区被击落，只有一个人能够救她：你。化身赛博朋克雇佣兵 V，深入谍报活动和政治阴谋交错的乱局。随着故事的推进，了解身居高位的权力阶层和残酷的黑市雇佣兵世界之间那错综复杂的恩怨情仇。
+
+在我们全新发布的独家“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)” RTX 技术视频中，亲自见证全景光线追踪和 DLSS 3.5 的强大功能：
+
+ 
+“借助 DLSS 3.5 的智能技术和 AI 渲染力，您可以在“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”的最新地点“狗镇”中获得出色体验 — 更清晰的画面、更精确的光照以及更高的帧率。”– CD PROJEKT RED 艺术副总裁兼全球艺术总监，Jakub Knapik
+
+得益于 DLSS 3.5 和 GeForce RTX 40 系列领先的全景光线追踪性能，您可以在 GeForce RTX 40 系列显卡、PC 或笔记本电脑上获享“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)”终极游戏体验。
+
+在光线追踪：超速模式中，借助 GeForce RTX 40 系列显卡，玩家能够以超过 60 FPS 的帧率获得“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)”的极致游戏体验。在 4K 分辨率下，开启全景光线追踪和最高设置后，同时开启采用帧生成、光线重建、Reflex 和超分辨率技术的 NVIDIA DLSS 3.5 与原生 4K 渲染相比，可将帧数平均提升至原来的 4.9 倍，同时画面看起来更加逼真，更加身临其境：
+
+在 2560x1440 分辨率下，DLSS 3.5 可将性能平均提升至原来的 3 倍，GeForce RTX 4070 及以上显卡可实现 60 FPS 以上的游戏体验：
+
+在 1920x1080 分辨率下，所有 GeForce RTX 40 系列玩家都能以更高细节水平体验“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)”，这要归功于帧生成、超分辨率和光线重建技术带来的性能提升，可平均提升至原来的 3 倍：
+
+如需详细了解“赛博朋克 2077 (Cyberpunk 2077)”和“赛博朋克 2077：往日之影 (Cyberpunk 2077：Phantom Liberty)”中 DLSS 3.5 和光线重建的发布情况，请参阅我们的“赛博朋克 2077 (Cyberpunk 2077)” DLSS 3.5 发布文章。
+
+借助 NVIDIA Reflex 更大限度地发挥您在“反恐精英：全球攻势”的竞技水平
+借助 NVIDIA Reflex 获享“反恐精英：全球攻势”的卓越竞技体验，以实现更低的延迟。拥有兼容显卡的游戏玩家可以在“反恐精英：全球攻势”中开启 NVIDIA Reflex，将系统延迟降低高达 35%.
+为支持 DLSS 的“猛兽派对 (Party Animals)”、“战争避难所 (Warhaven)”和“女巫之火 (Witchfire)”而打造的 Game Ready 驱动
+超过 340 款已发布的游戏和应用现已支持 NVIDIA DLSS，几乎每周都有热门游戏和备受期待的游戏集成 DLSS。本周，“猛兽派对 (Party Animals)”发布并支持 DLSS 2、“战争避难所 (Warhaven)”和“女巫之火 (Witchfire)”发布并支持 NVIDIA DLSS 3。请观看以下视频，了解 DLSS 如何加速游戏性能：
+“猛兽派对 (Party Animals)”、“战争避难所 (Warhaven)”和“女巫之火 (Witchfire)”也支持 NVIDIA Reflex。NVIDIA Reflex 是游戏的黄金搭档，可降低系统延迟，让玩家更迅速地作出反应，使其在多人游戏中更具竞争力，并且该技术能够让单人游戏拥有更快的响应速度、更加令人愉悦的体验。现在，每个月有超过 5000 万玩家使用 NVIDIA Reflex；在排名前 10 的竞技射击游戏中，有 9 款采用了 NVIDIA Reflex，其中包括“反恐精英 2 (Counter-Strike 2)”测试版；此外，在超过 70 款支持 NVIDIA Reflex 的游戏中，启用该技术的玩家达到了 90%。
+GeForce Game Ready 驱动 - 立即下载
+您可以单击此处详细了解 GeForce Game Ready 驱动；也可以通过 GeForce Experience 下载新的 GeForce Game Ready 537.42 WHQL 驱动。
+
+如果您遇到任何与新 Game Ready 驱动相关的技术问题，请在“英伟达 GeForce”微信公众号留言，以便我们的客服团队更好地为您提供帮助。如需查看该驱动中针对已报告的问题添加的修复程序的完整列表，请前往此处。

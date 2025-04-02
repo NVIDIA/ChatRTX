@@ -1,0 +1,16 @@
+NVIDIA ACE 借助 NeMo SteerLM 为 AI 驱动的 NPC 添加情感交互
+由 Andrew Burnes 发表于 2023年8月22日 | 精选故事GamescomGeForce RTX GPUGenerative AINVIDIA ACENVIDIA DLSSNVIDIA OmniverseNVIDIA RTX光线追踪
+NVIDIA ACE 是一个定制 AI 模型平台，旨在通过 AI 驱动的自然语言交互为非玩家角色 (NPC) 注入灵魂。 借助 ACE，普通 NPC 可以变成能够发起对话的互动角色，或者为您提供当地情报以完成新任务。
+
+在 COMPUTEX 2023 上，我们展示了 ACE Kairos demo，主角是拉面店老板 Jin，该 demo 使用 Unreal Engine 5 并开启 RTX 进行渲染。在过去的几个月里，我们的团队一直在不断改进 ACE。我们的最新进展是引入了 NVIDIA NeMo SteerLM，这项新技术使开发者能够定制 NPC 的个性，以实现更情感丰富、逼真和令人难忘的交互。
+
+大多数 LLM 旨在提供理想的回复，而没有个性或情感，这一点您可以通过与聊天机器人交互了解到。然而，通过 SteerLM 技术，LLM 经过训练后可以提供与特定属性相匹配的响应，从幽默的到创造性的，再到恶毒的，所有这些属性都可以通过简单的滑块快速配置。查看我们最新的 NVIDIA Kairos demo：
+
+ 
+如您所见，回复会随着属性的调整发生显著变化，并且使用 NVIDIA NeMo SteerLM 可以进一步修改属性，添加、删除或训练新的模型、个性和属性，从而为特定场景或地点创建完美的可交互 NPC。
+
+情绪反馈并不是 SteerLM 技术在游戏中的唯一用例。通过 SteerLM 技术，开发者可以将个性属性注入到 SteerLM 模型中，通过单个 LLM 启用多个角色。此外，开发者还可以创建派系属性，使回复内容与游戏中的故事情节相吻合，从而使角色能够受到不断变化的开放世界的动态影响。
+
+在前面的演示中，我们还为 Jin 使用了 ElevenLabs 的 TTS 语音。 借助 ACE，开发者可以将自己的组件引入 ACE 管道，从而实现多种选项和模型。
+
+SteerLM 技术有助于将礼貌的聊天机器人转变为情感角色，使开发者能够创造更身临其境、更逼真的游戏。我们迫不及待向您展示 ACE 的下一个突破，请务必收藏 GeForce.cn，以便了解后续更新。

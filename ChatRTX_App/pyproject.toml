@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "root"
+version = "0.4.0"
+description = "RAG package"
+authors = ["Anuj jalota <ajalota@nvidia.com>",
+"Anup Aka <aaka@nvidia.com>",
+"Bhavik Sharda <blaljisharda@nvidia.com>"
+]
+
+[tool.poetry.dependencies]
+python = "==3.10.11"
+ctype = "==7.4.2"
+datasets = "==2.14.6"
+docx2txt = "==0.8"
+faiss-cpu = "==1.7.4"
+flask = "==2.3.3"
+flask-marshmallow = "==0.15.0"
+flask-migrate = "==4.0.4"
+llama-index = "==0.10.34"
+llama-index-embeddings-huggingface = "==0.2.0"
+llama-index-vector-stores-faiss = "==0.1.2"
+mpi4py = "==3.1.5"
+numpy = "==1.24.0"
+psutil = "==5.9.7"
+pydantic = "==2.3.0"
+pydantic-core = "==2.6.3"
+pydantic-settings = "==2.0.3"
+pynvml = ">=11.5.0"
+pypdf = "==4.0.1"
+pypdf2 = "==3.0.1"
+rouge-score = "==0.1.*,>=0.1.2"
+soundfile = "==0.12.1"
+tiktoken = "==0.3.3"

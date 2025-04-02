@@ -1,0 +1,5 @@
+Governing Terms
+
+The NIM container is governed by the NVIDIA Software License Agreement (found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/) the Product-Specific Terms for NVIDIA AI Products (found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/); and the use of this model is governed by the AI Foundation Models Community License Agreement (found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-ai-foundation-models-community-license-agreement). ADDITIONAL INFORMATION: Llama 3.1 Community License Agreement, Built with Llama.
+
+You are responsible for ensuring that your use of NVIDIA AI Foundation Models complies with all applicable laws.

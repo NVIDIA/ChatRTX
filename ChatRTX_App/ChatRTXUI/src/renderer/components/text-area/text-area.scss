@@ -1,0 +1,87 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+.text-area-container {
+    display: grid;
+    position: relative;
+    word-break: break-word;
+    padding: 16px 112px 16px 10px;
+    max-height: 224px;
+    min-height: 56px;
+    border-radius: var(--variables-borderRadius);
+
+    &:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: calc(100% - var(--variables-borderRadius));
+        left: calc(var(--variables-borderRadius) / 2);
+        top: 0;
+        border-bottom: 1px solid var(--colors-brand);
+        pointer-events: none;
+        transform-origin: 50% 50%;
+        transform: scale(0, 1);
+    }
+
+    &[data-focused="true"] {
+        &:before {
+            transform: scale(1, 1);
+        }
+    }
+
+    &[data-custom-resized="true"] {
+        &:after {
+            display: none;
+        }
+    }
+
+    &:after {
+        content: attr(data-value) " ";
+        white-space: pre-wrap;
+        visibility: hidden;
+    }
+
+    textarea {
+        resize: none;
+        background-color: transparent;
+        color: inherit;
+        overflow: hidden;
+    }
+
+    &:after,
+    textarea {
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        grid-area: 1 / 1 / 2 / 2;
+        height: auto;
+        box-sizing: border-box;
+        font-family: inherit;
+        font-size: 16px;
+        line-height: 24px;
+        background-color: transparent;
+        color: color(255, 255, 255, 0.7);
+        font-family: inherit;
+        overflow: auto;
+        max-height: 192px;
+    }
+}

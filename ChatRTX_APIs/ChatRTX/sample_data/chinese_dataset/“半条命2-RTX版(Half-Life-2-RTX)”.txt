@@ -1,0 +1,33 @@
+今天，我们向大家宣布由社区打造的 RTX Remix 项目 — “半条命 2 RTX 版 (Half-Life 2 RTX)”
+由 Andrew Burnes 发表于 2023年8月22日 | 精选故事GamescomGeForce RTX GPUGeForce RTX 笔记本电脑NVIDIA DLSSNVIDIA OmniverseNVIDIA ReflexNVIDIA RTXNVIDIA RTX IONVIDIA RTX RemixPortal with RTX光线追踪
+NVIDIA RTX Remix 是一个免费的即将推出的 MOD 平台，基于 NVIDIA Omniverse 构建，旨在支持 Modder 创建和分享经典游戏的# RTXON Mod，每个 Mod 都支持增强材质、全景光线追踪、NVIDIA DLSS、NVIDIA RTX IO 和 NVIDIA Reflex。
+
+我们发布了 Valve 经典游戏的高保真重制版游戏“传送门 RTX 版 (Portal with RTX)”，该游戏作为示例展示了 Remix 可以实现的效果。然后，我们将工具交给了重制“传送门：序曲 (Portal: Prelude)”的社区 Modder。今天，我们公布“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目，由社区制作、高分游戏“半条命 2 (Half-Life 2)”的重制版。
+
+“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目由“半条命 2 (Half-Life 2)”的四个 Orbifold Studios 旗下的顶级 Mod 团队合作开发。 Modder 使用 RTX Remix，利用基于物理属性渲染 (PBR) 的重制材质，通过 Valve 的 Hammer 编辑器添加额外的几何细节，并利用 NVIDIA 技术（包括全景光线追踪、DLSS 3、Reflex 和 RTX IO） 为 GeForce RTX 游戏玩家带来极致体验。 抢先观看“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目的预告片：
+
+ 
+与“传送门 (Portal)”项目一样，几乎每个素材都以高保真度重建，并且利用全景光线追踪 (也称为路径追踪) 为“半条命 2 (Half-Life 2)”带来顶级图形效果。在“半条命 2 RTX 版 (Half-Life 2 RTX)”中，场景平均纹理的像素数量是原来的 8 倍，而装备等资产的几何细节是原始游戏的 20 倍。 现在，你可以看到服装接合处的布料材质，以及构成胸部、腿部和手臂的塑料和金属材质相互交织。
+
+每个光源都会在场景中投射，并投射出逼真的阴影，让克莱纳博士的实验室瞬间变成一个真实的地方。橙色的大桶发出的光照亮了黑暗的角落，发出充满活力的光芒，而里面的液体则通过它折射了整个世界。
+
+道具通过全景光线追踪进行转换，例如克莱纳博士办公桌上的放大镜，它在 2004 年使用着色器描绘了世界的低分辨率反射。现在，放大镜包含一个曲面透镜，可以逼真地折射光线并弯曲每次反射，从而增强沉浸感。
+
+借助重制版 PBR 材质和纹理与这些效果自然交互，像猎头蟹拉玛这样的生物看起来从未如此清晰，让这款 20 年前的经典游戏看起来像一款当代游戏。
+
+“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目仍处于开发初期阶段，是一项社区活动，旨在激励世界各地的才华横溢的 Modder 和艺术家。如果您有兴趣加入该项目，并且在创作 Mod 或 3D 艺术作品方面拥有丰富的经验，我们鼓励您通过“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目网站进行申请。
+
+
+如需了解有关“半条命 2 RTX 版 (Half-Life 2 RTX)”的更多信息和最新消息，请持续关注 GeForce.cn。
+
+“传送门 (Portal)”RTX 版升级并支持 NVIDIA DLSS 3.5
+最近发布的“传送门：序曲 (Portal: Prelude)”RTX 版使用了新版 NVIDIA RTX Remix，该版本提升了性能和旧版显卡的路径追踪质量。今年秋季晚些时候，我们将这些优化和增强功能引入“传送门 RTX 版 (Portal with RTX)”，同时升级到 NVIDIA DLSS 3.5，该版本引入了一项名为光线重建的新功能，该功能可以借助 AI 提升光线追踪图像质量。
+
+在“传送门 RTX 版 (Portal with RTX)”中，由于光线重建会智能地累积多帧引擎数据和信息，从而生成更准确、更清晰的图像，因此纹理会得到增强。在现有的渲染技术下，全景光线追踪可能难以解析光线光子在金属栅栏等薄材料上的多次反射，从而导致过度闪烁。但借助 DLSS 3.5 的光线重建技术，无论多少光线照亮最薄的网格，每个栅栏都会稳定显示。
+
+光线和反射更新速度更快、更准确，每个房间的每个缝隙都被清晰地照亮，使 Aperture 实验室看起来就像在现实世界中一样。
+
+ 
+单击此处详细了解 DLSS 3.5 和光线重建，并前往我们的 DLSS 游戏文章，了解“心灵杀手 2 (Alan Wake 2)”、“赛博朋克 2077 (Cyberpunk 2077)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”和创意应用如何利用光线重建进一步提升图像质量。
+想制作自己的 RTX Remix 重制版游戏？加入社区
+NVIDIA 将继续与精选 Modder 分享 RTX Remix 的抢先体验版本，以进一步优化创作者工具包和运行时。如果您有兴趣与其他 Modder 合作，使用 Remix 重制经典游戏，立即注册即可收到 RTX Remix 页面抢先体验更新的通知，并加入 RTX Remix Discord 服务器。

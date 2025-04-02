@@ -1,0 +1,42 @@
+Gord, SPRAWL & The Texas Chain Saw Massacre Launch This August With DLSS
+By Andrew Burnes on August 08, 2023 | Featured StoriesGeForce RTX GPUsNVIDIA DLSSNVIDIA RTX
+Each week, we bring you news of the latest DLSS and ray tracing integrations in games and apps. 
+
+Last week, the phenomenally good Baldur’s Gate 3 launched to critical acclaim, and GeForce RTX gamers are receiving the definitive experience thanks to the inclusion of DLSS 2 and DLAA.
+
+Additionally, DLSS 3 was added to DESORDRE: A Puzzle Game Adventure, and Remnant II added support for DLSS 3 and DLAA, giving PC players an even better experience in the action game that’s already sold over a million copies.
+
+Today, we’re announcing that Gord, SPRAWL and The Texas Chain Saw Massacre will all launch with DLSS 2 in the near future, and if you’re looking for a new DLSS game to play, Deadlink is available now.
+
+For all the details, read on.
+
+Gord Goes Live August 17th With DLSS 2
+Covenant.dev and Team 17's Gord is a single-player adventure-strategy game. To survive, you must build, but to prevail, you must conquer the darkness beyond the gates. Lead the people of the Tribe of the Dawn as they venture deep into forbidden lands. Complete quests that shape your settlements , impact their wellbeing, and decide the fate of their community. Ensure the survival of your populace in a grim fantasy world inspired by Slavic folklore.
+
+
+ 
+When this unique survival city-builder launches on August 17th, GeForce RTX will enjoy the fastest frame rates possible thanks to the day-one inclusion of DLSS 2.
+
+The Texas Chain Saw Massacre Available With DLSS 2 On August 18th
+Take on the role of one of the notorious Slaughter family, or their victims, in Sumo Digital and Gun Interactive’s The Texas Chain Saw Massacre, a third-person asymmetrical horror experience based on the groundbreaking and iconic 1974 horror film.
+
+
+ 
+Available August 18th, The Texas Chain Saw Massacre will ship with support for DLSS 2, ensuring your deaths aren’t the result of low frame rates, even when playing at the highest detail levels and resolutions.
+
+SPRAWL Launches This Month With DLSS 2 & DLAA
+MAETH and Rogue Games’ SPRAWL is a hardcore retro FPS set in an endless cyberpunk megalopolis. The golden age of humanity has ended, leaving behind a broken world. Now SEVEN, a disgraced special ops super soldier, must escape the walled city and take on the militarized government of the sprawl. Run through dark alleys and dilapidated apartments—surfaces compatible with your "icarus" cybernetic implant. Perform gravity defying acrobatic wall-running maneuvers, slow time, utilize a vast arsenal of weapons to fight the forces of the corporate government, and make your way towards the SPIRE to topple whatever lays within. 
+
+
+ 
+Launching later this month, SPRAWL features DLSS 2 to help gamers maximize performance, and DLAA for players who already have performant frame rates, who wish to maximize image quality and clarity.
+
+Deadlink Available Now With DLSS 2
+Gruby Entertainment and SuperGG.com’s Deadlink is a Very Positively-rated cyberpunk FPS with roguelite elements. You're an elite operative recruited to the experimental, eponymous Deadlink project. Pilot an autonomous combat shell, fighting your way through cramped slums, twisted labs, grimy warehouses, and sleek office buildings on a mission to thwart the schemes of the most powerful corporations in the world. Wield a deadly arsenal, upgrade your skills and tech, devastate destructible environments, and slash corporate profit margins — all at the same time.
+
+
+ 
+Deadlink recently exited Early Access, and included in its launch build was DLSS 2, giving GeForce RTX gamers the performance to max out rendering resolutions and detail levels.
+
+Check Back Next Week For Even More RTX Games
+Each week there are even more DLSS integrations arriving for an array of games. Check back next week for a rundown of the next DLSS and RTX games, and head here to see the complete list of over 300 DLSS-enhanced games and apps.

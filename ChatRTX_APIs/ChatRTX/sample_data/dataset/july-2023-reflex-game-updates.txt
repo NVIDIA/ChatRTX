@@ -1,0 +1,55 @@
+NVIDIA Reflex Reduces Ratchet & Clank: Rift Apart’s System Latency By Up To 48%
+By Andrew Burnes on July 25, 2023 | Featured StoriesGeForce RTX GPUsNVIDIA Reflex
+NVIDIA Reflex is a must-have in games, reducing system latency so your actions occur quicker, giving you a competitive edge in multiplayer matches, and making single-player titles more responsive and enjoyable. NVIDIA Reflex is now used by over 50 million players each month, is available in 9 of the top 10 competitive shooters, including the Counter-Strike 2 beta, and is activated by 90% of GeForce gamers in over 70 supported titles.
+
+
+ 
+NVIDIA Reflex is synonymous with responsive gaming, and can now be found in the latest and greatest games, including Portal: Prelude RTX, Ratchet & Clank: Rift Apart, and the upcoming Overwatch 2 Invasion update.
+
+Ratchet & Clank: Rift Apart Available July 26 With NVIDIA Reflex, DLSS 3, RTX IO & Ray Tracing
+The venerable, much-loved Ratchet & Clank franchise makes its debut on PC tomorrow with the launch of the critically acclaimed Ratchet & Clank: Rift Apart. This dimension hopping action-adventure-platformer from Insomniac Games has been brought to the PC by Nixxes Software, and when gamers hit “Play” on July 26th they’ll discover the inclusion of NVIDIA DLSS 3, NVIDIA DLAA, NVIDIA Reflex, and NVIDIA RTX IO. And thanks to dedicated Ray Tracing Cores on each GeForce RTX GPU, Ratchet & Clank: Rift Apart’s ray-traced shadows, ambient occlusion and reflections will run at the highest speeds possible on GeForce RTX hardware.
+
+
+ 
+To make gameplay even more responsive, all GeForce GTX 900 Series and newer owners can activate NVIDIA Reflex, reducing system latency in Ratchet & Clank: Rift Apart by up to 48%. Each action will occur faster, helping you nail tricky jumps, and dodge enemy attacks.
+
+To maximize performance, GeForce RTX 40 Series graphics cards and laptops can multiply frame rates using NVIDIA DLSS 3. At 4K, with all ray tracing effects enabled, and settings maxed, GeForce RTX 4080 and 4090 desktop GPU gamers can experience 140+ FPS gameplay, for the definitive PC experience.
+
+
+ 
+The new PC release also features support for 21:9, 32:9 and 48:9 resolutions, triple-monitor Surround gaming, the usual assortment of options to ensure you can play the way that best suits your style, and DualSense controller support, so when playing on a wired connection you can feel in-game actions coming to life in your hands with haptic feedback and dynamic trigger effects.
+
+Ratchet & Clank: Rift Apart launches July 26th on PC - wishlist or pre-order now to experience all of this amazing technology on your GeForce RTX PC or laptop. With day-one support for NVIDIA DLSS 3, NVIDIA DLAA, NVIDIA Reflex, NVIDIA RTX IO, and ray tracing, GeForce RTX gamers will enjoy the definitive PC experience. Ahead of the game’s launch, be sure to download and install our Ratchet & Clank: Rift Apart Game Ready Driver.
+
+
+Portal: Prelude RTX Available Now, For Free!
+Portal remains a timeless classic; in December we released Portal with RTX, a fully ray-traced reimagining of Valve’s award winning game, which used the performance multiplication of NVIDIA DLSS 3 to power the most realistic path-traced lighting ever seen in a real-time game. Now, there’s Portal: Prelude RTX, a free mod remastered with the same technology, featuring fully ray traced (path-traced) graphics, DLSS 3, Reflex, and our new NVIDIA RTX IO GPU-accelerated storage tech.
+
+Portal: Prelude is the highest rated Portal mod, the 2008 Portal ModDB winner, and #3 overall Player’s Choice mod of 2008. Created by Nicolas “NykO18” Grevet and others, Portal: Prelude is an unofficial Portal prequel, set before the time of GLaDOS, featuring a new extremely challenging 8-10 hour campaign composed of 19 new test chambers, new advanced gameplay mechanics, a fully voiced story with NPCs, and a whole lot more.
+
+Portal: Prelude RTX is available now, for free for owners of Portal. Install our new Game Ready Driver for the definitive experience, then download and play Portal: Prelude RTX from Steam. With Reflex enabled, system latency is greatly reduced, helping you overcome Portal: Prelude RTX’s most difficult puzzles and test chambers.
+
+
+ 
+For much more information, as well as RTX ON-OFF screenshots, head over to our Portal Prelude RTX launch article.
+
+Overwatch 2: Invasion Begins August 10th
+Overwatch 2 is Blizzard’s always-on and ever-evolving free-to-play, team-based action game that’s set in an optimistic future, where every match is the ultimate 5v5 battlefield brawl. To unlock the ultimate graphics experience in each battle, upgrade to a GeForce RTX 40 Series graphics card or PC for class-leading performance, and unbeatable responsiveness courtesy of NVIDIA Reflex.
+
+On August 10th, the Invasion begins! Fight back in three co-op Story Missions, hone your skills with Hero Mastery Missions, play PvP as a new Support hero, and tier up the new Invasion Battle Pass to unlock new skins and cosmetics. It’s Overwatch 2’s biggest content drop to date!
+
+
+ 
+For the definitive experience during the invasion, ensure you’re playing on a GeForce RTX 40 Series GPU, with system latency as low as 9 milliseconds, and with frame rates over 360 FPS, for the fastest, smoothest, most responsive gameplay possible.
+
+VALORANT Now Available In China, Reflex Reduces System Latency By Up To 35%
+VALORANT is a competitive 5v5 character-based tactical shooter developed by Riot Games, with high-fidelity gunplay, a diverse arsenal of guns, agents with unique abilities, and competitively tuned maps for thousands of hours of play.
+
+VALORANT is free-to-play and optimized to perform on a wide variety of PC hardware, allowing for a global audience to compete. And now, that audience has expanded with VALORANT’s official launch in China.
+
+
+ 
+VALORANT’s latest update, Episode 7 Act 1 introduced Team Deathmatch mode, the new character Deadlock, and a new progression system. Using NVIDIA Reflex on a GeForce RTX 40 Series GPU, your actions in all modes have improved responsiveness, occurring virtually without delay, and performance is so high that you’ll see the action at its best with maximum clarity.
+
+More To Come Soon
+Even more new NVIDIA Reflex games, plus mice and monitors are on their way, so stay tuned to GeForce.com to learn more when the news drops; check out the complete list of currently supported games and devices on our NVIDIA Reflex website.

@@ -1,0 +1,65 @@
+“博德之门 3 (Baldur ' s Gate 3)”本周发布，支持 DLSS 2 和 DLAA
+由 Andrew Burnes 发表于 2023年8月1日 | 精选故事GeForce RTX GPUNVIDIA DLSSNVIDIA ReflexNVIDIA RTX光线追踪
+每周，我们都会为您带来有关支持 DLSS 和光线追踪游戏和应用的最新消息。
+
+上周，“遗迹 2 (Remnant II)”发布并支持 DLSS 2，同时透露了游戏即将支持 DLSS 3，“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”发布并支持 NVIDIA DLSS 3、NVIDIA DLAA、NVIDIA Reflex 和 NVIDIA RTX IO。
+
+ 
+8 月对于 DLSS 和 RTX 来说又是一个伟大的月份，其中最重要的是“博德之门 3 (Baldur ' s Gate 3)”的正式发布，并支持 DLSS 2 和 DLAA。
+
+此外，“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”和“遗迹 2 (Remnant II)”新增支持 DLSS 3，“失落之魂 (Lost Soul Aside)”也将在发布时支持 DLSS 3。
+
+DLSS 2 游戏方面，Grand Emprise: Time Travel Survival 刚刚发布，并支持帧率加速技术。
+
+对于 GeForce RTX GPU 玩家，DLSS 可确保您在每款游戏中都能获得出色的游戏体验。得益于 GeForce RTX RT Core，在启用光线追踪效果时，您将在“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”和“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”中享受到尽可能高的帧率。
+
+继续阅读以了解详情。
+
+“博德之门 3 (Baldur ' s Gate 3)”将于 8 月 3 日发布，并支持 DLSS 2 和 DLAA
+“神界：原罪 2 (Divinity: Original Sin 2)”的开发商 Larian Studios 推出了一款以龙与地下城世界为背景的次时代 RPG！ 召集你的团队，回到被遗忘的国度，开启一段记载着友谊与背叛、牺牲与生存、以及至上力量诱惑的传奇故事。神秘的力量正在你体内苏醒，而这一切都来源于夺心魔种在你大脑里的寄生虫。反抗吧，以黑暗的力量对抗黑暗吧。你也可以选择接受这种腐化，去成为终极的邪恶。
+ 
+时隔近 3 年，“博德之门 3 (Baldur ' s Gate 3)”于 8 月 3 日结束抢先体验，该游戏已经为数百万玩家带来欢乐。 不过现在，您可以完整的体验这款史诗般的游戏，无论是单人模式还是合作模式，游戏包含大量内容、12 个职业、174 小时的过场动画和 2000 多个互动角色。
+
+在 PC 版游戏中，玩家可以借助 GeForce RTX 显卡获得出色的游戏体验，通过 DLAA 提升图像质量，或者通过 NVIDIA DLSS 2 提升帧率 - 在我们的基准测试中，开启 DLSS 后，GeForce RTX 40 系列显卡可将游戏性能平均提高 93%：
+
+借助 DLSS 2，大多数 GeForce RTX 40 系列玩家以及拥有同级别显卡的玩家都可以在 4K 最高设置下畅享高达 60+ FPS的游戏体验。
+ 
+如需了解有关“博德之门 3 (Baldur ' s Gate 3)”的更多信息，请查看该游戏 Steam 页面上的社区更新。 请前往此处添加愿望清单或购买。
+“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”新增支持 DLSS 3 和 RTXDI，并升级至虚幻引擎 5.2
+由 SHK Interactive 推出的“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”已于 6 月发布并支持 DLSS 2，帮助 GeForce RTX 玩家在两个平行世界进行穿梭，参与实验性疗法计划时，获得更快的性能。目前，DESORDRE 已成为全球首批发布的虚幻引擎 5.2 游戏之一。
+ 
+从虚幻引擎 5.1 到 5.2 的飞跃增强了图形、性能，帮助用户根据系统功能定制体验。
+
+主要新增功能是 NVIDIA RTX 直接照明 (RTXDI)，该功能可让 DESORDRE 中的每个光源投射出精确的光线追踪光线和阴影，并在游戏的光滑环境中进行反射。 得益于 RTXDI 颠覆性的设计，性能不会受到丝毫影响，而在 GeForce RTX 40 系列 GPU 上，由于更新中添加了 NVIDIA 着色器执行重排序 (SER)，光线追踪速度变得更快。
+
+为确保在使用 RTXDI 和其他新功能时获得超高帧率，SHK Interactive 利用最近发布的 Unreal Engine 5.2 NVIDIA Streamline 插件将现有的 DLSS 2 支持升级到 DLSS 3，使游戏支持帧生成、Reflex 和超分辨率。
+
+启用 DLSS 3 后，在 4K 分辨率下并启用了要求非常苛刻的全新 Lumen 和 Nanite 最高质量设置，GeForce RTX 40 系列 GPU 的性能可平均提升至原来的 3.6 倍。有了额外的性能空间，您还可以尝试使用实验性的虚幻引擎 5.2 选项，该选项将选项调至 11，以实现绝对最高级别的画质。
+
+在 1440p 分辨率下，帧率可平均提高至原来的 2.4 倍，在 GeForce RTX 4070 及更高级别的显卡上可实现 60 FPS+ 的游戏体验。而在 1080p 分辨率下，平均性能可提升至原来的 2.2 倍，使所有 GeForce RTX 40 系列 GPU 用户获得 DESORDRE 的最佳游戏体验。
+
+如需了解关于“DESORDRE：益智游戏冒险 (DESORDRE: A Puzzle Game Adventure)”的更多信息、查看预告片以及下载 Demo，请前往该游戏的 Steam 页面。 请继续关注 SHK Interactive 的社交动态，他们计划在虚幻引擎 5.3 发布后将游戏升级至该引擎，为游戏带来更多精彩。
+“失落之魂 (Lost Soul Aside)”将在游戏发布时支持 DLSS 3
+UltiZero Games 的“失落之魂 (Lost Soul Aside)”是一款用虚幻引擎 4 开发的，登陆PlayStation 5游戏机和PC平台的动作角色扮演游戏。游戏拥有独特的战斗系统、华丽的画面和引人入胜的故事情节。其中游戏以流畅而激烈的战斗为核心，玩家将面对各种强大的敌人和挑战。
+
+通过索尼互娱的投资和协助，以及PlayStation“中国之星计划”团队的全程支持和《失落之魂》开发团队的持续坚持和辛勤工作，今天，您可以看到游戏的最新独家 RTX 预告片：
+
+ 
+当“失落之魂 (Lost Soul Aside)”发布后，请开启 NVIDIA DLSS 3 以获得终极游戏体验。
+
+“遗迹 2 (Remnant II)”升级为 DLSS 3 游戏
+Gunfire Games 开发的“遗迹 2 (Remnant II)”是畅销游戏“遗迹：灰烬重生 (Remnant: From the Ashes)”的续作。在本作中，人类幸存者将再次深陷可怕的世界，对抗新的邪恶怪物和神一般的敌人头目。孤军奋战，或者与两名朋友合作，探索未知的深处，阻止邪恶摧毁现实世界。若想取得成功，玩家必须依靠自己和团队的力量，完成最艰巨的挑战，让人类免于灭绝的命运。
+ 
+“遗迹 2 ( Remnant II)”于 7 月 25 日发布后好评如潮，获得了 8 分和 9 分（其满分为 10 分）的好评，并被玩家评为“特别好评”。
+
+现在，GeForce RTX 玩家可以通过全系列 DLSS 模式定制他们的“遗迹 2 ( Remnant II)”游戏体验！ 所有 GeForce RTX 用户可以使用 DLSS 2 提升帧率，DLSS 3 为 GeForce RTX 40 系列用户提升帧率，实现性能倍增，DLAA 可以处理原生分辨率图像，以最大限度提升图像质量。你甚至可以结合使用 DLAA 和 DLSS 3 帧生成以获得出色的图像质量和性能。
+
+借助 DLSS 3，GeForce RTX 40 系列玩家可以将“遗迹 2 ( Remnant II)”帧率平均提升至原来的 3.5 倍，使很多配置都能够在 4K 最高设置下，以超过 60 FPS 的帧率体验游戏。
+
+Grand Emprise: Time Travel Survival 现已发布，并支持 DLSS 2
+由 Tbjbu2 推出的 Grand Emprise: Time Travel Survival 让玩家骑乘恐龙、造工具、在沙丘上滑行、建立聚居地、围攻城堡、自动驾驶和飞行、采矿、乘火箭去月球、甚至建立一个戴森球！ 这是一款疯狂的、令人难忘的、革命性生存建造类开放世界冒险游戏 。
+ 
+Grand Emprise: Time Travel Survival 由一人使用虚幻引擎 5 制作完成，游戏于几天前推出，并且发布时即支持 DLSS 2，确保 GeForce RTX 玩家可以体验更快的帧率。
+
+欢迎下周再来查看最新消息，了解更多 RTX 游戏精彩内容
+如您所见，大量的最新游戏大作和独立游戏已经集成 DLSS。 欢迎下周再来查看下一批支持 DLSS 和 RTX 的游戏，前往此处查看超过 300 款 DLSS 游戏和应用的完整列表。

@@ -1,0 +1,113 @@
+NVIDIA DLSS 即将应用于今年秋季多款热门游戏，包括“心灵杀手 2 (Alan Wake 2)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”、“使命召唤：现代战争 3 (Call of Duty: Modern Warfare III)”和“收获日 3 (PAYDAY 3)”
+由 Andrew Burnes 发表于 2023年8月22日 | 精选故事Alan Wake 2Cyberpunk 2077GamescomGeForce RTX GPUNVIDIA DLSSNVIDIA ReflexNVIDIA RTXRay Reconstruction光线追踪
+随着 NVIDIA DLSS 不断的发展，目前已有超过 330 款已发布的游戏和应用支持 DLSS。现在，我们将发布 NVIDIA DLSS 3.5，其采用光线重建技术，是借助 AI 提升光线追踪最新的技术创新。
+
+NVIDIA DLSS 3.5 将于今年秋季在“心灵杀手 2 (Alan Wake 2)”、“赛博朋克 2077 (Cyberpunk 2077)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”、“传送门 RTX 版 (Portal with RTX)”和创意应用中首次亮相。 继续阅读，了解完整详细信息。
+
+此外，NVIDIA DLSS 3 的 AI 加速性能也将应用于今年秋季的热门游戏，包括“使命召唤：现代战争 3 (Call of Duty: Modern Warfare III)”、“收获日 3 (PAYDAY 3)”和“堡垒之夜 (Fortnite)”。
+
+NVIDIA DLSS 3.5 发布
+随着光线重建技术的引入，NVIDIA DLSS 3.5 使您在游戏中身临其境，感受到更加精美和逼真的画面。由AI助力的光线重建技术将进一步提升光线追踪的质量。
+
+为了帮助游戏在高帧率下运行光线追踪，我们会将光线样本注入到场景中，并使用需要人工设计的降噪器来为每个照明通道填补缺失的像素。
+
+每个需要人工设计的降噪器都会累积多帧的像素以增加细节，实际上是借取过去的光线，但仍存在引入鬼影、消除动态效果并降低其他效果的风险。
+
+DLSS 3.5 引入了光线重建技术，这也是进阶版 AI 驱动的神经渲染器的一部分，通过将需要人工设计的降噪器替换为 NVIDIA 超级计算机训练的 AI 网络（在采样光线之间生成更高质量的像素），为所有 GeForce RTX GPU 提升光线追踪图像质量。
+
+在“心灵杀手 2 (Alan Wake 2)”、“赛博朋克 2077 (Cyberpunk 2077)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”、“传送门 RTX 版 (Portal with RTX)”、Chaos Vantage、D5 渲染器和 NVIDIA Omniverse 中，DLSS 3.5 将显著提高光线追踪效果的保真度和真实感，解决需要人工设计的降噪器带来的问题。
+请查看以下“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”和 D5 渲染器示例以了解其优势，并务必观看“心灵杀手 2 (Alan Wake 2)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”和“传送门 RTX 版 (Portal with RTX)”的全新 DLSS 3.5 视频：
+今年 9 月，DLSS 3.5 在“赛博朋克 2077 (Cyberpunk 2077)”和“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”以及今年秋季推出的其他游戏和应用中首次亮相，GeForce RTX 40 系列用户可以将光线重建与帧生成相结合，以实现令人惊叹的性能和画质，而 GeForce RTX 20 和 30 系列用户可以畅享光线重建、超分辨率和 DLAA。
+光线重建可以在支持 DLSS 3.5 的光线追踪游戏中开启。采用 DLSS 3.5 的光栅游戏还支持 DLSS 超分辨率和 DLAA 的最新更新，但由于没有光线追踪效果，所以不会受益于光线重建技术。
+
+如果了解有关光线重建的更多详细信息，请访问我们的 NVIDIA DLSS 3.5 讲解文章，并观看 NVIDIA 应用深度学习研究副总裁 Bryan Catanzaro 的技术讲座。
+
+ 
+请继续阅读，了解有关今年秋季将支持 DLSS 3.5 的游戏和应用的更多信息。
+
+“心灵杀手 2 (Alan Wake 2)”将于 10 月 27 日发布，并支持 DLSS 3.5、全景光线追踪和 Reflex
+Remedy Entertainment 采用前沿技术，不断打造每一代犹如身临其境的先进游戏。2019 年推出的“控制 (Control)”是首批支持光线追踪和 DLSS 的游戏之一，至今仍是一款展现 PC 平台先进性的令人惊艳的游戏。
+
+早在 2010 年，Remedy 就发布了“心灵杀手 (Alan Wake)”，这是一款令人惊叹的叙事动作惊悚游戏，其视觉效果和炫目的光芒器械玩法让玩家大开眼界。10 月 27 日，让玩家期待已久的续集即将到来，由 Epic Games 发行的“心灵杀手 2 (Alan Wake 2)”，讲述了 Alan Wake 和 FBI 探员 Saga Anderson 的噩梦般的全新故事。
+
+ 
+NVIDIA 和 Remedy Entertainment 再次携手合作，利用前沿技术将画质、沉浸感和性能提升至更高水平，为 PC 游戏玩家提供令人叹为观止的精彩体验！在 PC 上，“心灵杀手 2 (Alan Wake 2)”的全景光线追踪（路径追踪）图形效果将得到NVIDIA DLSS 3.5 和 NVIDIA Reflex 的 加速与增强，玩家将对游戏效果赞叹不已。
+
+在我们的独家对比图中，抢先了解采用全景光线追踪技术的“心灵杀手 2 (Alan Wake 2)” (单击此处查看 4K 对比图)：
+
+“DLSS 3.5 中的全新光线重建功能使我们的全景光线追踪世界比以往更加精美，这可以让您更深入地了解《心灵杀手 2 (Alan Wake 2)》的故事。”– Remedy Entertainment 首席图形程序员 Tatu Aalto
+
+为确保 GeForce RTX 玩家能够在“心灵杀手 2 (Alan Wake 2)”中获得超高保真度的光线追踪体验，游戏将在发布时支持 NVIDIA DLSS 3.5。随着光线重建技术的推出，NVIDIA DLSS 3.5 使您在游戏中身临其境，感受到更加精美和逼真的画面。光线重建适用于所有 GeForce RTX 用户 - 请在我们的 NVIDIA DLSS 3.5 讲解文章中了解完整信息。
+
+明天 (8 月 23 日)，在北京时间晚上 9 点发布新的“心灵杀手 2 (Alan Wake 2)”预告片中，了解 DLSS 3.5 和 RTX 技术所带来的不同。
+
+请于 10 月 27 日访问 GeForce.cn，详细了解“心灵杀手 2 (Alan Wake 2)”令人惊叹的全景光线追踪效果以及 NVIDIA DLSS 3.5 集成信息。
+“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”将于今年 9 月发布，并支持 DLSS 3.5、全景光线追踪和 Reflex
+“往日之影 (Phantom Liberty)”是“赛博朋克 2077 (Cyberpunk 2077)"的全新谍战悬疑风格资料片。新美利坚合众国总统乘坐的轨道航天飞机在夜之城最危险的地区被击落，玩家可以重新成为雇佣兵 V，深入谍报活动和政治阴谋交错的乱局，完成拯救的任务。随着故事的推进，了解身居高位的权力阶层和残酷的黑市雇佣兵世界之间那错综复杂的恩怨情仇。
+
+ 
+“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”将于 9 月 26 日发布全景光线追踪：过载模式技术预览版，为 GeForce RTX 玩家带来身临其境般的细节体验。今天，我们宣布 DLSS 3.5 将于今年 9 月面向所有“赛博朋克 2077 (Cyberpunk 2077)”和“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”玩家发布。
+
+随着光线重建技术的引入，NVIDIA DLSS 3.5 可使您的游戏更加精美、身临其境和逼真。光线重建是一项 AI 驱动的新技术，可进一步提高光线追踪的质量。DLSS 3.5 适用于所有 GeForce RTX 用户，您可以在我们的 NVIDIA DLSS 3.5 讲解文章中了解完整信息。
+
+在“赛博朋克 2077 (Cyberpunk 2077)”中，DLSS 光线重建技术提高了反射的质量和清晰度，全局光照变得更加准确，光照的动态响应更加灵敏，从而带来更好、更身临其境和更逼真的体验。抢先观看我们全新的独家“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)” NVIDIA DLSS 3.5 游戏预告片：
+
+ 
+“借助 DLSS 3.5 的智能技术和 AI 渲染力，您可以在“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”的最新游戏场景“狗镇”中获得出色体验 — 获得更清晰的画面、更准确的照明和更高帧率。” – CD PROJEKT RED 艺术副总裁兼全球艺术总监，Jakub Knapik
+
+光线追踪：过载模式技术预览版通过利用全景光线追踪（也称为路径追踪）提升游戏本已令人惊叹的视觉效果，这意味着它需要更强性能的 GPU。由 NVIDIA Ada Lovelace 架构提供支持的 GeForce RTX 40 系列 GPU 具有原生渲染性能，以及可以提升性能和画质的 NVIDIA DLSS 3.5，可使这些精致的图形栩栩如生。
+
+借助 GeForce RTX 40 系列显卡，玩家在光线追踪：过载模式下可以以超过 60 FPS 的帧率在“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”中获得出色体验。我们推荐 4K 分辨率下使用 GeForce RTX 4090 和 RTX 4080，1440p 分辨率下使用 RTX 4070 Ti 和 RTX 4070，1080p 分辨率下使用 RTX 4060 Ti 和 RTX 4060。单击此处了解更多详情。
+
+请持续关注 GeForce.cn，了解“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”发布的更多信息，并让您配备 GeForce RTX 40 系列显卡的系统和笔记本电脑为“往日之影 (Phantom Liberty)”做好准备。
+
+“传送门 RTX 版 (Portal with RTX)”将于今年秋季升级并支持 DLSS 3.5
+“传送门 RTX 版 (Portal with RTX)”是基于 Valve 经典游戏的全景光线追踪重构的游戏，具有令人惊叹的路径追踪视觉效果、最新的性能加速 NVIDIA 技术，以及能将性能提升 3 倍的 NVIDIA DLSS 3。
+
+ 
+今年秋季，“传送门 RTX 版 (Portal with RTX)”将升级并支持 NVIDIA DLSS 3.5，通过引入光线重建技术，NVIDIA DLSS 3.5 可使您的游戏更加精美、身临其境和逼真。光线重建是一项 AI 驱动的新技术，可进一步提高光线追踪的质量。
+
+在“传送门 RTX 版 (Portal with RTX)”中，由于光线重建会智能地累积多帧引擎数据和信息，从而生成更准确、更清晰的图像，因此纹理非常精美。借助现有的渲染技术，全景光线追踪可能难以解析光线在金属栅栏等薄材料上反射的多个光子，从而导致过度闪烁。但借助 DLSS 3.5 的光线重建技术，无论多少光线照亮最薄的网格，每个栅栏都会稳定显示。
+
+光线和反射更新速度更快、更准确，每个房间的每个缝隙都被清晰的照亮，使 Aperture 实验室看起来就像在现实世界中一样。
+
+ 
+光线重建将适用于所有 GeForce RTX 用户 - 请在我们的 NVIDIA DLSS 3.5 讲解文章中了解完整信息。
+Chaos Vantage、D5 渲染器和 NVIDIA Omniverse 现已支持 DLSS 3.5
+游戏玩家并不是唯一受益于 DLSS 3.5 的群体。3D 创作者通常会处理繁重、复杂的场景，这会导致预览变得嘈杂且不准确。这使得他们难以与客户和协作者分享工作，并且可能会花费数小时进行最终渲染以查看潜在结果。
+
+借助光线重建，所有 GeForce RTX 3D 创作者现在都可以在预览中查看更高质量、更准确的渲染，从而加快工作流并改善协作。
+
+DLSS 3.5 是实时 3D 编辑体验的重大突破。今年秋季，Chaos Vantage、D5 渲染器和 NVIDIA Omniverse 将支持 DLSS 3.5。
+“使命召唤®：现代战争® 3 (Call of Duty®: Modern Warfare® III)”即将登陆 PC 平台，并支持 DLSS 3 和 Reflex
+在破纪录的“使命召唤：现代战争 2 (Call of Duty: Modern Warfare II)”的续作中，普莱斯上尉和 141 特遣队将面对终极威胁。极端民族主义战犯弗拉基米尔·马卡洛夫正将他的魔爪伸向全世界，而第 141 特遣队面临前所未有的战斗。
+
+Activision 的“使命召唤：黑色行动冷战 (Call of Duty: Black Ops Cold War)”、“先锋 (Vanguard)”、“现代战争 (Modern Warfare)”、“现代战争 2 (Modern Warfare II)”、“使命召唤：战区 (Call of Duty: Warzone)”和“使命召唤：战区 2 (Call of Duty: Warzone 2.0)”均已支持 NVIDIA DLSS。我们与”使命召唤 (Call of Duty)“的长期技术合作关系继续延续，近期公布的“使命召唤：现代战争 3 (Call of Duty: Modern Warfare III)”将支持 NVIDIA DLSS 3 和 NVIDIA Reflex，该游戏将于 11 月 10 日发布。
+
+ 
+请持续关注以了解更多详情。
+
+“收获日 3 (PAYDAY 3)”将于 9 月 21 日发布，并支持 DLSS 3 和 Reflex
+备受期待的“收获日 3 (PAYDAY 3)”是有史以来最受欢迎的合作射击游戏之一的续作。9 月 21 日，告别退隐，重返Payday帮的作案生涯，再次开启你的犯罪生涯，成为执法部门无处不在的噩梦。团队成员结束对华盛顿特区的恐怖统治数年后，新威胁逐渐浮现，逼迫他们结束退休生涯，再度集结。
+
+ 
+在游戏发布时，得益于游戏对 DLSS 3 和 DLSS 2的支持，GeForce RTX 玩家可以在“收获日 3 (PAYDAY 3)”中尽享超高帧率。为了确保您可以轻松对抗一波又一波的警察，NVIDIA Reflex 将降低系统延迟，从而使射击和抢劫更加灵敏。
+
+“半条命 2 (Half-Life 2)”RTX 社区 RTX Remix Mod 正在开发中
+NVIDIA RTX Remix 是一个免费的即将推出的 MOD 平台，基于 NVIDIA Omniverse 构建，旨在支持 Modder 创建和分享经典游戏的# RTXON Mod，每个 Mod 都支持增强材质、全景光线追踪、NVIDIA DLSS、NVIDIA RTX IO 和 NVIDIA Reflex。
+
+我们发布了 Valve 经典游戏的高保真重制版游戏“传送门 RTX 版 (Portal with RTX)”，该游戏作为示例展示了 Remix 可以实现的效果。然后，我们将工具交给了重制“传送门：序曲 (Portal: Prelude)”的社区 Modder。今天，我们将推出“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目，由社区制作、高分游戏“半条命 2 (Half-Life 2)”的重制版。
+
+“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目由“半条命 2 (Half-Life 2)”的四个 Orbifold Studios 旗下的顶级 Mod 团队合作开发。 Modder 使用最新版本的 RTX Remix，利用基于物理属性渲染 (PBR) 的重制材质，通过 Valve 的 Hammer 编辑器添加额外的几何细节，并利用 NVIDIA 技术（包括全景光线追踪、DLSS 3、Reflex 和 RTX IO） 为 GeForce RTX 游戏玩家带来极致体验。 抢先观看“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目的预告片：
+
+ 
+如需了解更多信息和 4K RTX ON-OFF 对比图，请参阅我们“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目的讲解文章。如果您有兴趣加入“半条命 2 RTX 版 (Half-Life 2 RTX)”：RTX Remix 项目，并且在创作 Mod 或 3D 艺术作品方面拥有丰富的经验，我们鼓励您通过“半条命 2 (Half - Life 2)”RTX 版：RTX Remix 项目网站进行申请。
+“堡垒之夜 (Fortnite)”将于今年秋季升级并支持 DLSS 3
+自 2020 年以来，“堡垒之夜 (Fortnite)”已支持 DLSS 2 和 NVIDIA Reflex，让所有 GeForce RTX 玩家都能以超高帧率和极低的系统延迟畅玩游戏，并获得出色的游戏体验。
+
+今年秋季，“堡垒之夜 (Fortnite)”将升级并支持 NVIDIA DLSS 3，使 GeForce RTX 40 系列玩家的帧率实现倍增，在 4K 分辨率下，让您有足够的空间开启 Unreal Engine 5 最高设置，同时又不影响性能。
+
+ 
+请于今年晚些时候访问 GeForce.cn 了解更多详情。
+欢迎下周再来查看最新消息，了解更多 RTX 游戏精彩内容
+每周都会有更多游戏支持 DLSS，在我们的每周文章中，将为您全面介绍这些游戏。欢迎下周再来查看下一批支持 DLSS 和 RTX 的游戏，前往此处查看超过 330 款 DLSS 游戏和应用的完整列表。

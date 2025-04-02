@@ -1,0 +1,44 @@
+为“匹诺曹的谎言 (Lies of P)”和“真人快打 1 (Mortal Kombat 1 )”打造的 Game Ready 驱动现已发布，并为“星空 (Starfield)”提供性能优化
+由 Andrew Burnes 发表于 2023年9月12日 | 精选故事驱动程序
+我们的最新驱动为“匹诺曹的谎言 (Lies of P)”和“真人快打 1 (Mortal Kombat 1 )”提供支持。
+
+另外，驱动还新增对 6 款全新的 G-SYNC Compatible 游戏显示器的支持以及 5 项 GeForce Experience 优化设置。
+
+如需下载并安装该驱动，请前往 GeForce Experience 的“Drivers” (驱动) 选项卡，或访问 GeForce.cn。
+
+“匹诺曹的谎言 (Lies of P)”将于 9 月 19 日发布，并支持 DLSS 2
+“匹诺曹的谎言 (Lies of P)”来自大家耳熟能详的匹诺曹的故事，这是一款魂类动作游戏，游戏设定在“美好时代”的暗黑优雅背景之下。克拉特曾是一座美丽的城市，但随着致命的人偶横行，瘟疫席卷大地，这里俨然已成为了一个活生生的噩梦。玩家需要扮演木偶匹诺曹，在不懈的旅程中穿梭于城市之中，找到吉佩托，并最终成为人类。“匹诺曹的谎言 (Lies of P)”呈现了一个充满紧张感，深度战斗和角色定制系统的优雅世界，以及一个扣人心弦的故事，剧情的叙事选择非常有趣，谎言说得越多，匹诺曹就越接近于人类。
+ 
+当“匹诺曹的谎言 (Lies of P)”于 9 月 19 日发布时，GeForce RTX 玩家可以获得显著的性能提升 – 在我们的 GeForce RTX 40 系列基准测试中，在 4K 分辨率并开启最高设置下，帧率平均可提升至原来的 1.9 倍。
+为“真人快打 1 (Mortal Kombat 1 )”打造的 Game Ready 驱动
+刘康重生并创建他的新和平乌托邦。同时基塔娜的双胞胎妹妹、异星王位的合法继承人米莱娜感染了一种可怕的致命疾病。Lin Kuei 战士和兄弟蝎子 (Scorpion) 和 Sub-Zero 为氏族的未来而战，而 Earthrealm 冠军 Raiden 和 Kung Lao 则为家庭和荣誉而战。 乔尼·凯奇 (Johnny Cage) 更关心其在粉丝眼中的形象，他为自己的虚荣心而战。 在“真人快打 1 (Mortal Kombat 1 )”的新宇宙中奋力拼搏，以全新且具有标志性的战斗系统、游戏模式和死亡机制，开创一个系列游戏的新纪元。
+ 
+发布时，我们将提供 DLSS 2 超分辨率技术，以确保在 1440p 和 4K 分辨率下并开启最高设置时，GeForce RTX 玩家在每场比赛中都能达到锁定的 60 FPS 帧率。
+
+“星空 (Starfield)”性能优化
+今天，NVIDIA 发布了适用于“星空 (Starfield)”的 Resizable BAR 配置文件，该配置文件可提升 GeForce RTX 40 系列以及 GeForce RTX 30 系列台式机和笔记本电脑 GPU 的性能。在我们的测试场景中，GeForce RTX 40 系列台式机 GPU 的性能平均提升 5%。“星空 (Starfield)” Resizable BAR 更新将通过 NVIDIA Over-The-Air (OTA)更新推送，并将自动应用于运行最新 Game Ready 驱动 (537.34) 或先前版本 (537.17) 的玩家。
+
+为最新认证的 G-SYNC Compatible 显示器提供支持
+新版 Game Ready 驱动还增加对 6 款新 G-SYNC Compatible 显示器的支持，这 6 款游戏显示器均采用基准可变刷新率 (VRR) 技术，带来更流畅愉悦的游戏体验。
+制造商	型号	HDR	尺寸	面板类型	分辨率	VRR 范围
+AOC	U27G3X	支持	27 英寸	IPS	3840x2160 (4K)	48-160Hz
+AOC	AG275QA1	支持	27 英寸	IPS	2560x1440 (QHD)	60-170Hz
+I-O DATA	GDQ271JA	支持	27 英寸	IPS	2560x1440 (QHD)	59-180Hz
+LG	27GR93U	支持	27 英寸	IPS	3840x2160 (4K)	48-144Hz
+LG	27GR750Q	支持	27 英寸	IPS	2560x1440 (QHD)	48-165Hz
+LG	38WR850C-W	支持	38 英寸	IPS	3840x1600 (WQHD+)	60-170Hz
+这些新认证的显示器为正在选购游戏游戏显示器或电视的玩家提供了更多选择。如需了解所有 G-SYNC、G-SYNC Ultimate 和 G-SYNC Compatible 游戏显示器，请前往我们便于查阅且持续更新的 G-SYNC 页面。您可以在此页面使用排序和筛选功能，以快速找到理想的显示器。
+
+GeForce Experience 优化设置支持的游戏再添新成员
+GeForce Experience 的一键优化设置可助您即刻针对自身系统的硬件配置一键设置游戏选项，从而打造经优化的流畅游戏体验。现已支持超过 1000 款游戏；自上一次发布驱动以来，我们又新增了对 5 款游戏的支持：
+装甲核心 6：境界天火 (ARMORED CORE VI FIRES OF RUBICON)
+不朽者传奇 (Immortals of Aveum)
+星空 (Starfield)
+德州电锯杀人狂 (The Texas Chain Saw Massacre)
+寻路者 (Wayfinder)
+借助 GeForce Experience，您还可录制游戏过程、游戏截屏并上传到社交网络等。如需了解全部详情，请前往此处。
+
+GeForce Game Ready 驱动 - 立即下载
+您可以单击此处详细了解 GeForce Game Ready 驱动；也可以通过 GeForce Experience 下载新的 GeForce Game Ready 537.34 WHQL 驱动。
+
+如果您遇到任何与新 Game Ready 驱动相关的技术问题，请在“英伟达 GeForce”微信公众号留言，以便我们的客服团队更好地为您提供帮助。如需查看该驱动中针对已报告的问题添加的修复程序的完整列表，请前往此处。

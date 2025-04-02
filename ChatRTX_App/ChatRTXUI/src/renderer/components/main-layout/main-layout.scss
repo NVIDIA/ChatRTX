@@ -1,0 +1,92 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+@use '../../rwd.scss' as rwd;
+
+.chat-rtx-app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-rtx-app-layout,
+.chat-rxt-loading {
+    width: 100%;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.chat-rxt-loading {
+    background-color: rgba(17, 17, 17, 0.75);
+}
+
+.chat-rtx-primary-container {
+    flex-grow: 1;
+    overflow: hidden;
+    height: 100%;
+    transition: width 0.2s, max-width 0.2s, transform 0.2s;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--colors-n950);
+    align-items: center;
+
+    &.drawer-open {
+        max-width: calc(#{rwd.get-responsive-width(8)} + #{rwd.get-contianer-side-spacing-value()} + #{rwd.get-gutter-size()});
+        
+        .chat-content {
+            max-width: calc(#{rwd.get-responsive-width(8)} + #{rwd.get-contianer-side-spacing-value()} + #{rwd.get-gutter-size()});
+            .chat-interaction-components {
+                padding: 0px #{rwd.get-gutter-size()} 0px #{rwd.get-contianer-side-spacing-value()};
+                width: 100%;
+            }
+        }
+    }
+
+    .chat-content {
+        max-width: calc(#{rwd.get-responsive-width(8)} + 2 * #{rwd.get-contianer-side-spacing-value()});
+        width: 100%;
+        margin: auto;
+        flex-grow: 1;
+        overflow: hidden;
+        .chat-interaction-components {
+            padding: 0px #{rwd.get-contianer-side-spacing-value()} 0px #{rwd.get-contianer-side-spacing-value()};
+            width: 100%;
+        }
+    }
+
+    .chat-header {
+        width: 100%;
+        background-color: var(--colors-n800);
+        padding: 0;
+    }
+}
+
+.footer-text {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.loading-text {
+    color: rgba($color: #FFFFFF, $alpha: 0.9) !important;
+}

@@ -1,0 +1,77 @@
+“索利斯堡 (Fort Solis)”、“白日梦魇：沙堡 1994 (Daymare: 1994 Sandcastle)”和“蔓延 (SPRAWL)”等更多游戏支持 DLSS，实现性能倍增
+由 Andrew Burnes 发表于 2023年8月29日 | 精选故事GeForce RTX GPUNVIDIA DLSSNVIDIA RTX
+每周，我们都会为您带来有关支持 DLSS 和光线追踪游戏和应用的最新消息。
+
+上周，我们发布了 NVIDIA DLSS 3.5，该技术采用光线重建技术，这是一种新的 AI 驱动技术，可进一步提升光线追踪质量，让您的游戏更加精美、身临其境和逼真。“心灵杀手 2 (Alan Wake 2)”、“赛博朋克 2077 (Cyberpunk 2077)”、“赛博朋克 2077：往日之影 (Cyberpunk 2077: Phantom Liberty)”、“传送门 RTX 版 (Portal with RTX)”、Chaos Vantage、D5 渲染器和 NVIDIA Omniverse 都将在今年秋季发布或更新支持 DLSS 3.5。
+
+此外，我们还宣布了 DLSS 3 将于今年秋天为更多热门游戏提供由 AI 驱动的性能倍增，包括“使命召唤：现代战争 3 (Call of Duty: Modern Warfare III)”、“收获日 3 (PAYDAY 3)”和“堡垒之夜 (Fortnite)”。
+
+本周，我们将庆祝“索利斯堡 (Fort Solis)”发布并支持 DLSS 3，并宣布“三角洲行动 (Delta Force: Hawk Ops)”和“代号：无限大 (Project Mugen)”将于发布时支持 DLSS 3。
+
+此外，“白日梦魇：沙堡 1994 (Daymare: 1994 Sandcastle)”、“F1Ⓡ车队经理 2023 (F1Ⓡ Manager 2023)”和“蔓延 (SPRAWL)”现已支持 DLSS 2。更多全新 DLSS 3 游戏预告片已发布，包括“黑神话：悟空 (Black Myth: Wukong)”、“第一后裔 (The First Descendant)”和“战争避难所 (Warhaven)”。
+
+继续阅读以了解详情。
+
+“三角洲行动 (Delta Force: Hawk Ops)”即将发布，并支持 DLSS 3
+由天美工作室群推出的“三角洲行动 (Delta Force: Hawk Ops)”是经典三角洲系列的回归之作。
+
+《三角洲行动》是一款设定在 2035 年的第一人称特战干员战术射击游戏，支持跨端免费游玩。拥有 25 年历史的经典射击鼻祖再次回归，这一次行动再次升级，让你感受到前所未有的大规模、危险刺激的动态射击世界。
+作为前三角洲队员创立的全球反恐特勤组 G.T.I. 的精英特战干员，你将前往神秘的阿萨拉地区，调查哈夫克公司的非法活动。在这个充满危机的战场中，运用别具特色的战术道具与装备，与队友紧密协作，灵活制定战术，挑战强大的 AI，只有最勇敢的干员才能成功完成各项看似不可能的极限任务。
+
+你还能扮演最精英的三角洲队员，重温 1993 年那场秘密行动《黑鹰坠落》。从第一人称视角领略电影好莱坞战争美学。
+
+当“三角洲行动 (Delta Force: Hawk Ops)”发布时，配备 GeForce RTX GPU 的 PC 玩家可以通过 NVIDIA DLSS 3 加速性能，以获得出色游戏体验。 请继续关注更多内容。
+
+“索利斯堡 (Fort Solis)”现已发布，并支持 DLSS 3
+为了回应一个偏远采矿基地的紧急呼叫，杰克来到了昏暗荒凉的索利斯堡。长夜漫漫，事件不断升级并失控，发生在工作人员身上的秘密开始浮出水面。在由 Fallen Leaf、Black Drakkar Games 和 Dear Villagers 推出的“索利斯堡 (Fort Solis)”中，探索接下来会发生什么并坚持到明天的来临。
+ 
+这款由虚幻引擎 5 的 Lumen 增强的动作惊悚游戏 不仅将在发布当天即支持 DLSS 3 ，还利用 NVIDIA 生成式 AI Audio2Face 技术来通过音频 创建面部动画，该技术在行业标准应用中得到进 一步完善，大幅减少游戏面部表情动画所需的开发时间和资源。
+
+立即在 Steam 上查看；在我们的测试中，在 4K 最高设置下，DLSS 3 可将帧率平均提升至原来的 2.9 倍：
+
+“黑神话：悟空 (Black Myth: Wukong)” – 全新 DLSS 3 游戏预告片发布
+由 Unreal Engine 5 提供动力支持的“黑神话：悟空 (Black Myth: Wukong)”是一款以中国神话为背景的动作角色扮演游戏。你将扮演一位“天命人”，为了探寻昔日传说的真相，踏上一条充满危险与惊奇的西游之路。 游戏 8 月 20 日上线了 Steam 游戏页面，许多玩家已经将游戏添加至愿望单。
+目前，DLSS 3 的全新游戏视频已经发布，展示了新的游戏开发进展、游戏功能和不断提升的图形效果：
+
+
+另外，请查看 NVIDIA DLSS 3 加持下的“黑神话：悟空 (Black Myth: Wukong)” 2023 科隆游戏展“开幕之夜”的游戏预告片：
+
+ 
+“白日梦魇：沙堡 1994 (Daymare: 1994 Sandcastle)”现已发布，并支持 DLSS 2
+由 Invader Studios 和 Leonardo Interactive 推出的“白日梦魇：沙堡 1994 (Daymare: 1994 Sandcastle)”是一款第三人称故事驱动的生存恐怖游戏。后篇“白日梦魇 1998 (Daymare: 1998)”备受评论人士好评。化身特勤干员达利拉·雷耶斯（原为政府间谍），肩负 HADES（六核救援与搜索部）的使命，走进世上最为知名而又神秘的地方。千万小心，军事研究基地内部错综复杂、荒凉阴森，深处更有骇人可怖的生物出没！
+ 
+“白日梦魇：沙堡 1994 (Daymare: 1994 Sandcastle)”于今天（8 月 29 日）发布时，GeForce RTX 玩家可以开启 DLSS 2，提高分辨率和细节水平。
+“第一后裔 (The First Descendant)” DLSS 3 Gamescom 游戏预告片
+由 Nexon Games 推出的“第一后裔 (The First Descendant)”是一款以虚幻引擎 5 为基础，一款免费畅玩的第三人称合作射击动作类 RPG 游戏。玩家可通过 4 人合作、利用多样技能与枪械带来的豪爽战斗动感效果，体验炫酷战斗。领略壮观的故事情节，执行守护“英格里斯大陆”的任务，激战巨型 BOSS。
+在游戏发布时，“第一后裔 (The First Descendant)”将支持 NVIDIA DLSS 3，GeForce RTX 40 系列游戏玩家可以借助 NVIDIA DLSS 3 获享性能倍增的游戏体验，所有其他 GeForce RTX 游戏玩家都可以借助 NVIDIA DLSS 2 加速帧率。抢先观看我们全新的“第一后裔 (The First Descendant)” Gamescom 预告片：
+
+
+“代号：无限大 (Project Mugen)”将于发布时支持 DLSS 3
+由 Naked Rain、Thunder Fire Studio 和网易推出的《代号：无限大》是一款充满自由的都市题材开放世界 RPG 游戏，在这个世界中，您将化身为代号“无限扳机”的王牌查员，肆意穿梭于世界的每一个角落。探索多样城市，结交各色伙伴，共同应对威胁人类安宁的异常现象。或与伙伴们同欢城市生活，留下难忘瞬间……
+深入研究谜团，与伙伴们共同探索城市生活，留下难忘瞬间。
+
+“代号：无限大 (Project Mugen)”将于发布时支持 NVIDIA DLSS 3 — 观看游戏首发预告片：
+
+
+“战争避难所 (Warhaven)”将于 9 月 21 日发布，并支持 DLSS 3，观看全新 Gamescom 预告片
+NEXON Korea 开发的“战争避难所 (Warhaven)”将于 9 月 21 日上线，这是一款以中古世纪奇幻战场为背景的 16 人对战 16 人的第三人称动作游戏，由“野生之地：杜兰戈 (Durango: Wild Lands)”和“洛奇英雄传 (Vindictus)”的开发团队开发。玩家可以挑选趁手的近战武器，结合魔法要素，与敌人展开激烈的白刃战，并在战斗中积累功绩，变身成为具备强大力量的英雄，运用超自然的技能组合横扫战场，以前所未有的方式体验基于团队的剑与魔法游戏。
+
+“战争避难所 (Warhaven)”在发布时便会支持 NVIDIA DLSS 3，让游戏性能更上一层楼，并借助 NVIDIA Reflex 降低系统延迟。请在下方观看 DLSS 3 Gamescom 全新预告片：
+
+
+“F1Ⓡ车队经理 2023 (F1Ⓡ Manager 2023)”今日发布更新支持 DLSS 2
+由 Frontier Developments 推出的“F1Ⓡ车队经理 2023 (F1Ⓡ Manager 2023)”的全新赛季将带您走进Formula 1®那紧张刺激的赛车运动世界。23场比赛、六轮F1®冲刺赛、全新的赛车、包括拉斯维加斯街道赛道在内的全新赛道、全新的车手、全新的挑战。
+ 
+今天（8 月 29 日）发布的全新更新添加了对 DLSS 2 的支持，可在重要比赛中为 GeForce RTX 玩家加速帧率。
+
+“蔓延 (SPRAWL)”现已发布，并支持 DLSS 2 和 DLAA
+由 MAETH 和 Rogue Games 推出的“蔓延 (SPRAWL)”是一款以无尽的赛博朋克大都市为背景的硬核复古 FPS 游戏。 人类的黄金时代已经崩溃，留下一个破碎的世界。 现在， SEVEN 是一位名誉扫地的特种部队超级士兵，她必须逃离这座有围墙的城市，并对抗无序扩张的政府军。 但黑暗的巷道和破旧的公寓表面完全符合“伊卡洛斯”控制论植入，这使得 SEVEN 能够完成无视重力的墙面奔跑动作，放慢时间，利用大量武器来对抗政府，走向顶端，推翻一切。
+ 
+“蔓延 (SPRAWL)”采用 DLSS 2 来帮助玩家最大限度地提升性能，并采用 DLAA 来帮助已经拥有高性能高帧率的玩家更大限度地提升图像质量和清晰度。
+
+“疯狂：圣罗德小镇 (Lunacy: Saint Rhodes)”现已发布，并支持 DLSS 2
+由 Stormling Studios 和 Iceberg Interactive 推出的“疯狂：圣罗德小镇 (Lunacy: Saint Rhodes)”是一款第一人称生存恐怖游戏。探索你黑暗的家族历史，体验翻肠搅肚般的恐惧。有东西正看着你；你永不孤单，也永不安全。
+ 
+“疯狂：圣罗德小镇 (Lunacy: Saint Rhodes)”的 GeForce RTX 玩家可以借助 DLSS 2 加速帧率。
+欢迎下周再来查看最新消息，了解更多 RTX 游戏精彩内容
+如您所见，大量的最新游戏大作和独立游戏已经集成 DLSS。 欢迎下周再来查看下一批支持 DLSS 和 RTX 的游戏，前往此处查看超过 330 款 DLSS 游戏和应用的完整列表。

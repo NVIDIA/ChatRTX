@@ -1,0 +1,86 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+#nav-bar {
+    position: relative;
+    width: 100vw;
+    height: var(--variables-navBarHeight);
+
+    .window-title {
+        flex-grow: 1;
+        padding-left: var(--space-ms);
+        padding-right: var(--space-md);
+        cursor: grab;
+        -webkit-user-select: none;
+        -webkit-app-region: drag;
+        height: var(--variables-navBarHeight);
+
+        &:active {
+            cursor: grabbing;
+        }
+
+        svg {
+            width: var(--fontSizes-md);
+            height: var(--fontSizes-md);
+        }
+    }
+
+    .window-controls {
+        -webkit-app-region: no-drag;
+        flex-grow: 1;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-right: var(--space-md);
+
+        .button {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            box-sizing: border-box;
+            pointer-events: all;
+            user-select: none;
+            color: var(--colors-n050);
+            transition: color 0.2s;
+            opacity: 0.7;
+
+            &:hover {
+                color: var(--colors-n000);
+            }
+
+            &:active {
+                color: var(--colors-n000);
+            }
+
+            svg,
+            svg * {
+                color: inherit;
+            }
+        }
+    }
+}
+
+.body-text-color {
+    color: rgba(255, 255, 255, 0.90) !important;
+    opacity: 0.7;
+}

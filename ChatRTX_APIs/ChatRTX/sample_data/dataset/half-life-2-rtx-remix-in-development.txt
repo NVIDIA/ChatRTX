@@ -1,0 +1,39 @@
+Announcing Half-Life 2 RTX, An RTX Remix Project Being Built By The Community
+By Andrew Burnes on August 22, 2023 | Featured StoriesGamescomGeForce RTX GPUsGeForce RTX LaptopsNVIDIA DLSSNVIDIA OmniverseNVIDIA ReflexNVIDIA RTXNVIDIA RTX IONVIDIA RTX RemixPortal with RTXRay Tracing
+NVIDIA RTX Remix is a free, upcoming modding platform built on NVIDIA Omniverse, designed to enable modders to create and share #RTXON mods for classic games, each with enhanced materials, full ray tracing, NVIDIA DLSS, NVIDIA RTX IO and NVIDIA Reflex.
+
+We released Portal with RTX, a high-fidelity reimagining of Valve’s timeless classic, as an example of what’s possible with Remix. Then, we turned the tools over to community modders who remastered Portal: Prelude. Today, we’re unveiling Half-Life 2 RTX: An RTX Remix Project, the in-development community remaster of one of the highest-rated games of all time, Valve’s Half-Life 2.
+
+Half-Life 2 RTX: An RTX Remix Project is being developed by four of Half-Life 2’s top mod teams, now working together under the banner of Orbifold Studios. Using the latest version of RTX Remix, the modders are rebuilding materials with Physically Based Rendering (PBR) properties, adding extra geometric detail via Valve’s Hammer editor, and leveraging NVIDIA technologies including full ray tracing, DLSS 3, Reflex, and RTX IO to deliver a fantastic experience for GeForce RTX gamers.
+
+ 
+As with the Portal projects, almost every asset is being reconstructed in high fidelity, and full ray tracing (otherwise known as path tracing) is being leveraged to bring cutting-edge graphics to Half-Life 2. In Half-Life 2 RTX, average world textures have 8X the pixels, and assets like the suit feature 20X the geometric detail of the original game. You can now see the fabric weavings around the joints of the suit, and the interplay of plastics and metals that compose the chest, leg, and arm pieces.
+
+
+Every light source bounces around the scene and casts realistic shadows, making Kleiner’s Lab feel like a real place. Orange vats cast light that illuminate dark corners in a vibrant glow, while the liquid inside refracts the entire world through it.
+
+
+Props are transformed with full ray tracing, like the magnification lens on Kleiner’s desk, which used shaders in 2004 to depict a low resolution reflection of the world. Now, the magnifying glass contains a curved lens that realistically refracts light and bends every reflection, heightening immersion.
+
+
+And with remastered PBR materials and textures that interact naturally with these effects, creatures like the Headcrab “Lamarr” have never looked better, pointing to how this 20 year-old classic can look like a modern game.
+
+
+Half-Life 2 RTX: An RTX Remix Project is early in development and is a community effort looking to galvanize talented modders and artists everywhere. If you are interested in joining the project, and have significant experience with creating mods or 3D art, we encourage you to apply via the Half-Life 2 RTX: An RTX Remix Project website.
+
+
+For more information and the latest news on Half-Life 2 RTX stay tuned to GeForce.com.
+
+Portal with RTX Upgrades To NVIDIA DLSS 3.5
+The recently released Portal: Prelude RTX used a new version of NVIDIA RTX Remix that improved performance and the quality of path tracing for older graphics cards. Later this Fall, we’re bringing those optimizations and enhancements to Portal with RTX, alongside an upgrade to NVIDIA DLSS 3.5, which introduces a new feature called Ray Reconstruction that uses AI to improve ray tracing image quality.
+
+In Portal with RTX, textures are enhanced as Ray Reconstruction intelligently accumulates engine data and information across multiple frames to produce a more accurate and clear image. With existing rendering techniques, full ray tracing could struggle to resolve multiple photons of light bouncing against thin materials, like metal fences, or highly reflective surfaces. This could cause excessive shimmering on thin surfaces and light instability or “boiling” on reflective walls. But with DLSS 3.5’s Ray Reconstruction technology, each fence appears stable no matter how much light is illuminating the thinnest of its meshes.
+
+Lights and reflections update faster and more accurately, too and each crevice in every room is lit with clarity, making the test chambers of Aperture Laboratories look as they would in the real world.
+
+
+ 
+Learn more about DLSS 3.5 and Ray Reconstruction here, and head to our DLSS Games Article to see how Alan Wake 2, Cyberpunk 2077, Cyberpunk 2077: Phantom Liberty, and creative apps are leveraging Ray Reconstruction to further improve image quality.
+
+Want To Make Your Own RTX Remix Remaster? Join The Community
+NVIDIA will continue sharing early access versions of RTX Remix with select modders to further refine the creator toolkit and runtime. Sign up now to be notified of early access updates on the RTX Remix Page, and join the RTX Remix Discord server if you’re interested in collaborating with other modders using Remix to remaster classic games.

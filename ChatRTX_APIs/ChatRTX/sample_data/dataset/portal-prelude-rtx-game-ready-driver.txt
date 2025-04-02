@@ -1,0 +1,86 @@
+Portal: Prelude RTX and Ratchet & Clank: Rift Apart Game Ready Driver Released
+By Andrew Burnes on July 18, 2023 | Featured StoriesDrivers
+Our latest driver is Game Ready for the incredible Portal: Prelude RTX, a free, fully ray traced Portal mod that’s available today, featuring path traced RTX graphics, NVIDIA RTX IO GPU-accelerated storage technology, NVIDIA DLSS 3, and NVIDIA Reflex. Learn more in our Portal Prelude RTX launch article.
+
+Additionally, we’re Game Ready for Ratchet & Clank: Rift Apart, launching July 26th with DLSS 3, advanced ray tracing, Reflex, and RTX IO. And Game Ready for Remnant II, available July 25th with DLSS 2.
+
+There’s also support for 3 new G-SYNC Compatible gaming monitors, and another 7 GeForce Experience Optimal Settings.
+
+To download and install, head to the Drivers tab of GeForce Experience or GeForce.com, and read on for further details.
+
+Game Ready For Portal: Prelude RTX With DLSS 3 & RTX IO - Download Today
+Portal remains a timeless classic; in December we released Portal with RTX, a fully ray-traced reimagining of Valve’s award winning game, which used the performance multiplication of NVIDIA DLSS 3 to power the most realistic path-traced lighting ever seen in a real-time game. Now, there’s Portal: Prelude RTX, a free mod remastered with the same technology, featuring fully ray traced (path-traced) graphics, DLSS 3, and our new NVIDIA RTX IO GPU-accelerated storage tech.
+
+Portal: Prelude is the highest rated Portal mod, the 2008 Portal ModDB winner, and #3 overall Player’s Choice mod of 2008. Created by Nicolas “NykO18” Grevet and others, Portal: Prelude is an unofficial Portal prequel, set before the time of GLaDOS, featuring a new extremely challenging 8-10 hour campaign composed of 19 new test chambers, new advanced gameplay mechanics, a fully voiced story with NPCs, and a whole lot more.
+
+Portal: Prelude RTX is available today, for free for owners of Portal. Install our new Game Ready Driver for the definitive experience, then download and play Portal: Prelude RTX from Steam.
+
+
+ 
+For much more information, as well as RTX ON-OFF screenshots, head over to our Portal Prelude RTX launch article, and we have an RTX IO article, too, for those interested in this new game-changing GPU-accelerated storage technology.
+
+Game Ready For Ratchet & Clank: Rift Apart
+The Ratchet & Clank franchise recently celebrated its 20th anniversary, and on July 26th PC gamers can experience the action and humor of the franchise for the first time with the PC release of the critically acclaimed Ratchet & Clank: Rift Apart. Help the duo take on an evil emperor from another reality as you jump between action-packed worlds and beyond in this spectacular action-adventure-platformer, developed by acclaimed studio Insomniac Games, and brought to PC by Nixxes Software.
+
+
+ 
+GeForce RTX 40 Series graphics cards and laptops can multiply performance using NVIDIA DLSS 3, while GeForce RTX 20 and 30 Series users can accelerate frame rates with NVIDIA DLSS 2. All GeForce RTX gamers can maximize image quality with NVIDIA DLAA, for the highest possible picture quality. And GeForce GTX 900 Series and newer gamers can make Ratchet & Clank: Rift Apart gameplay even more responsive with NVIDIA Reflex.
+
+Through a process detailed in full in our DLSS 3 article, DLSS 3 combines DLSS Super Resolution and DLSS Frame Generation to reconstruct 7/8ths of the displayed pixels, accelerating performance significantly.
+
+
+ 
+In GPU-limited games, DLSS 2 Super Resolution technology can increase your frame rates by up to 2X. With DLSS 3, we can boost them by up to 4X (compared to brute-force rendering) in fully ray-traced worlds.
+
+Certain games make extensive use of the CPU which can limit performance. DLSS 3 operates on the GPU, bypassing CPU bottlenecks and boosting frame rates.
+
+DLSS 3 games are backwards compatible with DLSS 2 technology - developers simply integrate DLSS 3, and DLSS 2, also known as DLSS Super Resolution, is supported by default. Additionally, integrations of DLSS 3 also include NVIDIA Reflex, reducing system latency for all GeForce RTX users, making games more responsive.
+
+Ratchet & Clank: Rift Apart also features ray-traced reflections with a variety of quality levels to choose from, as well as newly added ray-traced shadows, for natural light in outdoor areas. Gamers with GeForce RTX GPUs can enjoy these at the highest frame rates thanks to their dedicated ray tracing cores that greatly accelerate ray tracing performance.
+
+Additionally, Ratchet & Clank: Rift Apart supports NVIDIA RTX IO, which leverages the DirectStorage runtime and GPU decompression to enable faster loading speeds and seamless in-game transitions.
+
+And there’s support for 21:9, 32:9 and 48:9 resolutions, triple-monitor Surround gaming, the usual assortment of options to ensure you can play the way that best suits your style, and when using a DualSense controller on a wired connection you can feel in-game actions coming to life in your hands with haptic feedback and adaptive trigger effects.
+
+Ratchet & Clank: Rift Apart launches July 26th on PC - wishlist or pre-order now.
+
+Game Ready For Remnant II
+Remnant II from Gunfire Games is the sequel to the best-selling game Remnant: From the Ashes that pits survivors of humanity against new deadly creatures and god-like bosses across terrifying worlds. Play solo or co-op with two other friends to explore the depths of the unknown to stop an evil from destroying reality itself. To succeed, players will need to rely on their own skills and those of their team to overcome the toughest challenges and to stave off humanity’s extinction.
+
+
+ 
+At launch on July 25th, Remnant II will boast support for DLSS 2, enabling you to crank up the visuals of its high fidelity world, for the fastest, most impressive gameplay possible.
+
+Support For Newly Validated G-SYNC Compatible Displays
+Our newest Game Ready Driver adds support for 3 new G-SYNC Compatible displays that deliver a baseline Variable Refresh Rate (VRR) experience that makes your gaming smoother and more enjoyable. 
+
+\
+Manufacturer	Model	HDR	Size	Panel Type	Resolution	VRR Range
+LG	27PG95R	Yes	27”	Nano IPS	3840x2160 (4K)	48-144Hz
+Panasonic	48MZ1800	Yes	48”	OLED	3840x2160 (4K)	48-120Hz
+Dell	AW2724DM	Yes	27”	IPS	2560x1440 (QHD)	48-165Hz
+These newly-validated monitors give gamers even more choice when searching for a great gaming display. For a complete list of all G-SYNC, G-SYNC ULTIMATE, and G-SYNC Compatible gaming monitors, check out our handy and frequently updated G-SYNC page, which can be sorted and filtered, helping you quickly find the ideal display.
+
+New Games Supported By GeForce Experience’s Optimal Settings
+GeForce Experience’s one-click optimal settings enable you to instantly configure game options for your system’s hardware, giving you smooth, optimized gameplay. Over 1000 titles are supported, and since our last driver release we’ve added support for 7 more:
+
+Aliens: Dark Descent
+BattleBit Remastered
+EA SPORTS™ F1? 23
+Six Days in Fallujah
+Undawn
+Veiled Experts
+Warhammer 40,000: Gladius - Relics of War
+GeForce Experience also enables you to capture and stream your gameplay, take screenshots, upload videos to social networks, and more. 
+
+Support For GeForce RTX 4060 Ti (16GB) Custom Cards From Partners
+In May, we introduced the GeForce RTX 4060 Ti powered by the ultra-efficient NVIDIA Ada Lovelace architecture and supercharged with DLSS 3. In-game, it delivers over over 100 frames per second in many of today’s graphically advanced titles.
+
+Starting this month, our graphics card partners, including ASUS, Colorful, Gainward, Galax, Gigabyte, INNO3D, MSI, Palit, PNY and Zotac will begin offering 16GB versions of the card. In most games, both versions of the GeForce RTX 4060 Ti (8GB and 16GB) will deliver the same level of performance, because the specs are otherwise identical. There are a handful of games which play best at “High” settings presets on the RTX 4060 Ti (8GB), and “Ultra” settings on the RTX 4060 Ti (16GB). Today’s driver supports the new 16GB versions.
+
+For more details on the RTX 4060 Ti, and to see what’s available for purchase in your region as they arrive, please head to the GeForce RTX 4060 Ti product page on GeForce.com.
+
+GeForce Game Ready Driver - Download Now
+Learn more about GeForce Game Ready Drivers here; download the new GeForce Game Ready 536.67 WHQL driver through GeForce Experience.
+
+If you experience any technical issues with the new Game Ready drivers please post a detailed report on the GeForce.com Driver Feedback Forum, where our Customer Care team can better assist you. And if you’re looking for a full list of fixes in this driver, for previously-reported issues, head here.

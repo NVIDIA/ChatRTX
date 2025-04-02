@@ -1,0 +1,79 @@
+Baldur’s Gate 3 Launches This Week With DLSS 2 & DLAA
+By Andrew Burnes on August 01, 2023 | Featured StoriesGeForce RTX GPUsNVIDIA DLSSNVIDIA ReflexNVIDIA RTXRay Tracing
+Each week, we bring you news of the latest DLSS and ray tracing integrations in games and apps.  
+
+Last week, Remnant II launched with DLSS 2, new DLSS 3 integrations were revealed, and Ratchet & Clank: Rift Apart launched with NVIDIA DLSS 3, NVIDIA DLAA, NVIDIA Reflex, and NVIDIA RTX IO.
+
+
+ 
+August looks to be another great month for DLSS and RTX, headlined by the official launch of Baldur’s Gate 3, enhanced with DLSS 2 and DLAA.  
+
+Additionally, DLSS 3 has been added to DESORDRE: A Puzzle Game Adventure and Remnant II, and will be available at the launch of Lost Soul Aside.
+
+And as for DLSS 2, Grand Emprise: Time Travel Survival has just launched with support for frame rate accelerating technology.
+
+For gamers with GeForce RTX GPUs, DLSS ensures you receive the definitive experience in each title, and thanks to GeForce RTX Ray Tracing Cores, you’ll enjoy the highest possible frame rates when enabling ray-traced effects in DESORDRE: A Puzzle Game Adventure and Ratchet & Clank: Rift Apart.
+
+For all the details, read on.
+
+Baldur’s Gate 3 Launches August 3rd With DLSS 2 & DLAA
+From Larian Studios, the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons & Dragons! Gather your party and return to the Forgotten Realms in Baldur’s Gate 3, a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power. Mysterious abilities are awakening inside you, drawn from a mind flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil.
+
+
+ 
+After nearly 3 years, Baldur’s Gate 3 exits Early Access on August 3rd, having already entertained millions of gamers. Now though, you can experience the epic game from start to finish, in single-player or co-op, with a ridiculous amount of content, 12 classes, 174 hours of cinematics, and 2000 interactive characters.
+
+On PC, get the definitive experience with a GeForce RTX graphics card, or play with GeForce RTX power in the cloud using GeForce NOW. Whichever way you play, you can max out graphical quality with NVIDIA DLAA, or crank up the frame rate with NVIDIA DLSS 2. In our benchmarks, GeForce RTX 40 Series desktop graphics cards increased their performance by an average of 93% when activating DLSS:
+
+Thanks to DLSS 2, most GeForce RTX 40 Series gamers --and those with comparable cards-- can play Baldur’s Gate 3 at 4K, with every setting maxed, at over 60 frames per second. And on GeForce NOW, Ultimate Members can use the power of GeForce RTX 4080 cloud GPUs to play at a flawless 4K 120 FPS/120 Hz on compatible devices.
+
+
+ 
+To learn more about Baldur’s Gate 3, check out the library of Community Updates on the game’s Steam page. 
+
+DESORDRE: A Puzzle Game Adventure Adds DLSS 3 & RTXDI, Upgrades To Unreal Engine 5.2
+SHK Interactive’s DESORDRE: A Puzzle Game Adventure, launched with DLSS 2 in June, helping GeForce RTX gamers get faster performance in the parallel worlds players jump between as part of an experimental therapy program. Now, DESORDRE has become one of the world’s first, released Unreal Engine 5.2 games.
+
+
+ 
+The leap from Unreal Engine 5.1 to 5.2 enhances graphics, performance, and player choice, helping users tailor their experience to the capabilities of their system.
+
+Headlining the additions is NVIDIA RTX Direct Illumination (RTXDI), enabling each light source in DESORDRE to cast accurate ray-traced light and shadows, and be reflected in the game’s glossy environments. Performance remains fast thanks to RTXDI’s game-changing design, and on GeForce RTX 40 Series GPUs ray tracing gets even faster thanks to the addition of NVIDIA Shader Execution Reordering (SER) in the new update.
+
+To ensure the highest frame rates when using RTXDI and other new features, SHK Interactive has leveraged the recently-released Unreal Engine 5.2 NVIDIA Streamline plugin to upgrade their existing DLSS 2 support to DLSS 3, featuring Frame Generation, Reflex, and Super Resolution.
+
+When activated, DLSS 3 multiplies GeForce RTX 40 Series desktop GPU performance by an average of 3.6X at 4K, with the new, very demanding, max-quality Lumen and Nanite settings enabled. With this additional performance headroom, you also have the power to try experimental Unreal Engine 5.2 options that cranks options to 11, for the absolute highest levels of image quality.
+
+At 1440p, frame rates are multiplied by an average of 2.4X, enabling 60 FPS+ play on the GeForce RTX 4070 and up. And at 1080p, a 2.2X average performance multiplication enables all GeForce RTX 40 Series desktop GPU owners to experience DESORDRE at its absolute best.
+
+Head to DESORDRE: A Puzzle Game Adventure’s Steam page to learn more about the game, see trailers and screens, and to download a demo. And stay tuned to SHK Interactive’s social feeds, as they intend to upgrade to Unreal Engine 5.3 when it’s released, bringing even more goodness to the game.
+
+Lost Soul Aside To Launch With DLSS 3
+UltiZero Games’ Lost Soul Aside is an action role-playing game developed with Unreal Engine 4 for PlayStation 5 and PC. The game has a unique combat system, gorgeous graphics, and a compelling storyline. The core of the game is smooth and intense combat, where players will face a variety of powerful enemies and challenges.
+
+Through the investment and assistance of Sony Interactive Entertainment, and the continued perseverance and hard work from the China Hero project team and Lost Soul Aside development team, Lost Soul Aside continues to get bigger and better, and today, you can see the new, exclusive RTX On trailer on Bing Yang's YouTube channel:
+
+
+ 
+When Lost Soul Aside is released, activate NVIDIA DLSS 3 for the definitive experience.
+
+Remnant II Upgrades To DLSS 3
+Remnant II from Gunfire Games is the sequel to the best-selling game Remnant: From the Ashes that pits survivors of humanity against new deadly creatures and god-like bosses across terrifying worlds. Play solo or co-op with two other friends to explore the depths of the unknown to stop an evil from destroying reality itself.
+
+
+ 
+Released to critical acclaim on July 25th, Remnant II has racked up a swathe of 8 and 9 out of 10 reviews, and is rated Very Positive by players.
+
+Now, GeForce RTX gamers can tailor their Remnant II experience with a full gamut of DLSS modes! DLSS 2 enables all GeForce RTX users to accelerate frame rates, DLSS 3 gives GeForce RTX 40 Series users the power of frame rate multiplication for the fastest performance possible, and DLAA uses a native resolution image to maximize image quality, rather than boosting performance. You can even combine DLAA and DLSS 3 Frame Generation for excellent image quality, and performance.
+
+Using DLSS 3, GeForce RTX 40 Series gamers can multiply Remnant II frame rates by an average of 3.5X, enabling many configurations to enjoy the game at max settings at 4K, at over 60 FPS.
+
+Grand Emprise: Time Travel Survival Available Now With DLSS 2
+Tbjbu2’s Grand Emprise: Time Travel Survival sees players ride dinosaurs, forge tools, sail dunes, build a colony, siege castles, automate and fly, mine underground, launch to the moon, and build a dyson sphere in a revolutionary survival crafting, base building, open world single-player adventure.
+
+
+ 
+Made by a single person in Unreal Engine 5, Grand Emprise: Time Travel Survival launched just a few days ago, boasting out of the box support for DLSS 2, ensuring GeForce RTX gamers have the fastest frame rates possible.
+
+Check Back Next Week For Even More RTX Games
+Each week there are even more DLSS integrations arriving for an array of games. Check back next week for a rundown of the next DLSS and RTX games, and head here to see the complete list of over 300 DLSS-enhanced games and apps.

@@ -1,0 +1,16 @@
+NVIDIA ACE Adds Emotion To AI-Powered NPCs With NeMo SteerLM
+By Andrew Burnes on August 22, 2023 | Featured StoriesGamescomGeForce RTX GPUsGenerative AINVIDIA ACENVIDIA DLSSNVIDIA OmniverseNVIDIA RTXRay Tracing
+NVIDIA ACE is a custom AI model foundry that aims to bring intelligence to non-playable characters (NPCs) through AI-powered natural language interactions. With ACE, generic NPCs can be turned into interactive characters capable of striking up a conversation, or giving you local knowledge that leads to new quests.
+
+At COMPUTEX 2023, we showed our ACE Kairos demo, featuring Jin the ramen shop owner, rendered in Unreal Engine 5 with RTX ON. In the months since, our team has continued to evolve ACE. Our newest advancement is the inclusion of NVIDIA NeMo SteerLM, a new technique that enables developers to customize the personality of NPCs for more emotive, realistic and memorable interactions.
+
+Most LLMs are designed to provide only ideal responses, free of personality or emotion, as you can see by interacting with chat bots. With the SteerLM technique, however, LLMs are trained to provide responses aligned with particular attributes, ranging from humor to creativity, to toxicity, all of which can be quickly configured through simple sliders. 
+
+ 
+As you can see, responses vary significantly as attributes are adjusted, and using NVIDIA NeMo SteerLM, attributes can be further modified, and new models, personalities and attributes can be added, removed or trained, enabling the creation of the perfect interactable NPC for a specific scene or location.
+
+Emotional response isn’t the only use case that the SteerLM technique enables for games. With the SteerLM technique, developers can enable multiple characters with a single LLM by infusing personality attributes into the SteerLM model. Additionally, developers can create faction attributes to align responses to the in-game story - allowing the character to be dynamically influenced by a changing open world. 
+
+In the demo above, we also used ElevenLabs’ TTS voice for Jin. With ACE, developers can bring their own components to the ACE pipeline, enabling a wide range of options and models. 
+
+The SteerLM technique helps turn polite chat bots into emotive characters that will enable developers to create more immersive and realistic games. We can’t wait to show you our next ACE breakthroughs, so be sure to bookmark GeForce.com for future updates.

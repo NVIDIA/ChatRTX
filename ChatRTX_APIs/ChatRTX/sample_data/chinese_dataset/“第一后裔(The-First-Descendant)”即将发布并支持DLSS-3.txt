@@ -1,0 +1,40 @@
+“第一后裔 (The First Descendant)”即将发布并支持 DLSS 3
+由 Andrew Burnes 发表于 2023年8月15日 | 精选故事GeForce RTX GPUNVIDIA DLSSNVIDIA RTX
+NVIDIA DLSS 3 现已应用于 40 款游戏，并且今年将有更多游戏支持 DLSS 3。今天，“第一后裔 (The First Descendant)”加入即将支持 DLSS 3 的游戏列表，确保 GeForce RTX 玩家在发布时即获得出色游戏体验。
+
+本周，“戈德 (Gord)”和“德州电锯杀人狂 (The Texas Chain Saw Massacre)”发布，并支持 DLSS 2，可为所有 GeForce RTX 玩家加速帧率，“阿喀琉斯：不为人知的传奇 (Achilles: Legends Untold)”现已发布并支持 DLSS 2。
+
+继续阅读以了解详情，请务必在下周再来查看一些重大发布公告。
+
+“第一后裔 (The First Descendant)”即将发布并支持 DLSS 3
+由 Nexon Games 推出的“第一后裔 (The First Descendant)”是一款以虚幻引擎 5 为基础，一款免费畅玩的第三人称合作射击动作类 RPG 游戏。玩家可通过 4 人合作、利用多样技能与枪械带来的豪爽战斗动感效果，体验炫酷战斗。领略壮观的故事情节，执行守护“英格里斯大陆”的任务，激战巨型 BOSS。
+
+在游戏发布时，“第一后裔 (The First Descendant)”将支持 NVIDIA DLSS 3，GeForce RTX 40 系列游戏玩家可以借助 NVIDIA DLSS 3 获享性能倍增的游戏体验，所有其他 GeForce RTX 游戏玩家都可以借助 NVIDIA DLSS 2 加速帧率。抢先观看我们全新的“第一后裔 (The First Descendant)”独家预告片：
+
+ 
+“极品飞车：不羁 (Need For Speed Unbound)” - 第四章将于 8 月 16 日发布
+“极品飞车：不羁 (Need for Speed Unbound)”是 Electronic Arts 和 Criterion Games 联合推出的“极品飞车 (Need for Speed)”系列游戏的最新作，让玩家坐在专属街头赛车驾驶座上，智胜警察，一路披荆斩棘在湖岸终极街头挑战大赛扬名立万。自去年 11 月发布以来，“极品飞车：不羁 (Need for Speed Unbound)”已支持 NVIDIA DLSS 3，为 GeForce RTX 玩家带来超快帧率。
+
+该游戏的最新更新第四章将于 8 月 16 日推出，其中包含全新的严酷考验游戏列表、加成赛事、新解锁的“联手”区域，以及一系列全新速度通行证内容和挑战。
+
+ 
+“阿喀琉斯：不为人知的传奇 (Achilles: Legends Untold)”现已发布，并支持 DLSS 2
+由 Dark Point Games 推出的“阿喀琉斯：不为人知的传奇 (Achilles: Legends Untold)”不仅仅是一部动作 RPG。复杂的战斗系统和等距视角的新颖融合将提供一个全新的体验，同时考验你的观察、策略和提升的能力。留意你的耐力等级、学习你的对手的行为并使用技能树来创造属于你自己的战斗风格。
+
+ 
+在这款抢先体验版游戏中，GeForce RTX 玩家可以通过开启 NVIDIA DLSS 2 加速帧率，从而获得出色游戏体验。
+
+“戈德 (Gord)”将于 8 月 17 日发布，并支持 DLSS 2
+由 Covenant.dev 和 Team 17 推出的“戈德 (Gord)”是一款单人冒险策略游戏。 要在这个黑暗的奇幻世界中生存，您必须建立起自己的城镇，但若想取胜，就得征服潜伏在城门外的黑暗。你将率领曙光部族深入禁忌的蛮荒大地，完成会影响到居民性格与安乐的任务，决定部族的命运，在灵感源自斯拉夫神话的黑暗幻想世界中帮助你的居民生存下去。
+
+ 
+当这款独特的生存城市建造游戏于 8 月 17 日发布时，得益于游戏首发日对 DLSS 2 的支持，GeForce RTX 玩家将畅享更高帧率。
+
+“德州电锯杀人狂 (The Texas Chain Saw Massacre)”将于 8 月 18 日发布，并支持 DLSS 2
+“德州电锯杀人狂 (The Texas Chain Saw Massacre)”是一款以1974年标志性恐怖电影为基础开发的游戏，在游戏中，玩家可以选择扮演斯劳特家族中的一员或是他们的受害者，通过第三人称视角的不对称恐怖体验探索狂乱与恐怖的世界。
+
+ 
+8 月 18 日推出的“德州电锯杀人狂 (The Texas Chain Saw Massacre)”将支持 DLSS 2，可以确保您的游戏体验不再被低帧率拖后腿，即使在以超高的细节级别和分辨率玩游戏时也是如此。使用 DLSS 2 升级您的游戏体验，并使用我们的新版 Game Ready 驱动升级您的系统。
+
+欢迎下周再来查看，了解一些重大发布公告！
+如您所见，大量的最新游戏大作和独立游戏已经集成 DLSS。欢迎下周再来查看下一批支持 DLSS 和 RTX 的游戏，前往此处查看超过 300 款 DLSS 游戏和应用的完整列表。

@@ -1,0 +1,37 @@
+Starfield & ICARUS: New Frontiers Game Ready Driver Released
+By Andrew Burnes on August 22, 2023 | Featured StoriesDriversGamescom
+Our latest driver is Game Ready for Starfield and ICARUS’ New Frontiers expansion.
+
+There’s also support for 8 new G-SYNC Compatible gaming monitors, and another 6 GeForce Experience Optimal Settings.
+
+To download and install, head to the Drivers tab of GeForce Experience or GeForce.com.
+
+Support For Newly Validated G-SYNC Compatible Displays
+Our newest Game Ready Driver adds support for 8 new G-SYNC Compatible displays that deliver a baseline Variable Refresh Rate (VRR) experience that makes your gaming smoother and more enjoyable. 
+
+Manufacturer	Model	HDR	Size	Panel Type	Resolution	VRR Range
+AOC	AG275QZ	Yes	27	IPS	2560x1440 (QHD)	48-270Hz
+AOC	AG275QXP	Yes	27	IPS	2560x1440 (QHD)	48-180Hz
+AOC	AG275QXPD	Yes	27	IPS	2560x1440 (QHD)	48-180Hz
+ASUS	VG27AQL3A	Yes	27	IPS	2560x1440 (QHD)	48-180Hz
+ASUS	VG279QM1A	No	27	IPS	2560x1440 (QHD)	48-240Hz
+Philips TV	42OLED808	Yes	42	OLED	3840x2160 (4K)	48-120Hz
+Samsung	Odyssey G93SC	Yes	49	OLED	5120x1440 (QHDx2)	48-240Hz
+Samsung	Odyssey G95SC	Yes	49	OLED	5120x1440 (QHDx2)	48-240Hz
+These newly-validated monitors give gamers even more choice when searching for a great gaming display. For a complete list of all G-SYNC, G-SYNC ULTIMATE, and G-SYNC Compatible gaming monitors, check out our handy and frequently updated G-SYNC page, which can be sorted and filtered, helping you quickly find the ideal display.
+
+New Games Supported By GeForce Experience’s Optimal Settings
+GeForce Experience’s one-click optimal settings enable you to instantly configure game options for your system’s hardware, giving you smooth, optimized gameplay. Over 1000 titles are supported, and since our last driver release we’ve added support for 6 more:
+
+Atlas Fallen
+F1? Manager 2023
+Gord
+Let's School
+NOBUNAGA'S AMBITION: Awakening
+Sengoku Dynasty
+GeForce Experience also enables you to capture and stream your gameplay, take screenshots, upload videos to social networks, and more. For all the details, head here.
+
+GeForce Game Ready Driver - Download Now
+Learn more about GeForce Game Ready Drivers here; download the new GeForce Game Ready 537.13 WHQL driver through GeForce Experience.
+
+If you experience any technical issues with the new Game Ready drivers please post a detailed report on the GeForce.com Driver Feedback Forum, where our Customer Care team can better assist you. And if you’re looking for a full list of fixes in this driver, for previously-reported issues, head here.

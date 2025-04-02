@@ -1,0 +1,81 @@
+“传送门：序曲 (Portal: Prelude)”RTX 版现已推出 - 免费 RTX Remix Mod 支持全景光线追踪、NVIDIA DLSS 3 和 NVIDIA RTX IO
+由 Andrew Burnes 发表于 2023年7月18日 | 精选故事GeForce RTX GPUGeForce RTX 笔记本电脑NVIDIA DLSSNVIDIA OmniverseNVIDIA ReflexNVIDIA RTXNVIDIA RTX IONVIDIA RTX RemixPortal with RTX光线追踪
+“传送门 (Portal)”是玩家心目中的经典；去年 12 月，我们发布了基于 Valve 获奖游戏重构的游戏“传送门 RTX 版 (Portal with RTX)”，支持全景光线追踪，并由 NVIDIA DLSS 3 提供性能提升，在实时游戏中实现了逼真的路径追踪光照。
+
+“传送门 RTX 版 (Portal with RTX)”使用 NVIDIA RTX Remix 创建而成，NVIDIA RTX Remix 是一款免费的、即将推出的基于 NVIDIA Omniverse 的 MOD 平台，可让 Modder 快速创建和分享经典游戏的 #RTXON Mod，而且每个 Mod 都支持增强材质、全景光线追踪、NVIDIA DLSS 3 和 NVIDIA Reflex。
+
+现在，使用 RTX Remix 重构的“传送门：序曲 (Portal: Prelude)”，是一款高分“传送门 (Portal)” Mod、它是 2008 年 Portal ModDB 获胜者以及 2008 年 Player’s Choice Mod 第三名。由 Nicolas “NykO18” Grevet 等人创建的“传送门：序曲 (Portal: Prelude)”是一款非官方传送门前传，背景设定在 GLaDOS 时代之前，具有全新的极具挑战性的 8-10 小时游戏体验，其中包括 19 个全新实验室、新的高级游戏机制、长达 400 多行的全程 NPC 语音对话，以及更多其他內容。
+
+“传送门：序曲 (Portal: Prelude)”RTX 版今日在 Steam 平台上线！
+
+ 
+“传送门：序曲 (Portal: Prelude)”RTX 版经过重新制作，采用了全景光线追踪（也称为路径追踪）、DLSS 3、Reflex 和新推出的 NVIDIA RTX IO，为玩家提供更加身临其境的游戏体验。同时，David 和 Valerios “Fearell_Val” Tsoumpas 还提供了数百种全面升级的材质和资产， Jack “Amicus” McDade 和 Colin “SordidSpectacle” Zachariasen 带来了全新配音，Nicolas 对游戏玩法进行了改进。“传送门：序曲 (Portal: Prelude)”RTX 版是体验这款屡获殊荣 Mod 的最佳方式。
+“传送门：序曲 (Portal: Prelude)”RTX 版介绍
+如果您玩过“传送门 RTX 版 (Portal with RTX)”，您就会了解该游戏的沉浸式全景光线追踪（路径追踪）照明、重构的材质和模型，以及令人难以置信的视觉效果，让您可以预览所有游戏未来的样子。如果您需要回顾或者是 RTX 新手，请在此处查看所有详细信息。
+
+“传送门：序曲 (Portal: Prelude)”RTX 版更加精彩。而且其技术更加先进。
+
+在探索“传送门：序曲 (Portal: Prelude)”的故事过程中，玩家将遇到极具挑战性的先进实验室，其场景更加多样化，借助 RTX 的强大功能，绝对会让您大吃一惊。多层玻璃折射光线，玩家从完全黑暗移动到明亮的位置，粒子分解器等危险以致命的光线照亮世界，利用 RTX 创造难忘的时刻。
+200 种新材质和纹理以及 100 种全新模型与“传送门 RTX 版 (Portal with RTX)”的重制素材完美契合， 为实验室和挑战增添了额外的多样性。先进的几何结构在 2008 年突破了 Source 引擎的界限，使光和影的使用更加多样化和美观。对于“传送门：序曲 (Portal: Prelude)”RTX 版，几何体在标准 Half-Life 引擎工具中进行了更新和升级，然后导入并由 RTX Remix 自动支持，从而实现快速迭代和开发。
+
+“传送门：序曲 (Portal: Prelude)”中 NPC 角色的加入带来了新的挑战，需要为 RTX Remix 开发一项令人兴奋的功能：对蒙皮角色的全面支持。现在，在任何采用 GPU 皮肤骨骼动画的游戏中，除了高保真 PBR 纹理之外，Remix 还可以让 Modder 以最低的性能成本为角色添加超过 100 倍的多边形细节。从本质上讲，角色和动画/蒙皮道具可以像 RTX Remix 中的任何对象一样得到增强，从而使未来所有的 RTX Mod 受益。或者换句话说，RTX Remix 正在彻底改变角色替换和升级，就像它彻底改变素材替换一样。
+
+
+对于“传送门：序曲 (Portal: Prelude)”RTX 版和未来的 NVIDIA RTX Remix Mod，NVIDIA RTX 路径追踪 SDK 进行了增强，提高了降噪器性能和质量，这在较低分辨率下尤其有益，使旧款 GeForce RTX GPU 玩家能够获得更好的体验。
+
+着色器执行重排序 (SER) 动态地将低效的光线追踪运算负载重新组 织的更为高效，进一步提升 GeForce RTX 40 系列的性能。
+
+Opacity Micro-Mesh (OMM) 提升了复杂几何图形的实时性能和内存 压缩效率，进一步加速了 GeForce RTX 40 系列光线追踪性能，并 且随着“传送门：序曲 (Portal: Prelude)”RTX 版中首次推出的全新 CPU 优化，玩家可以获得更快的性能。
+
+当然，NVIDIA DLSS 3 和 NVIDIA Reflex 均已升级到最新版本， 以提升性能、提供更高图像质量和更快响应的游戏体验。
+
+
+所有为“传送门：序曲 (Portal: Prelude)”RTX 版提供的增强、新增功能和改进都将纳入 NVIDIA RTX Remix，让所有 Modder 受益，并为经典游戏的出色更新提供支持。在不久的将来，NVIDIA 将开始同优选 Modder 共享 RTX Remix 的抢先体验版本，以在今年晚些时候正式发布之前就可以进一步完善创作者工具包和运行时间。请持续关注更新。
+
+如需了解更多信息，请本周在“NVIDIA Studio 创意加速”栏目中了解使用 RTX Remix 制作“传送门：序曲 (Portal: Prelude)”RTX 版的幕后花絮。
+NVIDIA RTX IO 首次亮相，加快加载时间并减小文件尺寸
+近乎即时的游戏加载和在无尽的开放世界中的无卡顿导航长期以来一直是游戏玩家和开者者的目标。即使 NVMe SSD 具有令人难以置信的性能，这一目标仍然遥不可及。当代游戏引擎已经超越了传统存储 API 的能力；需要新一代的输入/输出（IO）架构。
+
+NVIDIA RTX IO 登场，可实现基于 GPU 的快速加载和游戏资源解压，与硬盘和传统存储 API 相比，可大幅提升 IO 性能。 NVIDIA RTX IO 利用 GPU 解压缩来处理较小的数据包，从而实现更快的加载速度和更低的 CPU 利用率，并允许开发者创建具有大量丰富、细腻世界的新一代游戏。
+
+今天，NVIDIA RTX IO 与免费的“传送门：序曲 (Portal: Prelude)”RTX 版 Mod 一起首次登场，并且还将在 7 月 26 日推出的“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”中亮相。
+
+在“传送门：序曲 (Portal: Prelude)”RTX 版中，NVIDIA RTX IO 将加载时间降低至原来的五分之一，最大限度地减少了资源突现：
+
+ 
+“传送门：序曲 (Portal: Prelude)”RTX 版 - 基于 GeForce RTX 4090 和 Samsung 980 Pro NVMe，在 4K 最高设置下，使用 RTX IO 加快纹理加载时间
+
+ 
+
+在我们的发布文章中了解有关 NVIDIA RTX IO 的更多信息。
+
+NVIDIA DLSS 3 最高可将性能提升至原来的 5 倍
+像“传送门 RTX 版 (Portal with RTX)”一样，“传送门：序曲 (Portal: Prelude)”RTX 版的全景光线追踪很精美，但要求很高。要在最高画质设置下体验带有路径追踪的“传送门：序曲 (Portal: Prelude)”RTX 版，建议使用 NVIDIA DLSS 3 和强大的 GeForce RTX GPU。
+
+借助 NVIDIA DLSS 3，GeForce RTX 4080 和 4090 用户将在 4K 最高设置下性能平均提高至原来的 5 倍，达到 80 FPS+，获得超凡游戏体验：
+
+在 2560x1440 分辨率下，GeForce RTX 4070 和更快的 GPU 的用户在 Ultra Preset 下（即启用最高设置）畅享高达 80+ FPS 的游戏体验置。启用 DLSS 3 后，性能平均提高至原来的 4.4 倍，为数百万 GeForce 玩家带来梦幻般的体验。
+在 1920x1080（超过 70% 的 Steam 玩家选择的分辨率）下，GeForce RTX 4060 在启用高设置下，开启 DLSS 3 可使帧率提升至原来的 3.3 倍。
+在 GeForce RTX 40 系列笔记本电脑上，在 1920x1080 分辨率下，DLSS 3 可使性能平均提升至原来的 3.2 倍，使大部分笔记本电脑配置的帧率超过 60 FPS，而高端机型的帧率可超过 120 FPS！
+在 1440p 分辨率下，功能强大的 GeForce RTX 4080 和 4090 笔记本电脑在 Ultra Preset 设置下可将性能平均提升至原来的 4.3 倍，帧率超过 60 FPS：
+与“传送门 RTX 版 (Portal with RTX)”一样，“传送门：序曲 (Portal: Prelude)”RTX 版支持全景光线追踪，这意味着它需要更强性能 GPU。 在体验“传送门：序曲 (Portal: Prelude)”RTX 版之前，请确保您的系统满足 CPU 和 RAM 的要求，以获得最佳游戏体验：
+对于满足最低配置要求以及介于最低配置和推荐配置之间的 GPU（即某些 GeForce RTX 20 和 30 系列 GPU），可以使用 GeForce Experience 获得更好的性能。 只需下载我们最新的 Game Ready 驱动，在检测到的游戏列表中找到“传送门：序曲 (Portal: Prelude)”RTX 版，然后单击“优化”即可自动为您的 GeForce RTX 20 或 30 系列 GPU 配置图像质量和性能设置的最优组合。
+
+根据我们的测试，GeForce RTX 2060 用户可以使用 DLSS “Ultra Performance”（超高性能）模式在低预设下以超过 30 FPS+ 的帧率畅玩游戏，而 GeForce RTX 3080 用户可以使用高预设和 DLSS “质量”模式在 1920x1080 分辨率下以 60 FPS 或更高帧率运行游戏。
+
+如果您更喜欢手动配置设置，我们准备了推荐的图形设置图表来帮助指导您获得更高的帧率：
+
+如需在游戏中调整这些设置，请按 Alt-X 打开 Remix 图形窗口
+
+请注意，性能会根据您的系统配置而有所不同，并且某些设置可能会降低视觉质量，尽管这些设置的目标是提供流畅的 60 FPS 体验。按 Alt-X 可打开 Remix 图形设置窗口。
+
+借助 NVIDIA Reflex 实现出色响应速度
+正如 NVIDIA DLSS 彻底改变了图像放大和性能一样，NVIDIA Reflex 也彻底改变了低延迟游戏，不仅可为多人游戏玩家带来竞争优势，还能让单人游戏的响应速度更快。出色的精准度以及对时机的把握是解决“传送门：序曲 (Portal: Prelude)”RTX 版中最棘手挑战的关键。NVIDIA Reflex 可降低系统延迟，提高游戏流畅度和响应速度，从而在关键时刻为玩家争取所需的反应时间。
+下载 7 月 18 日的 GeForce Game Ready 驱动以获得首日最佳体验
+今天，我们发布了最新的 GeForce Game Ready 驱动。它针对“传送门：序曲 (Portal: Prelude)”RTX 版、“瑞奇与叮当：时空跳转 (Ratchet & Clank: Rift Apart)”和其他游戏进行了优化，并在这两款游戏中使用 NVIDIA RTX IO 和 DirectStorage for Windows，为您提供高水平的性能。
+如需下载并安装该驱动，请前往 GeForce Experience 的“Drivers”（驱动）选项卡，或访问 GeForce.cn。
+
+“传送门：序曲 (Portal: Prelude)”RTX 版今日上线！
+“传送门：序曲 (Portal: Prelude)”RTX 版仅由几位开发者制作，展示了 NVIDIA RTX Remix 的可能性，使 Modder 能够相对轻松地重制游戏、改编游戏和制作非官方前传。利用“传送门 RTX 版 (Portal with RTX)”的素材、一些全新素材、新的配音以及在 Valve 的 Source 引擎中制作更新的几何体，仅由 3 名开发者在不到八个月的时间内，就完成了“传送门：序曲 (Portal: Prelude)”RTX 版的完全重制。
+
+立即前往 Steam 下载“传送门：序曲 (Portal: Prelude)”RTX 版；如果您拥有“传送门 (Portal)”，则可以免费畅玩。为获得最佳游戏体验，请前往 GeForce Experience 的“Drivers”（驱动）选项卡，或访问 GeForce.cn，安装我们最新的 GeForce Game Ready 驱动。

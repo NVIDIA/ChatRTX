@@ -1,0 +1,11 @@
+{
+    "streaming": true,
+    "similarity_top_k": 4,
+    "is_chat_engine": false,
+    "embedded_model": "intfloat/multilingual-e5-base",
+    "embedded_dimension": 768,
+    "use_py_session": true,
+    "trtLlm_debug_mode":false,
+    "add_special_tokens":false,
+    "verbose": false
+}
