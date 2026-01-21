@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> As of 1/21/2026, this project has been deprecated. ChatRTX is not maintained anymore. 
+
 # 🚀 RAG on Windows using TensorRT-LLM, NVIDIA NIM and LlamaIndex 🦙
 
 
