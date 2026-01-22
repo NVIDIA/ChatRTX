@@ -35,7 +35,7 @@ These APIs serve as the foundation for the ChatRTX application. More details in 
 ## Getting Started
 
 ### Hardware requirement
-- NVIDIA GeForce RTX 5090 or 5080 GPU or NVIDIA RTX 600 Ada or NVIDIA GeForce RTX 30 or 40 Series GPU with at least 8GB of VRAM
+- NVIDIA GeForce RTX 5090 or 5080 GPU or NVIDIA RTX 6000 Ada or NVIDIA GeForce RTX 30 or 40 Series GPU with at least 8GB of VRAM
 - Windows 11 23H2 or 24H2
 - Driver 572.16 or later
 
